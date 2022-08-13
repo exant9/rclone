@@ -1,2 +1,5 @@
 # rclone
-rclone cronjobs with batch file + python for google drive server-side copy
+rclone cronjobs with windows cmd + python for google drive server-side copy
+
+feel free to copy my work :)
+
