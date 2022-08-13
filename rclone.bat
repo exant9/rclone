@@ -4,6 +4,10 @@ if not DEFINED IS_MINIMIZED set IS_MINIMIZED=1 && start "" /min "%~dpnx0" %* && 
 REM ping www.google.com -n 1 -w 1000
 REM if errorlevel 1 exit
 
+
+REM  rclone copy A B
+REM  A nya gabakal pake kuota
+
 (
 
 echo cd %%userprofile%%
