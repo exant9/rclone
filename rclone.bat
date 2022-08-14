@@ -164,16 +164,16 @@ echo set selopcfolders[22]=Notepad++
 echo set selopcfolders[23]=z-bat-vbs-file settings
 echo set selopcfolders[24]=rclone
 
-echo set mkdirpath[0]="aaveusdt_sg1:/Selo/" 
-echo set mkdirpath[1]="aaveusdt_sg1:/Selo/main_cloud/" 
-echo set mkdirpath[2]="aaveusdt_sg1:/Selo/main_cloud/computers/" 
-echo set mkdirpath[3]="aaveusdt_sg1:/Selo/main_cloud/computers/alyx/" 
-echo set mkdirpath[4]="aaveusdt_sg1:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
-echo set mkdirpath[5]="aaveusdt_sg1:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
-echo set mkdirpath[6]="aaveusdt_sg1:/Caca/" 
-echo set mkdirpath[7]="aaveusdt_sg1:/Caca/main_cloud/" 
-echo set mkdirpath[8]="aaveusdt_sg1:/Caca/main_cloud/computers/" 
-echo set mkdirpath[9]="aaveusdt_sg1:/Caca/main_cloud/computers/laptop_caca/" 
+echo set mkdirpath[0]="renaave50_sg2:/Selo/" 
+echo set mkdirpath[1]="renaave50_sg2:/Selo/main_cloud/" 
+echo set mkdirpath[2]="renaave50_sg2:/Selo/main_cloud/computers/" 
+echo set mkdirpath[3]="renaave50_sg2:/Selo/main_cloud/computers/alyx/" 
+echo set mkdirpath[4]="renaave50_sg2:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
+echo set mkdirpath[5]="renaave50_sg2:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
+echo set mkdirpath[6]="renaave50_sg2:/Caca/" 
+echo set mkdirpath[7]="renaave50_sg2:/Caca/main_cloud/" 
+echo set mkdirpath[8]="renaave50_sg2:/Caca/main_cloud/computers/" 
+echo set mkdirpath[9]="renaave50_sg2:/Caca/main_cloud/computers/laptop_caca/" 
 
 echo cd %%userprofile%%
 
@@ -186,18 +186,18 @@ echo set second=%%TIME:~6,2%%
 
 echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
-echo set "x=0"
-echo :SymLoop
-echo if defined mkdirpath[%%x%%] (
-echo     call rclone mkdir %%%%mkdirpath[%%x%%]%%%%
-echo     set /a "x+=1"
-echo     GOTO :SymLoop
-echo ^)
+REM echo set "x=0"
+REM echo :SymLoop
+REM echo if defined mkdirpath[%%x%%] (
+REM echo     call rclone mkdir %%%%mkdirpath[%%x%%]%%%%
+REM echo     set /a "x+=1"
+REM echo     GOTO :SymLoop
+REM echo ^)
 
 echo set "x=0"
 echo :SymLoop1
 echo if defined selopcfolders[%%x%%] ^(
-echo     call rclone copy "fcfgts_driveku_me_computers:/%%%%selopcfolders[%%x%%]%%%%" "aaveusdt_sg1:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selopcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10
+echo     call rclone copy "fcfgts_driveku_me_computers:/%%%%selopcfolders[%%x%%]%%%%" "renaave50_sg2:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selopcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1
 echo ^)
@@ -239,16 +239,16 @@ echo set selopcfolders[22]=Notepad++
 echo set selopcfolders[23]=z-bat-vbs-file settings
 echo set selopcfolders[24]=rclone
 
-echo set mkdirpath[0]="aaveusdt_sg1:/Selo/" 
-echo set mkdirpath[1]="aaveusdt_sg1:/Selo/main_cloud/" 
-echo set mkdirpath[2]="aaveusdt_sg1:/Selo/main_cloud/computers/" 
-echo set mkdirpath[3]="aaveusdt_sg1:/Selo/main_cloud/computers/alyx/" 
-echo set mkdirpath[4]="aaveusdt_sg1:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
-echo set mkdirpath[5]="aaveusdt_sg1:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
-echo set mkdirpath[6]="aaveusdt_sg1:/Caca/" 
-echo set mkdirpath[7]="aaveusdt_sg1:/Caca/main_cloud/" 
-echo set mkdirpath[8]="aaveusdt_sg1:/Caca/main_cloud/computers/" 
-echo set mkdirpath[9]="aaveusdt_sg1:/Caca/main_cloud/computers/laptop_caca/" 
+echo set mkdirpath[0]="renaave7_sg3:/Selo/" 
+echo set mkdirpath[1]="renaave7_sg3:/Selo/main_cloud/" 
+echo set mkdirpath[2]="renaave7_sg3:/Selo/main_cloud/computers/" 
+echo set mkdirpath[3]="renaave7_sg3:/Selo/main_cloud/computers/alyx/" 
+echo set mkdirpath[4]="renaave7_sg3:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
+echo set mkdirpath[5]="renaave7_sg3:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
+echo set mkdirpath[6]="renaave7_sg3:/Caca/" 
+echo set mkdirpath[7]="renaave7_sg3:/Caca/main_cloud/" 
+echo set mkdirpath[8]="renaave7_sg3:/Caca/main_cloud/computers/" 
+echo set mkdirpath[9]="renaave7_sg3:/Caca/main_cloud/computers/laptop_caca/" 
 
 echo cd %%userprofile%%
 
@@ -272,7 +272,7 @@ REM echo ^)
 echo set "x=0"
 echo :SymLoop1
 echo if defined selopcfolders[%%x%%] ^(
-echo     call rclone copy "fcfgts_driveku_me_computers:/%%%%selopcfolders[%%x%%]%%%%" "aaveusdt_sg1:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selopcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10
+echo     call rclone copy "fcfgts_driveku_me_computers:/%%%%selopcfolders[%%x%%]%%%%" "renaave7_sg3:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selopcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1
 echo ^)
@@ -314,16 +314,16 @@ echo set selopcfolders[22]=Notepad++
 echo set selopcfolders[23]=z-bat-vbs-file settings
 echo set selopcfolders[24]=rclone
 
-echo set mkdirpath[0]="aaveusdt_sg1:/Selo/" 
-echo set mkdirpath[1]="aaveusdt_sg1:/Selo/main_cloud/" 
-echo set mkdirpath[2]="aaveusdt_sg1:/Selo/main_cloud/computers/" 
-echo set mkdirpath[3]="aaveusdt_sg1:/Selo/main_cloud/computers/alyx/" 
-echo set mkdirpath[4]="aaveusdt_sg1:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
-echo set mkdirpath[5]="aaveusdt_sg1:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
-echo set mkdirpath[6]="aaveusdt_sg1:/Caca/" 
-echo set mkdirpath[7]="aaveusdt_sg1:/Caca/main_cloud/" 
-echo set mkdirpath[8]="aaveusdt_sg1:/Caca/main_cloud/computers/" 
-echo set mkdirpath[9]="aaveusdt_sg1:/Caca/main_cloud/computers/laptop_caca/" 
+echo set mkdirpath[0]="oudhoh0050_sg4:/Selo/" 
+echo set mkdirpath[1]="oudhoh0050_sg4:/Selo/main_cloud/" 
+echo set mkdirpath[2]="oudhoh0050_sg4:/Selo/main_cloud/computers/" 
+echo set mkdirpath[3]="oudhoh0050_sg4:/Selo/main_cloud/computers/alyx/" 
+echo set mkdirpath[4]="oudhoh0050_sg4:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
+echo set mkdirpath[5]="oudhoh0050_sg4:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
+echo set mkdirpath[6]="oudhoh0050_sg4:/Caca/" 
+echo set mkdirpath[7]="oudhoh0050_sg4:/Caca/main_cloud/" 
+echo set mkdirpath[8]="oudhoh0050_sg4:/Caca/main_cloud/computers/" 
+echo set mkdirpath[9]="oudhoh0050_sg4:/Caca/main_cloud/computers/laptop_caca/" 
 
 echo cd %%userprofile%%
 
@@ -347,7 +347,7 @@ REM echo ^)
 echo set "x=0"
 echo :SymLoop1
 echo if defined selopcfolders[%%x%%] ^(
-echo     call rclone copy "fcfgts_driveku_me_computers:/%%%%selopcfolders[%%x%%]%%%%" "aaveusdt_sg1:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selopcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10
+echo     call rclone copy "fcfgts_driveku_me_computers:/%%%%selopcfolders[%%x%%]%%%%" "oudhoh0050_sg4:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selopcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1
 echo ^)
@@ -389,16 +389,16 @@ echo set selopcfolders[22]=Notepad++
 echo set selopcfolders[23]=z-bat-vbs-file settings
 echo set selopcfolders[24]=rclone
 
-echo set mkdirpath[0]="aaveusdt_sg1:/Selo/" 
-echo set mkdirpath[1]="aaveusdt_sg1:/Selo/main_cloud/" 
-echo set mkdirpath[2]="aaveusdt_sg1:/Selo/main_cloud/computers/" 
-echo set mkdirpath[3]="aaveusdt_sg1:/Selo/main_cloud/computers/alyx/" 
-echo set mkdirpath[4]="aaveusdt_sg1:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
-echo set mkdirpath[5]="aaveusdt_sg1:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
-echo set mkdirpath[6]="aaveusdt_sg1:/Caca/" 
-echo set mkdirpath[7]="aaveusdt_sg1:/Caca/main_cloud/" 
-echo set mkdirpath[8]="aaveusdt_sg1:/Caca/main_cloud/computers/" 
-echo set mkdirpath[9]="aaveusdt_sg1:/Caca/main_cloud/computers/laptop_caca/" 
+echo set mkdirpath[0]="nkiux77509_sg5:/Selo/" 
+echo set mkdirpath[1]="nkiux77509_sg5:/Selo/main_cloud/" 
+echo set mkdirpath[2]="nkiux77509_sg5:/Selo/main_cloud/computers/" 
+echo set mkdirpath[3]="nkiux77509_sg5:/Selo/main_cloud/computers/alyx/" 
+echo set mkdirpath[4]="nkiux77509_sg5:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
+echo set mkdirpath[5]="nkiux77509_sg5:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
+echo set mkdirpath[6]="nkiux77509_sg5:/Caca/" 
+echo set mkdirpath[7]="nkiux77509_sg5:/Caca/main_cloud/" 
+echo set mkdirpath[8]="nkiux77509_sg5:/Caca/main_cloud/computers/" 
+echo set mkdirpath[9]="nkiux77509_sg5:/Caca/main_cloud/computers/laptop_caca/" 
 
 echo cd %%userprofile%%
 
@@ -422,7 +422,7 @@ REM echo ^)
 echo set "x=0"
 echo :SymLoop1
 echo if defined selopcfolders[%%x%%] ^(
-echo     call rclone copy "fcfgts_driveku_me_computers:/%%%%selopcfolders[%%x%%]%%%%" "aaveusdt_sg1:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selopcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10
+echo     call rclone copy "fcfgts_driveku_me_computers:/%%%%selopcfolders[%%x%%]%%%%" "nkiux77509_sg5:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selopcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1
 echo ^)
@@ -464,16 +464,16 @@ echo set selopcfolders[22]=Notepad++
 echo set selopcfolders[23]=z-bat-vbs-file settings
 echo set selopcfolders[24]=rclone
 
-echo set mkdirpath[0]="aaveusdt_sg1:/Selo/" 
-echo set mkdirpath[1]="aaveusdt_sg1:/Selo/main_cloud/" 
-echo set mkdirpath[2]="aaveusdt_sg1:/Selo/main_cloud/computers/" 
-echo set mkdirpath[3]="aaveusdt_sg1:/Selo/main_cloud/computers/alyx/" 
-echo set mkdirpath[4]="aaveusdt_sg1:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
-echo set mkdirpath[5]="aaveusdt_sg1:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
-echo set mkdirpath[6]="aaveusdt_sg1:/Caca/" 
-echo set mkdirpath[7]="aaveusdt_sg1:/Caca/main_cloud/" 
-echo set mkdirpath[8]="aaveusdt_sg1:/Caca/main_cloud/computers/" 
-echo set mkdirpath[9]="aaveusdt_sg1:/Caca/main_cloud/computers/laptop_caca/" 
+echo set mkdirpath[0]="didrhj9036_sg6:/Selo/" 
+echo set mkdirpath[1]="didrhj9036_sg6:/Selo/main_cloud/" 
+echo set mkdirpath[2]="didrhj9036_sg6:/Selo/main_cloud/computers/" 
+echo set mkdirpath[3]="didrhj9036_sg6:/Selo/main_cloud/computers/alyx/" 
+echo set mkdirpath[4]="didrhj9036_sg6:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
+echo set mkdirpath[5]="didrhj9036_sg6:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
+echo set mkdirpath[6]="didrhj9036_sg6:/Caca/" 
+echo set mkdirpath[7]="didrhj9036_sg6:/Caca/main_cloud/" 
+echo set mkdirpath[8]="didrhj9036_sg6:/Caca/main_cloud/computers/" 
+echo set mkdirpath[9]="didrhj9036_sg6:/Caca/main_cloud/computers/laptop_caca/" 
 
 echo cd %%userprofile%%
 
@@ -497,7 +497,7 @@ REM echo ^)
 echo set "x=0"
 echo :SymLoop1
 echo if defined selopcfolders[%%x%%] ^(
-echo     call rclone copy "fcfgts_driveku_me_computers:/%%%%selopcfolders[%%x%%]%%%%" "aaveusdt_sg1:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selopcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10
+echo     call rclone copy "fcfgts_driveku_me_computers:/%%%%selopcfolders[%%x%%]%%%%" "didrhj9036_sg6:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selopcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1
 echo ^)
@@ -539,16 +539,16 @@ echo set selopcfolders[22]=Notepad++
 echo set selopcfolders[23]=z-bat-vbs-file settings
 echo set selopcfolders[24]=rclone
 
-echo set mkdirpath[0]="aaveusdt_sg1:/Selo/" 
-echo set mkdirpath[1]="aaveusdt_sg1:/Selo/main_cloud/" 
-echo set mkdirpath[2]="aaveusdt_sg1:/Selo/main_cloud/computers/" 
-echo set mkdirpath[3]="aaveusdt_sg1:/Selo/main_cloud/computers/alyx/" 
-echo set mkdirpath[4]="aaveusdt_sg1:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
-echo set mkdirpath[5]="aaveusdt_sg1:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
-echo set mkdirpath[6]="aaveusdt_sg1:/Caca/" 
-echo set mkdirpath[7]="aaveusdt_sg1:/Caca/main_cloud/" 
-echo set mkdirpath[8]="aaveusdt_sg1:/Caca/main_cloud/computers/" 
-echo set mkdirpath[9]="aaveusdt_sg1:/Caca/main_cloud/computers/laptop_caca/" 
+echo set mkdirpath[0]="hjski8292882_sg7:/Selo/" 
+echo set mkdirpath[1]="hjski8292882_sg7:/Selo/main_cloud/" 
+echo set mkdirpath[2]="hjski8292882_sg7:/Selo/main_cloud/computers/" 
+echo set mkdirpath[3]="hjski8292882_sg7:/Selo/main_cloud/computers/alyx/" 
+echo set mkdirpath[4]="hjski8292882_sg7:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
+echo set mkdirpath[5]="hjski8292882_sg7:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
+echo set mkdirpath[6]="hjski8292882_sg7:/Caca/" 
+echo set mkdirpath[7]="hjski8292882_sg7:/Caca/main_cloud/" 
+echo set mkdirpath[8]="hjski8292882_sg7:/Caca/main_cloud/computers/" 
+echo set mkdirpath[9]="hjski8292882_sg7:/Caca/main_cloud/computers/laptop_caca/" 
 
 echo cd %%userprofile%%
 
@@ -572,7 +572,7 @@ REM echo ^)
 echo set "x=0"
 echo :SymLoop1
 echo if defined selopcfolders[%%x%%] ^(
-echo     call rclone copy "fcfgts_driveku_me_computers:/%%%%selopcfolders[%%x%%]%%%%" "aaveusdt_sg1:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selopcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10
+echo     call rclone copy "fcfgts_driveku_me_computers:/%%%%selopcfolders[%%x%%]%%%%" "hjski8292882_sg7:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selopcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1
 echo ^)
@@ -614,16 +614,16 @@ echo set selopcfolders[22]=Notepad++
 echo set selopcfolders[23]=z-bat-vbs-file settings
 echo set selopcfolders[24]=rclone
 
-echo set mkdirpath[0]="aaveusdt_sg1:/Selo/" 
-echo set mkdirpath[1]="aaveusdt_sg1:/Selo/main_cloud/" 
-echo set mkdirpath[2]="aaveusdt_sg1:/Selo/main_cloud/computers/" 
-echo set mkdirpath[3]="aaveusdt_sg1:/Selo/main_cloud/computers/alyx/" 
-echo set mkdirpath[4]="aaveusdt_sg1:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
-echo set mkdirpath[5]="aaveusdt_sg1:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
-echo set mkdirpath[6]="aaveusdt_sg1:/Caca/" 
-echo set mkdirpath[7]="aaveusdt_sg1:/Caca/main_cloud/" 
-echo set mkdirpath[8]="aaveusdt_sg1:/Caca/main_cloud/computers/" 
-echo set mkdirpath[9]="aaveusdt_sg1:/Caca/main_cloud/computers/laptop_caca/" 
+echo set mkdirpath[0]="jsnwj84738_sg8:/Selo/" 
+echo set mkdirpath[1]="jsnwj84738_sg8:/Selo/main_cloud/" 
+echo set mkdirpath[2]="jsnwj84738_sg8:/Selo/main_cloud/computers/" 
+echo set mkdirpath[3]="jsnwj84738_sg8:/Selo/main_cloud/computers/alyx/" 
+echo set mkdirpath[4]="jsnwj84738_sg8:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
+echo set mkdirpath[5]="jsnwj84738_sg8:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
+echo set mkdirpath[6]="jsnwj84738_sg8:/Caca/" 
+echo set mkdirpath[7]="jsnwj84738_sg8:/Caca/main_cloud/" 
+echo set mkdirpath[8]="jsnwj84738_sg8:/Caca/main_cloud/computers/" 
+echo set mkdirpath[9]="jsnwj84738_sg8:/Caca/main_cloud/computers/laptop_caca/" 
 
 echo cd %%userprofile%%
 
@@ -647,7 +647,7 @@ REM echo ^)
 echo set "x=0"
 echo :SymLoop1
 echo if defined selopcfolders[%%x%%] ^(
-echo     call rclone copy "fcfgts_driveku_me_computers:/%%%%selopcfolders[%%x%%]%%%%" "aaveusdt_sg1:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selopcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10
+echo     call rclone copy "fcfgts_driveku_me_computers:/%%%%selopcfolders[%%x%%]%%%%" "jsnwj84738_sg8:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selopcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1
 echo ^)
@@ -689,16 +689,16 @@ echo set selopcfolders[22]=Notepad++
 echo set selopcfolders[23]=z-bat-vbs-file settings
 echo set selopcfolders[24]=rclone
 
-echo set mkdirpath[0]="aaveusdt_sg1:/Selo/" 
-echo set mkdirpath[1]="aaveusdt_sg1:/Selo/main_cloud/" 
-echo set mkdirpath[2]="aaveusdt_sg1:/Selo/main_cloud/computers/" 
-echo set mkdirpath[3]="aaveusdt_sg1:/Selo/main_cloud/computers/alyx/" 
-echo set mkdirpath[4]="aaveusdt_sg1:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
-echo set mkdirpath[5]="aaveusdt_sg1:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
-echo set mkdirpath[6]="aaveusdt_sg1:/Caca/" 
-echo set mkdirpath[7]="aaveusdt_sg1:/Caca/main_cloud/" 
-echo set mkdirpath[8]="aaveusdt_sg1:/Caca/main_cloud/computers/" 
-echo set mkdirpath[9]="aaveusdt_sg1:/Caca/main_cloud/computers/laptop_caca/" 
+echo set mkdirpath[0]="ffdnsak8272793_sg9:/Selo/" 
+echo set mkdirpath[1]="ffdnsak8272793_sg9:/Selo/main_cloud/" 
+echo set mkdirpath[2]="ffdnsak8272793_sg9:/Selo/main_cloud/computers/" 
+echo set mkdirpath[3]="ffdnsak8272793_sg9:/Selo/main_cloud/computers/alyx/" 
+echo set mkdirpath[4]="ffdnsak8272793_sg9:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
+echo set mkdirpath[5]="ffdnsak8272793_sg9:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
+echo set mkdirpath[6]="ffdnsak8272793_sg9:/Caca/" 
+echo set mkdirpath[7]="ffdnsak8272793_sg9:/Caca/main_cloud/" 
+echo set mkdirpath[8]="ffdnsak8272793_sg9:/Caca/main_cloud/computers/" 
+echo set mkdirpath[9]="ffdnsak8272793_sg9:/Caca/main_cloud/computers/laptop_caca/" 
 
 echo cd %%userprofile%%
 
@@ -722,7 +722,7 @@ REM echo ^)
 echo set "x=0"
 echo :SymLoop1
 echo if defined selopcfolders[%%x%%] ^(
-echo     call rclone copy "fcfgts_driveku_me_computers:/%%%%selopcfolders[%%x%%]%%%%" "aaveusdt_sg1:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selopcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10
+echo     call rclone copy "fcfgts_driveku_me_computers:/%%%%selopcfolders[%%x%%]%%%%" "ffdnsak8272793_sg9:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selopcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1
 echo ^)
@@ -764,16 +764,16 @@ echo set selopcfolders[22]=Notepad++
 echo set selopcfolders[23]=z-bat-vbs-file settings
 echo set selopcfolders[24]=rclone
 
-echo set mkdirpath[0]="aaveusdt_sg1:/Selo/" 
-echo set mkdirpath[1]="aaveusdt_sg1:/Selo/main_cloud/" 
-echo set mkdirpath[2]="aaveusdt_sg1:/Selo/main_cloud/computers/" 
-echo set mkdirpath[3]="aaveusdt_sg1:/Selo/main_cloud/computers/alyx/" 
-echo set mkdirpath[4]="aaveusdt_sg1:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
-echo set mkdirpath[5]="aaveusdt_sg1:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
-echo set mkdirpath[6]="aaveusdt_sg1:/Caca/" 
-echo set mkdirpath[7]="aaveusdt_sg1:/Caca/main_cloud/" 
-echo set mkdirpath[8]="aaveusdt_sg1:/Caca/main_cloud/computers/" 
-echo set mkdirpath[9]="aaveusdt_sg1:/Caca/main_cloud/computers/laptop_caca/" 
+echo set mkdirpath[0]="otipes7948_sg10:/Selo/" 
+echo set mkdirpath[1]="otipes7948_sg10:/Selo/main_cloud/" 
+echo set mkdirpath[2]="otipes7948_sg10:/Selo/main_cloud/computers/" 
+echo set mkdirpath[3]="otipes7948_sg10:/Selo/main_cloud/computers/alyx/" 
+echo set mkdirpath[4]="otipes7948_sg10:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
+echo set mkdirpath[5]="otipes7948_sg10:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
+echo set mkdirpath[6]="otipes7948_sg10:/Caca/" 
+echo set mkdirpath[7]="otipes7948_sg10:/Caca/main_cloud/" 
+echo set mkdirpath[8]="otipes7948_sg10:/Caca/main_cloud/computers/" 
+echo set mkdirpath[9]="otipes7948_sg10:/Caca/main_cloud/computers/laptop_caca/" 
 
 echo cd %%userprofile%%
 
@@ -797,7 +797,7 @@ REM echo ^)
 echo set "x=0"
 echo :SymLoop1
 echo if defined selopcfolders[%%x%%] ^(
-echo     call rclone copy "fcfgts_driveku_me_computers:/%%%%selopcfolders[%%x%%]%%%%" "aaveusdt_sg1:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selopcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10
+echo     call rclone copy "fcfgts_driveku_me_computers:/%%%%selopcfolders[%%x%%]%%%%" "otipes7948_sg10:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selopcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1
 echo ^)
@@ -815,6 +815,19 @@ REM  Caca   _______________________________________________________
 
 (
 
+echo set cacapcfolders[0]=document caca
+echo set cacapcfolders[1]=com.mojang
+echo set cacapcfolders[2]=Notepad++
+echo set cacapcfolders[3]=3D Objects
+echo set cacapcfolders[4]=Desktop
+echo set cacapcfolders[5]=Downloads
+echo set cacapcfolders[6]=Music
+echo set cacapcfolders[7]=Links
+echo set cacapcfolders[8]=Pictures
+echo set cacapcfolders[9]=Videos
+echo set cacapcfolders[10]=Links
+echo set cacapcfolders[11]=Favorites
+
 echo cd %%userprofile%%
 
 echo set day=%%date:~-7,2%%
@@ -826,18 +839,13 @@ echo set second=%%TIME:~6,2%%
 
 echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
-echo rclone copy "jjajai2818,shared_with_me:/jY1CJ1hE4P/laptop_caca/3D Objects" "jjajai2818_sg1:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/3D Objects" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "jjajai2818,shared_with_me:/jY1CJ1hE4P/laptop_caca/document caca" "jjajai2818_sg1:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/document caca" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "jjajai2818,shared_with_me:/jY1CJ1hE4P/laptop_caca/Favorites" "jjajai2818_sg1:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Favorites" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "jjajai2818,shared_with_me:/jY1CJ1hE4P/laptop_caca/Pictures" "jjajai2818_sg1:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "jjajai2818,shared_with_me:/jY1CJ1hE4P/laptop_caca/Contacts" "jjajai2818_sg1:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Contacts" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "jjajai2818,shared_with_me:/jY1CJ1hE4P/laptop_caca/Documents" "jjajai2818_sg1:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Documents" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "jjajai2818,shared_with_me:/jY1CJ1hE4P/laptop_caca/Links" "jjajai2818_sg1:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Links" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "jjajai2818,shared_with_me:/jY1CJ1hE4P/laptop_caca/Searches" "jjajai2818_sg1:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Searches" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "jjajai2818,shared_with_me:/jY1CJ1hE4P/laptop_caca/Desktop" "jjajai2818_sg1:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Desktop" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "jjajai2818,shared_with_me:/jY1CJ1hE4P/laptop_caca/Downloads" "jjajai2818_sg1:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Downloads" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "jjajai2818,shared_with_me:/jY1CJ1hE4P/laptop_caca/Music" "jjajai2818_sg1:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Music" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "jjajai2818,shared_with_me:/jY1CJ1hE4P/laptop_caca/Videos" "jjajai2818_sg1:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Videos" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+echo set "x=0"
+echo :SymLoop1
+echo if defined cacapcfolders[%%x%%] ^(
+echo     call rclone copy "calista_ar_cloddrive_computers:/%%%%cacapcfolders[%%x%%]%%%%" "jjajai2818_sg1:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/%%%%cacapcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+echo     set /a "x+=1"
+echo     GOTO :SymLoop1
+echo ^)
 
 echo rclone moveto "jjajai2818_sg1:/Caca/main_cloud/computers/laptop_caca/%%copyname%%" "jjajai2818_sg1:/Caca/main_cloud/computers/laptop_caca/%%copyname%%_fix"
 
@@ -849,6 +857,19 @@ echo cd %%userprofile%%
 
 (
 
+echo set cacapcfolders[0]=document caca
+echo set cacapcfolders[1]=com.mojang
+echo set cacapcfolders[2]=Notepad++
+echo set cacapcfolders[3]=3D Objects
+echo set cacapcfolders[4]=Desktop
+echo set cacapcfolders[5]=Downloads
+echo set cacapcfolders[6]=Music
+echo set cacapcfolders[7]=Links
+echo set cacapcfolders[8]=Pictures
+echo set cacapcfolders[9]=Videos
+echo set cacapcfolders[10]=Links
+echo set cacapcfolders[11]=Favorites
+
 echo cd %%userprofile%%
 
 echo set day=%%date:~-7,2%%
@@ -860,18 +881,13 @@ echo set second=%%TIME:~6,2%%
 
 echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
-echo rclone copy "eleoek28828,shared_with_me:/jY1CJ1hE4P/laptop_caca/3D Objects" "eleoek28828_sg2:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/3D Objects" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "eleoek28828,shared_with_me:/jY1CJ1hE4P/laptop_caca/document caca" "eleoek28828_sg2:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/document caca" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "eleoek28828,shared_with_me:/jY1CJ1hE4P/laptop_caca/Favorites" "eleoek28828_sg2:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Favorites" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "eleoek28828,shared_with_me:/jY1CJ1hE4P/laptop_caca/Pictures" "eleoek28828_sg2:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "eleoek28828,shared_with_me:/jY1CJ1hE4P/laptop_caca/Contacts" "eleoek28828_sg2:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Contacts" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "eleoek28828,shared_with_me:/jY1CJ1hE4P/laptop_caca/Documents" "eleoek28828_sg2:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Documents" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "eleoek28828,shared_with_me:/jY1CJ1hE4P/laptop_caca/Links" "eleoek28828_sg2:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Links" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "eleoek28828,shared_with_me:/jY1CJ1hE4P/laptop_caca/Searches" "eleoek28828_sg2:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Searches" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "eleoek28828,shared_with_me:/jY1CJ1hE4P/laptop_caca/Desktop" "eleoek28828_sg2:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Desktop" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "eleoek28828,shared_with_me:/jY1CJ1hE4P/laptop_caca/Downloads" "eleoek28828_sg2:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Downloads" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "eleoek28828,shared_with_me:/jY1CJ1hE4P/laptop_caca/Music" "eleoek28828_sg2:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Music" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "eleoek28828,shared_with_me:/jY1CJ1hE4P/laptop_caca/Videos" "eleoek28828_sg2:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Videos" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+echo set "x=0"
+echo :SymLoop1
+echo if defined cacapcfolders[%%x%%] ^(
+echo     call rclone copy "calista_ar_cloddrive_computers:/%%%%cacapcfolders[%%x%%]%%%%" "eleoek28828_sg2:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/%%%%cacapcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+echo     set /a "x+=1"
+echo     GOTO :SymLoop1
+echo ^)
 
 echo rclone moveto "eleoek28828_sg2:/Caca/main_cloud/computers/laptop_caca/%%copyname%%" "eleoek28828_sg2:/Caca/main_cloud/computers/laptop_caca/%%copyname%%_fix"
 
@@ -883,6 +899,19 @@ echo cd %%userprofile%%
 
 (
 
+echo set cacapcfolders[0]=document caca
+echo set cacapcfolders[1]=com.mojang
+echo set cacapcfolders[2]=Notepad++
+echo set cacapcfolders[3]=3D Objects
+echo set cacapcfolders[4]=Desktop
+echo set cacapcfolders[5]=Downloads
+echo set cacapcfolders[6]=Music
+echo set cacapcfolders[7]=Links
+echo set cacapcfolders[8]=Pictures
+echo set cacapcfolders[9]=Videos
+echo set cacapcfolders[10]=Links
+echo set cacapcfolders[11]=Favorites
+
 echo cd %%userprofile%%
 
 echo set day=%%date:~-7,2%%
@@ -894,18 +923,13 @@ echo set second=%%TIME:~6,2%%
 
 echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
-echo rclone copy "wjwn91178,shared_with_me:/jY1CJ1hE4P/laptop_caca/3D Objects" "wjwn91178_sg3:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/3D Objects" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "wjwn91178,shared_with_me:/jY1CJ1hE4P/laptop_caca/document caca" "wjwn91178_sg3:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/document caca" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "wjwn91178,shared_with_me:/jY1CJ1hE4P/laptop_caca/Favorites" "wjwn91178_sg3:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Favorites" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "wjwn91178,shared_with_me:/jY1CJ1hE4P/laptop_caca/Pictures" "wjwn91178_sg3:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "wjwn91178,shared_with_me:/jY1CJ1hE4P/laptop_caca/Contacts" "wjwn91178_sg3:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Contacts" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "wjwn91178,shared_with_me:/jY1CJ1hE4P/laptop_caca/Documents" "wjwn91178_sg3:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Documents" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "wjwn91178,shared_with_me:/jY1CJ1hE4P/laptop_caca/Links" "wjwn91178_sg3:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Links" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "wjwn91178,shared_with_me:/jY1CJ1hE4P/laptop_caca/Searches" "wjwn91178_sg3:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Searches" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "wjwn91178,shared_with_me:/jY1CJ1hE4P/laptop_caca/Desktop" "wjwn91178_sg3:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Desktop" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "wjwn91178,shared_with_me:/jY1CJ1hE4P/laptop_caca/Downloads" "wjwn91178_sg3:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Downloads" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "wjwn91178,shared_with_me:/jY1CJ1hE4P/laptop_caca/Music" "wjwn91178_sg3:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Music" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "wjwn91178,shared_with_me:/jY1CJ1hE4P/laptop_caca/Videos" "wjwn91178_sg3:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Videos" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+echo set "x=0"
+echo :SymLoop1
+echo if defined cacapcfolders[%%x%%] ^(
+echo     call rclone copy "calista_ar_cloddrive_computers:/%%%%cacapcfolders[%%x%%]%%%%" "wjwn91178_sg3:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/%%%%cacapcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+echo     set /a "x+=1"
+echo     GOTO :SymLoop1
+echo ^)
 
 echo rclone moveto "wjwn91178_sg3:/Caca/main_cloud/computers/laptop_caca/%%copyname%%" "wjwn91178_sg3:/Caca/main_cloud/computers/laptop_caca/%%copyname%%_fix"
 
@@ -918,6 +942,19 @@ echo cd %%userprofile%%
 
 (
 
+echo set cacapcfolders[0]=document caca
+echo set cacapcfolders[1]=com.mojang
+echo set cacapcfolders[2]=Notepad++
+echo set cacapcfolders[3]=3D Objects
+echo set cacapcfolders[4]=Desktop
+echo set cacapcfolders[5]=Downloads
+echo set cacapcfolders[6]=Music
+echo set cacapcfolders[7]=Links
+echo set cacapcfolders[8]=Pictures
+echo set cacapcfolders[9]=Videos
+echo set cacapcfolders[10]=Links
+echo set cacapcfolders[11]=Favorites
+
 echo cd %%userprofile%%
 
 echo set day=%%date:~-7,2%%
@@ -929,18 +966,13 @@ echo set second=%%TIME:~6,2%%
 
 echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
-echo rclone copy "iaowk272818,shared_with_me:/jY1CJ1hE4P/laptop_caca/3D Objects" "iaowk272818_sg4:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/3D Objects" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "iaowk272818,shared_with_me:/jY1CJ1hE4P/laptop_caca/document caca" "iaowk272818_sg4:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/document caca" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "iaowk272818,shared_with_me:/jY1CJ1hE4P/laptop_caca/Favorites" "iaowk272818_sg4:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Favorites" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "iaowk272818,shared_with_me:/jY1CJ1hE4P/laptop_caca/Pictures" "iaowk272818_sg4:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "iaowk272818,shared_with_me:/jY1CJ1hE4P/laptop_caca/Contacts" "iaowk272818_sg4:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Contacts" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "iaowk272818,shared_with_me:/jY1CJ1hE4P/laptop_caca/Documents" "iaowk272818_sg4:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Documents" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "iaowk272818,shared_with_me:/jY1CJ1hE4P/laptop_caca/Links" "iaowk272818_sg4:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Links" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "iaowk272818,shared_with_me:/jY1CJ1hE4P/laptop_caca/Searches" "iaowk272818_sg4:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Searches" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "iaowk272818,shared_with_me:/jY1CJ1hE4P/laptop_caca/Desktop" "iaowk272818_sg4:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Desktop" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "iaowk272818,shared_with_me:/jY1CJ1hE4P/laptop_caca/Downloads" "iaowk272818_sg4:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Downloads" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "iaowk272818,shared_with_me:/jY1CJ1hE4P/laptop_caca/Music" "iaowk272818_sg4:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Music" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "iaowk272818,shared_with_me:/jY1CJ1hE4P/laptop_caca/Videos" "iaowk272818_sg4:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Videos" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+echo set "x=0"
+echo :SymLoop1
+echo if defined cacapcfolders[%%x%%] ^(
+echo     call rclone copy "calista_ar_cloddrive_computers:/%%%%cacapcfolders[%%x%%]%%%%" "iaowk272818_sg4:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/%%%%cacapcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+echo     set /a "x+=1"
+echo     GOTO :SymLoop1
+echo ^)
 
 echo rclone moveto "iaowk272818_sg4:/Caca/main_cloud/computers/laptop_caca/%%copyname%%" "iaowk272818_sg4:/Caca/main_cloud/computers/laptop_caca/%%copyname%%_fix"
 
@@ -953,6 +985,19 @@ echo cd %%userprofile%%
 
 (
 
+echo set cacapcfolders[0]=document caca
+echo set cacapcfolders[1]=com.mojang
+echo set cacapcfolders[2]=Notepad++
+echo set cacapcfolders[3]=3D Objects
+echo set cacapcfolders[4]=Desktop
+echo set cacapcfolders[5]=Downloads
+echo set cacapcfolders[6]=Music
+echo set cacapcfolders[7]=Links
+echo set cacapcfolders[8]=Pictures
+echo set cacapcfolders[9]=Videos
+echo set cacapcfolders[10]=Links
+echo set cacapcfolders[11]=Favorites
+
 echo cd %%userprofile%%
 
 echo set day=%%date:~-7,2%%
@@ -964,18 +1009,13 @@ echo set second=%%TIME:~6,2%%
 
 echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
-echo rclone copy "ejsjskw28272,shared_with_me:/jY1CJ1hE4P/laptop_caca/3D Objects" "ejsjskw28272_sg5:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/3D Objects" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "ejsjskw28272,shared_with_me:/jY1CJ1hE4P/laptop_caca/document caca" "ejsjskw28272_sg5:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/document caca" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "ejsjskw28272,shared_with_me:/jY1CJ1hE4P/laptop_caca/Favorites" "ejsjskw28272_sg5:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Favorites" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "ejsjskw28272,shared_with_me:/jY1CJ1hE4P/laptop_caca/Pictures" "ejsjskw28272_sg5:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "ejsjskw28272,shared_with_me:/jY1CJ1hE4P/laptop_caca/Contacts" "ejsjskw28272_sg5:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Contacts" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "ejsjskw28272,shared_with_me:/jY1CJ1hE4P/laptop_caca/Documents" "ejsjskw28272_sg5:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Documents" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "ejsjskw28272,shared_with_me:/jY1CJ1hE4P/laptop_caca/Links" "ejsjskw28272_sg5:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Links" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "ejsjskw28272,shared_with_me:/jY1CJ1hE4P/laptop_caca/Searches" "ejsjskw28272_sg5:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Searches" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "ejsjskw28272,shared_with_me:/jY1CJ1hE4P/laptop_caca/Desktop" "ejsjskw28272_sg5:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Desktop" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "ejsjskw28272,shared_with_me:/jY1CJ1hE4P/laptop_caca/Downloads" "ejsjskw28272_sg5:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Downloads" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "ejsjskw28272,shared_with_me:/jY1CJ1hE4P/laptop_caca/Music" "ejsjskw28272_sg5:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Music" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "ejsjskw28272,shared_with_me:/jY1CJ1hE4P/laptop_caca/Videos" "ejsjskw28272_sg5:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Videos" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+echo set "x=0"
+echo :SymLoop1
+echo if defined cacapcfolders[%%x%%] ^(
+echo     call rclone copy "calista_ar_cloddrive_computers:/%%%%cacapcfolders[%%x%%]%%%%" "ejsjskw28272_sg5:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/%%%%cacapcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+echo     set /a "x+=1"
+echo     GOTO :SymLoop1
+echo ^)
 
 echo rclone moveto "ejsjskw28272_sg5:/Caca/main_cloud/computers/laptop_caca/%%copyname%%" "ejsjskw28272_sg5:/Caca/main_cloud/computers/laptop_caca/%%copyname%%_fix"
 
@@ -988,6 +1028,19 @@ echo cd %%userprofile%%
 
 (
 
+echo set cacapcfolders[0]=document caca
+echo set cacapcfolders[1]=com.mojang
+echo set cacapcfolders[2]=Notepad++
+echo set cacapcfolders[3]=3D Objects
+echo set cacapcfolders[4]=Desktop
+echo set cacapcfolders[5]=Downloads
+echo set cacapcfolders[6]=Music
+echo set cacapcfolders[7]=Links
+echo set cacapcfolders[8]=Pictures
+echo set cacapcfolders[9]=Videos
+echo set cacapcfolders[10]=Links
+echo set cacapcfolders[11]=Favorites
+
 echo cd %%userprofile%%
 
 echo set day=%%date:~-7,2%%
@@ -999,18 +1052,13 @@ echo set second=%%TIME:~6,2%%
 
 echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
-echo rclone copy "sjsiowkw272892,shared_with_me:/jY1CJ1hE4P/laptop_caca/3D Objects" "sjsiowkw272892_sg6:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/3D Objects" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "sjsiowkw272892,shared_with_me:/jY1CJ1hE4P/laptop_caca/document caca" "sjsiowkw272892_sg6:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/document caca" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "sjsiowkw272892,shared_with_me:/jY1CJ1hE4P/laptop_caca/Favorites" "sjsiowkw272892_sg6:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Favorites" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "sjsiowkw272892,shared_with_me:/jY1CJ1hE4P/laptop_caca/Pictures" "sjsiowkw272892_sg6:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "sjsiowkw272892,shared_with_me:/jY1CJ1hE4P/laptop_caca/Contacts" "sjsiowkw272892_sg6:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Contacts" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "sjsiowkw272892,shared_with_me:/jY1CJ1hE4P/laptop_caca/Documents" "sjsiowkw272892_sg6:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Documents" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "sjsiowkw272892,shared_with_me:/jY1CJ1hE4P/laptop_caca/Links" "sjsiowkw272892_sg6:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Links" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "sjsiowkw272892,shared_with_me:/jY1CJ1hE4P/laptop_caca/Searches" "sjsiowkw272892_sg6:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Searches" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "sjsiowkw272892,shared_with_me:/jY1CJ1hE4P/laptop_caca/Desktop" "sjsiowkw272892_sg6:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Desktop" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "sjsiowkw272892,shared_with_me:/jY1CJ1hE4P/laptop_caca/Downloads" "sjsiowkw272892_sg6:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Downloads" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "sjsiowkw272892,shared_with_me:/jY1CJ1hE4P/laptop_caca/Music" "sjsiowkw272892_sg6:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Music" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "sjsiowkw272892,shared_with_me:/jY1CJ1hE4P/laptop_caca/Videos" "sjsiowkw272892_sg6:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Videos" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+echo set "x=0"
+echo :SymLoop1
+echo if defined cacapcfolders[%%x%%] ^(
+echo     call rclone copy "calista_ar_cloddrive_computers:/%%%%cacapcfolders[%%x%%]%%%%" "sjsiowkw272892_sg6:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/%%%%cacapcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+echo     set /a "x+=1"
+echo     GOTO :SymLoop1
+echo ^)
 
 echo rclone moveto "sjsiowkw272892_sg6:/Caca/main_cloud/computers/laptop_caca/%%copyname%%" "sjsiowkw272892_sg6:/Caca/main_cloud/computers/laptop_caca/%%copyname%%_fix"
 
@@ -1023,6 +1071,19 @@ echo cd %%userprofile%%
 
 (
 
+echo set cacapcfolders[0]=document caca
+echo set cacapcfolders[1]=com.mojang
+echo set cacapcfolders[2]=Notepad++
+echo set cacapcfolders[3]=3D Objects
+echo set cacapcfolders[4]=Desktop
+echo set cacapcfolders[5]=Downloads
+echo set cacapcfolders[6]=Music
+echo set cacapcfolders[7]=Links
+echo set cacapcfolders[8]=Pictures
+echo set cacapcfolders[9]=Videos
+echo set cacapcfolders[10]=Links
+echo set cacapcfolders[11]=Favorites
+
 echo cd %%userprofile%%
 
 echo set day=%%date:~-7,2%%
@@ -1034,18 +1095,13 @@ echo set second=%%TIME:~6,2%%
 
 echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
-echo rclone copy "s81wjwo17,shared_with_me:/jY1CJ1hE4P/laptop_caca/3D Objects" "s81wjwo17_sg7:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/3D Objects" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "s81wjwo17,shared_with_me:/jY1CJ1hE4P/laptop_caca/document caca" "s81wjwo17_sg7:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/document caca" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "s81wjwo17,shared_with_me:/jY1CJ1hE4P/laptop_caca/Favorites" "s81wjwo17_sg7:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Favorites" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "s81wjwo17,shared_with_me:/jY1CJ1hE4P/laptop_caca/Pictures" "s81wjwo17_sg7:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "s81wjwo17,shared_with_me:/jY1CJ1hE4P/laptop_caca/Contacts" "s81wjwo17_sg7:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Contacts" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "s81wjwo17,shared_with_me:/jY1CJ1hE4P/laptop_caca/Documents" "s81wjwo17_sg7:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Documents" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "s81wjwo17,shared_with_me:/jY1CJ1hE4P/laptop_caca/Links" "s81wjwo17_sg7:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Links" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "s81wjwo17,shared_with_me:/jY1CJ1hE4P/laptop_caca/Searches" "s81wjwo17_sg7:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Searches" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "s81wjwo17,shared_with_me:/jY1CJ1hE4P/laptop_caca/Desktop" "s81wjwo17_sg7:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Desktop" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "s81wjwo17,shared_with_me:/jY1CJ1hE4P/laptop_caca/Downloads" "s81wjwo17_sg7:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Downloads" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "s81wjwo17,shared_with_me:/jY1CJ1hE4P/laptop_caca/Music" "s81wjwo17_sg7:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Music" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "s81wjwo17,shared_with_me:/jY1CJ1hE4P/laptop_caca/Videos" "s81wjwo17_sg7:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Videos" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+echo set "x=0"
+echo :SymLoop1
+echo if defined cacapcfolders[%%x%%] ^(
+echo     call rclone copy "calista_ar_cloddrive_computers:/%%%%cacapcfolders[%%x%%]%%%%" "s81wjwo17_sg7:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/%%%%cacapcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+echo     set /a "x+=1"
+echo     GOTO :SymLoop1
+echo ^)
 
 echo rclone moveto "s81wjwo17_sg7:/Caca/main_cloud/computers/laptop_caca/%%copyname%%" "s81wjwo17_sg7:/Caca/main_cloud/computers/laptop_caca/%%copyname%%_fix"
 
@@ -1058,6 +1114,19 @@ echo cd %%userprofile%%
 
 (
 
+echo set cacapcfolders[0]=document caca
+echo set cacapcfolders[1]=com.mojang
+echo set cacapcfolders[2]=Notepad++
+echo set cacapcfolders[3]=3D Objects
+echo set cacapcfolders[4]=Desktop
+echo set cacapcfolders[5]=Downloads
+echo set cacapcfolders[6]=Music
+echo set cacapcfolders[7]=Links
+echo set cacapcfolders[8]=Pictures
+echo set cacapcfolders[9]=Videos
+echo set cacapcfolders[10]=Links
+echo set cacapcfolders[11]=Favorites
+
 echo cd %%userprofile%%
 
 echo set day=%%date:~-7,2%%
@@ -1069,18 +1138,13 @@ echo set second=%%TIME:~6,2%%
 
 echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
-echo rclone copy "jskwonw,shared_with_me:/jY1CJ1hE4P/laptop_caca/3D Objects" "jskwonw_sg8:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/3D Objects" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "jskwonw,shared_with_me:/jY1CJ1hE4P/laptop_caca/document caca" "jskwonw_sg8:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/document caca" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "jskwonw,shared_with_me:/jY1CJ1hE4P/laptop_caca/Favorites" "jskwonw_sg8:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Favorites" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "jskwonw,shared_with_me:/jY1CJ1hE4P/laptop_caca/Pictures" "jskwonw_sg8:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "jskwonw,shared_with_me:/jY1CJ1hE4P/laptop_caca/Contacts" "jskwonw_sg8:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Contacts" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "jskwonw,shared_with_me:/jY1CJ1hE4P/laptop_caca/Documents" "jskwonw_sg8:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Documents" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "jskwonw,shared_with_me:/jY1CJ1hE4P/laptop_caca/Links" "jskwonw_sg8:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Links" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "jskwonw,shared_with_me:/jY1CJ1hE4P/laptop_caca/Searches" "jskwonw_sg8:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Searches" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "jskwonw,shared_with_me:/jY1CJ1hE4P/laptop_caca/Desktop" "jskwonw_sg8:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Desktop" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "jskwonw,shared_with_me:/jY1CJ1hE4P/laptop_caca/Downloads" "jskwonw_sg8:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Downloads" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "jskwonw,shared_with_me:/jY1CJ1hE4P/laptop_caca/Music" "jskwonw_sg8:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Music" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "jskwonw,shared_with_me:/jY1CJ1hE4P/laptop_caca/Videos" "jskwonw_sg8:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Videos" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+echo set "x=0"
+echo :SymLoop1
+echo if defined cacapcfolders[%%x%%] ^(
+echo     call rclone copy "calista_ar_cloddrive_computers:/%%%%cacapcfolders[%%x%%]%%%%" "jskwonw_sg8:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/%%%%cacapcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+echo     set /a "x+=1"
+echo     GOTO :SymLoop1
+echo ^)
 
 echo rclone moveto "jskwonw_sg8:/Caca/main_cloud/computers/laptop_caca/%%copyname%%" "jskwonw_sg8:/Caca/main_cloud/computers/laptop_caca/%%copyname%%_fix"
 
@@ -1093,6 +1157,19 @@ echo cd %%userprofile%%
 
 (
 
+echo set cacapcfolders[0]=document caca
+echo set cacapcfolders[1]=com.mojang
+echo set cacapcfolders[2]=Notepad++
+echo set cacapcfolders[3]=3D Objects
+echo set cacapcfolders[4]=Desktop
+echo set cacapcfolders[5]=Downloads
+echo set cacapcfolders[6]=Music
+echo set cacapcfolders[7]=Links
+echo set cacapcfolders[8]=Pictures
+echo set cacapcfolders[9]=Videos
+echo set cacapcfolders[10]=Links
+echo set cacapcfolders[11]=Favorites
+
 echo cd %%userprofile%%
 
 echo set day=%%date:~-7,2%%
@@ -1104,18 +1181,13 @@ echo set second=%%TIME:~6,2%%
 
 echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
-echo rclone copy "usowns81,shared_with_me:/jY1CJ1hE4P/laptop_caca/3D Objects" "usowns81_sg9:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/3D Objects" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "usowns81,shared_with_me:/jY1CJ1hE4P/laptop_caca/document caca" "usowns81_sg9:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/document caca" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "usowns81,shared_with_me:/jY1CJ1hE4P/laptop_caca/Favorites" "usowns81_sg9:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Favorites" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "usowns81,shared_with_me:/jY1CJ1hE4P/laptop_caca/Pictures" "usowns81_sg9:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "usowns81,shared_with_me:/jY1CJ1hE4P/laptop_caca/Contacts" "usowns81_sg9:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Contacts" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "usowns81,shared_with_me:/jY1CJ1hE4P/laptop_caca/Documents" "usowns81_sg9:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Documents" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "usowns81,shared_with_me:/jY1CJ1hE4P/laptop_caca/Links" "usowns81_sg9:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Links" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "usowns81,shared_with_me:/jY1CJ1hE4P/laptop_caca/Searches" "usowns81_sg9:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Searches" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "usowns81,shared_with_me:/jY1CJ1hE4P/laptop_caca/Desktop" "usowns81_sg9:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Desktop" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "usowns81,shared_with_me:/jY1CJ1hE4P/laptop_caca/Downloads" "usowns81_sg9:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Downloads" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "usowns81,shared_with_me:/jY1CJ1hE4P/laptop_caca/Music" "usowns81_sg9:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Music" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "usowns81,shared_with_me:/jY1CJ1hE4P/laptop_caca/Videos" "usowns81_sg9:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Videos" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+echo set "x=0"
+echo :SymLoop1
+echo if defined cacapcfolders[%%x%%] ^(
+echo     call rclone copy "calista_ar_cloddrive_computers:/%%%%cacapcfolders[%%x%%]%%%%" "usowns81_sg9:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/%%%%cacapcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+echo     set /a "x+=1"
+echo     GOTO :SymLoop1
+echo ^)
 
 echo rclone moveto "usowns81_sg9:/Caca/main_cloud/computers/laptop_caca/%%copyname%%" "usowns81_sg9:/Caca/main_cloud/computers/laptop_caca/%%copyname%%_fix"
 
@@ -1128,6 +1200,19 @@ echo cd %%userprofile%%
 
 (
 
+echo set cacapcfolders[0]=document caca
+echo set cacapcfolders[1]=com.mojang
+echo set cacapcfolders[2]=Notepad++
+echo set cacapcfolders[3]=3D Objects
+echo set cacapcfolders[4]=Desktop
+echo set cacapcfolders[5]=Downloads
+echo set cacapcfolders[6]=Music
+echo set cacapcfolders[7]=Links
+echo set cacapcfolders[8]=Pictures
+echo set cacapcfolders[9]=Videos
+echo set cacapcfolders[10]=Links
+echo set cacapcfolders[11]=Favorites
+
 echo cd %%userprofile%%
 
 echo set day=%%date:~-7,2%%
@@ -1139,18 +1224,13 @@ echo set second=%%TIME:~6,2%%
 
 echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
-echo rclone copy "9288wowj,shared_with_me:/jY1CJ1hE4P/laptop_caca/3D Objects" "9288wowj_sg10:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/3D Objects" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "9288wowj,shared_with_me:/jY1CJ1hE4P/laptop_caca/document caca" "9288wowj_sg10:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/document caca" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "9288wowj,shared_with_me:/jY1CJ1hE4P/laptop_caca/Favorites" "9288wowj_sg10:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Favorites" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "9288wowj,shared_with_me:/jY1CJ1hE4P/laptop_caca/Pictures" "9288wowj_sg10:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "9288wowj,shared_with_me:/jY1CJ1hE4P/laptop_caca/Contacts" "9288wowj_sg10:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Contacts" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "9288wowj,shared_with_me:/jY1CJ1hE4P/laptop_caca/Documents" "9288wowj_sg10:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Documents" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "9288wowj,shared_with_me:/jY1CJ1hE4P/laptop_caca/Links" "9288wowj_sg10:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Links" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "9288wowj,shared_with_me:/jY1CJ1hE4P/laptop_caca/Searches" "9288wowj_sg10:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Searches" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "9288wowj,shared_with_me:/jY1CJ1hE4P/laptop_caca/Desktop" "9288wowj_sg10:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Desktop" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "9288wowj,shared_with_me:/jY1CJ1hE4P/laptop_caca/Downloads" "9288wowj_sg10:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Downloads" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "9288wowj,shared_with_me:/jY1CJ1hE4P/laptop_caca/Music" "9288wowj_sg10:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Music" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "9288wowj,shared_with_me:/jY1CJ1hE4P/laptop_caca/Videos" "9288wowj_sg10:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/Videos" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+echo set "x=0"
+echo :SymLoop1
+echo if defined cacapcfolders[%%x%%] ^(
+echo     call rclone copy "calista_ar_cloddrive_computers:/%%%%cacapcfolders[%%x%%]%%%%" "9288wowj_sg10:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/%%%%cacapcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+echo     set /a "x+=1"
+echo     GOTO :SymLoop1
+echo ^)
 
 echo rclone moveto "9288wowj_sg10:/Caca/main_cloud/computers/laptop_caca/%%copyname%%" "9288wowj_sg10:/Caca/main_cloud/computers/laptop_caca/%%copyname%%_fix"
 
@@ -1288,6 +1368,43 @@ echo rclone move "927281jwow,shared_with_me:/jY1CJ1hE4P/main_pc/Downloads_pool" 
 
 (
 
+echo set selopcfolders[0]=a_fiyandha
+echo set selopcfolders[1]=3D Objects
+echo set selopcfolders[2]=Desktop
+echo set selopcfolders[3]=Documents
+echo set selopcfolders[4]=Videos
+echo set selopcfolders[5]=Saved Games
+echo set selopcfolders[6]=Favorites
+echo set selopcfolders[7]=Links
+echo set selopcfolders[8]=Music
+echo set selopcfolders[9]=Contacts
+echo set selopcfolders[10]=a NDF1x extended
+echo set selopcfolders[11]=Downloads
+echo set selopcfolders[12]=Pictures
+echo set selopcfolders[13]=behavior_packs
+echo set selopcfolders[14]=development_behavior_packs
+echo set selopcfolders[15]=development_resource_packs
+echo set selopcfolders[16]=development_skin_packs
+echo set selopcfolders[17]=minecraftpe
+echo set selopcfolders[18]=minecraftWorlds
+echo set selopcfolders[19]=resource_packs
+echo set selopcfolders[20]=skin_packs
+echo set selopcfolders[21]=world_templates
+echo set selopcfolders[22]=Notepad++
+echo set selopcfolders[23]=z-bat-vbs-file settings
+echo set selopcfolders[24]=rclone
+
+echo set mkdirpath[1]="otipes7948_sg10:/Selo/" 
+echo set mkdirpath[2]="otipes7948_sg10:/Selo/main_cloud/" 
+echo set mkdirpath[3]="otipes7948_sg10:/Selo/main_cloud/computers/" 
+echo set mkdirpath[4]="otipes7948_sg10:/Selo/main_cloud/computers/alyx/" 
+echo set mkdirpath[5]="otipes7948_sg10:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
+echo set mkdirpath[6]="otipes7948_sg10:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
+echo set mkdirpath[7]="otipes7948_sg10:/Caca/" 
+echo set mkdirpath[8]="otipes7948_sg10:/Caca/main_cloud/" 
+echo set mkdirpath[9]="otipes7948_sg10:/Caca/main_cloud/computers/" 
+echo set mkdirpath[10]="otipes7948_sg10:/Caca/main_cloud/computers/laptop_caca/" 
+
 echo cd %%userprofile%%
 
 echo set day=%%date:~-7,2%%
@@ -1299,42 +1416,21 @@ echo set second=%%TIME:~6,2%%
 
 echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
-echo rclone mkdir "otipes7948_sg10:/Selo/" 
-echo rclone mkdir "otipes7948_sg10:/Selo/main_cloud/" 
-echo rclone mkdir "otipes7948_sg10:/Selo/main_cloud/computers/" 
-echo rclone mkdir "otipes7948_sg10:/Selo/main_cloud/computers/alyx/" 
-echo rclone mkdir "otipes7948_sg10:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
-echo rclone mkdir "otipes7948_sg10:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/" 
-echo rclone mkdir "otipes7948_sg10:/Caca/" 
-echo rclone mkdir "otipes7948_sg10:/Caca/main_cloud/" 
-echo rclone mkdir "otipes7948_sg10:/Caca/main_cloud/computers/" 
-echo rclone mkdir "otipes7948_sg10:/Caca/main_cloud/computers/laptop_caca/" 
+REM echo set "x=0"
+REM echo :SymLoop
+REM echo if defined mkdirpath[%%x%%] (
+REM echo     call rclone mkdir %%%%mkdirpath[%%x%%]%%%%
+REM echo     set /a "x+=1"
+REM echo     GOTO :SymLoop
+REM echo ^)
 
-echo rclone copy "fcfgts_driveku_me_computers:/a_fiyandha" "otipes7948_sg10,shared_with_me:/alyx 7229179/%%copyname%%/a_fiyandha" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/3D Objects" "otipes7948_sg10,shared_with_me:/alyx 7229179/%%copyname%%/3D Objects" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Desktop" "otipes7948_sg10,shared_with_me:/alyx 7229179/%%copyname%%/Desktop" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Documents" "otipes7948_sg10,shared_with_me:/alyx 7229179/%%copyname%%/Documents" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Videos" "otipes7948_sg10,shared_with_me:/alyx 7229179/%%copyname%%/Videos" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Saved Games" "otipes7948_sg10,shared_with_me:/alyx 7229179/%%copyname%%/Saved Games" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Favorites" "otipes7948_sg10,shared_with_me:/alyx 7229179/%%copyname%%/Favorites" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Links" "otipes7948_sg10,shared_with_me:/alyx 7229179/%%copyname%%/Links" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Music" "otipes7948_sg10,shared_with_me:/alyx 7229179/%%copyname%%/Music" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Contacts" "otipes7948_sg10,shared_with_me:/alyx 7229179/%%copyname%%/Contacts" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/a NDF1x extended" "otipes7948_sg10,shared_with_me:/alyx 7229179/%%copyname%%/a NDF1x extended" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Downloads" "otipes7948_sg10,shared_with_me:/alyx 7229179/%%copyname%%/a_fiyandha/Downloads" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Pictures" "otipes7948_sg10,shared_with_me:/alyx 7229179/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/behavior_packs" "otipes7948_sg10,shared_with_me:/alyx 7229179/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/development_behavior_packs" "otipes7948_sg10,shared_with_me:/alyx 7229179/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/development_resource_packs" "otipes7948_sg10,shared_with_me:/alyx 7229179/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/development_skin_packs" "otipes7948_sg10,shared_with_me:/alyx 7229179/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/minecraftpe" "otipes7948_sg10,shared_with_me:/alyx 7229179/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/minecraftWorlds" "otipes7948_sg10,shared_with_me:/alyx 7229179/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/resource_packs" "otipes7948_sg10,shared_with_me:/alyx 7229179/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/skin_packs" "otipes7948_sg10,shared_with_me:/alyx 7229179/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/world_templates" "otipes7948_sg10,shared_with_me:/alyx 7229179/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Notepad++" "otipes7948_sg10,shared_with_me:/alyx 7229179/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/z-bat-vbs-file settings" "otipes7948_sg10,shared_with_me:/alyx 7229179/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/rclone" "otipes7948_sg10,shared_with_me:/alyx 7229179/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10 
+echo set "x=0"
+echo :SymLoop1
+echo if defined selopcfolders[%%x%%] ^(
+echo     call rclone copy "fcfgts_driveku_me_computers:/%%%%selopcfolders[%%x%%]%%%%" "otipes7948_sg10,shared_with_me:/alyx 7229179/%%copyname%%/%%%%selopcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
+echo     set /a "x+=1"
+echo     GOTO :SymLoop1
+echo ^)
 
 echo rclone moveto "otipes7948_sg10:/Selo/main_cloud/computers/alyx/%%copyname%%" "otipes7948_sg10:/Selo/main_cloud/computers/alyx/%%copyname%%_fix"
 
