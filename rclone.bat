@@ -1,12 +1,12 @@
 if not DEFINED IS_MINIMIZED set IS_MINIMIZED=1 && start "" /min "%~dpnx0" %* && exit
 
 
-:: ping www.google.com -n 1 -w 1000
-:: if errorlevel 1 exit
+REM ping www.google.com -n 1 -w 1000
+REM if errorlevel 1 exit
 
 
-::  rclone copy A B
-::  A nya gabakal usage
+REM  rclone copy A B
+REM  A nya gabakal pake usage
 
 (
 
@@ -23,16 +23,16 @@ echo rclone cleanup "jsnwj84738_sg8:/"
 echo rclone cleanup "ffdnsak8272793_sg9:/"
 echo rclone cleanup "otipes7948_sg10:/"
 
-:: echo rclone delete "aaveusdt_sg1:/" --drive-trashed-only --drive-use-trash=false --fast-list --low-level-retries 9999999999 --retries 10 
-:: echo rclone delete "renaave50_sg2:/" --drive-trashed-only --drive-use-trash=false --fast-list --low-level-retries 9999999999 --retries 10 
-:: echo rclone delete "renaave7_sg3:/" --drive-trashed-only --drive-use-trash=false --fast-list --low-level-retries 9999999999 --retries 10 
-:: echo rclone delete "oudhoh0050_sg4:/" --drive-trashed-only --drive-use-trash=false --fast-list --low-level-retries 9999999999 --retries 10 
-:: echo rclone delete "nkiux77509_sg5:/" --drive-trashed-only --drive-use-trash=false --fast-list --low-level-retries 9999999999 --retries 10 
-:: echo rclone delete "didrhj9036_sg6:/" --drive-trashed-only --drive-use-trash=false --fast-list --low-level-retries 9999999999 --retries 10 
-:: echo rclone delete "hjski8292882_sg7:/" --drive-trashed-only --drive-use-trash=false --fast-list --low-level-retries 9999999999 --retries 10 
-:: echo rclone delete "jsnwj84738_sg8:/" --drive-trashed-only --drive-use-trash=false --fast-list --low-level-retries 9999999999 --retries 10 
-:: echo rclone delete "ffdnsak8272793_sg9:/" --drive-trashed-only --drive-use-trash=false --fast-list --low-level-retries 9999999999 --retries 10 
-:: echo rclone delete "otipes7948_sg10:/" --drive-trashed-only --drive-use-trash=false --fast-list --low-level-retries 9999999999 --retries 10 
+REM echo rclone delete "aaveusdt_sg1:/" --drive-trashed-only --drive-use-trash=false --fast-list --low-level-retries 9999999999 --retries 10 
+REM echo rclone delete "renaave50_sg2:/" --drive-trashed-only --drive-use-trash=false --fast-list --low-level-retries 9999999999 --retries 10 
+REM echo rclone delete "renaave7_sg3:/" --drive-trashed-only --drive-use-trash=false --fast-list --low-level-retries 9999999999 --retries 10 
+REM echo rclone delete "oudhoh0050_sg4:/" --drive-trashed-only --drive-use-trash=false --fast-list --low-level-retries 9999999999 --retries 10 
+REM echo rclone delete "nkiux77509_sg5:/" --drive-trashed-only --drive-use-trash=false --fast-list --low-level-retries 9999999999 --retries 10 
+REM echo rclone delete "didrhj9036_sg6:/" --drive-trashed-only --drive-use-trash=false --fast-list --low-level-retries 9999999999 --retries 10 
+REM echo rclone delete "hjski8292882_sg7:/" --drive-trashed-only --drive-use-trash=false --fast-list --low-level-retries 9999999999 --retries 10 
+REM echo rclone delete "jsnwj84738_sg8:/" --drive-trashed-only --drive-use-trash=false --fast-list --low-level-retries 9999999999 --retries 10 
+REM echo rclone delete "ffdnsak8272793_sg9:/" --drive-trashed-only --drive-use-trash=false --fast-list --low-level-retries 9999999999 --retries 10 
+REM echo rclone delete "otipes7948_sg10:/" --drive-trashed-only --drive-use-trash=false --fast-list --low-level-retries 9999999999 --retries 10 
 
 echo rclone mkdir "fcfgts_driveku_me:/Colab Notebooks
 echo rclone mkdir "fcfgts_driveku_me:/Files
@@ -43,13 +43,13 @@ echo rclone mkdir "fcfgts_driveku_me:/Unlimtd Copy/Computers
 echo rclone mkdir "fcfgts_driveku_me:/Unlimtd Copy/Downloads_pool_83174
 echo rclone mkdir "fcfgts_driveku_me:/Unlimtd Copy/Minecraft
 
-:: echo rclone mkdir "fcfgts_driveku_me:/
-:: echo rclone mkdir "fcfgts_driveku_me:/
-:: echo rclone mkdir "fcfgts_driveku_me:/
-:: echo rclone mkdir "fcfgts_driveku_me:/
-:: echo rclone mkdir "fcfgts_driveku_me:/
-:: echo rclone mkdir "fcfgts_driveku_me:/
-:: echo rclone mkdir "fcfgts_driveku_me:/
+REM echo rclone mkdir "fcfgts_driveku_me:/
+REM echo rclone mkdir "fcfgts_driveku_me:/
+REM echo rclone mkdir "fcfgts_driveku_me:/
+REM echo rclone mkdir "fcfgts_driveku_me:/
+REM echo rclone mkdir "fcfgts_driveku_me:/
+REM echo rclone mkdir "fcfgts_driveku_me:/
+REM echo rclone mkdir "fcfgts_driveku_me:/
 
 
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_1.bat"
@@ -90,16 +90,16 @@ echo set selopcfolders[22]=Notepad++
 echo set selopcfolders[23]=z-bat-vbs-file settings
 echo set selopcfolders[24]=rclone
 
-echo ::set mkdirpath[1]="aaveusdt_sg1:/Selo/" 
-echo ::set mkdirpath[2]="aaveusdt_sg1:/Selo/main_cloud/" 
-echo ::set mkdirpath[3]="aaveusdt_sg1:/Selo/main_cloud/computers/" 
-echo ::set mkdirpath[4]="aaveusdt_sg1:/Selo/main_cloud/computers/alyx/" 
-echo ::set mkdirpath[5]="aaveusdt_sg1:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
-echo ::set mkdirpath[6]="aaveusdt_sg1:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
-echo ::set mkdirpath[7]="aaveusdt_sg1:/Caca/" 
-echo ::set mkdirpath[8]="aaveusdt_sg1:/Caca/main_cloud/" 
-echo ::set mkdirpath[9]="aaveusdt_sg1:/Caca/main_cloud/computers/" 
-echo ::set mkdirpath[10]="aaveusdt_sg1:/Caca/main_cloud/computers/laptop_caca/" 
+echo REMset mkdirpath[1]="aaveusdt_sg1:/Selo/" 
+echo REMset mkdirpath[2]="aaveusdt_sg1:/Selo/main_cloud/" 
+echo REMset mkdirpath[3]="aaveusdt_sg1:/Selo/main_cloud/computers/" 
+echo REMset mkdirpath[4]="aaveusdt_sg1:/Selo/main_cloud/computers/alyx/" 
+echo REMset mkdirpath[5]="aaveusdt_sg1:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
+echo REMset mkdirpath[6]="aaveusdt_sg1:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
+echo REMset mkdirpath[7]="aaveusdt_sg1:/Caca/" 
+echo REMset mkdirpath[8]="aaveusdt_sg1:/Caca/main_cloud/" 
+echo REMset mkdirpath[9]="aaveusdt_sg1:/Caca/main_cloud/computers/" 
+echo REMset mkdirpath[10]="aaveusdt_sg1:/Caca/main_cloud/computers/laptop_caca/" 
 
 echo cd %%userprofile%%
 
@@ -164,16 +164,16 @@ echo set selopcfolders[22]=Notepad++
 echo set selopcfolders[23]=z-bat-vbs-file settings
 echo set selopcfolders[24]=rclone
 
-echo ::set mkdirpath[0]="renaave50_sg2:/Selo/" 
-echo ::set mkdirpath[1]="renaave50_sg2:/Selo/main_cloud/" 
-echo ::set mkdirpath[2]="renaave50_sg2:/Selo/main_cloud/computers/" 
-echo ::set mkdirpath[3]="renaave50_sg2:/Selo/main_cloud/computers/alyx/" 
-echo ::set mkdirpath[4]="renaave50_sg2:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
-echo ::set mkdirpath[5]="renaave50_sg2:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
-echo ::set mkdirpath[6]="renaave50_sg2:/Caca/" 
-echo ::set mkdirpath[7]="renaave50_sg2:/Caca/main_cloud/" 
-echo ::set mkdirpath[8]="renaave50_sg2:/Caca/main_cloud/computers/" 
-echo ::set mkdirpath[9]="renaave50_sg2:/Caca/main_cloud/computers/laptop_caca/" 
+echo REMset mkdirpath[0]="renaave50_sg2:/Selo/" 
+echo REMset mkdirpath[1]="renaave50_sg2:/Selo/main_cloud/" 
+echo REMset mkdirpath[2]="renaave50_sg2:/Selo/main_cloud/computers/" 
+echo REMset mkdirpath[3]="renaave50_sg2:/Selo/main_cloud/computers/alyx/" 
+echo REMset mkdirpath[4]="renaave50_sg2:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
+echo REMset mkdirpath[5]="renaave50_sg2:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
+echo REMset mkdirpath[6]="renaave50_sg2:/Caca/" 
+echo REMset mkdirpath[7]="renaave50_sg2:/Caca/main_cloud/" 
+echo REMset mkdirpath[8]="renaave50_sg2:/Caca/main_cloud/computers/" 
+echo REMset mkdirpath[9]="renaave50_sg2:/Caca/main_cloud/computers/laptop_caca/" 
 
 echo cd %%userprofile%%
 
@@ -239,16 +239,16 @@ echo set selopcfolders[22]=Notepad++
 echo set selopcfolders[23]=z-bat-vbs-file settings
 echo set selopcfolders[24]=rclone
 
-echo ::set mkdirpath[0]="renaave7_sg3:/Selo/" 
-echo ::set mkdirpath[1]="renaave7_sg3:/Selo/main_cloud/" 
-echo ::set mkdirpath[2]="renaave7_sg3:/Selo/main_cloud/computers/" 
-echo ::set mkdirpath[3]="renaave7_sg3:/Selo/main_cloud/computers/alyx/" 
-echo ::set mkdirpath[4]="renaave7_sg3:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
-echo ::set mkdirpath[5]="renaave7_sg3:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
-echo ::set mkdirpath[6]="renaave7_sg3:/Caca/" 
-echo ::set mkdirpath[7]="renaave7_sg3:/Caca/main_cloud/" 
-echo ::set mkdirpath[8]="renaave7_sg3:/Caca/main_cloud/computers/" 
-echo ::set mkdirpath[9]="renaave7_sg3:/Caca/main_cloud/computers/laptop_caca/" 
+echo REMset mkdirpath[0]="renaave7_sg3:/Selo/" 
+echo REMset mkdirpath[1]="renaave7_sg3:/Selo/main_cloud/" 
+echo REMset mkdirpath[2]="renaave7_sg3:/Selo/main_cloud/computers/" 
+echo REMset mkdirpath[3]="renaave7_sg3:/Selo/main_cloud/computers/alyx/" 
+echo REMset mkdirpath[4]="renaave7_sg3:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
+echo REMset mkdirpath[5]="renaave7_sg3:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
+echo REMset mkdirpath[6]="renaave7_sg3:/Caca/" 
+echo REMset mkdirpath[7]="renaave7_sg3:/Caca/main_cloud/" 
+echo REMset mkdirpath[8]="renaave7_sg3:/Caca/main_cloud/computers/" 
+echo REMset mkdirpath[9]="renaave7_sg3:/Caca/main_cloud/computers/laptop_caca/" 
 
 echo cd %%userprofile%%
 
@@ -314,16 +314,16 @@ echo set selopcfolders[22]=Notepad++
 echo set selopcfolders[23]=z-bat-vbs-file settings
 echo set selopcfolders[24]=rclone
 
-echo ::set mkdirpath[0]="oudhoh0050_sg4:/Selo/" 
-echo ::set mkdirpath[1]="oudhoh0050_sg4:/Selo/main_cloud/" 
-echo ::set mkdirpath[2]="oudhoh0050_sg4:/Selo/main_cloud/computers/" 
-echo ::set mkdirpath[3]="oudhoh0050_sg4:/Selo/main_cloud/computers/alyx/" 
-echo ::set mkdirpath[4]="oudhoh0050_sg4:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
-echo ::set mkdirpath[5]="oudhoh0050_sg4:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
-echo ::set mkdirpath[6]="oudhoh0050_sg4:/Caca/" 
-echo ::set mkdirpath[7]="oudhoh0050_sg4:/Caca/main_cloud/" 
-echo ::set mkdirpath[8]="oudhoh0050_sg4:/Caca/main_cloud/computers/" 
-echo ::set mkdirpath[9]="oudhoh0050_sg4:/Caca/main_cloud/computers/laptop_caca/" 
+echo REMset mkdirpath[0]="oudhoh0050_sg4:/Selo/" 
+echo REMset mkdirpath[1]="oudhoh0050_sg4:/Selo/main_cloud/" 
+echo REMset mkdirpath[2]="oudhoh0050_sg4:/Selo/main_cloud/computers/" 
+echo REMset mkdirpath[3]="oudhoh0050_sg4:/Selo/main_cloud/computers/alyx/" 
+echo REMset mkdirpath[4]="oudhoh0050_sg4:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
+echo REMset mkdirpath[5]="oudhoh0050_sg4:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
+echo REMset mkdirpath[6]="oudhoh0050_sg4:/Caca/" 
+echo REMset mkdirpath[7]="oudhoh0050_sg4:/Caca/main_cloud/" 
+echo REMset mkdirpath[8]="oudhoh0050_sg4:/Caca/main_cloud/computers/" 
+echo REMset mkdirpath[9]="oudhoh0050_sg4:/Caca/main_cloud/computers/laptop_caca/" 
 
 echo cd %%userprofile%%
 
@@ -389,16 +389,16 @@ echo set selopcfolders[22]=Notepad++
 echo set selopcfolders[23]=z-bat-vbs-file settings
 echo set selopcfolders[24]=rclone
 
-echo ::set mkdirpath[0]="nkiux77509_sg5:/Selo/" 
-echo ::set mkdirpath[1]="nkiux77509_sg5:/Selo/main_cloud/" 
-echo ::set mkdirpath[2]="nkiux77509_sg5:/Selo/main_cloud/computers/" 
-echo ::set mkdirpath[3]="nkiux77509_sg5:/Selo/main_cloud/computers/alyx/" 
-echo ::set mkdirpath[4]="nkiux77509_sg5:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
-echo ::set mkdirpath[5]="nkiux77509_sg5:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
-echo ::set mkdirpath[6]="nkiux77509_sg5:/Caca/" 
-echo ::set mkdirpath[7]="nkiux77509_sg5:/Caca/main_cloud/" 
-echo ::set mkdirpath[8]="nkiux77509_sg5:/Caca/main_cloud/computers/" 
-echo ::set mkdirpath[9]="nkiux77509_sg5:/Caca/main_cloud/computers/laptop_caca/" 
+echo REMset mkdirpath[0]="nkiux77509_sg5:/Selo/" 
+echo REMset mkdirpath[1]="nkiux77509_sg5:/Selo/main_cloud/" 
+echo REMset mkdirpath[2]="nkiux77509_sg5:/Selo/main_cloud/computers/" 
+echo REMset mkdirpath[3]="nkiux77509_sg5:/Selo/main_cloud/computers/alyx/" 
+echo REMset mkdirpath[4]="nkiux77509_sg5:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
+echo REMset mkdirpath[5]="nkiux77509_sg5:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
+echo REMset mkdirpath[6]="nkiux77509_sg5:/Caca/" 
+echo REMset mkdirpath[7]="nkiux77509_sg5:/Caca/main_cloud/" 
+echo REMset mkdirpath[8]="nkiux77509_sg5:/Caca/main_cloud/computers/" 
+echo REMset mkdirpath[9]="nkiux77509_sg5:/Caca/main_cloud/computers/laptop_caca/" 
 
 echo cd %%userprofile%%
 
@@ -464,16 +464,16 @@ echo set selopcfolders[22]=Notepad++
 echo set selopcfolders[23]=z-bat-vbs-file settings
 echo set selopcfolders[24]=rclone
 
-echo ::set mkdirpath[0]="didrhj9036_sg6:/Selo/" 
-echo ::set mkdirpath[1]="didrhj9036_sg6:/Selo/main_cloud/" 
-echo ::set mkdirpath[2]="didrhj9036_sg6:/Selo/main_cloud/computers/" 
-echo ::set mkdirpath[3]="didrhj9036_sg6:/Selo/main_cloud/computers/alyx/" 
-echo ::set mkdirpath[4]="didrhj9036_sg6:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
-echo ::set mkdirpath[5]="didrhj9036_sg6:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
-echo ::set mkdirpath[6]="didrhj9036_sg6:/Caca/" 
-echo ::set mkdirpath[7]="didrhj9036_sg6:/Caca/main_cloud/" 
-echo ::set mkdirpath[8]="didrhj9036_sg6:/Caca/main_cloud/computers/" 
-echo ::set mkdirpath[9]="didrhj9036_sg6:/Caca/main_cloud/computers/laptop_caca/" 
+echo REMset mkdirpath[0]="didrhj9036_sg6:/Selo/" 
+echo REMset mkdirpath[1]="didrhj9036_sg6:/Selo/main_cloud/" 
+echo REMset mkdirpath[2]="didrhj9036_sg6:/Selo/main_cloud/computers/" 
+echo REMset mkdirpath[3]="didrhj9036_sg6:/Selo/main_cloud/computers/alyx/" 
+echo REMset mkdirpath[4]="didrhj9036_sg6:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
+echo REMset mkdirpath[5]="didrhj9036_sg6:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
+echo REMset mkdirpath[6]="didrhj9036_sg6:/Caca/" 
+echo REMset mkdirpath[7]="didrhj9036_sg6:/Caca/main_cloud/" 
+echo REMset mkdirpath[8]="didrhj9036_sg6:/Caca/main_cloud/computers/" 
+echo REMset mkdirpath[9]="didrhj9036_sg6:/Caca/main_cloud/computers/laptop_caca/" 
 
 echo cd %%userprofile%%
 
@@ -539,16 +539,16 @@ echo set selopcfolders[22]=Notepad++
 echo set selopcfolders[23]=z-bat-vbs-file settings
 echo set selopcfolders[24]=rclone
 
-echo ::set mkdirpath[0]="hjski8292882_sg7:/Selo/" 
-echo ::set mkdirpath[1]="hjski8292882_sg7:/Selo/main_cloud/" 
-echo ::set mkdirpath[2]="hjski8292882_sg7:/Selo/main_cloud/computers/" 
-echo ::set mkdirpath[3]="hjski8292882_sg7:/Selo/main_cloud/computers/alyx/" 
-echo ::set mkdirpath[4]="hjski8292882_sg7:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
-echo ::set mkdirpath[5]="hjski8292882_sg7:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
-echo ::set mkdirpath[6]="hjski8292882_sg7:/Caca/" 
-echo ::set mkdirpath[7]="hjski8292882_sg7:/Caca/main_cloud/" 
-echo ::set mkdirpath[8]="hjski8292882_sg7:/Caca/main_cloud/computers/" 
-echo ::set mkdirpath[9]="hjski8292882_sg7:/Caca/main_cloud/computers/laptop_caca/" 
+echo REMset mkdirpath[0]="hjski8292882_sg7:/Selo/" 
+echo REMset mkdirpath[1]="hjski8292882_sg7:/Selo/main_cloud/" 
+echo REMset mkdirpath[2]="hjski8292882_sg7:/Selo/main_cloud/computers/" 
+echo REMset mkdirpath[3]="hjski8292882_sg7:/Selo/main_cloud/computers/alyx/" 
+echo REMset mkdirpath[4]="hjski8292882_sg7:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
+echo REMset mkdirpath[5]="hjski8292882_sg7:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
+echo REMset mkdirpath[6]="hjski8292882_sg7:/Caca/" 
+echo REMset mkdirpath[7]="hjski8292882_sg7:/Caca/main_cloud/" 
+echo REMset mkdirpath[8]="hjski8292882_sg7:/Caca/main_cloud/computers/" 
+echo REMset mkdirpath[9]="hjski8292882_sg7:/Caca/main_cloud/computers/laptop_caca/" 
 
 echo cd %%userprofile%%
 
@@ -614,16 +614,16 @@ echo set selopcfolders[22]=Notepad++
 echo set selopcfolders[23]=z-bat-vbs-file settings
 echo set selopcfolders[24]=rclone
 
-echo ::set mkdirpath[0]="jsnwj84738_sg8:/Selo/" 
-echo ::set mkdirpath[1]="jsnwj84738_sg8:/Selo/main_cloud/" 
-echo ::set mkdirpath[2]="jsnwj84738_sg8:/Selo/main_cloud/computers/" 
-echo ::set mkdirpath[3]="jsnwj84738_sg8:/Selo/main_cloud/computers/alyx/" 
-echo ::set mkdirpath[4]="jsnwj84738_sg8:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
-echo ::set mkdirpath[5]="jsnwj84738_sg8:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
-echo ::set mkdirpath[6]="jsnwj84738_sg8:/Caca/" 
-echo ::set mkdirpath[7]="jsnwj84738_sg8:/Caca/main_cloud/" 
-echo ::set mkdirpath[8]="jsnwj84738_sg8:/Caca/main_cloud/computers/" 
-echo ::set mkdirpath[9]="jsnwj84738_sg8:/Caca/main_cloud/computers/laptop_caca/" 
+echo REMset mkdirpath[0]="jsnwj84738_sg8:/Selo/" 
+echo REMset mkdirpath[1]="jsnwj84738_sg8:/Selo/main_cloud/" 
+echo REMset mkdirpath[2]="jsnwj84738_sg8:/Selo/main_cloud/computers/" 
+echo REMset mkdirpath[3]="jsnwj84738_sg8:/Selo/main_cloud/computers/alyx/" 
+echo REMset mkdirpath[4]="jsnwj84738_sg8:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
+echo REMset mkdirpath[5]="jsnwj84738_sg8:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
+echo REMset mkdirpath[6]="jsnwj84738_sg8:/Caca/" 
+echo REMset mkdirpath[7]="jsnwj84738_sg8:/Caca/main_cloud/" 
+echo REMset mkdirpath[8]="jsnwj84738_sg8:/Caca/main_cloud/computers/" 
+echo REMset mkdirpath[9]="jsnwj84738_sg8:/Caca/main_cloud/computers/laptop_caca/" 
 
 echo cd %%userprofile%%
 
@@ -689,16 +689,16 @@ echo set selopcfolders[22]=Notepad++
 echo set selopcfolders[23]=z-bat-vbs-file settings
 echo set selopcfolders[24]=rclone
 
-echo ::set mkdirpath[0]="ffdnsak8272793_sg9:/Selo/" 
-echo ::set mkdirpath[1]="ffdnsak8272793_sg9:/Selo/main_cloud/" 
-echo ::set mkdirpath[2]="ffdnsak8272793_sg9:/Selo/main_cloud/computers/" 
-echo ::set mkdirpath[3]="ffdnsak8272793_sg9:/Selo/main_cloud/computers/alyx/" 
-echo ::set mkdirpath[4]="ffdnsak8272793_sg9:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
-echo ::set mkdirpath[5]="ffdnsak8272793_sg9:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
-echo ::set mkdirpath[6]="ffdnsak8272793_sg9:/Caca/" 
-echo ::set mkdirpath[7]="ffdnsak8272793_sg9:/Caca/main_cloud/" 
-echo ::set mkdirpath[8]="ffdnsak8272793_sg9:/Caca/main_cloud/computers/" 
-echo ::set mkdirpath[9]="ffdnsak8272793_sg9:/Caca/main_cloud/computers/laptop_caca/" 
+echo REMset mkdirpath[0]="ffdnsak8272793_sg9:/Selo/" 
+echo REMset mkdirpath[1]="ffdnsak8272793_sg9:/Selo/main_cloud/" 
+echo REMset mkdirpath[2]="ffdnsak8272793_sg9:/Selo/main_cloud/computers/" 
+echo REMset mkdirpath[3]="ffdnsak8272793_sg9:/Selo/main_cloud/computers/alyx/" 
+echo REMset mkdirpath[4]="ffdnsak8272793_sg9:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
+echo REMset mkdirpath[5]="ffdnsak8272793_sg9:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
+echo REMset mkdirpath[6]="ffdnsak8272793_sg9:/Caca/" 
+echo REMset mkdirpath[7]="ffdnsak8272793_sg9:/Caca/main_cloud/" 
+echo REMset mkdirpath[8]="ffdnsak8272793_sg9:/Caca/main_cloud/computers/" 
+echo REMset mkdirpath[9]="ffdnsak8272793_sg9:/Caca/main_cloud/computers/laptop_caca/" 
 
 echo cd %%userprofile%%
 
@@ -764,16 +764,16 @@ echo set selopcfolders[22]=Notepad++
 echo set selopcfolders[23]=z-bat-vbs-file settings
 echo set selopcfolders[24]=rclone
 
-echo ::set mkdirpath[0]="otipes7948_sg10:/Selo/" 
-echo ::set mkdirpath[1]="otipes7948_sg10:/Selo/main_cloud/" 
-echo ::set mkdirpath[2]="otipes7948_sg10:/Selo/main_cloud/computers/" 
-echo ::set mkdirpath[3]="otipes7948_sg10:/Selo/main_cloud/computers/alyx/" 
-echo ::set mkdirpath[4]="otipes7948_sg10:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
-echo ::set mkdirpath[5]="otipes7948_sg10:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
-echo ::set mkdirpath[6]="otipes7948_sg10:/Caca/" 
-echo ::set mkdirpath[7]="otipes7948_sg10:/Caca/main_cloud/" 
-echo ::set mkdirpath[8]="otipes7948_sg10:/Caca/main_cloud/computers/" 
-echo ::set mkdirpath[9]="otipes7948_sg10:/Caca/main_cloud/computers/laptop_caca/" 
+echo REMset mkdirpath[0]="otipes7948_sg10:/Selo/" 
+echo REMset mkdirpath[1]="otipes7948_sg10:/Selo/main_cloud/" 
+echo REMset mkdirpath[2]="otipes7948_sg10:/Selo/main_cloud/computers/" 
+echo REMset mkdirpath[3]="otipes7948_sg10:/Selo/main_cloud/computers/alyx/" 
+echo REMset mkdirpath[4]="otipes7948_sg10:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
+echo REMset mkdirpath[5]="otipes7948_sg10:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
+echo REMset mkdirpath[6]="otipes7948_sg10:/Caca/" 
+echo REMset mkdirpath[7]="otipes7948_sg10:/Caca/main_cloud/" 
+echo REMset mkdirpath[8]="otipes7948_sg10:/Caca/main_cloud/computers/" 
+echo REMset mkdirpath[9]="otipes7948_sg10:/Caca/main_cloud/computers/laptop_caca/" 
 
 echo cd %%userprofile%%
 
@@ -811,7 +811,7 @@ echo cd %%userprofile%%
 
 
 
-::  Cacaaaa   _______________________________________________________
+REM  Cacaaaa   _______________________________________________________
 
 (
 
@@ -1394,16 +1394,16 @@ echo set selopcfolders[22]=Notepad++
 echo set selopcfolders[23]=z-bat-vbs-file settings
 echo set selopcfolders[24]=rclone
 
-echo ::set mkdirpath[1]="otipes7948_sg10:/Selo/" 
-echo ::set mkdirpath[2]="otipes7948_sg10:/Selo/main_cloud/" 
-echo ::set mkdirpath[3]="otipes7948_sg10:/Selo/main_cloud/computers/" 
-echo ::set mkdirpath[4]="otipes7948_sg10:/Selo/main_cloud/computers/alyx/" 
-echo ::set mkdirpath[5]="otipes7948_sg10:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
-echo ::set mkdirpath[6]="otipes7948_sg10:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
-echo ::set mkdirpath[7]="otipes7948_sg10:/Caca/" 
-echo ::set mkdirpath[8]="otipes7948_sg10:/Caca/main_cloud/" 
-echo ::set mkdirpath[9]="otipes7948_sg10:/Caca/main_cloud/computers/" 
-echo ::set mkdirpath[10]="otipes7948_sg10:/Caca/main_cloud/computers/laptop_caca/" 
+echo REMset mkdirpath[1]="otipes7948_sg10:/Selo/" 
+echo REMset mkdirpath[2]="otipes7948_sg10:/Selo/main_cloud/" 
+echo REMset mkdirpath[3]="otipes7948_sg10:/Selo/main_cloud/computers/" 
+echo REMset mkdirpath[4]="otipes7948_sg10:/Selo/main_cloud/computers/alyx/" 
+echo REMset mkdirpath[5]="otipes7948_sg10:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
+echo REMset mkdirpath[6]="otipes7948_sg10:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
+echo REMset mkdirpath[7]="otipes7948_sg10:/Caca/" 
+echo REMset mkdirpath[8]="otipes7948_sg10:/Caca/main_cloud/" 
+echo REMset mkdirpath[9]="otipes7948_sg10:/Caca/main_cloud/computers/" 
+echo REMset mkdirpath[10]="otipes7948_sg10:/Caca/main_cloud/computers/laptop_caca/" 
 
 echo cd %%userprofile%%
 
@@ -1458,28 +1458,13 @@ echo rclone copy "fcfgts_driveku_me,shared_with_me:/" "fcfgts_driveku_me:/Shared
 
 
 
-:: (
+REM (
 
-:: echo cd %%userprofile%%
+REM echo cd %%userprofile%%
 
-:: echo rclone copy "rama_sman5,shared_with_me:/" "rama_sman5:/Shared" --drive-server-side-across-configs --drive-keep-revision-forever --auto-confirm --quiet --track-renames --drive-allow-import-name-change --ignore-errors  --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 15G --max-depth 999999 --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10    --drive-skip-dangling-shortcuts --drive-skip-shortcuts 
+REM echo rclone copy "rama_sman5,shared_with_me:/" "rama_sman5:/Shared" --drive-server-side-across-configs --drive-keep-revision-forever --auto-confirm --quiet --track-renames --drive-allow-import-name-change --ignore-errors  --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 15G --max-depth 999999 --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10    --drive-skip-dangling-shortcuts --drive-skip-shortcuts 
 
-:: )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_24.bat"
-
-
-
-
-
-
-
-
-:: (
-
-:: echo cd %%userprofile%%
-
-:: echo rclone copy "fcfgts_driveku_me,shared_with_me:/" "fcfgts_driveku_me/shared docs"  --drive-server-side-across-configs --drive-keep-revision-forever --auto-confirm --quiet --track-renames --drive-allow-import-name-change --ignore-errors  --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious --include "*.{pptx,docx,html,txt,json,xlsx,xls,doc,ppt,rtf}" --low-level-retries 9999999999 --retries 10    --drive-skip-dangling-shortcuts --drive-skip-shortcuts 
-
-:: )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_25.bat"
+REM )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_24.bat"
 
 
 
@@ -1487,7 +1472,22 @@ echo rclone copy "fcfgts_driveku_me,shared_with_me:/" "fcfgts_driveku_me:/Shared
 
 
 
-::    sg10 ada diatas no 11
+
+REM (
+
+REM echo cd %%userprofile%%
+
+REM echo rclone copy "fcfgts_driveku_me,shared_with_me:/" "fcfgts_driveku_me/shared docs"  --drive-server-side-across-configs --drive-keep-revision-forever --auto-confirm --quiet --track-renames --drive-allow-import-name-change --ignore-errors  --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious --include "*.{pptx,docx,html,txt,json,xlsx,xls,doc,ppt,rtf}" --low-level-retries 9999999999 --retries 10    --drive-skip-dangling-shortcuts --drive-skip-shortcuts 
+
+REM )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_25.bat"
+
+
+
+
+
+
+
+REM    sg10 ada diatas no 11
 
 
 "C:\a_fiyandha\z-bat-vbs-file\rclone\rclone.vbs"
