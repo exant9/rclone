@@ -93,7 +93,7 @@ echo set selopcfolders[24]=rclone
 echo set mkdirpath[1]="aaveusdt_sg1:/Selo/" 
 echo set mkdirpath[2]="aaveusdt_sg1:/Selo/main_cloud/" 
 echo set mkdirpath[3]="aaveusdt_sg1:/Selo/main_cloud/computers/" 
-echo set mkdirpath[4]="aaveusdt_sg1:/Selo/main_cloud/computers/main_pc/" 
+echo set mkdirpath[4]="aaveusdt_sg1:/Selo/main_cloud/computers/alyx/" 
 echo set mkdirpath[5]="aaveusdt_sg1:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
 echo set mkdirpath[6]="aaveusdt_sg1:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
 echo set mkdirpath[7]="aaveusdt_sg1:/Caca/" 
@@ -112,23 +112,23 @@ echo set second=%%TIME:~6,2%%
 
 echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
-echo set "x=0"
-echo :SymLoop
-echo if defined mkdirpath[%%x%%] (
-echo     call rclone mkdir %%%%mkdirpath[%%x%%]%%%%
-echo     set /a "x+=1"
-echo     GOTO :SymLoop
-echo ^)
+REM echo set "x=0"
+REM echo :SymLoop
+REM echo if defined mkdirpath[%%x%%] (
+REM echo     call rclone mkdir %%%%mkdirpath[%%x%%]%%%%
+REM echo     set /a "x+=1"
+REM echo     GOTO :SymLoop
+REM echo ^)
 
 echo set "x=0"
 echo :SymLoop1
 echo if defined selopcfolders[%%x%%] ^(
-echo     call rclone copy "fcfgts_driveku_me_computers:/%%%%selopcfolders[%%x%%]%%%%" "aaveusdt_sg1:/Selo/main_cloud/computers/main_pc/%%copyname%%/%%%%selopcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10
+echo     call rclone copy "fcfgts_driveku_me_computers:/%%%%selopcfolders[%%x%%]%%%%" "aaveusdt_sg1:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selopcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1
 echo ^)
 
-echo rclone moveto "aaveusdt_sg1:/Selo/main_cloud/computers/main_pc/%%copyname%%" "aaveusdt_sg1:/Selo/main_cloud/computers/main_pc/%%copyname%%_fix"
+echo rclone moveto "aaveusdt_sg1:/Selo/main_cloud/computers/alyx/%%copyname%%" "aaveusdt_sg1:/Selo/main_cloud/computers/alyx/%%copyname%%_fix"
 
 echo cd %%userprofile%%
 
@@ -167,7 +167,7 @@ echo set selopcfolders[24]=rclone
 echo set mkdirpath[0]="aaveusdt_sg1:/Selo/" 
 echo set mkdirpath[1]="aaveusdt_sg1:/Selo/main_cloud/" 
 echo set mkdirpath[2]="aaveusdt_sg1:/Selo/main_cloud/computers/" 
-echo set mkdirpath[3]="aaveusdt_sg1:/Selo/main_cloud/computers/main_pc/" 
+echo set mkdirpath[3]="aaveusdt_sg1:/Selo/main_cloud/computers/alyx/" 
 echo set mkdirpath[4]="aaveusdt_sg1:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
 echo set mkdirpath[5]="aaveusdt_sg1:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
 echo set mkdirpath[6]="aaveusdt_sg1:/Caca/" 
@@ -197,12 +197,12 @@ echo ^)
 echo set "x=0"
 echo :SymLoop1
 echo if defined selopcfolders[%%x%%] ^(
-echo     call rclone copy "fcfgts_driveku_me_computers:/%%%%selopcfolders[%%x%%]%%%%" "aaveusdt_sg1:/Selo/main_cloud/computers/main_pc/%%copyname%%/%%%%selopcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10
+echo     call rclone copy "fcfgts_driveku_me_computers:/%%%%selopcfolders[%%x%%]%%%%" "aaveusdt_sg1:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selopcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1
 echo ^)
 
-echo rclone moveto "renaave50_sg2:/Selo/main_cloud/computers/main_pc/%%copyname%%" "renaave50_sg2:/Selo/main_cloud/computers/main_pc/%%copyname%%_fix"
+echo rclone moveto "renaave50_sg2:/Selo/main_cloud/computers/alyx/%%copyname%%" "renaave50_sg2:/Selo/main_cloud/computers/alyx/%%copyname%%_fix"
 
 echo cd %%userprofile%%
 
@@ -242,7 +242,7 @@ echo set selopcfolders[24]=rclone
 echo set mkdirpath[0]="aaveusdt_sg1:/Selo/" 
 echo set mkdirpath[1]="aaveusdt_sg1:/Selo/main_cloud/" 
 echo set mkdirpath[2]="aaveusdt_sg1:/Selo/main_cloud/computers/" 
-echo set mkdirpath[3]="aaveusdt_sg1:/Selo/main_cloud/computers/main_pc/" 
+echo set mkdirpath[3]="aaveusdt_sg1:/Selo/main_cloud/computers/alyx/" 
 echo set mkdirpath[4]="aaveusdt_sg1:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
 echo set mkdirpath[5]="aaveusdt_sg1:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
 echo set mkdirpath[6]="aaveusdt_sg1:/Caca/" 
@@ -261,23 +261,23 @@ echo set second=%%TIME:~6,2%%
 
 echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
-echo set "x=0"
-echo :SymLoop
-echo if defined mkdirpath[%%x%%] (
-echo     call rclone mkdir %%%%mkdirpath[%%x%%]%%%%
-echo     set /a "x+=1"
-echo     GOTO :SymLoop
-echo ^)
+REM echo set "x=0"
+REM echo :SymLoop
+REM echo if defined mkdirpath[%%x%%] (
+REM echo     call rclone mkdir %%%%mkdirpath[%%x%%]%%%%
+REM echo     set /a "x+=1"
+REM echo     GOTO :SymLoop
+REM echo ^)
 
 echo set "x=0"
 echo :SymLoop1
 echo if defined selopcfolders[%%x%%] ^(
-echo     call rclone copy "fcfgts_driveku_me_computers:/%%%%selopcfolders[%%x%%]%%%%" "aaveusdt_sg1:/Selo/main_cloud/computers/main_pc/%%copyname%%/%%%%selopcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10
+echo     call rclone copy "fcfgts_driveku_me_computers:/%%%%selopcfolders[%%x%%]%%%%" "aaveusdt_sg1:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selopcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1
 echo ^)
 
-echo rclone moveto "renaave7_sg3:/Selo/main_cloud/computers/main_pc/%%copyname%%" "renaave7_sg3:/Selo/main_cloud/computers/main_pc/%%copyname%%_fix"
+echo rclone moveto "renaave7_sg3:/Selo/main_cloud/computers/alyx/%%copyname%%" "renaave7_sg3:/Selo/main_cloud/computers/alyx/%%copyname%%_fix"
 
 echo cd %%userprofile%%
 
@@ -317,7 +317,7 @@ echo set selopcfolders[24]=rclone
 echo set mkdirpath[0]="aaveusdt_sg1:/Selo/" 
 echo set mkdirpath[1]="aaveusdt_sg1:/Selo/main_cloud/" 
 echo set mkdirpath[2]="aaveusdt_sg1:/Selo/main_cloud/computers/" 
-echo set mkdirpath[3]="aaveusdt_sg1:/Selo/main_cloud/computers/main_pc/" 
+echo set mkdirpath[3]="aaveusdt_sg1:/Selo/main_cloud/computers/alyx/" 
 echo set mkdirpath[4]="aaveusdt_sg1:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
 echo set mkdirpath[5]="aaveusdt_sg1:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
 echo set mkdirpath[6]="aaveusdt_sg1:/Caca/" 
@@ -336,23 +336,23 @@ echo set second=%%TIME:~6,2%%
 
 echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
-echo set "x=0"
-echo :SymLoop
-echo if defined mkdirpath[%%x%%] (
-echo     call rclone mkdir %%%%mkdirpath[%%x%%]%%%%
-echo     set /a "x+=1"
-echo     GOTO :SymLoop
-echo ^)
+REM echo set "x=0"
+REM echo :SymLoop
+REM echo if defined mkdirpath[%%x%%] (
+REM echo     call rclone mkdir %%%%mkdirpath[%%x%%]%%%%
+REM echo     set /a "x+=1"
+REM echo     GOTO :SymLoop
+REM echo ^)
 
 echo set "x=0"
 echo :SymLoop1
 echo if defined selopcfolders[%%x%%] ^(
-echo     call rclone copy "fcfgts_driveku_me_computers:/%%%%selopcfolders[%%x%%]%%%%" "aaveusdt_sg1:/Selo/main_cloud/computers/main_pc/%%copyname%%/%%%%selopcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10
+echo     call rclone copy "fcfgts_driveku_me_computers:/%%%%selopcfolders[%%x%%]%%%%" "aaveusdt_sg1:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selopcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1
 echo ^)
 
-echo rclone moveto "oudhoh0050_sg4:/Selo/main_cloud/computers/main_pc/%%copyname%%" "oudhoh0050_sg4:/Selo/main_cloud/computers/main_pc/%%copyname%%_fix"
+echo rclone moveto "oudhoh0050_sg4:/Selo/main_cloud/computers/alyx/%%copyname%%" "oudhoh0050_sg4:/Selo/main_cloud/computers/alyx/%%copyname%%_fix"
 
 echo cd %%userprofile%%
 
@@ -392,7 +392,7 @@ echo set selopcfolders[24]=rclone
 echo set mkdirpath[0]="aaveusdt_sg1:/Selo/" 
 echo set mkdirpath[1]="aaveusdt_sg1:/Selo/main_cloud/" 
 echo set mkdirpath[2]="aaveusdt_sg1:/Selo/main_cloud/computers/" 
-echo set mkdirpath[3]="aaveusdt_sg1:/Selo/main_cloud/computers/main_pc/" 
+echo set mkdirpath[3]="aaveusdt_sg1:/Selo/main_cloud/computers/alyx/" 
 echo set mkdirpath[4]="aaveusdt_sg1:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
 echo set mkdirpath[5]="aaveusdt_sg1:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
 echo set mkdirpath[6]="aaveusdt_sg1:/Caca/" 
@@ -411,23 +411,23 @@ echo set second=%%TIME:~6,2%%
 
 echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
-echo set "x=0"
-echo :SymLoop
-echo if defined mkdirpath[%%x%%] (
-echo     call rclone mkdir %%%%mkdirpath[%%x%%]%%%%
-echo     set /a "x+=1"
-echo     GOTO :SymLoop
-echo ^)
+REM echo set "x=0"
+REM echo :SymLoop
+REM echo if defined mkdirpath[%%x%%] (
+REM echo     call rclone mkdir %%%%mkdirpath[%%x%%]%%%%
+REM echo     set /a "x+=1"
+REM echo     GOTO :SymLoop
+REM echo ^)
 
 echo set "x=0"
 echo :SymLoop1
 echo if defined selopcfolders[%%x%%] ^(
-echo     call rclone copy "fcfgts_driveku_me_computers:/%%%%selopcfolders[%%x%%]%%%%" "aaveusdt_sg1:/Selo/main_cloud/computers/main_pc/%%copyname%%/%%%%selopcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10
+echo     call rclone copy "fcfgts_driveku_me_computers:/%%%%selopcfolders[%%x%%]%%%%" "aaveusdt_sg1:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selopcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1
 echo ^)
 
-echo rclone moveto "nkiux77509_sg5:/Selo/main_cloud/computers/main_pc/%%copyname%%" "nkiux77509_sg5:/Selo/main_cloud/computers/main_pc/%%copyname%%_fix"
+echo rclone moveto "nkiux77509_sg5:/Selo/main_cloud/computers/alyx/%%copyname%%" "nkiux77509_sg5:/Selo/main_cloud/computers/alyx/%%copyname%%_fix"
 
 echo cd %%userprofile%%
 
@@ -467,7 +467,7 @@ echo set selopcfolders[24]=rclone
 echo set mkdirpath[0]="aaveusdt_sg1:/Selo/" 
 echo set mkdirpath[1]="aaveusdt_sg1:/Selo/main_cloud/" 
 echo set mkdirpath[2]="aaveusdt_sg1:/Selo/main_cloud/computers/" 
-echo set mkdirpath[3]="aaveusdt_sg1:/Selo/main_cloud/computers/main_pc/" 
+echo set mkdirpath[3]="aaveusdt_sg1:/Selo/main_cloud/computers/alyx/" 
 echo set mkdirpath[4]="aaveusdt_sg1:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
 echo set mkdirpath[5]="aaveusdt_sg1:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
 echo set mkdirpath[6]="aaveusdt_sg1:/Caca/" 
@@ -486,23 +486,23 @@ echo set second=%%TIME:~6,2%%
 
 echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
-echo set "x=0"
-echo :SymLoop
-echo if defined mkdirpath[%%x%%] (
-echo     call rclone mkdir %%%%mkdirpath[%%x%%]%%%%
-echo     set /a "x+=1"
-echo     GOTO :SymLoop
-echo ^)
+REM echo set "x=0"
+REM echo :SymLoop
+REM echo if defined mkdirpath[%%x%%] (
+REM echo     call rclone mkdir %%%%mkdirpath[%%x%%]%%%%
+REM echo     set /a "x+=1"
+REM echo     GOTO :SymLoop
+REM echo ^)
 
 echo set "x=0"
 echo :SymLoop1
 echo if defined selopcfolders[%%x%%] ^(
-echo     call rclone copy "fcfgts_driveku_me_computers:/%%%%selopcfolders[%%x%%]%%%%" "aaveusdt_sg1:/Selo/main_cloud/computers/main_pc/%%copyname%%/%%%%selopcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10
+echo     call rclone copy "fcfgts_driveku_me_computers:/%%%%selopcfolders[%%x%%]%%%%" "aaveusdt_sg1:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selopcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1
 echo ^)
 
-echo rclone moveto "didrhj9036_sg6:/Selo/main_cloud/computers/main_pc/%%copyname%%" "didrhj9036_sg6:/Selo/main_cloud/computers/main_pc/%%copyname%%_fix"
+echo rclone moveto "didrhj9036_sg6:/Selo/main_cloud/computers/alyx/%%copyname%%" "didrhj9036_sg6:/Selo/main_cloud/computers/alyx/%%copyname%%_fix"
 
 echo cd %%userprofile%%
 
@@ -542,7 +542,7 @@ echo set selopcfolders[24]=rclone
 echo set mkdirpath[0]="aaveusdt_sg1:/Selo/" 
 echo set mkdirpath[1]="aaveusdt_sg1:/Selo/main_cloud/" 
 echo set mkdirpath[2]="aaveusdt_sg1:/Selo/main_cloud/computers/" 
-echo set mkdirpath[3]="aaveusdt_sg1:/Selo/main_cloud/computers/main_pc/" 
+echo set mkdirpath[3]="aaveusdt_sg1:/Selo/main_cloud/computers/alyx/" 
 echo set mkdirpath[4]="aaveusdt_sg1:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
 echo set mkdirpath[5]="aaveusdt_sg1:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
 echo set mkdirpath[6]="aaveusdt_sg1:/Caca/" 
@@ -561,23 +561,23 @@ echo set second=%%TIME:~6,2%%
 
 echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
-echo set "x=0"
-echo :SymLoop
-echo if defined mkdirpath[%%x%%] (
-echo     call rclone mkdir %%%%mkdirpath[%%x%%]%%%%
-echo     set /a "x+=1"
-echo     GOTO :SymLoop
-echo ^)
+REM echo set "x=0"
+REM echo :SymLoop
+REM echo if defined mkdirpath[%%x%%] (
+REM echo     call rclone mkdir %%%%mkdirpath[%%x%%]%%%%
+REM echo     set /a "x+=1"
+REM echo     GOTO :SymLoop
+REM echo ^)
 
 echo set "x=0"
 echo :SymLoop1
 echo if defined selopcfolders[%%x%%] ^(
-echo     call rclone copy "fcfgts_driveku_me_computers:/%%%%selopcfolders[%%x%%]%%%%" "aaveusdt_sg1:/Selo/main_cloud/computers/main_pc/%%copyname%%/%%%%selopcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10
+echo     call rclone copy "fcfgts_driveku_me_computers:/%%%%selopcfolders[%%x%%]%%%%" "aaveusdt_sg1:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selopcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1
 echo ^)
 
-echo rclone moveto "hjski8292882_sg7:/Selo/main_cloud/computers/main_pc/%%copyname%%" "hjski8292882_sg7:/Selo/main_cloud/computers/main_pc/%%copyname%%_fix"
+echo rclone moveto "hjski8292882_sg7:/Selo/main_cloud/computers/alyx/%%copyname%%" "hjski8292882_sg7:/Selo/main_cloud/computers/alyx/%%copyname%%_fix"
 
 echo cd %%userprofile%%
 
@@ -617,7 +617,7 @@ echo set selopcfolders[24]=rclone
 echo set mkdirpath[0]="aaveusdt_sg1:/Selo/" 
 echo set mkdirpath[1]="aaveusdt_sg1:/Selo/main_cloud/" 
 echo set mkdirpath[2]="aaveusdt_sg1:/Selo/main_cloud/computers/" 
-echo set mkdirpath[3]="aaveusdt_sg1:/Selo/main_cloud/computers/main_pc/" 
+echo set mkdirpath[3]="aaveusdt_sg1:/Selo/main_cloud/computers/alyx/" 
 echo set mkdirpath[4]="aaveusdt_sg1:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
 echo set mkdirpath[5]="aaveusdt_sg1:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
 echo set mkdirpath[6]="aaveusdt_sg1:/Caca/" 
@@ -636,23 +636,23 @@ echo set second=%%TIME:~6,2%%
 
 echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
-echo set "x=0"
-echo :SymLoop
-echo if defined mkdirpath[%%x%%] (
-echo     call rclone mkdir %%%%mkdirpath[%%x%%]%%%%
-echo     set /a "x+=1"
-echo     GOTO :SymLoop
-echo ^)
+REM echo set "x=0"
+REM echo :SymLoop
+REM echo if defined mkdirpath[%%x%%] (
+REM echo     call rclone mkdir %%%%mkdirpath[%%x%%]%%%%
+REM echo     set /a "x+=1"
+REM echo     GOTO :SymLoop
+REM echo ^)
 
 echo set "x=0"
 echo :SymLoop1
 echo if defined selopcfolders[%%x%%] ^(
-echo     call rclone copy "fcfgts_driveku_me_computers:/%%%%selopcfolders[%%x%%]%%%%" "aaveusdt_sg1:/Selo/main_cloud/computers/main_pc/%%copyname%%/%%%%selopcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10
+echo     call rclone copy "fcfgts_driveku_me_computers:/%%%%selopcfolders[%%x%%]%%%%" "aaveusdt_sg1:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selopcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1
 echo ^)
 
-echo rclone moveto "jsnwj84738_sg8:/Selo/main_cloud/computers/main_pc/%%copyname%%" "jsnwj84738_sg8:/Selo/main_cloud/computers/main_pc/%%copyname%%_fix"
+echo rclone moveto "jsnwj84738_sg8:/Selo/main_cloud/computers/alyx/%%copyname%%" "jsnwj84738_sg8:/Selo/main_cloud/computers/alyx/%%copyname%%_fix"
 
 echo cd %%userprofile%%
 
@@ -692,7 +692,7 @@ echo set selopcfolders[24]=rclone
 echo set mkdirpath[0]="aaveusdt_sg1:/Selo/" 
 echo set mkdirpath[1]="aaveusdt_sg1:/Selo/main_cloud/" 
 echo set mkdirpath[2]="aaveusdt_sg1:/Selo/main_cloud/computers/" 
-echo set mkdirpath[3]="aaveusdt_sg1:/Selo/main_cloud/computers/main_pc/" 
+echo set mkdirpath[3]="aaveusdt_sg1:/Selo/main_cloud/computers/alyx/" 
 echo set mkdirpath[4]="aaveusdt_sg1:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
 echo set mkdirpath[5]="aaveusdt_sg1:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
 echo set mkdirpath[6]="aaveusdt_sg1:/Caca/" 
@@ -711,23 +711,23 @@ echo set second=%%TIME:~6,2%%
 
 echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
-echo set "x=0"
-echo :SymLoop
-echo if defined mkdirpath[%%x%%] (
-echo     call rclone mkdir %%%%mkdirpath[%%x%%]%%%%
-echo     set /a "x+=1"
-echo     GOTO :SymLoop
-echo ^)
+REM echo set "x=0"
+REM echo :SymLoop
+REM echo if defined mkdirpath[%%x%%] (
+REM echo     call rclone mkdir %%%%mkdirpath[%%x%%]%%%%
+REM echo     set /a "x+=1"
+REM echo     GOTO :SymLoop
+REM echo ^)
 
 echo set "x=0"
 echo :SymLoop1
 echo if defined selopcfolders[%%x%%] ^(
-echo     call rclone copy "fcfgts_driveku_me_computers:/%%%%selopcfolders[%%x%%]%%%%" "aaveusdt_sg1:/Selo/main_cloud/computers/main_pc/%%copyname%%/%%%%selopcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10
+echo     call rclone copy "fcfgts_driveku_me_computers:/%%%%selopcfolders[%%x%%]%%%%" "aaveusdt_sg1:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selopcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1
 echo ^)
 
-echo rclone moveto "ffdnsak8272793_sg9:/Selo/main_cloud/computers/main_pc/%%copyname%%" "ffdnsak8272793_sg9:/Selo/main_cloud/computers/main_pc/%%copyname%%_fix"
+echo rclone moveto "ffdnsak8272793_sg9:/Selo/main_cloud/computers/alyx/%%copyname%%" "ffdnsak8272793_sg9:/Selo/main_cloud/computers/alyx/%%copyname%%_fix"
 
 echo cd %%userprofile%%
 
@@ -767,7 +767,7 @@ echo set selopcfolders[24]=rclone
 echo set mkdirpath[0]="aaveusdt_sg1:/Selo/" 
 echo set mkdirpath[1]="aaveusdt_sg1:/Selo/main_cloud/" 
 echo set mkdirpath[2]="aaveusdt_sg1:/Selo/main_cloud/computers/" 
-echo set mkdirpath[3]="aaveusdt_sg1:/Selo/main_cloud/computers/main_pc/" 
+echo set mkdirpath[3]="aaveusdt_sg1:/Selo/main_cloud/computers/alyx/" 
 echo set mkdirpath[4]="aaveusdt_sg1:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
 echo set mkdirpath[5]="aaveusdt_sg1:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
 echo set mkdirpath[6]="aaveusdt_sg1:/Caca/" 
@@ -786,23 +786,23 @@ echo set second=%%TIME:~6,2%%
 
 echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
-echo set "x=0"
-echo :SymLoop
-echo if defined mkdirpath[%%x%%] (
-echo     call rclone mkdir %%%%mkdirpath[%%x%%]%%%%
-echo     set /a "x+=1"
-echo     GOTO :SymLoop
-echo ^)
+REM echo set "x=0"
+REM echo :SymLoop
+REM echo if defined mkdirpath[%%x%%] (
+REM echo     call rclone mkdir %%%%mkdirpath[%%x%%]%%%%
+REM echo     set /a "x+=1"
+REM echo     GOTO :SymLoop
+REM echo ^)
 
 echo set "x=0"
 echo :SymLoop1
 echo if defined selopcfolders[%%x%%] ^(
-echo     call rclone copy "fcfgts_driveku_me_computers:/%%%%selopcfolders[%%x%%]%%%%" "aaveusdt_sg1:/Selo/main_cloud/computers/main_pc/%%copyname%%/%%%%selopcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10
+echo     call rclone copy "fcfgts_driveku_me_computers:/%%%%selopcfolders[%%x%%]%%%%" "aaveusdt_sg1:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selopcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1
 echo ^)
 
-echo rclone moveto "otipes7948_sg10:/Selo/main_cloud/computers/main_pc/%%copyname%%" "otipes7948_sg10:/Selo/main_cloud/computers/main_pc/%%copyname%%_fix"
+echo rclone moveto "otipes7948_sg10:/Selo/main_cloud/computers/alyx/%%copyname%%" "otipes7948_sg10:/Selo/main_cloud/computers/alyx/%%copyname%%_fix"
 
 echo cd %%userprofile%%
 
@@ -1302,7 +1302,7 @@ echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 echo rclone mkdir "otipes7948_sg10:/Selo/" 
 echo rclone mkdir "otipes7948_sg10:/Selo/main_cloud/" 
 echo rclone mkdir "otipes7948_sg10:/Selo/main_cloud/computers/" 
-echo rclone mkdir "otipes7948_sg10:/Selo/main_cloud/computers/main_pc/" 
+echo rclone mkdir "otipes7948_sg10:/Selo/main_cloud/computers/alyx/" 
 echo rclone mkdir "otipes7948_sg10:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
 echo rclone mkdir "otipes7948_sg10:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/" 
 echo rclone mkdir "otipes7948_sg10:/Caca/" 
@@ -1336,7 +1336,7 @@ echo rclone copy "fcfgts_driveku_me_computers:/Notepad++" "otipes7948_sg10,share
 echo rclone copy "fcfgts_driveku_me_computers:/z-bat-vbs-file settings" "otipes7948_sg10,shared_with_me:/alyx 7229179/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
 echo rclone copy "fcfgts_driveku_me_computers:/rclone" "otipes7948_sg10,shared_with_me:/alyx 7229179/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10 
 
-echo rclone moveto "otipes7948_sg10:/Selo/main_cloud/computers/main_pc/%%copyname%%" "otipes7948_sg10:/Selo/main_cloud/computers/main_pc/%%copyname%%_fix"
+echo rclone moveto "otipes7948_sg10:/Selo/main_cloud/computers/alyx/%%copyname%%" "otipes7948_sg10:/Selo/main_cloud/computers/alyx/%%copyname%%_fix"
 
 echo cd %%userprofile%%
 
