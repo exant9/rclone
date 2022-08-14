@@ -6,7 +6,7 @@ REM if errorlevel 1 exit
 
 
 REM  rclone copy A B
-REM  A nya gabakal pake kuota
+REM  A nya gabakal usage
 
 (
 
@@ -23,16 +23,34 @@ echo rclone cleanup "jsnwj84738_sg8:/"
 echo rclone cleanup "ffdnsak8272793_sg9:/"
 echo rclone cleanup "otipes7948_sg10:/"
 
-echo rclone delete "aaveusdt_sg1:/" --drive-trashed-only --drive-use-trash=false --fast-list --low-level-retries 9999999999 --retries 10 
-echo rclone delete "renaave50_sg2:/" --drive-trashed-only --drive-use-trash=false --fast-list --low-level-retries 9999999999 --retries 10 
-echo rclone delete "renaave7_sg3:/" --drive-trashed-only --drive-use-trash=false --fast-list --low-level-retries 9999999999 --retries 10 
-echo rclone delete "oudhoh0050_sg4:/" --drive-trashed-only --drive-use-trash=false --fast-list --low-level-retries 9999999999 --retries 10 
-echo rclone delete "nkiux77509_sg5:/" --drive-trashed-only --drive-use-trash=false --fast-list --low-level-retries 9999999999 --retries 10 
-echo rclone delete "didrhj9036_sg6:/" --drive-trashed-only --drive-use-trash=false --fast-list --low-level-retries 9999999999 --retries 10 
-echo rclone delete "hjski8292882_sg7:/" --drive-trashed-only --drive-use-trash=false --fast-list --low-level-retries 9999999999 --retries 10 
-echo rclone delete "jsnwj84738_sg8:/" --drive-trashed-only --drive-use-trash=false --fast-list --low-level-retries 9999999999 --retries 10 
-echo rclone delete "ffdnsak8272793_sg9:/" --drive-trashed-only --drive-use-trash=false --fast-list --low-level-retries 9999999999 --retries 10 
-echo rclone delete "otipes7948_sg10:/" --drive-trashed-only --drive-use-trash=false --fast-list --low-level-retries 9999999999 --retries 10 
+REM echo rclone delete "aaveusdt_sg1:/" --drive-trashed-only --drive-use-trash=false --fast-list --low-level-retries 9999999999 --retries 10 
+REM echo rclone delete "renaave50_sg2:/" --drive-trashed-only --drive-use-trash=false --fast-list --low-level-retries 9999999999 --retries 10 
+REM echo rclone delete "renaave7_sg3:/" --drive-trashed-only --drive-use-trash=false --fast-list --low-level-retries 9999999999 --retries 10 
+REM echo rclone delete "oudhoh0050_sg4:/" --drive-trashed-only --drive-use-trash=false --fast-list --low-level-retries 9999999999 --retries 10 
+REM echo rclone delete "nkiux77509_sg5:/" --drive-trashed-only --drive-use-trash=false --fast-list --low-level-retries 9999999999 --retries 10 
+REM echo rclone delete "didrhj9036_sg6:/" --drive-trashed-only --drive-use-trash=false --fast-list --low-level-retries 9999999999 --retries 10 
+REM echo rclone delete "hjski8292882_sg7:/" --drive-trashed-only --drive-use-trash=false --fast-list --low-level-retries 9999999999 --retries 10 
+REM echo rclone delete "jsnwj84738_sg8:/" --drive-trashed-only --drive-use-trash=false --fast-list --low-level-retries 9999999999 --retries 10 
+REM echo rclone delete "ffdnsak8272793_sg9:/" --drive-trashed-only --drive-use-trash=false --fast-list --low-level-retries 9999999999 --retries 10 
+REM echo rclone delete "otipes7948_sg10:/" --drive-trashed-only --drive-use-trash=false --fast-list --low-level-retries 9999999999 --retries 10 
+
+echo rclone mkdir "fcfgts_driveku_me:/Colab Notebooks
+echo rclone mkdir "fcfgts_driveku_me:/Files
+echo rclone mkdir "fcfgts_driveku_me:/PC/alyx
+echo rclone mkdir "fcfgts_driveku_me:/system/rclone
+echo rclone mkdir "fcfgts_driveku_me:/system/test
+echo rclone mkdir "fcfgts_driveku_me:/Unlimtd Copy/Computers
+echo rclone mkdir "fcfgts_driveku_me:/Unlimtd Copy/Downloads_pool_83174
+echo rclone mkdir "fcfgts_driveku_me:/Unlimtd Copy/Minecraft
+
+REM echo rclone mkdir "fcfgts_driveku_me:/
+REM echo rclone mkdir "fcfgts_driveku_me:/
+REM echo rclone mkdir "fcfgts_driveku_me:/
+REM echo rclone mkdir "fcfgts_driveku_me:/
+REM echo rclone mkdir "fcfgts_driveku_me:/
+REM echo rclone mkdir "fcfgts_driveku_me:/
+REM echo rclone mkdir "fcfgts_driveku_me:/
+
 
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_1.bat"
 
@@ -46,6 +64,43 @@ echo rclone delete "otipes7948_sg10:/" --drive-trashed-only --drive-use-trash=fa
 
 (
 
+echo set selopcfolders[0]=a_fiyandha
+echo set selopcfolders[1]=3D Objects
+echo set selopcfolders[2]=Desktop
+echo set selopcfolders[3]=Documents
+echo set selopcfolders[4]=Videos
+echo set selopcfolders[5]=Saved Games
+echo set selopcfolders[6]=Favorites
+echo set selopcfolders[7]=Links
+echo set selopcfolders[8]=Music
+echo set selopcfolders[9]=Contacts
+echo set selopcfolders[10]=a NDF1x extended
+echo set selopcfolders[11]=Downloads
+echo set selopcfolders[12]=Pictures
+echo set selopcfolders[13]=behavior_packs
+echo set selopcfolders[14]=development_behavior_packs
+echo set selopcfolders[15]=development_resource_packs
+echo set selopcfolders[16]=development_skin_packs
+echo set selopcfolders[17]=minecraftpe
+echo set selopcfolders[18]=minecraftWorlds
+echo set selopcfolders[19]=resource_packs
+echo set selopcfolders[20]=skin_packs
+echo set selopcfolders[21]=world_templates
+echo set selopcfolders[22]=Notepad++
+echo set selopcfolders[23]=z-bat-vbs-file settings
+echo set selopcfolders[24]=rclone
+
+echo set mkdirpath[1]="aaveusdt_sg1:/Selo/" 
+echo set mkdirpath[2]="aaveusdt_sg1:/Selo/main_cloud/" 
+echo set mkdirpath[3]="aaveusdt_sg1:/Selo/main_cloud/computers/" 
+echo set mkdirpath[4]="aaveusdt_sg1:/Selo/main_cloud/computers/main_pc/" 
+echo set mkdirpath[5]="aaveusdt_sg1:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
+echo set mkdirpath[6]="aaveusdt_sg1:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
+echo set mkdirpath[7]="aaveusdt_sg1:/Caca/" 
+echo set mkdirpath[8]="aaveusdt_sg1:/Caca/main_cloud/" 
+echo set mkdirpath[9]="aaveusdt_sg1:/Caca/main_cloud/computers/" 
+echo set mkdirpath[10]="aaveusdt_sg1:/Caca/main_cloud/computers/laptop_caca/" 
+
 echo cd %%userprofile%%
 
 echo set day=%%date:~-7,2%%
@@ -57,42 +112,21 @@ echo set second=%%TIME:~6,2%%
 
 echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
-echo rclone mkdir "aaveusdt_sg1:/Selo/" 
-echo rclone mkdir "aaveusdt_sg1:/Selo/main_cloud/" 
-echo rclone mkdir "aaveusdt_sg1:/Selo/main_cloud/computers/" 
-echo rclone mkdir "aaveusdt_sg1:/Selo/main_cloud/computers/main_pc/" 
-echo rclone mkdir "aaveusdt_sg1:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
-echo rclone mkdir "aaveusdt_sg1:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
-echo rclone mkdir "aaveusdt_sg1:/Caca/" 
-echo rclone mkdir "aaveusdt_sg1:/Caca/main_cloud/" 
-echo rclone mkdir "aaveusdt_sg1:/Caca/main_cloud/computers/" 
-echo rclone mkdir "aaveusdt_sg1:/Caca/main_cloud/computers/laptop_caca/" 
+echo set "x=0"
+echo :SymLoop
+echo if defined mkdirpath[%%x%%] (
+echo     call rclone mkdir %%%%mkdirpath[%%x%%]%%%%
+echo     set /a "x+=1"
+echo     GOTO :SymLoop
+echo ^)
 
-echo rclone copy "fcfgts_driveku_me_computers:/a_fiyandha" "aaveusdt_sg1:/Selo/main_cloud/computers/main_pc/%%copyname%%/a_fiyandha" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/3D Objects" "aaveusdt_sg1:/Selo/main_cloud/computers/main_pc/%%copyname%%/3D Objects" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Desktop" "aaveusdt_sg1:/Selo/main_cloud/computers/main_pc/%%copyname%%/Desktop" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Documents" "aaveusdt_sg1:/Selo/main_cloud/computers/main_pc/%%copyname%%/Documents" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Videos" "aaveusdt_sg1:/Selo/main_cloud/computers/main_pc/%%copyname%%/Videos" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Saved Games" "aaveusdt_sg1:/Selo/main_cloud/computers/main_pc/%%copyname%%/Saved Games" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Favorites" "aaveusdt_sg1:/Selo/main_cloud/computers/main_pc/%%copyname%%/Favorites" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Links" "aaveusdt_sg1:/Selo/main_cloud/computers/main_pc/%%copyname%%/Links" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Music" "aaveusdt_sg1:/Selo/main_cloud/computers/main_pc/%%copyname%%/Music" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Contacts" "aaveusdt_sg1:/Selo/main_cloud/computers/main_pc/%%copyname%%/Contacts" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/a NDF1x extended" "aaveusdt_sg1:/Selo/main_cloud/computers/main_pc/%%copyname%%/a NDF1x extended" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Downloads" "aaveusdt_sg1:/Selo/main_cloud/computers/main_pc/%%copyname%%/a_fiyandha/Downloads" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Pictures" "aaveusdt_sg1:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/behavior_packs" "aaveusdt_sg1:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/development_behavior_packs" "aaveusdt_sg1:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/development_resource_packs" "aaveusdt_sg1:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/development_skin_packs" "aaveusdt_sg1:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/minecraftpe" "aaveusdt_sg1:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/minecraftWorlds" "aaveusdt_sg1:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/resource_packs" "aaveusdt_sg1:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/skin_packs" "aaveusdt_sg1:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/world_templates" "aaveusdt_sg1:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Notepad++" "aaveusdt_sg1:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/z-bat-vbs-file settings" "aaveusdt_sg1:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/rclone" "aaveusdt_sg1:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
+echo set "x=0"
+echo :SymLoop1
+echo if defined selopcfolders[%%x%%] ^(
+echo     call rclone copy "fcfgts_driveku_me_computers:/%%%%selopcfolders[%%x%%]%%%%" "aaveusdt_sg1:/Selo/main_cloud/computers/main_pc/%%copyname%%/%%%%selopcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10
+echo     set /a "x+=1"
+echo     GOTO :SymLoop1
+echo ^)
 
 echo rclone moveto "aaveusdt_sg1:/Selo/main_cloud/computers/main_pc/%%copyname%%" "aaveusdt_sg1:/Selo/main_cloud/computers/main_pc/%%copyname%%_fix"
 
@@ -104,6 +138,43 @@ echo cd %%userprofile%%
 
 (
 
+echo set selopcfolders[0]=a_fiyandha
+echo set selopcfolders[1]=3D Objects
+echo set selopcfolders[2]=Desktop
+echo set selopcfolders[3]=Documents
+echo set selopcfolders[4]=Videos
+echo set selopcfolders[5]=Saved Games
+echo set selopcfolders[6]=Favorites
+echo set selopcfolders[7]=Links
+echo set selopcfolders[8]=Music
+echo set selopcfolders[9]=Contacts
+echo set selopcfolders[10]=a NDF1x extended
+echo set selopcfolders[11]=Downloads
+echo set selopcfolders[12]=Pictures
+echo set selopcfolders[13]=behavior_packs
+echo set selopcfolders[14]=development_behavior_packs
+echo set selopcfolders[15]=development_resource_packs
+echo set selopcfolders[16]=development_skin_packs
+echo set selopcfolders[17]=minecraftpe
+echo set selopcfolders[18]=minecraftWorlds
+echo set selopcfolders[19]=resource_packs
+echo set selopcfolders[20]=skin_packs
+echo set selopcfolders[21]=world_templates
+echo set selopcfolders[22]=Notepad++
+echo set selopcfolders[23]=z-bat-vbs-file settings
+echo set selopcfolders[24]=rclone
+
+echo set mkdirpath[0]="aaveusdt_sg1:/Selo/" 
+echo set mkdirpath[1]="aaveusdt_sg1:/Selo/main_cloud/" 
+echo set mkdirpath[2]="aaveusdt_sg1:/Selo/main_cloud/computers/" 
+echo set mkdirpath[3]="aaveusdt_sg1:/Selo/main_cloud/computers/main_pc/" 
+echo set mkdirpath[4]="aaveusdt_sg1:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
+echo set mkdirpath[5]="aaveusdt_sg1:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
+echo set mkdirpath[6]="aaveusdt_sg1:/Caca/" 
+echo set mkdirpath[7]="aaveusdt_sg1:/Caca/main_cloud/" 
+echo set mkdirpath[8]="aaveusdt_sg1:/Caca/main_cloud/computers/" 
+echo set mkdirpath[9]="aaveusdt_sg1:/Caca/main_cloud/computers/laptop_caca/" 
+
 echo cd %%userprofile%%
 
 echo set day=%%date:~-7,2%%
@@ -115,42 +186,21 @@ echo set second=%%TIME:~6,2%%
 
 echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
-echo rclone mkdir "renaave50_sg2:/Selo/" 
-echo rclone mkdir "renaave50_sg2:/Selo/main_cloud/" 
-echo rclone mkdir "renaave50_sg2:/Selo/main_cloud/computers/" 
-echo rclone mkdir "renaave50_sg2:/Selo/main_cloud/computers/main_pc/" 
-echo rclone mkdir "renaave50_sg2:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
-echo rclone mkdir "renaave50_sg2:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/" 
-echo rclone mkdir "renaave50_sg2:/Caca/" 
-echo rclone mkdir "renaave50_sg2:/Caca/main_cloud/" 
-echo rclone mkdir "renaave50_sg2:/Caca/main_cloud/computers/" 
-echo rclone mkdir "renaave50_sg2:/Caca/main_cloud/computers/laptop_caca/" 
+echo set "x=0"
+echo :SymLoop
+echo if defined mkdirpath[%%x%%] (
+echo     call rclone mkdir %%%%mkdirpath[%%x%%]%%%%
+echo     set /a "x+=1"
+echo     GOTO :SymLoop
+echo ^)
 
-echo rclone copy "fcfgts_driveku_me_computers:/a_fiyandha" "renaave50_sg2:/Selo/main_cloud/computers/main_pc/%%copyname%%/a_fiyandha" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/3D Objects" "renaave50_sg2:/Selo/main_cloud/computers/main_pc/%%copyname%%/3D Objects" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Desktop" "renaave50_sg2:/Selo/main_cloud/computers/main_pc/%%copyname%%/Desktop" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Documents" "renaave50_sg2:/Selo/main_cloud/computers/main_pc/%%copyname%%/Documents" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Videos" "renaave50_sg2:/Selo/main_cloud/computers/main_pc/%%copyname%%/Videos" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Saved Games" "renaave50_sg2:/Selo/main_cloud/computers/main_pc/%%copyname%%/Saved Games" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Favorites" "renaave50_sg2:/Selo/main_cloud/computers/main_pc/%%copyname%%/Favorites" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Links" "renaave50_sg2:/Selo/main_cloud/computers/main_pc/%%copyname%%/Links" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Music" "renaave50_sg2:/Selo/main_cloud/computers/main_pc/%%copyname%%/Music" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Contacts" "renaave50_sg2:/Selo/main_cloud/computers/main_pc/%%copyname%%/Contacts" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/a NDF1x extended" "renaave50_sg2:/Selo/main_cloud/computers/main_pc/%%copyname%%/a NDF1x extended" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Downloads" "renaave50_sg2:/Selo/main_cloud/computers/main_pc/%%copyname%%/a_fiyandha/Downloads" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Pictures" "renaave50_sg2:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/behavior_packs" "renaave50_sg2:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/development_behavior_packs" "renaave50_sg2:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/development_resource_packs" "renaave50_sg2:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/development_skin_packs" "renaave50_sg2:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/minecraftpe" "renaave50_sg2:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/minecraftWorlds" "renaave50_sg2:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/resource_packs" "renaave50_sg2:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/skin_packs" "renaave50_sg2:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/world_templates" "renaave50_sg2:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Notepad++" "renaave50_sg2:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/z-bat-vbs-file settings" "renaave50_sg2:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/rclone" "renaave50_sg2:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
+echo set "x=0"
+echo :SymLoop1
+echo if defined selopcfolders[%%x%%] ^(
+echo     call rclone copy "fcfgts_driveku_me_computers:/%%%%selopcfolders[%%x%%]%%%%" "aaveusdt_sg1:/Selo/main_cloud/computers/main_pc/%%copyname%%/%%%%selopcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10
+echo     set /a "x+=1"
+echo     GOTO :SymLoop1
+echo ^)
 
 echo rclone moveto "renaave50_sg2:/Selo/main_cloud/computers/main_pc/%%copyname%%" "renaave50_sg2:/Selo/main_cloud/computers/main_pc/%%copyname%%_fix"
 
@@ -163,6 +213,43 @@ echo cd %%userprofile%%
 
 (
 
+echo set selopcfolders[0]=a_fiyandha
+echo set selopcfolders[1]=3D Objects
+echo set selopcfolders[2]=Desktop
+echo set selopcfolders[3]=Documents
+echo set selopcfolders[4]=Videos
+echo set selopcfolders[5]=Saved Games
+echo set selopcfolders[6]=Favorites
+echo set selopcfolders[7]=Links
+echo set selopcfolders[8]=Music
+echo set selopcfolders[9]=Contacts
+echo set selopcfolders[10]=a NDF1x extended
+echo set selopcfolders[11]=Downloads
+echo set selopcfolders[12]=Pictures
+echo set selopcfolders[13]=behavior_packs
+echo set selopcfolders[14]=development_behavior_packs
+echo set selopcfolders[15]=development_resource_packs
+echo set selopcfolders[16]=development_skin_packs
+echo set selopcfolders[17]=minecraftpe
+echo set selopcfolders[18]=minecraftWorlds
+echo set selopcfolders[19]=resource_packs
+echo set selopcfolders[20]=skin_packs
+echo set selopcfolders[21]=world_templates
+echo set selopcfolders[22]=Notepad++
+echo set selopcfolders[23]=z-bat-vbs-file settings
+echo set selopcfolders[24]=rclone
+
+echo set mkdirpath[0]="aaveusdt_sg1:/Selo/" 
+echo set mkdirpath[1]="aaveusdt_sg1:/Selo/main_cloud/" 
+echo set mkdirpath[2]="aaveusdt_sg1:/Selo/main_cloud/computers/" 
+echo set mkdirpath[3]="aaveusdt_sg1:/Selo/main_cloud/computers/main_pc/" 
+echo set mkdirpath[4]="aaveusdt_sg1:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
+echo set mkdirpath[5]="aaveusdt_sg1:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
+echo set mkdirpath[6]="aaveusdt_sg1:/Caca/" 
+echo set mkdirpath[7]="aaveusdt_sg1:/Caca/main_cloud/" 
+echo set mkdirpath[8]="aaveusdt_sg1:/Caca/main_cloud/computers/" 
+echo set mkdirpath[9]="aaveusdt_sg1:/Caca/main_cloud/computers/laptop_caca/" 
+
 echo cd %%userprofile%%
 
 echo set day=%%date:~-7,2%%
@@ -174,42 +261,21 @@ echo set second=%%TIME:~6,2%%
 
 echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
-echo rclone mkdir "renaave7_sg3:/Selo/" 
-echo rclone mkdir "renaave7_sg3:/Selo/main_cloud/" 
-echo rclone mkdir "renaave7_sg3:/Selo/main_cloud/computers/" 
-echo rclone mkdir "renaave7_sg3:/Selo/main_cloud/computers/main_pc/" 
-echo rclone mkdir "renaave7_sg3:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
-echo rclone mkdir "renaave7_sg3:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/" 
-echo rclone mkdir "renaave7_sg3:/Caca/" 
-echo rclone mkdir "renaave7_sg3:/Caca/main_cloud/" 
-echo rclone mkdir "renaave7_sg3:/Caca/main_cloud/computers/" 
-echo rclone mkdir "renaave7_sg3:/Caca/main_cloud/computers/laptop_caca/" 
+echo set "x=0"
+echo :SymLoop
+echo if defined mkdirpath[%%x%%] (
+echo     call rclone mkdir %%%%mkdirpath[%%x%%]%%%%
+echo     set /a "x+=1"
+echo     GOTO :SymLoop
+echo ^)
 
-echo rclone copy "fcfgts_driveku_me_computers:/a_fiyandha" "renaave7_sg3:/Selo/main_cloud/computers/main_pc/%%copyname%%/a_fiyandha" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/3D Objects" "renaave7_sg3:/Selo/main_cloud/computers/main_pc/%%copyname%%/3D Objects" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Desktop" "renaave7_sg3:/Selo/main_cloud/computers/main_pc/%%copyname%%/Desktop" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Documents" "renaave7_sg3:/Selo/main_cloud/computers/main_pc/%%copyname%%/Documents" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Videos" "renaave7_sg3:/Selo/main_cloud/computers/main_pc/%%copyname%%/Videos" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Saved Games" "renaave7_sg3:/Selo/main_cloud/computers/main_pc/%%copyname%%/Saved Games" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Favorites" "renaave7_sg3:/Selo/main_cloud/computers/main_pc/%%copyname%%/Favorites" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Links" "renaave7_sg3:/Selo/main_cloud/computers/main_pc/%%copyname%%/Links" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Music" "renaave7_sg3:/Selo/main_cloud/computers/main_pc/%%copyname%%/Music" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Contacts" "renaave7_sg3:/Selo/main_cloud/computers/main_pc/%%copyname%%/Contacts" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/a NDF1x extended" "renaave7_sg3:/Selo/main_cloud/computers/main_pc/%%copyname%%/a NDF1x extended" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Downloads" "renaave7_sg3:/Selo/main_cloud/computers/main_pc/%%copyname%%/a_fiyandha/Downloads" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Pictures" "renaave7_sg3:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/behavior_packs" "renaave7_sg3:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/development_behavior_packs" "renaave7_sg3:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/development_resource_packs" "renaave7_sg3:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/development_skin_packs" "renaave7_sg3:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/minecraftpe" "renaave7_sg3:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/minecraftWorlds" "renaave7_sg3:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/resource_packs" "renaave7_sg3:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/skin_packs" "renaave7_sg3:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/world_templates" "renaave7_sg3:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Notepad++" "renaave7_sg3:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/z-bat-vbs-file settings" "renaave7_sg3:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/rclone" "renaave7_sg3:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
+echo set "x=0"
+echo :SymLoop1
+echo if defined selopcfolders[%%x%%] ^(
+echo     call rclone copy "fcfgts_driveku_me_computers:/%%%%selopcfolders[%%x%%]%%%%" "aaveusdt_sg1:/Selo/main_cloud/computers/main_pc/%%copyname%%/%%%%selopcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10
+echo     set /a "x+=1"
+echo     GOTO :SymLoop1
+echo ^)
 
 echo rclone moveto "renaave7_sg3:/Selo/main_cloud/computers/main_pc/%%copyname%%" "renaave7_sg3:/Selo/main_cloud/computers/main_pc/%%copyname%%_fix"
 
@@ -222,6 +288,43 @@ echo cd %%userprofile%%
 
 (
 
+echo set selopcfolders[0]=a_fiyandha
+echo set selopcfolders[1]=3D Objects
+echo set selopcfolders[2]=Desktop
+echo set selopcfolders[3]=Documents
+echo set selopcfolders[4]=Videos
+echo set selopcfolders[5]=Saved Games
+echo set selopcfolders[6]=Favorites
+echo set selopcfolders[7]=Links
+echo set selopcfolders[8]=Music
+echo set selopcfolders[9]=Contacts
+echo set selopcfolders[10]=a NDF1x extended
+echo set selopcfolders[11]=Downloads
+echo set selopcfolders[12]=Pictures
+echo set selopcfolders[13]=behavior_packs
+echo set selopcfolders[14]=development_behavior_packs
+echo set selopcfolders[15]=development_resource_packs
+echo set selopcfolders[16]=development_skin_packs
+echo set selopcfolders[17]=minecraftpe
+echo set selopcfolders[18]=minecraftWorlds
+echo set selopcfolders[19]=resource_packs
+echo set selopcfolders[20]=skin_packs
+echo set selopcfolders[21]=world_templates
+echo set selopcfolders[22]=Notepad++
+echo set selopcfolders[23]=z-bat-vbs-file settings
+echo set selopcfolders[24]=rclone
+
+echo set mkdirpath[0]="aaveusdt_sg1:/Selo/" 
+echo set mkdirpath[1]="aaveusdt_sg1:/Selo/main_cloud/" 
+echo set mkdirpath[2]="aaveusdt_sg1:/Selo/main_cloud/computers/" 
+echo set mkdirpath[3]="aaveusdt_sg1:/Selo/main_cloud/computers/main_pc/" 
+echo set mkdirpath[4]="aaveusdt_sg1:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
+echo set mkdirpath[5]="aaveusdt_sg1:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
+echo set mkdirpath[6]="aaveusdt_sg1:/Caca/" 
+echo set mkdirpath[7]="aaveusdt_sg1:/Caca/main_cloud/" 
+echo set mkdirpath[8]="aaveusdt_sg1:/Caca/main_cloud/computers/" 
+echo set mkdirpath[9]="aaveusdt_sg1:/Caca/main_cloud/computers/laptop_caca/" 
+
 echo cd %%userprofile%%
 
 echo set day=%%date:~-7,2%%
@@ -233,42 +336,21 @@ echo set second=%%TIME:~6,2%%
 
 echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
-echo rclone mkdir "oudhoh0050_sg4:/Selo/" 
-echo rclone mkdir "oudhoh0050_sg4:/Selo/main_cloud/" 
-echo rclone mkdir "oudhoh0050_sg4:/Selo/main_cloud/computers/" 
-echo rclone mkdir "oudhoh0050_sg4:/Selo/main_cloud/computers/main_pc/" 
-echo rclone mkdir "oudhoh0050_sg4:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
-echo rclone mkdir "oudhoh0050_sg4:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
-echo rclone mkdir "oudhoh0050_sg4:/Caca/" 
-echo rclone mkdir "oudhoh0050_sg4:/Caca/main_cloud/" 
-echo rclone mkdir "oudhoh0050_sg4:/Caca/main_cloud/computers/" 
-echo rclone mkdir "oudhoh0050_sg4:/Caca/main_cloud/computers/laptop_caca/" 
+echo set "x=0"
+echo :SymLoop
+echo if defined mkdirpath[%%x%%] (
+echo     call rclone mkdir %%%%mkdirpath[%%x%%]%%%%
+echo     set /a "x+=1"
+echo     GOTO :SymLoop
+echo ^)
 
-echo rclone copy "fcfgts_driveku_me_computers:/a_fiyandha" "oudhoh0050_sg4:/Selo/main_cloud/computers/main_pc/%%copyname%%/a_fiyandha" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/3D Objects" "oudhoh0050_sg4:/Selo/main_cloud/computers/main_pc/%%copyname%%/3D Objects" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Desktop" "oudhoh0050_sg4:/Selo/main_cloud/computers/main_pc/%%copyname%%/Desktop" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Documents" "oudhoh0050_sg4:/Selo/main_cloud/computers/main_pc/%%copyname%%/Documents" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Videos" "oudhoh0050_sg4:/Selo/main_cloud/computers/main_pc/%%copyname%%/Videos" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Saved Games" "oudhoh0050_sg4:/Selo/main_cloud/computers/main_pc/%%copyname%%/Saved Games" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Favorites" "oudhoh0050_sg4:/Selo/main_cloud/computers/main_pc/%%copyname%%/Favorites" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Links" "oudhoh0050_sg4:/Selo/main_cloud/computers/main_pc/%%copyname%%/Links" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Music" "oudhoh0050_sg4:/Selo/main_cloud/computers/main_pc/%%copyname%%/Music" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Contacts" "oudhoh0050_sg4:/Selo/main_cloud/computers/main_pc/%%copyname%%/Contacts" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/a NDF1x extended" "oudhoh0050_sg4:/Selo/main_cloud/computers/main_pc/%%copyname%%/a NDF1x extended" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Downloads" "oudhoh0050_sg4:/Selo/main_cloud/computers/main_pc/%%copyname%%/a_fiyandha/Downloads" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Pictures" "oudhoh0050_sg4:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/behavior_packs" "oudhoh0050_sg4:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/development_behavior_packs" "oudhoh0050_sg4:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/development_resource_packs" "oudhoh0050_sg4:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/development_skin_packs" "oudhoh0050_sg4:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/minecraftpe" "oudhoh0050_sg4:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/minecraftWorlds" "oudhoh0050_sg4:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/resource_packs" "oudhoh0050_sg4:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/skin_packs" "oudhoh0050_sg4:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/world_templates" "oudhoh0050_sg4:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Notepad++" "oudhoh0050_sg4:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/z-bat-vbs-file settings" "oudhoh0050_sg4:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/rclone" "oudhoh0050_sg4:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
+echo set "x=0"
+echo :SymLoop1
+echo if defined selopcfolders[%%x%%] ^(
+echo     call rclone copy "fcfgts_driveku_me_computers:/%%%%selopcfolders[%%x%%]%%%%" "aaveusdt_sg1:/Selo/main_cloud/computers/main_pc/%%copyname%%/%%%%selopcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10
+echo     set /a "x+=1"
+echo     GOTO :SymLoop1
+echo ^)
 
 echo rclone moveto "oudhoh0050_sg4:/Selo/main_cloud/computers/main_pc/%%copyname%%" "oudhoh0050_sg4:/Selo/main_cloud/computers/main_pc/%%copyname%%_fix"
 
@@ -281,6 +363,43 @@ echo cd %%userprofile%%
 
 (
 
+echo set selopcfolders[0]=a_fiyandha
+echo set selopcfolders[1]=3D Objects
+echo set selopcfolders[2]=Desktop
+echo set selopcfolders[3]=Documents
+echo set selopcfolders[4]=Videos
+echo set selopcfolders[5]=Saved Games
+echo set selopcfolders[6]=Favorites
+echo set selopcfolders[7]=Links
+echo set selopcfolders[8]=Music
+echo set selopcfolders[9]=Contacts
+echo set selopcfolders[10]=a NDF1x extended
+echo set selopcfolders[11]=Downloads
+echo set selopcfolders[12]=Pictures
+echo set selopcfolders[13]=behavior_packs
+echo set selopcfolders[14]=development_behavior_packs
+echo set selopcfolders[15]=development_resource_packs
+echo set selopcfolders[16]=development_skin_packs
+echo set selopcfolders[17]=minecraftpe
+echo set selopcfolders[18]=minecraftWorlds
+echo set selopcfolders[19]=resource_packs
+echo set selopcfolders[20]=skin_packs
+echo set selopcfolders[21]=world_templates
+echo set selopcfolders[22]=Notepad++
+echo set selopcfolders[23]=z-bat-vbs-file settings
+echo set selopcfolders[24]=rclone
+
+echo set mkdirpath[0]="aaveusdt_sg1:/Selo/" 
+echo set mkdirpath[1]="aaveusdt_sg1:/Selo/main_cloud/" 
+echo set mkdirpath[2]="aaveusdt_sg1:/Selo/main_cloud/computers/" 
+echo set mkdirpath[3]="aaveusdt_sg1:/Selo/main_cloud/computers/main_pc/" 
+echo set mkdirpath[4]="aaveusdt_sg1:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
+echo set mkdirpath[5]="aaveusdt_sg1:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
+echo set mkdirpath[6]="aaveusdt_sg1:/Caca/" 
+echo set mkdirpath[7]="aaveusdt_sg1:/Caca/main_cloud/" 
+echo set mkdirpath[8]="aaveusdt_sg1:/Caca/main_cloud/computers/" 
+echo set mkdirpath[9]="aaveusdt_sg1:/Caca/main_cloud/computers/laptop_caca/" 
+
 echo cd %%userprofile%%
 
 echo set day=%%date:~-7,2%%
@@ -292,42 +411,21 @@ echo set second=%%TIME:~6,2%%
 
 echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
-echo rclone mkdir "nkiux77509_sg5:/Selo/" 
-echo rclone mkdir "nkiux77509_sg5:/Selo/main_cloud/" 
-echo rclone mkdir "nkiux77509_sg5:/Selo/main_cloud/computers/" 
-echo rclone mkdir "nkiux77509_sg5:/Selo/main_cloud/computers/main_pc/" 
-echo rclone mkdir "nkiux77509_sg5:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
-echo rclone mkdir "nkiux77509_sg5:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/" 
-echo rclone mkdir "nkiux77509_sg5:/Caca/" 
-echo rclone mkdir "nkiux77509_sg5:/Caca/main_cloud/" 
-echo rclone mkdir "nkiux77509_sg5:/Caca/main_cloud/computers/" 
-echo rclone mkdir "nkiux77509_sg5:/Caca/main_cloud/computers/laptop_caca/" 
+echo set "x=0"
+echo :SymLoop
+echo if defined mkdirpath[%%x%%] (
+echo     call rclone mkdir %%%%mkdirpath[%%x%%]%%%%
+echo     set /a "x+=1"
+echo     GOTO :SymLoop
+echo ^)
 
-echo rclone copy "fcfgts_driveku_me_computers:/a_fiyandha" "nkiux77509_sg5:/Selo/main_cloud/computers/main_pc/%%copyname%%/a_fiyandha" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/3D Objects" "nkiux77509_sg5:/Selo/main_cloud/computers/main_pc/%%copyname%%/3D Objects" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Desktop" "nkiux77509_sg5:/Selo/main_cloud/computers/main_pc/%%copyname%%/Desktop" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Documents" "nkiux77509_sg5:/Selo/main_cloud/computers/main_pc/%%copyname%%/Documents" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Videos" "nkiux77509_sg5:/Selo/main_cloud/computers/main_pc/%%copyname%%/Videos" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Saved Games" "nkiux77509_sg5:/Selo/main_cloud/computers/main_pc/%%copyname%%/Saved Games" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Favorites" "nkiux77509_sg5:/Selo/main_cloud/computers/main_pc/%%copyname%%/Favorites" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Links" "nkiux77509_sg5:/Selo/main_cloud/computers/main_pc/%%copyname%%/Links" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Music" "nkiux77509_sg5:/Selo/main_cloud/computers/main_pc/%%copyname%%/Music" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Contacts" "nkiux77509_sg5:/Selo/main_cloud/computers/main_pc/%%copyname%%/Contacts" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/a NDF1x extended" "nkiux77509_sg5:/Selo/main_cloud/computers/main_pc/%%copyname%%/a NDF1x extended" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Downloads" "nkiux77509_sg5:/Selo/main_cloud/computers/main_pc/%%copyname%%/a_fiyandha/Downloads" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Pictures" "nkiux77509_sg5:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/behavior_packs" "nkiux77509_sg5:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/development_behavior_packs" "nkiux77509_sg5:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/development_resource_packs" "nkiux77509_sg5:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/development_skin_packs" "nkiux77509_sg5:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/minecraftpe" "nkiux77509_sg5:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/minecraftWorlds" "nkiux77509_sg5:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/resource_packs" "nkiux77509_sg5:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/skin_packs" "nkiux77509_sg5:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/world_templates" "nkiux77509_sg5:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Notepad++" "nkiux77509_sg5:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/z-bat-vbs-file settings" "nkiux77509_sg5:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/rclone" "nkiux77509_sg5:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
+echo set "x=0"
+echo :SymLoop1
+echo if defined selopcfolders[%%x%%] ^(
+echo     call rclone copy "fcfgts_driveku_me_computers:/%%%%selopcfolders[%%x%%]%%%%" "aaveusdt_sg1:/Selo/main_cloud/computers/main_pc/%%copyname%%/%%%%selopcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10
+echo     set /a "x+=1"
+echo     GOTO :SymLoop1
+echo ^)
 
 echo rclone moveto "nkiux77509_sg5:/Selo/main_cloud/computers/main_pc/%%copyname%%" "nkiux77509_sg5:/Selo/main_cloud/computers/main_pc/%%copyname%%_fix"
 
@@ -340,6 +438,43 @@ echo cd %%userprofile%%
 
 (
 
+echo set selopcfolders[0]=a_fiyandha
+echo set selopcfolders[1]=3D Objects
+echo set selopcfolders[2]=Desktop
+echo set selopcfolders[3]=Documents
+echo set selopcfolders[4]=Videos
+echo set selopcfolders[5]=Saved Games
+echo set selopcfolders[6]=Favorites
+echo set selopcfolders[7]=Links
+echo set selopcfolders[8]=Music
+echo set selopcfolders[9]=Contacts
+echo set selopcfolders[10]=a NDF1x extended
+echo set selopcfolders[11]=Downloads
+echo set selopcfolders[12]=Pictures
+echo set selopcfolders[13]=behavior_packs
+echo set selopcfolders[14]=development_behavior_packs
+echo set selopcfolders[15]=development_resource_packs
+echo set selopcfolders[16]=development_skin_packs
+echo set selopcfolders[17]=minecraftpe
+echo set selopcfolders[18]=minecraftWorlds
+echo set selopcfolders[19]=resource_packs
+echo set selopcfolders[20]=skin_packs
+echo set selopcfolders[21]=world_templates
+echo set selopcfolders[22]=Notepad++
+echo set selopcfolders[23]=z-bat-vbs-file settings
+echo set selopcfolders[24]=rclone
+
+echo set mkdirpath[0]="aaveusdt_sg1:/Selo/" 
+echo set mkdirpath[1]="aaveusdt_sg1:/Selo/main_cloud/" 
+echo set mkdirpath[2]="aaveusdt_sg1:/Selo/main_cloud/computers/" 
+echo set mkdirpath[3]="aaveusdt_sg1:/Selo/main_cloud/computers/main_pc/" 
+echo set mkdirpath[4]="aaveusdt_sg1:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
+echo set mkdirpath[5]="aaveusdt_sg1:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
+echo set mkdirpath[6]="aaveusdt_sg1:/Caca/" 
+echo set mkdirpath[7]="aaveusdt_sg1:/Caca/main_cloud/" 
+echo set mkdirpath[8]="aaveusdt_sg1:/Caca/main_cloud/computers/" 
+echo set mkdirpath[9]="aaveusdt_sg1:/Caca/main_cloud/computers/laptop_caca/" 
+
 echo cd %%userprofile%%
 
 echo set day=%%date:~-7,2%%
@@ -351,42 +486,21 @@ echo set second=%%TIME:~6,2%%
 
 echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
-echo rclone mkdir "didrhj9036_sg6:/Selo/" 
-echo rclone mkdir "didrhj9036_sg6:/Selo/main_cloud/" 
-echo rclone mkdir "didrhj9036_sg6:/Selo/main_cloud/computers/" 
-echo rclone mkdir "didrhj9036_sg6:/Selo/main_cloud/computers/main_pc/" 
-echo rclone mkdir "didrhj9036_sg6:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
-echo rclone mkdir "didrhj9036_sg6:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/" 
-echo rclone mkdir "didrhj9036_sg6:/Caca/" 
-echo rclone mkdir "didrhj9036_sg6:/Caca/main_cloud/" 
-echo rclone mkdir "didrhj9036_sg6:/Caca/main_cloud/computers/" 
-echo rclone mkdir "didrhj9036_sg6:/Caca/main_cloud/computers/laptop_caca/" 
+echo set "x=0"
+echo :SymLoop
+echo if defined mkdirpath[%%x%%] (
+echo     call rclone mkdir %%%%mkdirpath[%%x%%]%%%%
+echo     set /a "x+=1"
+echo     GOTO :SymLoop
+echo ^)
 
-echo rclone copy "fcfgts_driveku_me_computers:/a_fiyandha" "didrhj9036_sg6:/Selo/main_cloud/computers/main_pc/%%copyname%%/a_fiyandha" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/3D Objects" "didrhj9036_sg6:/Selo/main_cloud/computers/main_pc/%%copyname%%/3D Objects" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Desktop" "didrhj9036_sg6:/Selo/main_cloud/computers/main_pc/%%copyname%%/Desktop" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Documents" "didrhj9036_sg6:/Selo/main_cloud/computers/main_pc/%%copyname%%/Documents" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Videos" "didrhj9036_sg6:/Selo/main_cloud/computers/main_pc/%%copyname%%/Videos" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Saved Games" "didrhj9036_sg6:/Selo/main_cloud/computers/main_pc/%%copyname%%/Saved Games" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Favorites" "didrhj9036_sg6:/Selo/main_cloud/computers/main_pc/%%copyname%%/Favorites" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Links" "didrhj9036_sg6:/Selo/main_cloud/computers/main_pc/%%copyname%%/Links" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Music" "didrhj9036_sg6:/Selo/main_cloud/computers/main_pc/%%copyname%%/Music" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Contacts" "didrhj9036_sg6:/Selo/main_cloud/computers/main_pc/%%copyname%%/Contacts" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/a NDF1x extended" "didrhj9036_sg6:/Selo/main_cloud/computers/main_pc/%%copyname%%/a NDF1x extended" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Downloads" "didrhj9036_sg6:/Selo/main_cloud/computers/main_pc/%%copyname%%/a_fiyandha/Downloads" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Pictures" "didrhj9036_sg6:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/behavior_packs" "didrhj9036_sg6:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/development_behavior_packs" "didrhj9036_sg6:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/development_resource_packs" "didrhj9036_sg6:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/development_skin_packs" "didrhj9036_sg6:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/minecraftpe" "didrhj9036_sg6:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/minecraftWorlds" "didrhj9036_sg6:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/resource_packs" "didrhj9036_sg6:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/skin_packs" "didrhj9036_sg6:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/world_templates" "didrhj9036_sg6:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Notepad++" "didrhj9036_sg6:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/z-bat-vbs-file settings" "didrhj9036_sg6:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/rclone" "didrhj9036_sg6:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
+echo set "x=0"
+echo :SymLoop1
+echo if defined selopcfolders[%%x%%] ^(
+echo     call rclone copy "fcfgts_driveku_me_computers:/%%%%selopcfolders[%%x%%]%%%%" "aaveusdt_sg1:/Selo/main_cloud/computers/main_pc/%%copyname%%/%%%%selopcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10
+echo     set /a "x+=1"
+echo     GOTO :SymLoop1
+echo ^)
 
 echo rclone moveto "didrhj9036_sg6:/Selo/main_cloud/computers/main_pc/%%copyname%%" "didrhj9036_sg6:/Selo/main_cloud/computers/main_pc/%%copyname%%_fix"
 
@@ -399,6 +513,43 @@ echo cd %%userprofile%%
 
 (
 
+echo set selopcfolders[0]=a_fiyandha
+echo set selopcfolders[1]=3D Objects
+echo set selopcfolders[2]=Desktop
+echo set selopcfolders[3]=Documents
+echo set selopcfolders[4]=Videos
+echo set selopcfolders[5]=Saved Games
+echo set selopcfolders[6]=Favorites
+echo set selopcfolders[7]=Links
+echo set selopcfolders[8]=Music
+echo set selopcfolders[9]=Contacts
+echo set selopcfolders[10]=a NDF1x extended
+echo set selopcfolders[11]=Downloads
+echo set selopcfolders[12]=Pictures
+echo set selopcfolders[13]=behavior_packs
+echo set selopcfolders[14]=development_behavior_packs
+echo set selopcfolders[15]=development_resource_packs
+echo set selopcfolders[16]=development_skin_packs
+echo set selopcfolders[17]=minecraftpe
+echo set selopcfolders[18]=minecraftWorlds
+echo set selopcfolders[19]=resource_packs
+echo set selopcfolders[20]=skin_packs
+echo set selopcfolders[21]=world_templates
+echo set selopcfolders[22]=Notepad++
+echo set selopcfolders[23]=z-bat-vbs-file settings
+echo set selopcfolders[24]=rclone
+
+echo set mkdirpath[0]="aaveusdt_sg1:/Selo/" 
+echo set mkdirpath[1]="aaveusdt_sg1:/Selo/main_cloud/" 
+echo set mkdirpath[2]="aaveusdt_sg1:/Selo/main_cloud/computers/" 
+echo set mkdirpath[3]="aaveusdt_sg1:/Selo/main_cloud/computers/main_pc/" 
+echo set mkdirpath[4]="aaveusdt_sg1:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
+echo set mkdirpath[5]="aaveusdt_sg1:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
+echo set mkdirpath[6]="aaveusdt_sg1:/Caca/" 
+echo set mkdirpath[7]="aaveusdt_sg1:/Caca/main_cloud/" 
+echo set mkdirpath[8]="aaveusdt_sg1:/Caca/main_cloud/computers/" 
+echo set mkdirpath[9]="aaveusdt_sg1:/Caca/main_cloud/computers/laptop_caca/" 
+
 echo cd %%userprofile%%
 
 echo set day=%%date:~-7,2%%
@@ -410,42 +561,21 @@ echo set second=%%TIME:~6,2%%
 
 echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
-echo rclone mkdir "hjski8292882_sg7:/Selo/" 
-echo rclone mkdir "hjski8292882_sg7:/Selo/main_cloud/" 
-echo rclone mkdir "hjski8292882_sg7:/Selo/main_cloud/computers/" 
-echo rclone mkdir "hjski8292882_sg7:/Selo/main_cloud/computers/main_pc/" 
-echo rclone mkdir "hjski8292882_sg7:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
-echo rclone mkdir "hjski8292882_sg7:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/" 
-echo rclone mkdir "hjski8292882_sg7:/Caca/" 
-echo rclone mkdir "hjski8292882_sg7:/Caca/main_cloud/" 
-echo rclone mkdir "hjski8292882_sg7:/Caca/main_cloud/computers/" 
-echo rclone mkdir "hjski8292882_sg7:/Caca/main_cloud/computers/laptop_caca/" 
+echo set "x=0"
+echo :SymLoop
+echo if defined mkdirpath[%%x%%] (
+echo     call rclone mkdir %%%%mkdirpath[%%x%%]%%%%
+echo     set /a "x+=1"
+echo     GOTO :SymLoop
+echo ^)
 
-echo rclone copy "fcfgts_driveku_me_computers:/a_fiyandha" "hjski8292882_sg7:/Selo/main_cloud/computers/main_pc/%%copyname%%/a_fiyandha" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/3D Objects" "hjski8292882_sg7:/Selo/main_cloud/computers/main_pc/%%copyname%%/3D Objects" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Desktop" "hjski8292882_sg7:/Selo/main_cloud/computers/main_pc/%%copyname%%/Desktop" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Documents" "hjski8292882_sg7:/Selo/main_cloud/computers/main_pc/%%copyname%%/Documents" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Videos" "hjski8292882_sg7:/Selo/main_cloud/computers/main_pc/%%copyname%%/Videos" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Saved Games" "hjski8292882_sg7:/Selo/main_cloud/computers/main_pc/%%copyname%%/Saved Games" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Favorites" "hjski8292882_sg7:/Selo/main_cloud/computers/main_pc/%%copyname%%/Favorites" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Links" "hjski8292882_sg7:/Selo/main_cloud/computers/main_pc/%%copyname%%/Links" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Music" "hjski8292882_sg7:/Selo/main_cloud/computers/main_pc/%%copyname%%/Music" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Contacts" "hjski8292882_sg7:/Selo/main_cloud/computers/main_pc/%%copyname%%/Contacts" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/a NDF1x extended" "hjski8292882_sg7:/Selo/main_cloud/computers/main_pc/%%copyname%%/a NDF1x extended" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Downloads" "hjski8292882_sg7:/Selo/main_cloud/computers/main_pc/%%copyname%%/a_fiyandha/Downloads" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Pictures" "hjski8292882_sg7:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/behavior_packs" "hjski8292882_sg7:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/development_behavior_packs" "hjski8292882_sg7:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/development_resource_packs" "hjski8292882_sg7:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/development_skin_packs" "hjski8292882_sg7:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/minecraftpe" "hjski8292882_sg7:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/minecraftWorlds" "hjski8292882_sg7:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/resource_packs" "hjski8292882_sg7:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/skin_packs" "hjski8292882_sg7:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/world_templates" "hjski8292882_sg7:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Notepad++" "hjski8292882_sg7:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/z-bat-vbs-file settings" "hjski8292882_sg7:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/rclone" "hjski8292882_sg7:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+echo set "x=0"
+echo :SymLoop1
+echo if defined selopcfolders[%%x%%] ^(
+echo     call rclone copy "fcfgts_driveku_me_computers:/%%%%selopcfolders[%%x%%]%%%%" "aaveusdt_sg1:/Selo/main_cloud/computers/main_pc/%%copyname%%/%%%%selopcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10
+echo     set /a "x+=1"
+echo     GOTO :SymLoop1
+echo ^)
 
 echo rclone moveto "hjski8292882_sg7:/Selo/main_cloud/computers/main_pc/%%copyname%%" "hjski8292882_sg7:/Selo/main_cloud/computers/main_pc/%%copyname%%_fix"
 
@@ -458,6 +588,43 @@ echo cd %%userprofile%%
 
 (
 
+echo set selopcfolders[0]=a_fiyandha
+echo set selopcfolders[1]=3D Objects
+echo set selopcfolders[2]=Desktop
+echo set selopcfolders[3]=Documents
+echo set selopcfolders[4]=Videos
+echo set selopcfolders[5]=Saved Games
+echo set selopcfolders[6]=Favorites
+echo set selopcfolders[7]=Links
+echo set selopcfolders[8]=Music
+echo set selopcfolders[9]=Contacts
+echo set selopcfolders[10]=a NDF1x extended
+echo set selopcfolders[11]=Downloads
+echo set selopcfolders[12]=Pictures
+echo set selopcfolders[13]=behavior_packs
+echo set selopcfolders[14]=development_behavior_packs
+echo set selopcfolders[15]=development_resource_packs
+echo set selopcfolders[16]=development_skin_packs
+echo set selopcfolders[17]=minecraftpe
+echo set selopcfolders[18]=minecraftWorlds
+echo set selopcfolders[19]=resource_packs
+echo set selopcfolders[20]=skin_packs
+echo set selopcfolders[21]=world_templates
+echo set selopcfolders[22]=Notepad++
+echo set selopcfolders[23]=z-bat-vbs-file settings
+echo set selopcfolders[24]=rclone
+
+echo set mkdirpath[0]="aaveusdt_sg1:/Selo/" 
+echo set mkdirpath[1]="aaveusdt_sg1:/Selo/main_cloud/" 
+echo set mkdirpath[2]="aaveusdt_sg1:/Selo/main_cloud/computers/" 
+echo set mkdirpath[3]="aaveusdt_sg1:/Selo/main_cloud/computers/main_pc/" 
+echo set mkdirpath[4]="aaveusdt_sg1:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
+echo set mkdirpath[5]="aaveusdt_sg1:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
+echo set mkdirpath[6]="aaveusdt_sg1:/Caca/" 
+echo set mkdirpath[7]="aaveusdt_sg1:/Caca/main_cloud/" 
+echo set mkdirpath[8]="aaveusdt_sg1:/Caca/main_cloud/computers/" 
+echo set mkdirpath[9]="aaveusdt_sg1:/Caca/main_cloud/computers/laptop_caca/" 
+
 echo cd %%userprofile%%
 
 echo set day=%%date:~-7,2%%
@@ -469,42 +636,21 @@ echo set second=%%TIME:~6,2%%
 
 echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
-echo rclone mkdir "jsnwj84738_sg8:/Selo/" 
-echo rclone mkdir "jsnwj84738_sg8:/Selo/main_cloud/" 
-echo rclone mkdir "jsnwj84738_sg8:/Selo/main_cloud/computers/" 
-echo rclone mkdir "jsnwj84738_sg8:/Selo/main_cloud/computers/main_pc/" 
-echo rclone mkdir "jsnwj84738_sg8:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
-echo rclone mkdir "jsnwj84738_sg8:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/" 
-echo rclone mkdir "jsnwj84738_sg8:/Caca/" 
-echo rclone mkdir "jsnwj84738_sg8:/Caca/main_cloud/" 
-echo rclone mkdir "jsnwj84738_sg8:/Caca/main_cloud/computers/" 
-echo rclone mkdir "jsnwj84738_sg8:/Caca/main_cloud/computers/laptop_caca/" 
+echo set "x=0"
+echo :SymLoop
+echo if defined mkdirpath[%%x%%] (
+echo     call rclone mkdir %%%%mkdirpath[%%x%%]%%%%
+echo     set /a "x+=1"
+echo     GOTO :SymLoop
+echo ^)
 
-echo rclone copy "fcfgts_driveku_me_computers:/a_fiyandha" "jsnwj84738_sg8:/Selo/main_cloud/computers/main_pc/%%copyname%%/a_fiyandha" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/3D Objects" "jsnwj84738_sg8:/Selo/main_cloud/computers/main_pc/%%copyname%%/3D Objects" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Desktop" "jsnwj84738_sg8:/Selo/main_cloud/computers/main_pc/%%copyname%%/Desktop" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Documents" "jsnwj84738_sg8:/Selo/main_cloud/computers/main_pc/%%copyname%%/Documents" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Videos" "jsnwj84738_sg8:/Selo/main_cloud/computers/main_pc/%%copyname%%/Videos" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Saved Games" "jsnwj84738_sg8:/Selo/main_cloud/computers/main_pc/%%copyname%%/Saved Games" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Favorites" "jsnwj84738_sg8:/Selo/main_cloud/computers/main_pc/%%copyname%%/Favorites" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Links" "jsnwj84738_sg8:/Selo/main_cloud/computers/main_pc/%%copyname%%/Links" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Music" "jsnwj84738_sg8:/Selo/main_cloud/computers/main_pc/%%copyname%%/Music" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Contacts" "jsnwj84738_sg8:/Selo/main_cloud/computers/main_pc/%%copyname%%/Contacts" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/a NDF1x extended" "jsnwj84738_sg8:/Selo/main_cloud/computers/main_pc/%%copyname%%/a NDF1x extended" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Downloads" "jsnwj84738_sg8:/Selo/main_cloud/computers/main_pc/%%copyname%%/a_fiyandha/Downloads" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Pictures" "jsnwj84738_sg8:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/behavior_packs" "jsnwj84738_sg8:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/development_behavior_packs" "jsnwj84738_sg8:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/development_resource_packs" "jsnwj84738_sg8:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/development_skin_packs" "jsnwj84738_sg8:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/minecraftpe" "jsnwj84738_sg8:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/minecraftWorlds" "jsnwj84738_sg8:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/resource_packs" "jsnwj84738_sg8:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/skin_packs" "jsnwj84738_sg8:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/world_templates" "jsnwj84738_sg8:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Notepad++" "jsnwj84738_sg8:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/z-bat-vbs-file settings" "jsnwj84738_sg8:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/rclone" "jsnwj84738_sg8:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
+echo set "x=0"
+echo :SymLoop1
+echo if defined selopcfolders[%%x%%] ^(
+echo     call rclone copy "fcfgts_driveku_me_computers:/%%%%selopcfolders[%%x%%]%%%%" "aaveusdt_sg1:/Selo/main_cloud/computers/main_pc/%%copyname%%/%%%%selopcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10
+echo     set /a "x+=1"
+echo     GOTO :SymLoop1
+echo ^)
 
 echo rclone moveto "jsnwj84738_sg8:/Selo/main_cloud/computers/main_pc/%%copyname%%" "jsnwj84738_sg8:/Selo/main_cloud/computers/main_pc/%%copyname%%_fix"
 
@@ -517,6 +663,43 @@ echo cd %%userprofile%%
 
 (
 
+echo set selopcfolders[0]=a_fiyandha
+echo set selopcfolders[1]=3D Objects
+echo set selopcfolders[2]=Desktop
+echo set selopcfolders[3]=Documents
+echo set selopcfolders[4]=Videos
+echo set selopcfolders[5]=Saved Games
+echo set selopcfolders[6]=Favorites
+echo set selopcfolders[7]=Links
+echo set selopcfolders[8]=Music
+echo set selopcfolders[9]=Contacts
+echo set selopcfolders[10]=a NDF1x extended
+echo set selopcfolders[11]=Downloads
+echo set selopcfolders[12]=Pictures
+echo set selopcfolders[13]=behavior_packs
+echo set selopcfolders[14]=development_behavior_packs
+echo set selopcfolders[15]=development_resource_packs
+echo set selopcfolders[16]=development_skin_packs
+echo set selopcfolders[17]=minecraftpe
+echo set selopcfolders[18]=minecraftWorlds
+echo set selopcfolders[19]=resource_packs
+echo set selopcfolders[20]=skin_packs
+echo set selopcfolders[21]=world_templates
+echo set selopcfolders[22]=Notepad++
+echo set selopcfolders[23]=z-bat-vbs-file settings
+echo set selopcfolders[24]=rclone
+
+echo set mkdirpath[0]="aaveusdt_sg1:/Selo/" 
+echo set mkdirpath[1]="aaveusdt_sg1:/Selo/main_cloud/" 
+echo set mkdirpath[2]="aaveusdt_sg1:/Selo/main_cloud/computers/" 
+echo set mkdirpath[3]="aaveusdt_sg1:/Selo/main_cloud/computers/main_pc/" 
+echo set mkdirpath[4]="aaveusdt_sg1:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
+echo set mkdirpath[5]="aaveusdt_sg1:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
+echo set mkdirpath[6]="aaveusdt_sg1:/Caca/" 
+echo set mkdirpath[7]="aaveusdt_sg1:/Caca/main_cloud/" 
+echo set mkdirpath[8]="aaveusdt_sg1:/Caca/main_cloud/computers/" 
+echo set mkdirpath[9]="aaveusdt_sg1:/Caca/main_cloud/computers/laptop_caca/" 
+
 echo cd %%userprofile%%
 
 echo set day=%%date:~-7,2%%
@@ -528,42 +711,21 @@ echo set second=%%TIME:~6,2%%
 
 echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
-echo rclone mkdir "ffdnsak8272793_sg9:/Selo/" 
-echo rclone mkdir "ffdnsak8272793_sg9:/Selo/main_cloud/" 
-echo rclone mkdir "ffdnsak8272793_sg9:/Selo/main_cloud/computers/" 
-echo rclone mkdir "ffdnsak8272793_sg9:/Selo/main_cloud/computers/main_pc/" 
-echo rclone mkdir "ffdnsak8272793_sg9:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
-echo rclone mkdir "ffdnsak8272793_sg9:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/" 
-echo rclone mkdir "ffdnsak8272793_sg9:/Caca/" 
-echo rclone mkdir "ffdnsak8272793_sg9:/Caca/main_cloud/" 
-echo rclone mkdir "ffdnsak8272793_sg9:/Caca/main_cloud/computers/" 
-echo rclone mkdir "ffdnsak8272793_sg9:/Caca/main_cloud/computers/laptop_caca/" 
+echo set "x=0"
+echo :SymLoop
+echo if defined mkdirpath[%%x%%] (
+echo     call rclone mkdir %%%%mkdirpath[%%x%%]%%%%
+echo     set /a "x+=1"
+echo     GOTO :SymLoop
+echo ^)
 
-echo rclone copy "fcfgts_driveku_me_computers:/a_fiyandha" "ffdnsak8272793_sg9:/Selo/main_cloud/computers/main_pc/%%copyname%%/a_fiyandha" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/3D Objects" "ffdnsak8272793_sg9:/Selo/main_cloud/computers/main_pc/%%copyname%%/3D Objects" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Desktop" "ffdnsak8272793_sg9:/Selo/main_cloud/computers/main_pc/%%copyname%%/Desktop" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Documents" "ffdnsak8272793_sg9:/Selo/main_cloud/computers/main_pc/%%copyname%%/Documents" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Videos" "ffdnsak8272793_sg9:/Selo/main_cloud/computers/main_pc/%%copyname%%/Videos" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Saved Games" "ffdnsak8272793_sg9:/Selo/main_cloud/computers/main_pc/%%copyname%%/Saved Games" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Favorites" "ffdnsak8272793_sg9:/Selo/main_cloud/computers/main_pc/%%copyname%%/Favorites" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Links" "ffdnsak8272793_sg9:/Selo/main_cloud/computers/main_pc/%%copyname%%/Links" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Music" "ffdnsak8272793_sg9:/Selo/main_cloud/computers/main_pc/%%copyname%%/Music" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Contacts" "ffdnsak8272793_sg9:/Selo/main_cloud/computers/main_pc/%%copyname%%/Contacts" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/a NDF1x extended" "ffdnsak8272793_sg9:/Selo/main_cloud/computers/main_pc/%%copyname%%/a NDF1x extended" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Downloads" "ffdnsak8272793_sg9:/Selo/main_cloud/computers/main_pc/%%copyname%%/a_fiyandha/Downloads" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Pictures" "ffdnsak8272793_sg9:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/behavior_packs" "ffdnsak8272793_sg9:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/development_behavior_packs" "ffdnsak8272793_sg9:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/development_resource_packs" "ffdnsak8272793_sg9:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/development_skin_packs" "ffdnsak8272793_sg9:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/minecraftpe" "ffdnsak8272793_sg9:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/minecraftWorlds" "ffdnsak8272793_sg9:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/resource_packs" "ffdnsak8272793_sg9:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/skin_packs" "ffdnsak8272793_sg9:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/world_templates" "ffdnsak8272793_sg9:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Notepad++" "ffdnsak8272793_sg9:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/z-bat-vbs-file settings" "ffdnsak8272793_sg9:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/rclone" "ffdnsak8272793_sg9:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
+echo set "x=0"
+echo :SymLoop1
+echo if defined selopcfolders[%%x%%] ^(
+echo     call rclone copy "fcfgts_driveku_me_computers:/%%%%selopcfolders[%%x%%]%%%%" "aaveusdt_sg1:/Selo/main_cloud/computers/main_pc/%%copyname%%/%%%%selopcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10
+echo     set /a "x+=1"
+echo     GOTO :SymLoop1
+echo ^)
 
 echo rclone moveto "ffdnsak8272793_sg9:/Selo/main_cloud/computers/main_pc/%%copyname%%" "ffdnsak8272793_sg9:/Selo/main_cloud/computers/main_pc/%%copyname%%_fix"
 
@@ -576,6 +738,43 @@ echo cd %%userprofile%%
 
 (
 
+echo set selopcfolders[0]=a_fiyandha
+echo set selopcfolders[1]=3D Objects
+echo set selopcfolders[2]=Desktop
+echo set selopcfolders[3]=Documents
+echo set selopcfolders[4]=Videos
+echo set selopcfolders[5]=Saved Games
+echo set selopcfolders[6]=Favorites
+echo set selopcfolders[7]=Links
+echo set selopcfolders[8]=Music
+echo set selopcfolders[9]=Contacts
+echo set selopcfolders[10]=a NDF1x extended
+echo set selopcfolders[11]=Downloads
+echo set selopcfolders[12]=Pictures
+echo set selopcfolders[13]=behavior_packs
+echo set selopcfolders[14]=development_behavior_packs
+echo set selopcfolders[15]=development_resource_packs
+echo set selopcfolders[16]=development_skin_packs
+echo set selopcfolders[17]=minecraftpe
+echo set selopcfolders[18]=minecraftWorlds
+echo set selopcfolders[19]=resource_packs
+echo set selopcfolders[20]=skin_packs
+echo set selopcfolders[21]=world_templates
+echo set selopcfolders[22]=Notepad++
+echo set selopcfolders[23]=z-bat-vbs-file settings
+echo set selopcfolders[24]=rclone
+
+echo set mkdirpath[0]="aaveusdt_sg1:/Selo/" 
+echo set mkdirpath[1]="aaveusdt_sg1:/Selo/main_cloud/" 
+echo set mkdirpath[2]="aaveusdt_sg1:/Selo/main_cloud/computers/" 
+echo set mkdirpath[3]="aaveusdt_sg1:/Selo/main_cloud/computers/main_pc/" 
+echo set mkdirpath[4]="aaveusdt_sg1:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
+echo set mkdirpath[5]="aaveusdt_sg1:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
+echo set mkdirpath[6]="aaveusdt_sg1:/Caca/" 
+echo set mkdirpath[7]="aaveusdt_sg1:/Caca/main_cloud/" 
+echo set mkdirpath[8]="aaveusdt_sg1:/Caca/main_cloud/computers/" 
+echo set mkdirpath[9]="aaveusdt_sg1:/Caca/main_cloud/computers/laptop_caca/" 
+
 echo cd %%userprofile%%
 
 echo set day=%%date:~-7,2%%
@@ -587,42 +786,21 @@ echo set second=%%TIME:~6,2%%
 
 echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
-echo rclone mkdir "otipes7948_sg10:/Selo/" 
-echo rclone mkdir "otipes7948_sg10:/Selo/main_cloud/" 
-echo rclone mkdir "otipes7948_sg10:/Selo/main_cloud/computers/" 
-echo rclone mkdir "otipes7948_sg10:/Selo/main_cloud/computers/main_pc/" 
-echo rclone mkdir "otipes7948_sg10:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
-echo rclone mkdir "otipes7948_sg10:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/" 
-echo rclone mkdir "otipes7948_sg10:/Caca/" 
-echo rclone mkdir "otipes7948_sg10:/Caca/main_cloud/" 
-echo rclone mkdir "otipes7948_sg10:/Caca/main_cloud/computers/" 
-echo rclone mkdir "otipes7948_sg10:/Caca/main_cloud/computers/laptop_caca/" 
+echo set "x=0"
+echo :SymLoop
+echo if defined mkdirpath[%%x%%] (
+echo     call rclone mkdir %%%%mkdirpath[%%x%%]%%%%
+echo     set /a "x+=1"
+echo     GOTO :SymLoop
+echo ^)
 
-echo rclone copy "fcfgts_driveku_me_computers:/a_fiyandha" "otipes7948_sg10:/Selo/main_cloud/computers/main_pc/%%copyname%%/a_fiyandha" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/3D Objects" "otipes7948_sg10:/Selo/main_cloud/computers/main_pc/%%copyname%%/3D Objects" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Desktop" "otipes7948_sg10:/Selo/main_cloud/computers/main_pc/%%copyname%%/Desktop" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Documents" "otipes7948_sg10:/Selo/main_cloud/computers/main_pc/%%copyname%%/Documents" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Videos" "otipes7948_sg10:/Selo/main_cloud/computers/main_pc/%%copyname%%/Videos" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Saved Games" "otipes7948_sg10:/Selo/main_cloud/computers/main_pc/%%copyname%%/Saved Games" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Favorites" "otipes7948_sg10:/Selo/main_cloud/computers/main_pc/%%copyname%%/Favorites" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Links" "otipes7948_sg10:/Selo/main_cloud/computers/main_pc/%%copyname%%/Links" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Music" "otipes7948_sg10:/Selo/main_cloud/computers/main_pc/%%copyname%%/Music" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Contacts" "otipes7948_sg10:/Selo/main_cloud/computers/main_pc/%%copyname%%/Contacts" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/a NDF1x extended" "otipes7948_sg10:/Selo/main_cloud/computers/main_pc/%%copyname%%/a NDF1x extended" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Downloads" "otipes7948_sg10:/Selo/main_cloud/computers/main_pc/%%copyname%%/a_fiyandha/Downloads" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Pictures" "otipes7948_sg10:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/behavior_packs" "otipes7948_sg10:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/development_behavior_packs" "otipes7948_sg10:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/development_resource_packs" "otipes7948_sg10:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/development_skin_packs" "otipes7948_sg10:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/minecraftpe" "otipes7948_sg10:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/minecraftWorlds" "otipes7948_sg10:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/resource_packs" "otipes7948_sg10:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/skin_packs" "otipes7948_sg10:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/world_templates" "otipes7948_sg10:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/Notepad++" "otipes7948_sg10:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/z-bat-vbs-file settings" "otipes7948_sg10:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
-echo rclone copy "fcfgts_driveku_me_computers:/rclone" "otipes7948_sg10:/Selo/main_cloud/computers/main_pc/%%copyname%%/Pictures" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
+echo set "x=0"
+echo :SymLoop1
+echo if defined selopcfolders[%%x%%] ^(
+echo     call rclone copy "fcfgts_driveku_me_computers:/%%%%selopcfolders[%%x%%]%%%%" "aaveusdt_sg1:/Selo/main_cloud/computers/main_pc/%%copyname%%/%%%%selopcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10
+echo     set /a "x+=1"
+echo     GOTO :SymLoop1
+echo ^)
 
 echo rclone moveto "otipes7948_sg10:/Selo/main_cloud/computers/main_pc/%%copyname%%" "otipes7948_sg10:/Selo/main_cloud/computers/main_pc/%%copyname%%_fix"
 
@@ -633,7 +811,7 @@ echo cd %%userprofile%%
 
 
 
-REM  Caca
+REM  Caca   _______________________________________________________
 
 (
 
