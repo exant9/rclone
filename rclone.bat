@@ -8,6 +8,35 @@ REM if errorlevel 1 exit
 REM  rclone copy A B
 REM  A nya gabakal pake usage
 
+
+set mkdirpath[1]="aaveusdt_sg1:/Selo/" 
+set mkdirpath[2]="aaveusdt_sg1:/Selo/main_cloud/" 
+set mkdirpath[3]="aaveusdt_sg1:/Selo/main_cloud/computers/" 
+set mkdirpath[4]="aaveusdt_sg1:/Selo/main_cloud/computers/alyx/" 
+set mkdirpath[5]="aaveusdt_sg1:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
+set mkdirpath[6]="aaveusdt_sg1:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
+set mkdirpath[7]="aaveusdt_sg1:/Caca/" 
+set mkdirpath[8]="aaveusdt_sg1:/Caca/main_cloud/" 
+set mkdirpath[9]="aaveusdt_sg1:/Caca/main_cloud/computers/" 
+set mkdirpath[10]="aaveusdt_sg1:/Caca/main_cloud/computers/laptop_caca/"
+set mkdirpath[1]="fcfgts_driveku_me:/Colab Notebooks"
+set mkdirpath[1]="fcfgts_driveku_me:/Files"
+set mkdirpath[1]="fcfgts_driveku_me:/PC/alyx"
+set mkdirpath[1]="fcfgts_driveku_me:/system/rclone"
+set mkdirpath[1]="fcfgts_driveku_me:/system/test"
+set mkdirpath[1]="fcfgts_driveku_me:/Unlimtd Copy/Computers"
+set mkdirpath[1]="fcfgts_driveku_me:/Unlimtd Copy/Downloads_pool_83174"
+set mkdirpath[1]="fcfgts_driveku_me:/Unlimtd Copy/Minecraft"
+
+
+
+echo set "x=0"
+echo :SymLoop2
+echo if defined mkdirpath[%x%] (
+echo     call rclone mkdir %%mkdirpath[%x%]%%
+echo     set /a "x+=1"
+echo     GOTO :SymLoop2
+
 (
 
 echo set /a jwd=%%RANDOM%% * 21 / 32768 + 20
