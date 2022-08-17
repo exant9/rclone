@@ -19,14 +19,14 @@ set mkdirpath[7]="aaveusdt_sg1:/Caca/"
 set mkdirpath[8]="aaveusdt_sg1:/Caca/main_cloud/" 
 set mkdirpath[9]="aaveusdt_sg1:/Caca/main_cloud/computers/" 
 set mkdirpath[10]="aaveusdt_sg1:/Caca/main_cloud/computers/laptop_caca/"
-set mkdirpath[1]="fcfgts_driveku_me:/Colab Notebooks"
-set mkdirpath[1]="fcfgts_driveku_me:/Files"
-set mkdirpath[1]="fcfgts_driveku_me:/PC/alyx"
-set mkdirpath[1]="fcfgts_driveku_me:/system/rclone"
-set mkdirpath[1]="fcfgts_driveku_me:/system/test"
-set mkdirpath[1]="fcfgts_driveku_me:/Unlimtd Copy/Computers"
-set mkdirpath[1]="fcfgts_driveku_me:/Unlimtd Copy/Downloads_pool_83174"
-set mkdirpath[1]="fcfgts_driveku_me:/Unlimtd Copy/Minecraft"
+set mkdirpath[11]="fcfgts_driveku_me:/Colab Notebooks"
+set mkdirpath[12]="fcfgts_driveku_me:/Files"
+set mkdirpath[13]="fcfgts_driveku_me:/PC/alyx"
+set mkdirpath[14]="fcfgts_driveku_me:/system/rclone"
+set mkdirpath[15]="fcfgts_driveku_me:/system/test"
+set mkdirpath[16]="fcfgts_driveku_me:/Unlimtd Copy/Computers"
+set mkdirpath[17]="fcfgts_driveku_me:/Unlimtd Copy/Downloads_pool_83174"
+set mkdirpath[18]="fcfgts_driveku_me:/Unlimtd Copy/Minecraft"
 
 
 
@@ -36,6 +36,113 @@ echo if defined mkdirpath[%x%] (
 echo     call rclone mkdir %%mkdirpath[%x%]%%
 echo     set /a "x+=1"
 echo     GOTO :SymLoop2
+
+
+
+
+
+set mkdirpath[1]=Selo/" 
+set mkdirpath[2]=Selo/main_cloud/" 
+set mkdirpath[3]=Selo/main_cloud/computers/" 
+set mkdirpath[4]=Selo/main_cloud/computers/alyx/" 
+set mkdirpath[5]=Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
+set mkdirpath[6]=Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
+set mkdirpath[7]=Caca/" 
+set mkdirpath[8]=Caca/main_cloud/" 
+set mkdirpath[9]=Caca/main_cloud/computers/" 
+set mkdirpath[10]=Caca/main_cloud/computers/laptop_caca/"
+
+set storage=aaveusdt_sg1
+
+echo set "x=0"
+echo :SymLoop2
+echo if defined mkdirpath[%x%] (
+echo     call rclone mkdir "%storage%:/%%mkdirpath[%x%]%%
+echo     set /a "x+=1"
+echo     GOTO :SymLoop2
+
+set storage=renaave50_sg2
+
+echo set "x=0"
+echo :SymLoop2
+echo if defined mkdirpath[%x%] (
+echo     call rclone mkdir "%storage%:/%%mkdirpath[%x%]%%
+echo     set /a "x+=1"
+echo     GOTO :SymLoop2
+
+set storage=renaave7_sg3
+
+echo set "x=0"
+echo :SymLoop2
+echo if defined mkdirpath[%x%] (
+echo     call rclone mkdir "%storage%:/%%mkdirpath[%x%]%%
+echo     set /a "x+=1"
+echo     GOTO :SymLoop2
+
+set storage=oudhoh0050_sg4
+
+echo set "x=0"
+echo :SymLoop2
+echo if defined mkdirpath[%x%] (
+echo     call rclone mkdir "%storage%:/%%mkdirpath[%x%]%%
+echo     set /a "x+=1"
+echo     GOTO :SymLoop2
+
+set storage=nkiux77509_sg5
+
+echo set "x=0"
+echo :SymLoop2
+echo if defined mkdirpath[%x%] (
+echo     call rclone mkdir "%storage%:/%%mkdirpath[%x%]%%
+echo     set /a "x+=1"
+echo     GOTO :SymLoop2
+
+set storage=didrhj9036_sg6
+
+echo set "x=0"
+echo :SymLoop2
+echo if defined mkdirpath[%x%] (
+echo     call rclone mkdir "%storage%:/%%mkdirpath[%x%]%%
+echo     set /a "x+=1"
+echo     GOTO :SymLoop2
+
+set storage=hjski8292882_sg7
+
+echo set "x=0"
+echo :SymLoop2
+echo if defined mkdirpath[%x%] (
+echo     call rclone mkdir "%storage%:/%%mkdirpath[%x%]%%
+echo     set /a "x+=1"
+echo     GOTO :SymLoop2
+
+set storage=jsnwj84738_sg8
+
+echo set "x=0"
+echo :SymLoop2
+echo if defined mkdirpath[%x%] (
+echo     call rclone mkdir "%storage%:/%%mkdirpath[%x%]%%
+echo     set /a "x+=1"
+echo     GOTO :SymLoop2
+
+set storage=ffdnsak8272793_sg9
+
+echo set "x=0"
+echo :SymLoop2
+echo if defined mkdirpath[%x%] (
+echo     call rclone mkdir "%storage%:/%%mkdirpath[%x%]%%
+echo     set /a "x+=1"
+echo     GOTO :SymLoop2
+
+set storage=otipes7948_sg10
+
+echo set "x=0"
+echo :SymLoop2
+echo if defined mkdirpath[%x%] (
+echo     call rclone mkdir "%storage%:/%%mkdirpath[%x%]%%
+echo     set /a "x+=1"
+echo     GOTO :SymLoop2
+
+
 
 (
 
@@ -65,14 +172,6 @@ REM echo rclone delete "jsnwj84738_sg8:/" --drive-trashed-only --drive-use-trash
 REM echo rclone delete "ffdnsak8272793_sg9:/" --drive-trashed-only --drive-use-trash=false --fast-list --low-level-retries 9999999999 --retries 10 
 REM echo rclone delete "otipes7948_sg10:/" --drive-trashed-only --drive-use-trash=false --fast-list --low-level-retries 9999999999 --retries 10 
 
-echo rclone mkdir "fcfgts_driveku_me:/Colab Notebooks
-echo rclone mkdir "fcfgts_driveku_me:/Files
-echo rclone mkdir "fcfgts_driveku_me:/PC/alyx
-echo rclone mkdir "fcfgts_driveku_me:/system/rclone
-echo rclone mkdir "fcfgts_driveku_me:/system/test
-echo rclone mkdir "fcfgts_driveku_me:/Unlimtd Copy/Computers
-echo rclone mkdir "fcfgts_driveku_me:/Unlimtd Copy/Downloads_pool_83174
-echo rclone mkdir "fcfgts_driveku_me:/Unlimtd Copy/Minecraft
 
 REM echo rclone mkdir "fcfgts_driveku_me:/
 REM echo rclone mkdir "fcfgts_driveku_me:/
@@ -123,17 +222,6 @@ echo set selopcfolders[21]=world_templates
 echo set selopcfolders[22]=Notepad++
 echo set selopcfolders[23]=z-bat-vbs-file settings
 echo set selopcfolders[24]=rclone
-
-echo REM set mkdirpath[1]="aaveusdt_sg1:/Selo/" 
-echo REM set mkdirpath[2]="aaveusdt_sg1:/Selo/main_cloud/" 
-echo REM set mkdirpath[3]="aaveusdt_sg1:/Selo/main_cloud/computers/" 
-echo REM set mkdirpath[4]="aaveusdt_sg1:/Selo/main_cloud/computers/alyx/" 
-echo REM set mkdirpath[5]="aaveusdt_sg1:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
-echo REM set mkdirpath[6]="aaveusdt_sg1:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
-echo REM set mkdirpath[7]="aaveusdt_sg1:/Caca/" 
-echo REM set mkdirpath[8]="aaveusdt_sg1:/Caca/main_cloud/" 
-echo REM set mkdirpath[9]="aaveusdt_sg1:/Caca/main_cloud/computers/" 
-echo REM set mkdirpath[10]="aaveusdt_sg1:/Caca/main_cloud/computers/laptop_caca/" 
 
 echo cd %%userprofile%%
 
@@ -201,16 +289,7 @@ echo set selopcfolders[22]=Notepad++
 echo set selopcfolders[23]=z-bat-vbs-file settings
 echo set selopcfolders[24]=rclone
 
-echo REM set mkdirpath[0]="renaave50_sg2:/Selo/" 
-echo REM set mkdirpath[1]="renaave50_sg2:/Selo/main_cloud/" 
-echo REM set mkdirpath[2]="renaave50_sg2:/Selo/main_cloud/computers/" 
-echo REM set mkdirpath[3]="renaave50_sg2:/Selo/main_cloud/computers/alyx/" 
-echo REM set mkdirpath[4]="renaave50_sg2:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
-echo REM set mkdirpath[5]="renaave50_sg2:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
-echo REM set mkdirpath[6]="renaave50_sg2:/Caca/" 
-echo REM set mkdirpath[7]="renaave50_sg2:/Caca/main_cloud/" 
-echo REM set mkdirpath[8]="renaave50_sg2:/Caca/main_cloud/computers/" 
-echo REM set mkdirpath[9]="renaave50_sg2:/Caca/main_cloud/computers/laptop_caca/" 
+
 
 echo cd %%userprofile%%
 
@@ -279,17 +358,6 @@ echo set selopcfolders[22]=Notepad++
 echo set selopcfolders[23]=z-bat-vbs-file settings
 echo set selopcfolders[24]=rclone
 
-echo REM set mkdirpath[0]="renaave7_sg3:/Selo/" 
-echo REM set mkdirpath[1]="renaave7_sg3:/Selo/main_cloud/" 
-echo REM set mkdirpath[2]="renaave7_sg3:/Selo/main_cloud/computers/" 
-echo REM set mkdirpath[3]="renaave7_sg3:/Selo/main_cloud/computers/alyx/" 
-echo REM set mkdirpath[4]="renaave7_sg3:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
-echo REM set mkdirpath[5]="renaave7_sg3:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
-echo REM set mkdirpath[6]="renaave7_sg3:/Caca/" 
-echo REM set mkdirpath[7]="renaave7_sg3:/Caca/main_cloud/" 
-echo REM set mkdirpath[8]="renaave7_sg3:/Caca/main_cloud/computers/" 
-echo REM set mkdirpath[9]="renaave7_sg3:/Caca/main_cloud/computers/laptop_caca/" 
-
 echo cd %%userprofile%%
 
 echo set day=%%date:~-7,2%%
@@ -356,17 +424,6 @@ echo set selopcfolders[21]=world_templates
 echo set selopcfolders[22]=Notepad++
 echo set selopcfolders[23]=z-bat-vbs-file settings
 echo set selopcfolders[24]=rclone
-
-echo REM set mkdirpath[0]="oudhoh0050_sg4:/Selo/" 
-echo REM set mkdirpath[1]="oudhoh0050_sg4:/Selo/main_cloud/" 
-echo REM set mkdirpath[2]="oudhoh0050_sg4:/Selo/main_cloud/computers/" 
-echo REM set mkdirpath[3]="oudhoh0050_sg4:/Selo/main_cloud/computers/alyx/" 
-echo REM set mkdirpath[4]="oudhoh0050_sg4:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
-echo REM set mkdirpath[5]="oudhoh0050_sg4:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
-echo REM set mkdirpath[6]="oudhoh0050_sg4:/Caca/" 
-echo REM set mkdirpath[7]="oudhoh0050_sg4:/Caca/main_cloud/" 
-echo REM set mkdirpath[8]="oudhoh0050_sg4:/Caca/main_cloud/computers/" 
-echo REM set mkdirpath[9]="oudhoh0050_sg4:/Caca/main_cloud/computers/laptop_caca/" 
 
 echo cd %%userprofile%%
 
@@ -435,17 +492,6 @@ echo set selopcfolders[22]=Notepad++
 echo set selopcfolders[23]=z-bat-vbs-file settings
 echo set selopcfolders[24]=rclone
 
-echo REM set mkdirpath[0]="nkiux77509_sg5:/Selo/" 
-echo REM set mkdirpath[1]="nkiux77509_sg5:/Selo/main_cloud/" 
-echo REM set mkdirpath[2]="nkiux77509_sg5:/Selo/main_cloud/computers/" 
-echo REM set mkdirpath[3]="nkiux77509_sg5:/Selo/main_cloud/computers/alyx/" 
-echo REM set mkdirpath[4]="nkiux77509_sg5:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
-echo REM set mkdirpath[5]="nkiux77509_sg5:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
-echo REM set mkdirpath[6]="nkiux77509_sg5:/Caca/" 
-echo REM set mkdirpath[7]="nkiux77509_sg5:/Caca/main_cloud/" 
-echo REM set mkdirpath[8]="nkiux77509_sg5:/Caca/main_cloud/computers/" 
-echo REM set mkdirpath[9]="nkiux77509_sg5:/Caca/main_cloud/computers/laptop_caca/" 
-
 echo cd %%userprofile%%
 
 echo set day=%%date:~-7,2%%
@@ -512,17 +558,6 @@ echo set selopcfolders[21]=world_templates
 echo set selopcfolders[22]=Notepad++
 echo set selopcfolders[23]=z-bat-vbs-file settings
 echo set selopcfolders[24]=rclone
-
-echo REM set mkdirpath[0]="didrhj9036_sg6:/Selo/" 
-echo REM set mkdirpath[1]="didrhj9036_sg6:/Selo/main_cloud/" 
-echo REM set mkdirpath[2]="didrhj9036_sg6:/Selo/main_cloud/computers/" 
-echo REM set mkdirpath[3]="didrhj9036_sg6:/Selo/main_cloud/computers/alyx/" 
-echo REM set mkdirpath[4]="didrhj9036_sg6:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
-echo REM set mkdirpath[5]="didrhj9036_sg6:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
-echo REM set mkdirpath[6]="didrhj9036_sg6:/Caca/" 
-echo REM set mkdirpath[7]="didrhj9036_sg6:/Caca/main_cloud/" 
-echo REM set mkdirpath[8]="didrhj9036_sg6:/Caca/main_cloud/computers/" 
-echo REM set mkdirpath[9]="didrhj9036_sg6:/Caca/main_cloud/computers/laptop_caca/" 
 
 echo cd %%userprofile%%
 
@@ -591,17 +626,6 @@ echo set selopcfolders[22]=Notepad++
 echo set selopcfolders[23]=z-bat-vbs-file settings
 echo set selopcfolders[24]=rclone
 
-echo REM set mkdirpath[0]="hjski8292882_sg7:/Selo/" 
-echo REM set mkdirpath[1]="hjski8292882_sg7:/Selo/main_cloud/" 
-echo REM set mkdirpath[2]="hjski8292882_sg7:/Selo/main_cloud/computers/" 
-echo REM set mkdirpath[3]="hjski8292882_sg7:/Selo/main_cloud/computers/alyx/" 
-echo REM set mkdirpath[4]="hjski8292882_sg7:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
-echo REM set mkdirpath[5]="hjski8292882_sg7:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
-echo REM set mkdirpath[6]="hjski8292882_sg7:/Caca/" 
-echo REM set mkdirpath[7]="hjski8292882_sg7:/Caca/main_cloud/" 
-echo REM set mkdirpath[8]="hjski8292882_sg7:/Caca/main_cloud/computers/" 
-echo REM set mkdirpath[9]="hjski8292882_sg7:/Caca/main_cloud/computers/laptop_caca/" 
-
 echo cd %%userprofile%%
 
 echo set day=%%date:~-7,2%%
@@ -668,17 +692,6 @@ echo set selopcfolders[21]=world_templates
 echo set selopcfolders[22]=Notepad++
 echo set selopcfolders[23]=z-bat-vbs-file settings
 echo set selopcfolders[24]=rclone
-
-echo REM set mkdirpath[0]="jsnwj84738_sg8:/Selo/" 
-echo REM set mkdirpath[1]="jsnwj84738_sg8:/Selo/main_cloud/" 
-echo REM set mkdirpath[2]="jsnwj84738_sg8:/Selo/main_cloud/computers/" 
-echo REM set mkdirpath[3]="jsnwj84738_sg8:/Selo/main_cloud/computers/alyx/" 
-echo REM set mkdirpath[4]="jsnwj84738_sg8:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
-echo REM set mkdirpath[5]="jsnwj84738_sg8:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
-echo REM set mkdirpath[6]="jsnwj84738_sg8:/Caca/" 
-echo REM set mkdirpath[7]="jsnwj84738_sg8:/Caca/main_cloud/" 
-echo REM set mkdirpath[8]="jsnwj84738_sg8:/Caca/main_cloud/computers/" 
-echo REM set mkdirpath[9]="jsnwj84738_sg8:/Caca/main_cloud/computers/laptop_caca/" 
 
 echo cd %%userprofile%%
 
@@ -747,17 +760,6 @@ echo set selopcfolders[22]=Notepad++
 echo set selopcfolders[23]=z-bat-vbs-file settings
 echo set selopcfolders[24]=rclone
 
-echo REM set mkdirpath[0]="ffdnsak8272793_sg9:/Selo/" 
-echo REM set mkdirpath[1]="ffdnsak8272793_sg9:/Selo/main_cloud/" 
-echo REM set mkdirpath[2]="ffdnsak8272793_sg9:/Selo/main_cloud/computers/" 
-echo REM set mkdirpath[3]="ffdnsak8272793_sg9:/Selo/main_cloud/computers/alyx/" 
-echo REM set mkdirpath[4]="ffdnsak8272793_sg9:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
-echo REM set mkdirpath[5]="ffdnsak8272793_sg9:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
-echo REM set mkdirpath[6]="ffdnsak8272793_sg9:/Caca/" 
-echo REM set mkdirpath[7]="ffdnsak8272793_sg9:/Caca/main_cloud/" 
-echo REM set mkdirpath[8]="ffdnsak8272793_sg9:/Caca/main_cloud/computers/" 
-echo REM set mkdirpath[9]="ffdnsak8272793_sg9:/Caca/main_cloud/computers/laptop_caca/" 
-
 echo cd %%userprofile%%
 
 echo set day=%%date:~-7,2%%
@@ -824,17 +826,6 @@ echo set selopcfolders[21]=world_templates
 echo set selopcfolders[22]=Notepad++
 echo set selopcfolders[23]=z-bat-vbs-file settings
 echo set selopcfolders[24]=rclone
-
-echo REM set mkdirpath[0]="otipes7948_sg10:/Selo/" 
-echo REM set mkdirpath[1]="otipes7948_sg10:/Selo/main_cloud/" 
-echo REM set mkdirpath[2]="otipes7948_sg10:/Selo/main_cloud/computers/" 
-echo REM set mkdirpath[3]="otipes7948_sg10:/Selo/main_cloud/computers/alyx/" 
-echo REM set mkdirpath[4]="otipes7948_sg10:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
-echo REM set mkdirpath[5]="otipes7948_sg10:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
-echo REM set mkdirpath[6]="otipes7948_sg10:/Caca/" 
-echo REM set mkdirpath[7]="otipes7948_sg10:/Caca/main_cloud/" 
-echo REM set mkdirpath[8]="otipes7948_sg10:/Caca/main_cloud/computers/" 
-echo REM set mkdirpath[9]="otipes7948_sg10:/Caca/main_cloud/computers/laptop_caca/" 
 
 echo cd %%userprofile%%
 
@@ -1496,17 +1487,6 @@ echo set selopcfolders[21]=world_templates
 echo set selopcfolders[22]=Notepad++
 echo set selopcfolders[23]=z-bat-vbs-file settings
 echo set selopcfolders[24]=rclone
-
-echo REM set mkdirpath[1]="otipes7948_sg10:/Selo/" 
-echo REM set mkdirpath[2]="otipes7948_sg10:/Selo/main_cloud/" 
-echo REM set mkdirpath[3]="otipes7948_sg10:/Selo/main_cloud/computers/" 
-echo REM set mkdirpath[4]="otipes7948_sg10:/Selo/main_cloud/computers/alyx/" 
-echo REM set mkdirpath[5]="otipes7948_sg10:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
-echo REM set mkdirpath[6]="otipes7948_sg10:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
-echo REM set mkdirpath[7]="otipes7948_sg10:/Caca/" 
-echo REM set mkdirpath[8]="otipes7948_sg10:/Caca/main_cloud/" 
-echo REM set mkdirpath[9]="otipes7948_sg10:/Caca/main_cloud/computers/" 
-echo REM set mkdirpath[10]="otipes7948_sg10:/Caca/main_cloud/computers/laptop_caca/" 
 
 echo cd %%userprofile%%
 
