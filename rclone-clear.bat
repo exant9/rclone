@@ -7,75 +7,19 @@ REM if errorlevel 1 exit
 
 
 (
-echo.
 echo cd %%userprofile%%
 echo rclone cleanup "aaveusdt_sg1:/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
-echo.
-)>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\__1.bat"
-
-(
-echo.
-echo cd %%userprofile%%
 echo rclone cleanup "renaave50_sg2:/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
-echo.
-)>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\__2.bat"
-
-(
-echo.
-echo cd %%userprofile%%
 echo rclone cleanup "renaave7_sg3:/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
-echo.
-)>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\__3.bat"
-
-(
-echo.
-echo cd %%userprofile%%
 echo rclone cleanup "oudhoh0050_sg4:/"--low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
-echo.
-)>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\__4.bat"
-
-(
-echo.
-echo cd %%userprofile%%
 echo rclone cleanup "nkiux77509_sg5:/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
-echo.
-)>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\__5.bat"
-
-(
-echo.
-echo cd %%userprofile%%
 echo rclone cleanup "didrhj9036_sg6:/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
-echo.
-)>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\__6.bat"
-
-(
-echo.
-echo cd %%userprofile%%
 echo rclone cleanup "hjski8292882_sg7:/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
-echo.
-)>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\__7.bat"
-
-(
-echo.
-echo cd %%userprofile%%
 echo rclone cleanup "jsnwj84738_sg8:/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
-echo.
-)>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\__8.bat"
-
-(
-echo.
-echo cd %%userprofile%%
 echo rclone cleanup "ffdnsak8272793_sg9:/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
-echo.
-)>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\__9.bat"
-
-(
-echo.
-echo cd %%userprofile%%
 echo rclone cleanup "otipes7948_sg10:/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
-echo.
-)>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\__10.bat"
-
+)>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\__1.bat"
+s
 
 
 
@@ -463,7 +407,7 @@ echo set cache_result=%%cache_result%%
 echo.
 echo set loopcount=%%cache_result%%
 echo :loop
-echo rclone purge "renaave50_sg2:/Selo/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
+echo rclone purge "oudhoh0050_sg4:/Selo/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
 echo set /a loopcount=loopcount-1
 echo if %%loopcount%%==0 goto exitloop
 echo goto loop

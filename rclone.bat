@@ -10,6 +10,8 @@ REM  A nya gabakal pake usage
 
 (
 
+echo set /a jwd=%%RANDOM%% * 21 / 32768 + 20
+echo timeout %%jwd%%
 echo cd %%userprofile%%
 
 echo rclone cleanup "aaveusdt_sg1:/"
@@ -64,6 +66,9 @@ REM echo rclone mkdir "fcfgts_driveku_me:/
 
 (
 
+echo set /a jwd=%%RANDOM%% * 21 / 32768 + 20
+echo timeout %%jwd%%
+
 echo set selopcfolders[0]=a_fiyandha
 echo set selopcfolders[1]=3D Objects
 echo set selopcfolders[2]=Desktop
@@ -90,16 +95,16 @@ echo set selopcfolders[22]=Notepad++
 echo set selopcfolders[23]=z-bat-vbs-file settings
 echo set selopcfolders[24]=rclone
 
-echo REMset mkdirpath[1]="aaveusdt_sg1:/Selo/" 
-echo REMset mkdirpath[2]="aaveusdt_sg1:/Selo/main_cloud/" 
-echo REMset mkdirpath[3]="aaveusdt_sg1:/Selo/main_cloud/computers/" 
-echo REMset mkdirpath[4]="aaveusdt_sg1:/Selo/main_cloud/computers/alyx/" 
-echo REMset mkdirpath[5]="aaveusdt_sg1:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
-echo REMset mkdirpath[6]="aaveusdt_sg1:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
-echo REMset mkdirpath[7]="aaveusdt_sg1:/Caca/" 
-echo REMset mkdirpath[8]="aaveusdt_sg1:/Caca/main_cloud/" 
-echo REMset mkdirpath[9]="aaveusdt_sg1:/Caca/main_cloud/computers/" 
-echo REMset mkdirpath[10]="aaveusdt_sg1:/Caca/main_cloud/computers/laptop_caca/" 
+echo REM set mkdirpath[1]="aaveusdt_sg1:/Selo/" 
+echo REM set mkdirpath[2]="aaveusdt_sg1:/Selo/main_cloud/" 
+echo REM set mkdirpath[3]="aaveusdt_sg1:/Selo/main_cloud/computers/" 
+echo REM set mkdirpath[4]="aaveusdt_sg1:/Selo/main_cloud/computers/alyx/" 
+echo REM set mkdirpath[5]="aaveusdt_sg1:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
+echo REM set mkdirpath[6]="aaveusdt_sg1:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
+echo REM set mkdirpath[7]="aaveusdt_sg1:/Caca/" 
+echo REM set mkdirpath[8]="aaveusdt_sg1:/Caca/main_cloud/" 
+echo REM set mkdirpath[9]="aaveusdt_sg1:/Caca/main_cloud/computers/" 
+echo REM set mkdirpath[10]="aaveusdt_sg1:/Caca/main_cloud/computers/laptop_caca/" 
 
 echo cd %%userprofile%%
 
@@ -138,6 +143,9 @@ echo cd %%userprofile%%
 
 (
 
+echo set /a jwd=%%RANDOM%% * 21 / 32768 + 20
+echo timeout %%jwd%%
+
 echo set selopcfolders[0]=a_fiyandha
 echo set selopcfolders[1]=3D Objects
 echo set selopcfolders[2]=Desktop
@@ -164,16 +172,16 @@ echo set selopcfolders[22]=Notepad++
 echo set selopcfolders[23]=z-bat-vbs-file settings
 echo set selopcfolders[24]=rclone
 
-echo REMset mkdirpath[0]="renaave50_sg2:/Selo/" 
-echo REMset mkdirpath[1]="renaave50_sg2:/Selo/main_cloud/" 
-echo REMset mkdirpath[2]="renaave50_sg2:/Selo/main_cloud/computers/" 
-echo REMset mkdirpath[3]="renaave50_sg2:/Selo/main_cloud/computers/alyx/" 
-echo REMset mkdirpath[4]="renaave50_sg2:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
-echo REMset mkdirpath[5]="renaave50_sg2:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
-echo REMset mkdirpath[6]="renaave50_sg2:/Caca/" 
-echo REMset mkdirpath[7]="renaave50_sg2:/Caca/main_cloud/" 
-echo REMset mkdirpath[8]="renaave50_sg2:/Caca/main_cloud/computers/" 
-echo REMset mkdirpath[9]="renaave50_sg2:/Caca/main_cloud/computers/laptop_caca/" 
+echo REM set mkdirpath[0]="renaave50_sg2:/Selo/" 
+echo REM set mkdirpath[1]="renaave50_sg2:/Selo/main_cloud/" 
+echo REM set mkdirpath[2]="renaave50_sg2:/Selo/main_cloud/computers/" 
+echo REM set mkdirpath[3]="renaave50_sg2:/Selo/main_cloud/computers/alyx/" 
+echo REM set mkdirpath[4]="renaave50_sg2:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
+echo REM set mkdirpath[5]="renaave50_sg2:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
+echo REM set mkdirpath[6]="renaave50_sg2:/Caca/" 
+echo REM set mkdirpath[7]="renaave50_sg2:/Caca/main_cloud/" 
+echo REM set mkdirpath[8]="renaave50_sg2:/Caca/main_cloud/computers/" 
+echo REM set mkdirpath[9]="renaave50_sg2:/Caca/main_cloud/computers/laptop_caca/" 
 
 echo cd %%userprofile%%
 
@@ -213,6 +221,9 @@ echo cd %%userprofile%%
 
 (
 
+echo set /a jwd=%%RANDOM%% * 21 / 32768 + 20
+echo timeout %%jwd%%
+
 echo set selopcfolders[0]=a_fiyandha
 echo set selopcfolders[1]=3D Objects
 echo set selopcfolders[2]=Desktop
@@ -239,16 +250,16 @@ echo set selopcfolders[22]=Notepad++
 echo set selopcfolders[23]=z-bat-vbs-file settings
 echo set selopcfolders[24]=rclone
 
-echo REMset mkdirpath[0]="renaave7_sg3:/Selo/" 
-echo REMset mkdirpath[1]="renaave7_sg3:/Selo/main_cloud/" 
-echo REMset mkdirpath[2]="renaave7_sg3:/Selo/main_cloud/computers/" 
-echo REMset mkdirpath[3]="renaave7_sg3:/Selo/main_cloud/computers/alyx/" 
-echo REMset mkdirpath[4]="renaave7_sg3:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
-echo REMset mkdirpath[5]="renaave7_sg3:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
-echo REMset mkdirpath[6]="renaave7_sg3:/Caca/" 
-echo REMset mkdirpath[7]="renaave7_sg3:/Caca/main_cloud/" 
-echo REMset mkdirpath[8]="renaave7_sg3:/Caca/main_cloud/computers/" 
-echo REMset mkdirpath[9]="renaave7_sg3:/Caca/main_cloud/computers/laptop_caca/" 
+echo REM set mkdirpath[0]="renaave7_sg3:/Selo/" 
+echo REM set mkdirpath[1]="renaave7_sg3:/Selo/main_cloud/" 
+echo REM set mkdirpath[2]="renaave7_sg3:/Selo/main_cloud/computers/" 
+echo REM set mkdirpath[3]="renaave7_sg3:/Selo/main_cloud/computers/alyx/" 
+echo REM set mkdirpath[4]="renaave7_sg3:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
+echo REM set mkdirpath[5]="renaave7_sg3:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
+echo REM set mkdirpath[6]="renaave7_sg3:/Caca/" 
+echo REM set mkdirpath[7]="renaave7_sg3:/Caca/main_cloud/" 
+echo REM set mkdirpath[8]="renaave7_sg3:/Caca/main_cloud/computers/" 
+echo REM set mkdirpath[9]="renaave7_sg3:/Caca/main_cloud/computers/laptop_caca/" 
 
 echo cd %%userprofile%%
 
@@ -288,6 +299,9 @@ echo cd %%userprofile%%
 
 (
 
+echo set /a jwd=%%RANDOM%% * 21 / 32768 + 20
+echo timeout %%jwd%%
+
 echo set selopcfolders[0]=a_fiyandha
 echo set selopcfolders[1]=3D Objects
 echo set selopcfolders[2]=Desktop
@@ -314,16 +328,16 @@ echo set selopcfolders[22]=Notepad++
 echo set selopcfolders[23]=z-bat-vbs-file settings
 echo set selopcfolders[24]=rclone
 
-echo REMset mkdirpath[0]="oudhoh0050_sg4:/Selo/" 
-echo REMset mkdirpath[1]="oudhoh0050_sg4:/Selo/main_cloud/" 
-echo REMset mkdirpath[2]="oudhoh0050_sg4:/Selo/main_cloud/computers/" 
-echo REMset mkdirpath[3]="oudhoh0050_sg4:/Selo/main_cloud/computers/alyx/" 
-echo REMset mkdirpath[4]="oudhoh0050_sg4:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
-echo REMset mkdirpath[5]="oudhoh0050_sg4:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
-echo REMset mkdirpath[6]="oudhoh0050_sg4:/Caca/" 
-echo REMset mkdirpath[7]="oudhoh0050_sg4:/Caca/main_cloud/" 
-echo REMset mkdirpath[8]="oudhoh0050_sg4:/Caca/main_cloud/computers/" 
-echo REMset mkdirpath[9]="oudhoh0050_sg4:/Caca/main_cloud/computers/laptop_caca/" 
+echo REM set mkdirpath[0]="oudhoh0050_sg4:/Selo/" 
+echo REM set mkdirpath[1]="oudhoh0050_sg4:/Selo/main_cloud/" 
+echo REM set mkdirpath[2]="oudhoh0050_sg4:/Selo/main_cloud/computers/" 
+echo REM set mkdirpath[3]="oudhoh0050_sg4:/Selo/main_cloud/computers/alyx/" 
+echo REM set mkdirpath[4]="oudhoh0050_sg4:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
+echo REM set mkdirpath[5]="oudhoh0050_sg4:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
+echo REM set mkdirpath[6]="oudhoh0050_sg4:/Caca/" 
+echo REM set mkdirpath[7]="oudhoh0050_sg4:/Caca/main_cloud/" 
+echo REM set mkdirpath[8]="oudhoh0050_sg4:/Caca/main_cloud/computers/" 
+echo REM set mkdirpath[9]="oudhoh0050_sg4:/Caca/main_cloud/computers/laptop_caca/" 
 
 echo cd %%userprofile%%
 
@@ -363,6 +377,9 @@ echo cd %%userprofile%%
 
 (
 
+echo set /a jwd=%%RANDOM%% * 21 / 32768 + 20
+echo timeout %%jwd%%
+
 echo set selopcfolders[0]=a_fiyandha
 echo set selopcfolders[1]=3D Objects
 echo set selopcfolders[2]=Desktop
@@ -389,16 +406,16 @@ echo set selopcfolders[22]=Notepad++
 echo set selopcfolders[23]=z-bat-vbs-file settings
 echo set selopcfolders[24]=rclone
 
-echo REMset mkdirpath[0]="nkiux77509_sg5:/Selo/" 
-echo REMset mkdirpath[1]="nkiux77509_sg5:/Selo/main_cloud/" 
-echo REMset mkdirpath[2]="nkiux77509_sg5:/Selo/main_cloud/computers/" 
-echo REMset mkdirpath[3]="nkiux77509_sg5:/Selo/main_cloud/computers/alyx/" 
-echo REMset mkdirpath[4]="nkiux77509_sg5:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
-echo REMset mkdirpath[5]="nkiux77509_sg5:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
-echo REMset mkdirpath[6]="nkiux77509_sg5:/Caca/" 
-echo REMset mkdirpath[7]="nkiux77509_sg5:/Caca/main_cloud/" 
-echo REMset mkdirpath[8]="nkiux77509_sg5:/Caca/main_cloud/computers/" 
-echo REMset mkdirpath[9]="nkiux77509_sg5:/Caca/main_cloud/computers/laptop_caca/" 
+echo REM set mkdirpath[0]="nkiux77509_sg5:/Selo/" 
+echo REM set mkdirpath[1]="nkiux77509_sg5:/Selo/main_cloud/" 
+echo REM set mkdirpath[2]="nkiux77509_sg5:/Selo/main_cloud/computers/" 
+echo REM set mkdirpath[3]="nkiux77509_sg5:/Selo/main_cloud/computers/alyx/" 
+echo REM set mkdirpath[4]="nkiux77509_sg5:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
+echo REM set mkdirpath[5]="nkiux77509_sg5:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
+echo REM set mkdirpath[6]="nkiux77509_sg5:/Caca/" 
+echo REM set mkdirpath[7]="nkiux77509_sg5:/Caca/main_cloud/" 
+echo REM set mkdirpath[8]="nkiux77509_sg5:/Caca/main_cloud/computers/" 
+echo REM set mkdirpath[9]="nkiux77509_sg5:/Caca/main_cloud/computers/laptop_caca/" 
 
 echo cd %%userprofile%%
 
@@ -438,6 +455,9 @@ echo cd %%userprofile%%
 
 (
 
+echo set /a jwd=%%RANDOM%% * 21 / 32768 + 20
+echo timeout %%jwd%%
+
 echo set selopcfolders[0]=a_fiyandha
 echo set selopcfolders[1]=3D Objects
 echo set selopcfolders[2]=Desktop
@@ -464,16 +484,16 @@ echo set selopcfolders[22]=Notepad++
 echo set selopcfolders[23]=z-bat-vbs-file settings
 echo set selopcfolders[24]=rclone
 
-echo REMset mkdirpath[0]="didrhj9036_sg6:/Selo/" 
-echo REMset mkdirpath[1]="didrhj9036_sg6:/Selo/main_cloud/" 
-echo REMset mkdirpath[2]="didrhj9036_sg6:/Selo/main_cloud/computers/" 
-echo REMset mkdirpath[3]="didrhj9036_sg6:/Selo/main_cloud/computers/alyx/" 
-echo REMset mkdirpath[4]="didrhj9036_sg6:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
-echo REMset mkdirpath[5]="didrhj9036_sg6:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
-echo REMset mkdirpath[6]="didrhj9036_sg6:/Caca/" 
-echo REMset mkdirpath[7]="didrhj9036_sg6:/Caca/main_cloud/" 
-echo REMset mkdirpath[8]="didrhj9036_sg6:/Caca/main_cloud/computers/" 
-echo REMset mkdirpath[9]="didrhj9036_sg6:/Caca/main_cloud/computers/laptop_caca/" 
+echo REM set mkdirpath[0]="didrhj9036_sg6:/Selo/" 
+echo REM set mkdirpath[1]="didrhj9036_sg6:/Selo/main_cloud/" 
+echo REM set mkdirpath[2]="didrhj9036_sg6:/Selo/main_cloud/computers/" 
+echo REM set mkdirpath[3]="didrhj9036_sg6:/Selo/main_cloud/computers/alyx/" 
+echo REM set mkdirpath[4]="didrhj9036_sg6:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
+echo REM set mkdirpath[5]="didrhj9036_sg6:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
+echo REM set mkdirpath[6]="didrhj9036_sg6:/Caca/" 
+echo REM set mkdirpath[7]="didrhj9036_sg6:/Caca/main_cloud/" 
+echo REM set mkdirpath[8]="didrhj9036_sg6:/Caca/main_cloud/computers/" 
+echo REM set mkdirpath[9]="didrhj9036_sg6:/Caca/main_cloud/computers/laptop_caca/" 
 
 echo cd %%userprofile%%
 
@@ -513,6 +533,9 @@ echo cd %%userprofile%%
 
 (
 
+echo set /a jwd=%%RANDOM%% * 21 / 32768 + 20
+echo timeout %%jwd%%
+
 echo set selopcfolders[0]=a_fiyandha
 echo set selopcfolders[1]=3D Objects
 echo set selopcfolders[2]=Desktop
@@ -539,16 +562,16 @@ echo set selopcfolders[22]=Notepad++
 echo set selopcfolders[23]=z-bat-vbs-file settings
 echo set selopcfolders[24]=rclone
 
-echo REMset mkdirpath[0]="hjski8292882_sg7:/Selo/" 
-echo REMset mkdirpath[1]="hjski8292882_sg7:/Selo/main_cloud/" 
-echo REMset mkdirpath[2]="hjski8292882_sg7:/Selo/main_cloud/computers/" 
-echo REMset mkdirpath[3]="hjski8292882_sg7:/Selo/main_cloud/computers/alyx/" 
-echo REMset mkdirpath[4]="hjski8292882_sg7:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
-echo REMset mkdirpath[5]="hjski8292882_sg7:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
-echo REMset mkdirpath[6]="hjski8292882_sg7:/Caca/" 
-echo REMset mkdirpath[7]="hjski8292882_sg7:/Caca/main_cloud/" 
-echo REMset mkdirpath[8]="hjski8292882_sg7:/Caca/main_cloud/computers/" 
-echo REMset mkdirpath[9]="hjski8292882_sg7:/Caca/main_cloud/computers/laptop_caca/" 
+echo REM set mkdirpath[0]="hjski8292882_sg7:/Selo/" 
+echo REM set mkdirpath[1]="hjski8292882_sg7:/Selo/main_cloud/" 
+echo REM set mkdirpath[2]="hjski8292882_sg7:/Selo/main_cloud/computers/" 
+echo REM set mkdirpath[3]="hjski8292882_sg7:/Selo/main_cloud/computers/alyx/" 
+echo REM set mkdirpath[4]="hjski8292882_sg7:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
+echo REM set mkdirpath[5]="hjski8292882_sg7:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
+echo REM set mkdirpath[6]="hjski8292882_sg7:/Caca/" 
+echo REM set mkdirpath[7]="hjski8292882_sg7:/Caca/main_cloud/" 
+echo REM set mkdirpath[8]="hjski8292882_sg7:/Caca/main_cloud/computers/" 
+echo REM set mkdirpath[9]="hjski8292882_sg7:/Caca/main_cloud/computers/laptop_caca/" 
 
 echo cd %%userprofile%%
 
@@ -588,6 +611,9 @@ echo cd %%userprofile%%
 
 (
 
+echo set /a jwd=%%RANDOM%% * 21 / 32768 + 20
+echo timeout %%jwd%%
+
 echo set selopcfolders[0]=a_fiyandha
 echo set selopcfolders[1]=3D Objects
 echo set selopcfolders[2]=Desktop
@@ -614,16 +640,16 @@ echo set selopcfolders[22]=Notepad++
 echo set selopcfolders[23]=z-bat-vbs-file settings
 echo set selopcfolders[24]=rclone
 
-echo REMset mkdirpath[0]="jsnwj84738_sg8:/Selo/" 
-echo REMset mkdirpath[1]="jsnwj84738_sg8:/Selo/main_cloud/" 
-echo REMset mkdirpath[2]="jsnwj84738_sg8:/Selo/main_cloud/computers/" 
-echo REMset mkdirpath[3]="jsnwj84738_sg8:/Selo/main_cloud/computers/alyx/" 
-echo REMset mkdirpath[4]="jsnwj84738_sg8:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
-echo REMset mkdirpath[5]="jsnwj84738_sg8:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
-echo REMset mkdirpath[6]="jsnwj84738_sg8:/Caca/" 
-echo REMset mkdirpath[7]="jsnwj84738_sg8:/Caca/main_cloud/" 
-echo REMset mkdirpath[8]="jsnwj84738_sg8:/Caca/main_cloud/computers/" 
-echo REMset mkdirpath[9]="jsnwj84738_sg8:/Caca/main_cloud/computers/laptop_caca/" 
+echo REM set mkdirpath[0]="jsnwj84738_sg8:/Selo/" 
+echo REM set mkdirpath[1]="jsnwj84738_sg8:/Selo/main_cloud/" 
+echo REM set mkdirpath[2]="jsnwj84738_sg8:/Selo/main_cloud/computers/" 
+echo REM set mkdirpath[3]="jsnwj84738_sg8:/Selo/main_cloud/computers/alyx/" 
+echo REM set mkdirpath[4]="jsnwj84738_sg8:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
+echo REM set mkdirpath[5]="jsnwj84738_sg8:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
+echo REM set mkdirpath[6]="jsnwj84738_sg8:/Caca/" 
+echo REM set mkdirpath[7]="jsnwj84738_sg8:/Caca/main_cloud/" 
+echo REM set mkdirpath[8]="jsnwj84738_sg8:/Caca/main_cloud/computers/" 
+echo REM set mkdirpath[9]="jsnwj84738_sg8:/Caca/main_cloud/computers/laptop_caca/" 
 
 echo cd %%userprofile%%
 
@@ -663,6 +689,9 @@ echo cd %%userprofile%%
 
 (
 
+echo set /a jwd=%%RANDOM%% * 21 / 32768 + 20
+echo timeout %%jwd%%
+
 echo set selopcfolders[0]=a_fiyandha
 echo set selopcfolders[1]=3D Objects
 echo set selopcfolders[2]=Desktop
@@ -689,16 +718,16 @@ echo set selopcfolders[22]=Notepad++
 echo set selopcfolders[23]=z-bat-vbs-file settings
 echo set selopcfolders[24]=rclone
 
-echo REMset mkdirpath[0]="ffdnsak8272793_sg9:/Selo/" 
-echo REMset mkdirpath[1]="ffdnsak8272793_sg9:/Selo/main_cloud/" 
-echo REMset mkdirpath[2]="ffdnsak8272793_sg9:/Selo/main_cloud/computers/" 
-echo REMset mkdirpath[3]="ffdnsak8272793_sg9:/Selo/main_cloud/computers/alyx/" 
-echo REMset mkdirpath[4]="ffdnsak8272793_sg9:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
-echo REMset mkdirpath[5]="ffdnsak8272793_sg9:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
-echo REMset mkdirpath[6]="ffdnsak8272793_sg9:/Caca/" 
-echo REMset mkdirpath[7]="ffdnsak8272793_sg9:/Caca/main_cloud/" 
-echo REMset mkdirpath[8]="ffdnsak8272793_sg9:/Caca/main_cloud/computers/" 
-echo REMset mkdirpath[9]="ffdnsak8272793_sg9:/Caca/main_cloud/computers/laptop_caca/" 
+echo REM set mkdirpath[0]="ffdnsak8272793_sg9:/Selo/" 
+echo REM set mkdirpath[1]="ffdnsak8272793_sg9:/Selo/main_cloud/" 
+echo REM set mkdirpath[2]="ffdnsak8272793_sg9:/Selo/main_cloud/computers/" 
+echo REM set mkdirpath[3]="ffdnsak8272793_sg9:/Selo/main_cloud/computers/alyx/" 
+echo REM set mkdirpath[4]="ffdnsak8272793_sg9:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
+echo REM set mkdirpath[5]="ffdnsak8272793_sg9:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
+echo REM set mkdirpath[6]="ffdnsak8272793_sg9:/Caca/" 
+echo REM set mkdirpath[7]="ffdnsak8272793_sg9:/Caca/main_cloud/" 
+echo REM set mkdirpath[8]="ffdnsak8272793_sg9:/Caca/main_cloud/computers/" 
+echo REM set mkdirpath[9]="ffdnsak8272793_sg9:/Caca/main_cloud/computers/laptop_caca/" 
 
 echo cd %%userprofile%%
 
@@ -738,6 +767,9 @@ echo cd %%userprofile%%
 
 (
 
+echo set /a jwd=%%RANDOM%% * 21 / 32768 + 20
+echo timeout %%jwd%%
+
 echo set selopcfolders[0]=a_fiyandha
 echo set selopcfolders[1]=3D Objects
 echo set selopcfolders[2]=Desktop
@@ -764,16 +796,16 @@ echo set selopcfolders[22]=Notepad++
 echo set selopcfolders[23]=z-bat-vbs-file settings
 echo set selopcfolders[24]=rclone
 
-echo REMset mkdirpath[0]="otipes7948_sg10:/Selo/" 
-echo REMset mkdirpath[1]="otipes7948_sg10:/Selo/main_cloud/" 
-echo REMset mkdirpath[2]="otipes7948_sg10:/Selo/main_cloud/computers/" 
-echo REMset mkdirpath[3]="otipes7948_sg10:/Selo/main_cloud/computers/alyx/" 
-echo REMset mkdirpath[4]="otipes7948_sg10:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
-echo REMset mkdirpath[5]="otipes7948_sg10:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
-echo REMset mkdirpath[6]="otipes7948_sg10:/Caca/" 
-echo REMset mkdirpath[7]="otipes7948_sg10:/Caca/main_cloud/" 
-echo REMset mkdirpath[8]="otipes7948_sg10:/Caca/main_cloud/computers/" 
-echo REMset mkdirpath[9]="otipes7948_sg10:/Caca/main_cloud/computers/laptop_caca/" 
+echo REM set mkdirpath[0]="otipes7948_sg10:/Selo/" 
+echo REM set mkdirpath[1]="otipes7948_sg10:/Selo/main_cloud/" 
+echo REM set mkdirpath[2]="otipes7948_sg10:/Selo/main_cloud/computers/" 
+echo REM set mkdirpath[3]="otipes7948_sg10:/Selo/main_cloud/computers/alyx/" 
+echo REM set mkdirpath[4]="otipes7948_sg10:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
+echo REM set mkdirpath[5]="otipes7948_sg10:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
+echo REM set mkdirpath[6]="otipes7948_sg10:/Caca/" 
+echo REM set mkdirpath[7]="otipes7948_sg10:/Caca/main_cloud/" 
+echo REM set mkdirpath[8]="otipes7948_sg10:/Caca/main_cloud/computers/" 
+echo REM set mkdirpath[9]="otipes7948_sg10:/Caca/main_cloud/computers/laptop_caca/" 
 
 echo cd %%userprofile%%
 
@@ -814,6 +846,9 @@ echo cd %%userprofile%%
 REM  Cacaaaa   _______________________________________________________
 
 (
+
+echo set /a jwd=%%RANDOM%% * 21 / 32768 + 20
+echo timeout %%jwd%%
 
 echo set cacapcfolders[0]=document caca
 echo set cacapcfolders[1]=com.mojang
@@ -857,6 +892,9 @@ echo cd %%userprofile%%
 
 (
 
+echo set /a jwd=%%RANDOM%% * 21 / 32768 + 20
+echo timeout %%jwd%%
+
 echo set cacapcfolders[0]=document caca
 echo set cacapcfolders[1]=com.mojang
 echo set cacapcfolders[2]=Notepad++
@@ -898,6 +936,9 @@ echo cd %%userprofile%%
 
 
 (
+
+echo set /a jwd=%%RANDOM%% * 21 / 32768 + 20
+echo timeout %%jwd%%
 
 echo set cacapcfolders[0]=document caca
 echo set cacapcfolders[1]=com.mojang
@@ -942,6 +983,9 @@ echo cd %%userprofile%%
 
 (
 
+echo set /a jwd=%%RANDOM%% * 21 / 32768 + 20
+echo timeout %%jwd%%
+
 echo set cacapcfolders[0]=document caca
 echo set cacapcfolders[1]=com.mojang
 echo set cacapcfolders[2]=Notepad++
@@ -984,6 +1028,9 @@ echo cd %%userprofile%%
 
 
 (
+
+echo set /a jwd=%%RANDOM%% * 21 / 32768 + 20
+echo timeout %%jwd%%
 
 echo set cacapcfolders[0]=document caca
 echo set cacapcfolders[1]=com.mojang
@@ -1028,6 +1075,9 @@ echo cd %%userprofile%%
 
 (
 
+echo set /a jwd=%%RANDOM%% * 21 / 32768 + 20
+echo timeout %%jwd%%
+
 echo set cacapcfolders[0]=document caca
 echo set cacapcfolders[1]=com.mojang
 echo set cacapcfolders[2]=Notepad++
@@ -1070,6 +1120,9 @@ echo cd %%userprofile%%
 
 
 (
+
+echo set /a jwd=%%RANDOM%% * 21 / 32768 + 20
+echo timeout %%jwd%%
 
 echo set cacapcfolders[0]=document caca
 echo set cacapcfolders[1]=com.mojang
@@ -1114,6 +1167,9 @@ echo cd %%userprofile%%
 
 (
 
+echo set /a jwd=%%RANDOM%% * 21 / 32768 + 20
+echo timeout %%jwd%%
+
 echo set cacapcfolders[0]=document caca
 echo set cacapcfolders[1]=com.mojang
 echo set cacapcfolders[2]=Notepad++
@@ -1156,6 +1212,9 @@ echo cd %%userprofile%%
 
 
 (
+
+echo set /a jwd=%%RANDOM%% * 21 / 32768 + 20
+echo timeout %%jwd%%
 
 echo set cacapcfolders[0]=document caca
 echo set cacapcfolders[1]=com.mojang
@@ -1200,6 +1259,9 @@ echo cd %%userprofile%%
 
 (
 
+echo set /a jwd=%%RANDOM%% * 21 / 32768 + 20
+echo timeout %%jwd%%
+
 echo set cacapcfolders[0]=document caca
 echo set cacapcfolders[1]=com.mojang
 echo set cacapcfolders[2]=Notepad++
@@ -1243,6 +1305,9 @@ echo cd %%userprofile%%
 
 (
 
+echo set /a jwd=%%RANDOM%% * 21 / 32768 + 20
+echo timeout %%jwd%%
+
 echo cd %%userprofile%%
 
 echo set day=%%date:~-7,2%%
@@ -1254,16 +1319,16 @@ echo set second=%%TIME:~6,2%%
 
 echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
-echo rclone copy "fiyandha_sman5:/Classroom" "iajdos282728_sg1:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/Classroom" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --drive-keep-revision-forever --auto-confirm --quiet --track-renames --drive-allow-import-name-change --ignore-errors  --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10  --drive-skip-dangling-shortcuts --drive-skip-shortcuts
-echo rclone copy "fiyandha_sman5:/Classroom" "iajdos282728_sg2:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/Classroom" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --drive-keep-revision-forever --auto-confirm --quiet --track-renames --drive-allow-import-name-change --ignore-errors  --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10  --drive-skip-dangling-shortcuts --drive-skip-shortcuts
-echo rclone copy "fiyandha_sman5:/Classroom" "iajdos282728_sg3:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/Classroom" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --drive-keep-revision-forever --auto-confirm --quiet --track-renames --drive-allow-import-name-change --ignore-errors  --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10  --drive-skip-dangling-shortcuts --drive-skip-shortcuts
-echo rclone copy "fiyandha_sman5:/Classroom" "iajdos282728_sg4:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/Classroom" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --drive-keep-revision-forever --auto-confirm --quiet --track-renames --drive-allow-import-name-change --ignore-errors  --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10  --drive-skip-dangling-shortcuts --drive-skip-shortcuts
-echo rclone copy "fiyandha_sman5:/Classroom" "iajdos282728_sg5:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/Classroom" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --drive-keep-revision-forever --auto-confirm --quiet --track-renames --drive-allow-import-name-change --ignore-errors  --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10  --drive-skip-dangling-shortcuts --drive-skip-shortcuts
-echo rclone copy "fiyandha_sman5:/Classroom" "iajdos282728_sg6:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/Classroom" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --drive-keep-revision-forever --auto-confirm --quiet --track-renames --drive-allow-import-name-change --ignore-errors  --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10  --drive-skip-dangling-shortcuts --drive-skip-shortcuts
-echo rclone copy "fiyandha_sman5:/Classroom" "iajdos282728_sg7:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/Classroom" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --drive-keep-revision-forever --auto-confirm --quiet --track-renames --drive-allow-import-name-change --ignore-errors  --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10  --drive-skip-dangling-shortcuts --drive-skip-shortcuts
-echo rclone copy "fiyandha_sman5:/Classroom" "iajdos282728_sg8:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/Classroom" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --drive-keep-revision-forever --auto-confirm --quiet --track-renames --drive-allow-import-name-change --ignore-errors  --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10  --drive-skip-dangling-shortcuts --drive-skip-shortcuts
-echo rclone copy "fiyandha_sman5:/Classroom" "iajdos282728_sg9:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/Classroom" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --drive-keep-revision-forever --auto-confirm --quiet --track-renames --drive-allow-import-name-change --ignore-errors  --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10  --drive-skip-dangling-shortcuts --drive-skip-shortcuts
-echo rclone copy "fiyandha_sman5:/Classroom" "iajdos282728_sg10:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/Classroom" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --drive-keep-revision-forever --auto-confirm --quiet --track-renames --drive-allow-import-name-change --ignore-errors  --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10  --drive-skip-dangling-shortcuts --drive-skip-shortcuts
+echo rclone copy "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/Classroom" "iajdos282728_sg1:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/Classroom" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --drive-keep-revision-forever --auto-confirm --quiet --track-renames --drive-allow-import-name-change --ignore-errors  --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10  --drive-skip-dangling-shortcuts --drive-skip-shortcuts
+echo rclone copy "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/Classroom" "iajdos282728_sg2:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/Classroom" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --drive-keep-revision-forever --auto-confirm --quiet --track-renames --drive-allow-import-name-change --ignore-errors  --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10  --drive-skip-dangling-shortcuts --drive-skip-shortcuts
+echo rclone copy "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/Classroom" "iajdos282728_sg3:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/Classroom" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --drive-keep-revision-forever --auto-confirm --quiet --track-renames --drive-allow-import-name-change --ignore-errors  --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10  --drive-skip-dangling-shortcuts --drive-skip-shortcuts
+echo rclone copy "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/Classroom" "iajdos282728_sg4:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/Classroom" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --drive-keep-revision-forever --auto-confirm --quiet --track-renames --drive-allow-import-name-change --ignore-errors  --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10  --drive-skip-dangling-shortcuts --drive-skip-shortcuts
+echo rclone copy "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/Classroom" "iajdos282728_sg5:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/Classroom" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --drive-keep-revision-forever --auto-confirm --quiet --track-renames --drive-allow-import-name-change --ignore-errors  --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10  --drive-skip-dangling-shortcuts --drive-skip-shortcuts
+echo rclone copy "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/Classroom" "iajdos282728_sg6:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/Classroom" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --drive-keep-revision-forever --auto-confirm --quiet --track-renames --drive-allow-import-name-change --ignore-errors  --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10  --drive-skip-dangling-shortcuts --drive-skip-shortcuts
+echo rclone copy "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/Classroom" "iajdos282728_sg7:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/Classroom" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --drive-keep-revision-forever --auto-confirm --quiet --track-renames --drive-allow-import-name-change --ignore-errors  --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10  --drive-skip-dangling-shortcuts --drive-skip-shortcuts
+echo rclone copy "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/Classroom" "iajdos282728_sg8:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/Classroom" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --drive-keep-revision-forever --auto-confirm --quiet --track-renames --drive-allow-import-name-change --ignore-errors  --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10  --drive-skip-dangling-shortcuts --drive-skip-shortcuts
+echo rclone copy "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/Classroom" "iajdos282728_sg9:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/Classroom" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --drive-keep-revision-forever --auto-confirm --quiet --track-renames --drive-allow-import-name-change --ignore-errors  --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10  --drive-skip-dangling-shortcuts --drive-skip-shortcuts
+echo rclone copy "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/Classroom" "iajdos282728_sg10:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/Classroom" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --drive-keep-revision-forever --auto-confirm --quiet --track-renames --drive-allow-import-name-change --ignore-errors  --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10  --drive-skip-dangling-shortcuts --drive-skip-shortcuts
 
 echo rclone copy "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/Shared" "iajdos282728_sg1:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/Shared" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --drive-keep-revision-forever --auto-confirm --quiet --track-renames --drive-allow-import-name-change --ignore-errors  --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10  --drive-skip-dangling-shortcuts --drive-skip-shortcuts
 echo rclone copy "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/Shared" "iajdos282728_sg2:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/Shared" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --drive-keep-revision-forever --auto-confirm --quiet --track-renames --drive-allow-import-name-change --ignore-errors  --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10  --drive-skip-dangling-shortcuts --drive-skip-shortcuts
@@ -1284,6 +1349,9 @@ echo cd %%userprofile%%
 
 
 (
+
+echo set /a jwd=%%RANDOM%% * 21 / 32768 + 20
+echo timeout %%jwd%%
 
 echo cd %%userprofile%%
 
@@ -1349,6 +1417,9 @@ echo rclone copy "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.i
 
 (
 
+echo set /a jwd=%%RANDOM%% * 21 / 32768 + 20
+echo timeout %%jwd%%
+
 echo cd %%userprofile%%
 
 echo rclone copy "fiyandha_sman5,shared_with_me:/" "fiyandha_sman5:/Shared" --drive-server-side-across-configs --drive-keep-revision-forever --auto-confirm --quiet --track-renames --drive-allow-import-name-change --ignore-errors  --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 15G --max-depth 999999 --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10    --drive-skip-dangling-shortcuts --drive-skip-shortcuts 
@@ -1367,6 +1438,9 @@ echo rclone move "927281jwow,shared_with_me:/jY1CJ1hE4P/main_pc/Downloads_pool" 
 
 
 (
+
+echo set /a jwd=%%RANDOM%% * 21 / 32768 + 20
+echo timeout %%jwd%%
 
 echo set selopcfolders[0]=a_fiyandha
 echo set selopcfolders[1]=3D Objects
@@ -1394,16 +1468,16 @@ echo set selopcfolders[22]=Notepad++
 echo set selopcfolders[23]=z-bat-vbs-file settings
 echo set selopcfolders[24]=rclone
 
-echo REMset mkdirpath[1]="otipes7948_sg10:/Selo/" 
-echo REMset mkdirpath[2]="otipes7948_sg10:/Selo/main_cloud/" 
-echo REMset mkdirpath[3]="otipes7948_sg10:/Selo/main_cloud/computers/" 
-echo REMset mkdirpath[4]="otipes7948_sg10:/Selo/main_cloud/computers/alyx/" 
-echo REMset mkdirpath[5]="otipes7948_sg10:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
-echo REMset mkdirpath[6]="otipes7948_sg10:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
-echo REMset mkdirpath[7]="otipes7948_sg10:/Caca/" 
-echo REMset mkdirpath[8]="otipes7948_sg10:/Caca/main_cloud/" 
-echo REMset mkdirpath[9]="otipes7948_sg10:/Caca/main_cloud/computers/" 
-echo REMset mkdirpath[10]="otipes7948_sg10:/Caca/main_cloud/computers/laptop_caca/" 
+echo REM set mkdirpath[1]="otipes7948_sg10:/Selo/" 
+echo REM set mkdirpath[2]="otipes7948_sg10:/Selo/main_cloud/" 
+echo REM set mkdirpath[3]="otipes7948_sg10:/Selo/main_cloud/computers/" 
+echo REM set mkdirpath[4]="otipes7948_sg10:/Selo/main_cloud/computers/alyx/" 
+echo REM set mkdirpath[5]="otipes7948_sg10:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
+echo REM set mkdirpath[6]="otipes7948_sg10:/Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
+echo REM set mkdirpath[7]="otipes7948_sg10:/Caca/" 
+echo REM set mkdirpath[8]="otipes7948_sg10:/Caca/main_cloud/" 
+echo REM set mkdirpath[9]="otipes7948_sg10:/Caca/main_cloud/computers/" 
+echo REM set mkdirpath[10]="otipes7948_sg10:/Caca/main_cloud/computers/laptop_caca/" 
 
 echo cd %%userprofile%%
 
@@ -1443,6 +1517,9 @@ echo cd %%userprofile%%
 
 
 (
+
+echo set /a jwd=%%RANDOM%% * 21 / 32768 + 20
+echo timeout %%jwd%%
 
 echo cd %%userprofile%%
 
