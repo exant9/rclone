@@ -36,13 +36,13 @@ echo cd %%userprofile%%
 echo.
 
 echo.
-echo rclone rmdirs "%acc%:/" --leave-root --max-depth 1 --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  --fast-list
+REM echo rclone rmdirs "%acc%:/" --leave-root --max-depth 1 --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  --fast-list
 echo.
 echo.
 echo.
 echo.
 
-set fldr=Selo
+echo set fldr=Selo
 
 echo @echo off
 echo setlocal enabledelayedexpansion
@@ -84,7 +84,7 @@ echo :exitloop
 echo setlocal disabledelayedexpansion
 echo.
 
-set fldr=Caca
+echo set fldr=Caca
 
 echo @echo off
 echo setlocal enabledelayedexpansion
@@ -125,7 +125,7 @@ echo goto loop1
 echo :exitloop1
 echo setlocal disabledelayedexpansion
 
-set fldr=Anggun
+echo set fldr=Anggun
 
 echo @echo off
 echo setlocal enabledelayedexpansion
@@ -166,7 +166,7 @@ echo goto loop
 echo :exitloop
 echo setlocal disabledelayedexpansion
 
-set fldr=logs
+echo set fldr=logs
 
 echo @echo off
 echo setlocal enabledelayedexpansion
@@ -226,13 +226,13 @@ echo cd %%userprofile%%
 echo.
 
 echo.
-echo rclone rmdirs "renaave50_sg2:/" --leave-root --max-depth 1 --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  --fast-list
+REM echo rclone rmdirs "%acc%:/" --leave-root --max-depth 1 --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  --fast-list
 echo.
 echo.
 echo.
 echo.
 
-set fldr=Selo
+echo set fldr=Selo
 
 echo @echo off
 echo setlocal enabledelayedexpansion
@@ -277,7 +277,7 @@ echo.
 echo.
 echo.
 
-set fldr=Caca
+echo set fldr=Caca
 
 echo @echo off
 echo setlocal enabledelayedexpansion
@@ -318,7 +318,7 @@ echo goto loop1
 echo :exitloop1
 echo setlocal disabledelayedexpansion
 
-set fldr=Anggun
+echo set fldr=Anggun
 
 echo @echo off
 echo setlocal enabledelayedexpansion
@@ -359,7 +359,7 @@ echo goto loop
 echo :exitloop
 echo setlocal disabledelayedexpansion
 
-set fldr=logs
+echo set fldr=logs
 
 echo @echo off
 echo setlocal enabledelayedexpansion
@@ -418,13 +418,13 @@ echo cd %%userprofile%%
 echo.
 
 echo.
-echo rclone rmdirs "renaave7_sg3:/" --leave-root --max-depth 1 --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  --fast-list
+REM echo rclone rmdirs "%acc%:/" --leave-root --max-depth 1 --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  --fast-list
 echo.
 echo.
 echo.
 echo.
 
-set fldr=Selo
+echo set fldr=Selo
 
 echo @echo off
 echo setlocal enabledelayedexpansion
@@ -469,7 +469,7 @@ echo.
 echo.
 echo.
 
-set fldr=Caca
+echo set fldr=Caca
 
 echo @echo off
 echo setlocal enabledelayedexpansion
@@ -510,7 +510,7 @@ echo goto loop1
 echo :exitloop1
 echo setlocal disabledelayedexpansion
 
-set fldr=Anggun
+echo set fldr=Anggun
 
 echo @echo off
 echo setlocal enabledelayedexpansion
@@ -551,7 +551,7 @@ echo goto loop
 echo :exitloop
 echo setlocal disabledelayedexpansion
 
-set fldr=logs
+echo set fldr=logs
 
 echo @echo off
 echo setlocal enabledelayedexpansion
@@ -611,13 +611,13 @@ echo cd %%userprofile%%
 
 
 
-echo rclone rmdirs "oudhoh0050_sg4:/" --leave-root --max-depth 1 --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  --fast-list
+REM echo rclone rmdirs "%acc%:/" --leave-root --max-depth 1 --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  --fast-list
 echo.
 echo.
 echo.
 echo.
 
-set fldr=Selo
+echo set fldr=Selo
 
 echo @echo off
 echo setlocal enabledelayedexpansion
@@ -662,7 +662,7 @@ echo.
 echo.
 echo.
 
-set fldr=Caca
+echo set fldr=Caca
 
 echo @echo off
 echo setlocal enabledelayedexpansion
@@ -703,7 +703,7 @@ echo goto loop1
 echo :exitloop1
 echo setlocal disabledelayedexpansion
 
-set fldr=Anggun
+echo set fldr=Anggun
 
 echo @echo off
 echo setlocal enabledelayedexpansion
@@ -744,7 +744,7 @@ echo goto loop
 echo :exitloop
 echo setlocal disabledelayedexpansion
 
-set fldr=logs
+echo set fldr=logs
 
 echo @echo off
 echo setlocal enabledelayedexpansion
@@ -804,13 +804,13 @@ echo cd %%userprofile%%
 
 
 
-echo rclone rmdirs "nkiux77509_sg5:/" --leave-root --max-depth 1 --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  --fast-list
+REM echo rclone rmdirs "%acc%:/" --leave-root --max-depth 1 --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  --fast-list
 echo.
 echo.
 echo.
 echo.
 
-set fldr=Selo
+echo set fldr=Selo
 
 echo @echo off
 echo setlocal enabledelayedexpansion
@@ -855,7 +855,7 @@ echo.
 echo.
 echo.
 
-set fldr=Caca
+echo set fldr=Caca
 
 echo @echo off
 echo setlocal enabledelayedexpansion
@@ -896,7 +896,7 @@ echo goto loop1
 echo :exitloop1
 echo setlocal disabledelayedexpansion
 
-set fldr=Anggun
+echo set fldr=Anggun
 
 echo @echo off
 echo setlocal enabledelayedexpansion
@@ -937,7 +937,7 @@ echo goto loop
 echo :exitloop
 echo setlocal disabledelayedexpansion
 
-set fldr=logs
+echo set fldr=logs
 
 echo @echo off
 echo setlocal enabledelayedexpansion
@@ -996,13 +996,13 @@ echo cd %%userprofile%%
 
 
 
-echo rclone rmdirs "didrhj9036_sg6:/" --leave-root --max-depth 1 --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  --fast-list
+REM echo rclone rmdirs "%acc%:/" --leave-root --max-depth 1 --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  --fast-list
 echo.
 echo.
 echo.
 echo.
 
-set fldr=Selo
+echo set fldr=Selo
 
 echo @echo off
 echo setlocal enabledelayedexpansion
@@ -1047,7 +1047,7 @@ echo.
 echo.
 echo.
 
-set fldr=Caca
+echo set fldr=Caca
 
 echo @echo off
 echo setlocal enabledelayedexpansion
@@ -1088,7 +1088,7 @@ echo goto loop1
 echo :exitloop1
 echo setlocal disabledelayedexpansion
 
-set fldr=Anggun
+echo set fldr=Anggun
 
 echo @echo off
 echo setlocal enabledelayedexpansion
@@ -1129,7 +1129,7 @@ echo goto loop
 echo :exitloop
 echo setlocal disabledelayedexpansion
 
-set fldr=logs
+echo set fldr=logs
 
 echo @echo off
 echo setlocal enabledelayedexpansion
@@ -1189,13 +1189,13 @@ echo cd %%userprofile%%
 
 
 
-echo rclone rmdirs "hjski8292882_sg7:/" --leave-root --max-depth 1 --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  --fast-list
+REM echo rclone rmdirs "%acc%:/" --leave-root --max-depth 1 --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  --fast-list
 echo.
 echo.
 echo.
 echo.
 
-set fldr=Selo
+echo set fldr=Selo
 
 echo @echo off
 echo setlocal enabledelayedexpansion
@@ -1240,7 +1240,7 @@ echo.
 echo.
 echo.
 
-set fldr=Caca
+echo set fldr=Caca
 
 echo @echo off
 echo setlocal enabledelayedexpansion
@@ -1281,7 +1281,7 @@ echo goto loop1
 echo :exitloop1
 echo setlocal disabledelayedexpansion
 
-set fldr=Anggun
+echo set fldr=Anggun
 
 echo @echo off
 echo setlocal enabledelayedexpansion
@@ -1322,7 +1322,7 @@ echo goto loop
 echo :exitloop
 echo setlocal disabledelayedexpansion
 
-set fldr=logs
+echo set fldr=logs
 
 echo @echo off
 echo setlocal enabledelayedexpansion
@@ -1382,13 +1382,13 @@ echo cd %%userprofile%%
 
 REM  --drive-trashed-only --drive-use-trash=false --fast-list --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
 
-echo rclone rmdirs "jsnwj84738_sg8:/" --leave-root --max-depth 1 --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  --fast-list
+REM echo rclone rmdirs "%acc%:/" --leave-root --max-depth 1 --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  --fast-list
 echo.
 echo.
 echo.
 echo.
 
-set fldr=Selo
+echo set fldr=Selo
 
 echo @echo off
 echo setlocal enabledelayedexpansion
@@ -1433,7 +1433,7 @@ echo.
 echo.
 echo.
 
-set fldr=Caca
+echo set fldr=Caca
 
 echo @echo off
 echo setlocal enabledelayedexpansion
@@ -1474,7 +1474,7 @@ echo goto loop1
 echo :exitloop1
 echo setlocal disabledelayedexpansion
 
-set fldr=Anggun
+echo set fldr=Anggun
 
 echo @echo off
 echo setlocal enabledelayedexpansion
@@ -1515,7 +1515,7 @@ echo goto loop
 echo :exitloop
 echo setlocal disabledelayedexpansion
 
-set fldr=logs
+echo set fldr=logs
 
 echo @echo off
 echo setlocal enabledelayedexpansion
@@ -1578,13 +1578,13 @@ echo cd %%userprofile%%
 
 
 
-echo rclone rmdirs "ffdnsak8272793_sg9:/" --leave-root --max-depth 1 --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  --fast-list
+REM echo rclone rmdirs "%acc%:/" --leave-root --max-depth 1 --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  --fast-list
 echo.
 echo.
 echo.
 echo.
 
-set fldr=Selo
+echo set fldr=Selo
 
 echo @echo off
 echo setlocal enabledelayedexpansion
@@ -1629,7 +1629,7 @@ echo.
 echo.
 echo.
 
-set fldr=Selo
+echo set fldr=Selo
 
 echo @echo off
 echo setlocal enabledelayedexpansion
@@ -1670,7 +1670,7 @@ echo goto loop1
 echo :exitloop1
 echo setlocal disabledelayedexpansion
 
-set fldr=Anggun
+echo set fldr=Anggun
 
 echo @echo off
 echo setlocal enabledelayedexpansion
@@ -1711,7 +1711,7 @@ echo goto loop
 echo :exitloop
 echo setlocal disabledelayedexpansion
 
-set fldr=logs
+echo set fldr=logs
 
 echo @echo off
 echo setlocal enabledelayedexpansion
@@ -1771,13 +1771,13 @@ echo cd %%userprofile%%
 
 
 
-echo rclone rmdirs "otipes7948_sg10:/" --leave-root --max-depth 1 --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  --fast-list
+REM echo rclone rmdirs "%acc%:/" --leave-root --max-depth 1 --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  --fast-list
 echo.
 echo.
 echo.
 echo.
 
-set fldr=Selo
+echo set fldr=Selo
 
 echo @echo off
 echo setlocal enabledelayedexpansion
@@ -1822,7 +1822,7 @@ echo.
 echo.
 echo.
 
-set fldr=Caca
+echo set fldr=Caca
 
 echo @echo off
 echo setlocal enabledelayedexpansion
@@ -1863,7 +1863,7 @@ echo goto loop1
 echo :exitloop1
 echo setlocal disabledelayedexpansion
 
-set fldr=Anggun
+echo set fldr=Anggun
 
 echo @echo off
 echo setlocal enabledelayedexpansion
@@ -1904,7 +1904,7 @@ echo goto loop
 echo :exitloop
 echo setlocal disabledelayedexpansion
 
-set fldr=logs
+echo set fldr=logs
 
 echo @echo off
 echo setlocal enabledelayedexpansion
