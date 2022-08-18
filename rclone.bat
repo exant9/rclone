@@ -17,6 +17,7 @@ set mkdirpath[2]=Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/"
 set mkdirpath[3]=Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
 set mkdirpath[4]=Caca/main_cloud/computers/caca/"
 set mkdirpath[5]=Anggun/main_cloud/gphotos/"
+set mkdirpath[6]=logs/"
 
 set storage=aaveusdt_sg1
 

@@ -166,6 +166,48 @@ echo goto loop
 echo :exitloop
 echo setlocal disabledelayedexpansion
 
+set fldr=logs
+
+echo @echo off
+echo setlocal enabledelayedexpansion
+echo set "string=abcdefghijklmnopqrstuvwxyz1234567890"
+echo set "randomid="
+echo for /L %%%%i in ^(1,1,18^) do call :add
+echo goto :l23234
+echo :add
+echo set /a x=%%random%% %%%% 36
+echo set randomid=%%randomid%%^!string:^~%%x%%,1^!
+echo goto :eof
+echo :l23234
+echo.
+echo ^(echo {"mode":"count_duplicates", "name":"%fldr%"}
+echo cd %%userprofile%%
+echo rclone lsd "%acc%:/" --max-depth 1  --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors 
+echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
+echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
+echo.
+echo @echo off
+echo.
+echo :CheckForFile126
+echo IF EXIST "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt" GOTO FoundIt173
+echo TIMEOUT /T 1 ^>nul
+echo GOTO CheckForFile126
+echo.
+echo :FoundIt173
+echo @echo on
+echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt"
+echo set cache_result=%%cache_result%%
+echo.
+echo set loopcount=%%cache_result%%
+echo :loop
+echo rclone purge "%acc%:/%fldr%/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
+echo set /a loopcount=loopcount-1
+echo if %%loopcount%%==0 goto exitloop
+echo goto loop
+echo :exitloop
+echo setlocal disabledelayedexpansion
+
+
 echo.
 echo.
 echo.
@@ -317,6 +359,48 @@ echo goto loop
 echo :exitloop
 echo setlocal disabledelayedexpansion
 
+set fldr=logs
+
+echo @echo off
+echo setlocal enabledelayedexpansion
+echo set "string=abcdefghijklmnopqrstuvwxyz1234567890"
+echo set "randomid="
+echo for /L %%%%i in ^(1,1,18^) do call :add
+echo goto :l23234
+echo :add
+echo set /a x=%%random%% %%%% 36
+echo set randomid=%%randomid%%^!string:^~%%x%%,1^!
+echo goto :eof
+echo :l23234
+echo.
+echo ^(echo {"mode":"count_duplicates", "name":"%fldr%"}
+echo cd %%userprofile%%
+echo rclone lsd "%acc%:/" --max-depth 1  --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors 
+echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
+echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
+echo.
+echo @echo off
+echo.
+echo :CheckForFile126
+echo IF EXIST "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt" GOTO FoundIt173
+echo TIMEOUT /T 1 ^>nul
+echo GOTO CheckForFile126
+echo.
+echo :FoundIt173
+echo @echo on
+echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt"
+echo set cache_result=%%cache_result%%
+echo.
+echo set loopcount=%%cache_result%%
+echo :loop
+echo rclone purge "%acc%:/%fldr%/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
+echo set /a loopcount=loopcount-1
+echo if %%loopcount%%==0 goto exitloop
+echo goto loop
+echo :exitloop
+echo setlocal disabledelayedexpansion
+
+
 echo.
 echo.
 echo.
@@ -466,6 +550,48 @@ echo if %%loopcount%%==0 goto exitloop
 echo goto loop
 echo :exitloop
 echo setlocal disabledelayedexpansion
+
+set fldr=logs
+
+echo @echo off
+echo setlocal enabledelayedexpansion
+echo set "string=abcdefghijklmnopqrstuvwxyz1234567890"
+echo set "randomid="
+echo for /L %%%%i in ^(1,1,18^) do call :add
+echo goto :l23234
+echo :add
+echo set /a x=%%random%% %%%% 36
+echo set randomid=%%randomid%%^!string:^~%%x%%,1^!
+echo goto :eof
+echo :l23234
+echo.
+echo ^(echo {"mode":"count_duplicates", "name":"%fldr%"}
+echo cd %%userprofile%%
+echo rclone lsd "%acc%:/" --max-depth 1  --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors 
+echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
+echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
+echo.
+echo @echo off
+echo.
+echo :CheckForFile126
+echo IF EXIST "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt" GOTO FoundIt173
+echo TIMEOUT /T 1 ^>nul
+echo GOTO CheckForFile126
+echo.
+echo :FoundIt173
+echo @echo on
+echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt"
+echo set cache_result=%%cache_result%%
+echo.
+echo set loopcount=%%cache_result%%
+echo :loop
+echo rclone purge "%acc%:/%fldr%/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
+echo set /a loopcount=loopcount-1
+echo if %%loopcount%%==0 goto exitloop
+echo goto loop
+echo :exitloop
+echo setlocal disabledelayedexpansion
+
 
 echo.
 echo.
@@ -618,6 +744,48 @@ echo goto loop
 echo :exitloop
 echo setlocal disabledelayedexpansion
 
+set fldr=logs
+
+echo @echo off
+echo setlocal enabledelayedexpansion
+echo set "string=abcdefghijklmnopqrstuvwxyz1234567890"
+echo set "randomid="
+echo for /L %%%%i in ^(1,1,18^) do call :add
+echo goto :l23234
+echo :add
+echo set /a x=%%random%% %%%% 36
+echo set randomid=%%randomid%%^!string:^~%%x%%,1^!
+echo goto :eof
+echo :l23234
+echo.
+echo ^(echo {"mode":"count_duplicates", "name":"%fldr%"}
+echo cd %%userprofile%%
+echo rclone lsd "%acc%:/" --max-depth 1  --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors 
+echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
+echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
+echo.
+echo @echo off
+echo.
+echo :CheckForFile126
+echo IF EXIST "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt" GOTO FoundIt173
+echo TIMEOUT /T 1 ^>nul
+echo GOTO CheckForFile126
+echo.
+echo :FoundIt173
+echo @echo on
+echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt"
+echo set cache_result=%%cache_result%%
+echo.
+echo set loopcount=%%cache_result%%
+echo :loop
+echo rclone purge "%acc%:/%fldr%/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
+echo set /a loopcount=loopcount-1
+echo if %%loopcount%%==0 goto exitloop
+echo goto loop
+echo :exitloop
+echo setlocal disabledelayedexpansion
+
+
 echo.
 echo.
 echo.
@@ -769,6 +937,48 @@ echo goto loop
 echo :exitloop
 echo setlocal disabledelayedexpansion
 
+set fldr=logs
+
+echo @echo off
+echo setlocal enabledelayedexpansion
+echo set "string=abcdefghijklmnopqrstuvwxyz1234567890"
+echo set "randomid="
+echo for /L %%%%i in ^(1,1,18^) do call :add
+echo goto :l23234
+echo :add
+echo set /a x=%%random%% %%%% 36
+echo set randomid=%%randomid%%^!string:^~%%x%%,1^!
+echo goto :eof
+echo :l23234
+echo.
+echo ^(echo {"mode":"count_duplicates", "name":"%fldr%"}
+echo cd %%userprofile%%
+echo rclone lsd "%acc%:/" --max-depth 1  --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors 
+echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
+echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
+echo.
+echo @echo off
+echo.
+echo :CheckForFile126
+echo IF EXIST "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt" GOTO FoundIt173
+echo TIMEOUT /T 1 ^>nul
+echo GOTO CheckForFile126
+echo.
+echo :FoundIt173
+echo @echo on
+echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt"
+echo set cache_result=%%cache_result%%
+echo.
+echo set loopcount=%%cache_result%%
+echo :loop
+echo rclone purge "%acc%:/%fldr%/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
+echo set /a loopcount=loopcount-1
+echo if %%loopcount%%==0 goto exitloop
+echo goto loop
+echo :exitloop
+echo setlocal disabledelayedexpansion
+
+
 echo.
 echo.
 echo.
@@ -918,6 +1128,48 @@ echo if %%loopcount%%==0 goto exitloop
 echo goto loop
 echo :exitloop
 echo setlocal disabledelayedexpansion
+
+set fldr=logs
+
+echo @echo off
+echo setlocal enabledelayedexpansion
+echo set "string=abcdefghijklmnopqrstuvwxyz1234567890"
+echo set "randomid="
+echo for /L %%%%i in ^(1,1,18^) do call :add
+echo goto :l23234
+echo :add
+echo set /a x=%%random%% %%%% 36
+echo set randomid=%%randomid%%^!string:^~%%x%%,1^!
+echo goto :eof
+echo :l23234
+echo.
+echo ^(echo {"mode":"count_duplicates", "name":"%fldr%"}
+echo cd %%userprofile%%
+echo rclone lsd "%acc%:/" --max-depth 1  --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors 
+echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
+echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
+echo.
+echo @echo off
+echo.
+echo :CheckForFile126
+echo IF EXIST "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt" GOTO FoundIt173
+echo TIMEOUT /T 1 ^>nul
+echo GOTO CheckForFile126
+echo.
+echo :FoundIt173
+echo @echo on
+echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt"
+echo set cache_result=%%cache_result%%
+echo.
+echo set loopcount=%%cache_result%%
+echo :loop
+echo rclone purge "%acc%:/%fldr%/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
+echo set /a loopcount=loopcount-1
+echo if %%loopcount%%==0 goto exitloop
+echo goto loop
+echo :exitloop
+echo setlocal disabledelayedexpansion
+
 
 echo.
 echo.
@@ -1070,6 +1322,48 @@ echo goto loop
 echo :exitloop
 echo setlocal disabledelayedexpansion
 
+set fldr=logs
+
+echo @echo off
+echo setlocal enabledelayedexpansion
+echo set "string=abcdefghijklmnopqrstuvwxyz1234567890"
+echo set "randomid="
+echo for /L %%%%i in ^(1,1,18^) do call :add
+echo goto :l23234
+echo :add
+echo set /a x=%%random%% %%%% 36
+echo set randomid=%%randomid%%^!string:^~%%x%%,1^!
+echo goto :eof
+echo :l23234
+echo.
+echo ^(echo {"mode":"count_duplicates", "name":"%fldr%"}
+echo cd %%userprofile%%
+echo rclone lsd "%acc%:/" --max-depth 1  --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors 
+echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
+echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
+echo.
+echo @echo off
+echo.
+echo :CheckForFile126
+echo IF EXIST "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt" GOTO FoundIt173
+echo TIMEOUT /T 1 ^>nul
+echo GOTO CheckForFile126
+echo.
+echo :FoundIt173
+echo @echo on
+echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt"
+echo set cache_result=%%cache_result%%
+echo.
+echo set loopcount=%%cache_result%%
+echo :loop
+echo rclone purge "%acc%:/%fldr%/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
+echo set /a loopcount=loopcount-1
+echo if %%loopcount%%==0 goto exitloop
+echo goto loop
+echo :exitloop
+echo setlocal disabledelayedexpansion
+
+
 echo.
 echo.
 echo.
@@ -1220,6 +1514,48 @@ echo if %%loopcount%%==0 goto exitloop
 echo goto loop
 echo :exitloop
 echo setlocal disabledelayedexpansion
+
+set fldr=logs
+
+echo @echo off
+echo setlocal enabledelayedexpansion
+echo set "string=abcdefghijklmnopqrstuvwxyz1234567890"
+echo set "randomid="
+echo for /L %%%%i in ^(1,1,18^) do call :add
+echo goto :l23234
+echo :add
+echo set /a x=%%random%% %%%% 36
+echo set randomid=%%randomid%%^!string:^~%%x%%,1^!
+echo goto :eof
+echo :l23234
+echo.
+echo ^(echo {"mode":"count_duplicates", "name":"%fldr%"}
+echo cd %%userprofile%%
+echo rclone lsd "%acc%:/" --max-depth 1  --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors 
+echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
+echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
+echo.
+echo @echo off
+echo.
+echo :CheckForFile126
+echo IF EXIST "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt" GOTO FoundIt173
+echo TIMEOUT /T 1 ^>nul
+echo GOTO CheckForFile126
+echo.
+echo :FoundIt173
+echo @echo on
+echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt"
+echo set cache_result=%%cache_result%%
+echo.
+echo set loopcount=%%cache_result%%
+echo :loop
+echo rclone purge "%acc%:/%fldr%/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
+echo set /a loopcount=loopcount-1
+echo if %%loopcount%%==0 goto exitloop
+echo goto loop
+echo :exitloop
+echo setlocal disabledelayedexpansion
+
 
 echo.
 echo.
@@ -1375,6 +1711,48 @@ echo goto loop
 echo :exitloop
 echo setlocal disabledelayedexpansion
 
+set fldr=logs
+
+echo @echo off
+echo setlocal enabledelayedexpansion
+echo set "string=abcdefghijklmnopqrstuvwxyz1234567890"
+echo set "randomid="
+echo for /L %%%%i in ^(1,1,18^) do call :add
+echo goto :l23234
+echo :add
+echo set /a x=%%random%% %%%% 36
+echo set randomid=%%randomid%%^!string:^~%%x%%,1^!
+echo goto :eof
+echo :l23234
+echo.
+echo ^(echo {"mode":"count_duplicates", "name":"%fldr%"}
+echo cd %%userprofile%%
+echo rclone lsd "%acc%:/" --max-depth 1  --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors 
+echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
+echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
+echo.
+echo @echo off
+echo.
+echo :CheckForFile126
+echo IF EXIST "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt" GOTO FoundIt173
+echo TIMEOUT /T 1 ^>nul
+echo GOTO CheckForFile126
+echo.
+echo :FoundIt173
+echo @echo on
+echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt"
+echo set cache_result=%%cache_result%%
+echo.
+echo set loopcount=%%cache_result%%
+echo :loop
+echo rclone purge "%acc%:/%fldr%/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
+echo set /a loopcount=loopcount-1
+echo if %%loopcount%%==0 goto exitloop
+echo goto loop
+echo :exitloop
+echo setlocal disabledelayedexpansion
+
+
 echo.
 echo.
 echo.
@@ -1525,6 +1903,48 @@ echo if %%loopcount%%==0 goto exitloop
 echo goto loop
 echo :exitloop
 echo setlocal disabledelayedexpansion
+
+set fldr=logs
+
+echo @echo off
+echo setlocal enabledelayedexpansion
+echo set "string=abcdefghijklmnopqrstuvwxyz1234567890"
+echo set "randomid="
+echo for /L %%%%i in ^(1,1,18^) do call :add
+echo goto :l23234
+echo :add
+echo set /a x=%%random%% %%%% 36
+echo set randomid=%%randomid%%^!string:^~%%x%%,1^!
+echo goto :eof
+echo :l23234
+echo.
+echo ^(echo {"mode":"count_duplicates", "name":"%fldr%"}
+echo cd %%userprofile%%
+echo rclone lsd "%acc%:/" --max-depth 1  --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors 
+echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
+echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
+echo.
+echo @echo off
+echo.
+echo :CheckForFile126
+echo IF EXIST "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt" GOTO FoundIt173
+echo TIMEOUT /T 1 ^>nul
+echo GOTO CheckForFile126
+echo.
+echo :FoundIt173
+echo @echo on
+echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt"
+echo set cache_result=%%cache_result%%
+echo.
+echo set loopcount=%%cache_result%%
+echo :loop
+echo rclone purge "%acc%:/%fldr%/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
+echo set /a loopcount=loopcount-1
+echo if %%loopcount%%==0 goto exitloop
+echo goto loop
+echo :exitloop
+echo setlocal disabledelayedexpansion
+
 
 echo.		
 echo.
