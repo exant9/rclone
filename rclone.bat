@@ -29,8 +29,7 @@ set "x=0"
 if defined mkdirpath[%x%] (
     call rclone mkdir "%storage%:/%%mkdirpath[%x%]%% --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors
     set /a "x+=1"
-    GOTO :SymLoop2
-)
+    GOTO :SymLoop2)
 
 set storage=renaave50_sg2
 
@@ -39,8 +38,7 @@ set "x=0"
 if defined mkdirpath[%x%] (
     call rclone mkdir "%storage%:/%%mkdirpath[%x%]%% --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors
     set /a "x+=1"
-    GOTO :SymLoop2
-)
+    GOTO :SymLoop2)
 
 set storage=renaave7_sg3
 
@@ -49,8 +47,7 @@ set "x=0"
 if defined mkdirpath[%x%] (
     call rclone mkdir "%storage%:/%%mkdirpath[%x%]%% --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors
     set /a "x+=1"
-    GOTO :SymLoop2
-)
+    GOTO :SymLoop2)
 
 set storage=oudhoh0050_sg4
 
@@ -59,8 +56,7 @@ set "x=0"
 if defined mkdirpath[%x%] (
     call rclone mkdir "%storage%:/%%mkdirpath[%x%]%% --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors
     set /a "x+=1"
-    GOTO :SymLoop2
-)
+    GOTO :SymLoop2)
 
 set storage=nkiux77509_sg5
 
@@ -69,8 +65,7 @@ set "x=0"
 if defined mkdirpath[%x%] (
     call rclone mkdir "%storage%:/%%mkdirpath[%x%]%% --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors
     set /a "x+=1"
-    GOTO :SymLoop2
-)
+    GOTO :SymLoop2)
 
 set storage=didrhj9036_sg6
 
@@ -79,8 +74,7 @@ set "x=0"
 if defined mkdirpath[%x%] (
     call rclone mkdir "%storage%:/%%mkdirpath[%x%]%% --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors
     set /a "x+=1"
-    GOTO :SymLoop2
-)
+    GOTO :SymLoop2)
 
 set storage=hjski8292882_sg7
 
@@ -89,8 +83,7 @@ set "x=0"
 if defined mkdirpath[%x%] (
     call rclone mkdir "%storage%:/%%mkdirpath[%x%]%% --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors
     set /a "x+=1"
-    GOTO :SymLoop2
-)
+    GOTO :SymLoop2)
 
 set storage=jsnwj84738_sg8
 
@@ -99,8 +92,7 @@ set "x=0"
 if defined mkdirpath[%x%] (
     call rclone mkdir "%storage%:/%%mkdirpath[%x%]%% --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors
     set /a "x+=1"
-    GOTO :SymLoop2
-)
+    GOTO :SymLoop2)
 
 set storage=ffdnsak8272793_sg9
 
@@ -109,8 +101,7 @@ set "x=0"
 if defined mkdirpath[%x%] (
     call rclone mkdir "%storage%:/%%mkdirpath[%x%]%% --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors
     set /a "x+=1"
-    GOTO :SymLoop2
-)
+    GOTO :SymLoop2)
 
 set storage=otipes7948_sg10
 
@@ -119,8 +110,7 @@ set "x=0"
 if defined mkdirpath[%x%] (
     call rclone mkdir "%storage%:/%%mkdirpath[%x%]%% --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors
     set /a "x+=1"
-    GOTO :SymLoop2
-)
+    GOTO :SymLoop2)
 
 
 
