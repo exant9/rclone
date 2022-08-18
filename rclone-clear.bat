@@ -135,7 +135,6 @@ REM echo rclone mkdir "aaveusdt_sg1:/Caca/" --low-level-retries 9999999999 --aut
 REM echo rclone mkdir "aaveusdt_sg1:/Caca/main_cloud/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
 REM echo rclone mkdir "aaveusdt_sg1:/Caca/main_cloud/computers/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
 REM echo rclone mkdir "aaveusdt_sg1:/Caca/main_cloud/computers/laptop_caca/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
-echo.
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\__11.bat"
 
 
@@ -247,7 +246,6 @@ REM echo rclone mkdir "renaave50_sg2:/Caca/" --low-level-retries 9999999999 --au
 REM echo rclone mkdir "renaave50_sg2:/Caca/main_cloud/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
 REM echo rclone mkdir "renaave50_sg2:/Caca/main_cloud/computers/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
 REM echo rclone mkdir "renaave50_sg2:/Caca/main_cloud/computers/laptop_caca/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
-echo.
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\__12.bat"
 
 
