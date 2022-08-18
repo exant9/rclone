@@ -135,9 +135,9 @@ echo rclone cleanup "otipes7948_sg10:/"
 echo set mkpath[0]="fcfgts_driveku_me:/Colab Notebooks"
 echo set mkpath[1]="fcfgts_driveku_me:/Files"
 echo set mkpath[2]="fcfgts_driveku_me:/PC/alyx"
+echo set mkpath[2]="fcfgts_driveku_me:/PC/caca"
 echo set mkpath[3]="fcfgts_driveku_me:/system/rclone"
 echo set mkpath[4]="fcfgts_driveku_me:/system/test"
-echo set mkpath[5]="fcfgts_driveku_me:/Unlimtd Copy/Computers"
 echo set mkpath[6]="fcfgts_driveku_me:/Unlimtd Copy/Downloads_pool_83174"
 echo set mkpath[7]="fcfgts_driveku_me:/Unlimtd Copy/Minecraft"
 
@@ -193,6 +193,7 @@ echo set selopcfolders[21]=world_templates
 echo set selopcfolders[22]=Notepad++
 echo set selopcfolders[23]=z-bat-vbs-file settings
 echo set selopcfolders[24]=rclone
+echo set selopcfolders[25]=profiles
 
 echo cd %%userprofile%%
 
@@ -258,6 +259,7 @@ echo set selopcfolders[21]=world_templates
 echo set selopcfolders[22]=Notepad++
 echo set selopcfolders[23]=z-bat-vbs-file settings
 echo set selopcfolders[24]=rclone
+echo set selopcfolders[25]=profiles
 
 
 
@@ -326,6 +328,7 @@ echo set selopcfolders[21]=world_templates
 echo set selopcfolders[22]=Notepad++
 echo set selopcfolders[23]=z-bat-vbs-file settings
 echo set selopcfolders[24]=rclone
+echo set selopcfolders[25]=profiles
 
 echo cd %%userprofile%%
 
@@ -392,6 +395,7 @@ echo set selopcfolders[21]=world_templates
 echo set selopcfolders[22]=Notepad++
 echo set selopcfolders[23]=z-bat-vbs-file settings
 echo set selopcfolders[24]=rclone
+echo set selopcfolders[25]=profiles
 
 echo cd %%userprofile%%
 
@@ -458,6 +462,7 @@ echo set selopcfolders[21]=world_templates
 echo set selopcfolders[22]=Notepad++
 echo set selopcfolders[23]=z-bat-vbs-file settings
 echo set selopcfolders[24]=rclone
+echo set selopcfolders[25]=profiles
 
 echo cd %%userprofile%%
 
@@ -524,6 +529,7 @@ echo set selopcfolders[21]=world_templates
 echo set selopcfolders[22]=Notepad++
 echo set selopcfolders[23]=z-bat-vbs-file settings
 echo set selopcfolders[24]=rclone
+echo set selopcfolders[25]=profiles
 
 echo cd %%userprofile%%
 
@@ -590,6 +596,7 @@ echo set selopcfolders[21]=world_templates
 echo set selopcfolders[22]=Notepad++
 echo set selopcfolders[23]=z-bat-vbs-file settings
 echo set selopcfolders[24]=rclone
+echo set selopcfolders[25]=profiles
 
 echo cd %%userprofile%%
 
@@ -656,6 +663,7 @@ echo set selopcfolders[21]=world_templates
 echo set selopcfolders[22]=Notepad++
 echo set selopcfolders[23]=z-bat-vbs-file settings
 echo set selopcfolders[24]=rclone
+echo set selopcfolders[25]=profiles
 
 echo cd %%userprofile%%
 
@@ -722,6 +730,7 @@ echo set selopcfolders[21]=world_templates
 echo set selopcfolders[22]=Notepad++
 echo set selopcfolders[23]=z-bat-vbs-file settings
 echo set selopcfolders[24]=rclone
+echo set selopcfolders[25]=profiles
 
 echo cd %%userprofile%%
 
@@ -788,6 +797,7 @@ echo set selopcfolders[21]=world_templates
 echo set selopcfolders[22]=Notepad++
 echo set selopcfolders[23]=z-bat-vbs-file settings
 echo set selopcfolders[24]=rclone
+echo set selopcfolders[25]=profiles
 
 echo cd %%userprofile%%
 
