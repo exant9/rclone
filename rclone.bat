@@ -969,6 +969,10 @@ echo rclone moveto "wjwn91178_sg3:/Caca/main_cloud/computers/laptop_caca/%%copyn
 
 
 
+
+set acc=aaveusdt
+set sg=1
+
 (
 
 echo set cacapcfolders[0]=document caca
@@ -1009,6 +1013,10 @@ echo rclone moveto "iaowk272818_sg4:/Caca/main_cloud/computers/laptop_caca/%%cop
 
 
 
+
+
+set acc=aaveusdt
+set sg=1
 
 (
 
@@ -1051,6 +1059,10 @@ echo rclone moveto "ejsjskw28272_sg5:/Caca/main_cloud/computers/laptop_caca/%%co
 
 
 
+
+set acc=aaveusdt
+set sg=1
+
 (
 
 echo set cacapcfolders[0]=document caca
@@ -1091,6 +1103,10 @@ echo rclone moveto "sjsiowkw272892_sg6:/Caca/main_cloud/computers/laptop_caca/%%
 
 
 
+
+
+set acc=aaveusdt
+set sg=1
 
 (
 
@@ -1133,6 +1149,10 @@ echo rclone moveto "s81wjwo17_sg7:/Caca/main_cloud/computers/laptop_caca/%%copyn
 
 
 
+
+set acc=aaveusdt
+set sg=1
+
 (
 
 echo set cacapcfolders[0]=document caca
@@ -1173,6 +1193,10 @@ echo rclone moveto "jskwonw_sg8:/Caca/main_cloud/computers/laptop_caca/%%copynam
 
 
 
+
+
+set acc=aaveusdt
+set sg=1
 
 (
 
@@ -1215,6 +1239,10 @@ echo rclone moveto "usowns81_sg9:/Caca/main_cloud/computers/laptop_caca/%%copyna
 
 
 
+
+set acc=aaveusdt
+set sg=1
+
 (
 
 echo set cacapcfolders[0]=document caca
@@ -1256,6 +1284,7 @@ echo rclone moveto "9288wowj_sg10:/Caca/main_cloud/computers/laptop_caca/%%copyn
 
 
 
+
 (
 
 echo cd %%userprofile%%
@@ -1292,6 +1321,7 @@ echo rclone copy "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.
 echo rclone copy "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/Shared" "iajdos282728_sg10:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/Shared" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --drive-keep-revision-forever --auto-confirm --quiet --track-renames --drive-allow-import-name-change --ignore-errors  --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10  --drive-skip-dangling-shortcuts --drive-skip-shortcuts
 
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_22.bat"
+
 
 
 
@@ -1360,6 +1390,7 @@ echo rclone copy "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.i
 
 
 
+
 (
 
 echo cd %%userprofile%%
@@ -1378,6 +1409,10 @@ echo rclone move "927281jwow,shared_with_me:/jY1CJ1hE4P/main_pc/Downloads_pool" 
 
 
 
+
+
+set acc=aaveusdt
+set sg=1
 
 (
 
