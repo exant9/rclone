@@ -173,7 +173,8 @@ echo ^)
 
 
 
-
+set acc=aaveusdt
+set sg=1
 
 (
 
@@ -235,6 +236,10 @@ echo rclone moveto "aaveusdt_sg1:/Selo/main_cloud/computers/alyx/%%copyname%%" "
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_2.bat"
 
 
+
+
+set acc=aaveusdt
+set sg=1
 
 (
 
@@ -300,6 +305,10 @@ echo rclone moveto "renaave50_sg2:/Selo/main_cloud/computers/alyx/%%copyname%%" 
 
 
 
+
+set acc=aaveusdt
+set sg=1
+
 (
 
 echo set selopcfolders[0]=a_fiyandha
@@ -361,6 +370,10 @@ echo rclone moveto "renaave7_sg3:/Selo/main_cloud/computers/alyx/%%copyname%%" "
 
 
 
+
+
+set acc=aaveusdt
+set sg=1
 
 (
 
@@ -424,6 +437,10 @@ echo rclone moveto "oudhoh0050_sg4:/Selo/main_cloud/computers/alyx/%%copyname%%"
 
 
 
+
+set acc=aaveusdt
+set sg=1
+
 (
 
 echo set selopcfolders[0]=a_fiyandha
@@ -485,6 +502,10 @@ echo rclone moveto "nkiux77509_sg5:/Selo/main_cloud/computers/alyx/%%copyname%%"
 
 
 
+
+
+set acc=aaveusdt
+set sg=1
 
 (
 
@@ -548,6 +569,10 @@ echo rclone moveto "didrhj9036_sg6:/Selo/main_cloud/computers/alyx/%%copyname%%"
 
 
 
+
+set acc=aaveusdt
+set sg=1
+
 (
 
 echo set selopcfolders[0]=a_fiyandha
@@ -609,6 +634,10 @@ echo rclone moveto "hjski8292882_sg7:/Selo/main_cloud/computers/alyx/%%copyname%
 
 
 
+
+
+set acc=aaveusdt
+set sg=1
 
 (
 
@@ -672,6 +701,10 @@ echo rclone moveto "jsnwj84738_sg8:/Selo/main_cloud/computers/alyx/%%copyname%%"
 
 
 
+
+set acc=aaveusdt
+set sg=1
+
 (
 
 echo set selopcfolders[0]=a_fiyandha
@@ -733,6 +766,10 @@ echo rclone moveto "ffdnsak8272793_sg9:/Selo/main_cloud/computers/alyx/%%copynam
 
 
 
+
+
+set acc=aaveusdt
+set sg=1
 
 (
 
@@ -798,6 +835,11 @@ echo rclone moveto "otipes7948_sg10:/Selo/main_cloud/computers/alyx/%%copyname%%
 
 REM  Cacaaaa   _______________________________________________________
 
+
+
+set acc=aaveusdt
+set sg=1
+
 (
 
 echo set cacapcfolders[0]=document caca
@@ -838,6 +880,10 @@ echo rclone moveto "jjajai2818_sg1:/Caca/main_cloud/computers/laptop_caca/%%copy
 
 
 
+
+set acc=aaveusdt
+set sg=1
+
 (
 
 echo set cacapcfolders[0]=document caca
@@ -877,6 +923,10 @@ echo rclone moveto "eleoek28828_sg2:/Caca/main_cloud/computers/laptop_caca/%%cop
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_13.bat"
 
 
+
+
+set acc=aaveusdt
+set sg=1
 
 (
 
