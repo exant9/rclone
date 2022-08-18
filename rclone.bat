@@ -130,8 +130,8 @@ cd "C:\a_fiyandha\z-bat-vbs-file\rclone"
 
 (
 
-REM set /a jwd=%%RANDOM%% * 21 / 32768 + 20
-REM timeout %%jwd%%
+
+
 echo cd %%userprofile%%
 
 echo rclone cleanup "aaveusdt_sg1:/"
@@ -162,25 +162,10 @@ echo     set /a "x+=1"
 echo     GOTO :SymLoop212
 echo ^)
 
-REM echo rclone delete "aaveusdt_sg1:/" --drive-trashed-only --drive-use-trash=false --fast-list --low-level-retries 9999999999 --retries 10 
-REM echo rclone delete "renaave50_sg2:/" --drive-trashed-only --drive-use-trash=false --fast-list --low-level-retries 9999999999 --retries 10 
-REM echo rclone delete "renaave7_sg3:/" --drive-trashed-only --drive-use-trash=false --fast-list --low-level-retries 9999999999 --retries 10 
-REM echo rclone delete "oudhoh0050_sg4:/" --drive-trashed-only --drive-use-trash=false --fast-list --low-level-retries 9999999999 --retries 10 
-REM echo rclone delete "nkiux77509_sg5:/" --drive-trashed-only --drive-use-trash=false --fast-list --low-level-retries 9999999999 --retries 10 
-REM echo rclone delete "didrhj9036_sg6:/" --drive-trashed-only --drive-use-trash=false --fast-list --low-level-retries 9999999999 --retries 10 
-REM echo rclone delete "hjski8292882_sg7:/" --drive-trashed-only --drive-use-trash=false --fast-list --low-level-retries 9999999999 --retries 10 
-REM echo rclone delete "jsnwj84738_sg8:/" --drive-trashed-only --drive-use-trash=false --fast-list --low-level-retries 9999999999 --retries 10 
-REM echo rclone delete "ffdnsak8272793_sg9:/" --drive-trashed-only --drive-use-trash=false --fast-list --low-level-retries 9999999999 --retries 10 
-REM echo rclone delete "otipes7948_sg10:/" --drive-trashed-only --drive-use-trash=false --fast-list --low-level-retries 9999999999 --retries 10 
 
 
-REM echo rclone mkdir "fcfgts_driveku_me:/
-REM echo rclone mkdir "fcfgts_driveku_me:/
-REM echo rclone mkdir "fcfgts_driveku_me:/
-REM echo rclone mkdir "fcfgts_driveku_me:/
-REM echo rclone mkdir "fcfgts_driveku_me:/
-REM echo rclone mkdir "fcfgts_driveku_me:/
-REM echo rclone mkdir "fcfgts_driveku_me:/
+
+
 
 
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_1.bat"
@@ -195,8 +180,8 @@ REM echo rclone mkdir "fcfgts_driveku_me:/
 
 (
 
-REM set /a jwd=%%RANDOM%% * 21 / 32768 + 20
-REM timeout %%jwd%%
+
+
 
 echo set selopcfolders[0]=a_fiyandha
 echo set selopcfolders[1]=3D Objects
@@ -261,8 +246,8 @@ echo cd %%userprofile%%
 
 (
 
-REM set /a jwd=%%RANDOM%% * 21 / 32768 + 20
-REM timeout %%jwd%%
+
+
 
 echo set selopcfolders[0]=a_fiyandha
 echo set selopcfolders[1]=3D Objects
@@ -330,8 +315,8 @@ echo cd %%userprofile%%
 
 (
 
-REM set /a jwd=%%RANDOM%% * 21 / 32768 + 20
-REM timeout %%jwd%%
+
+
 
 echo set selopcfolders[0]=a_fiyandha
 echo set selopcfolders[1]=3D Objects
@@ -397,8 +382,8 @@ echo cd %%userprofile%%
 
 (
 
-REM set /a jwd=%%RANDOM%% * 21 / 32768 + 20
-REM timeout %%jwd%%
+
+
 
 echo set selopcfolders[0]=a_fiyandha
 echo set selopcfolders[1]=3D Objects
@@ -464,8 +449,8 @@ echo cd %%userprofile%%
 
 (
 
-REM set /a jwd=%%RANDOM%% * 21 / 32768 + 20
-REM timeout %%jwd%%
+
+
 
 echo set selopcfolders[0]=a_fiyandha
 echo set selopcfolders[1]=3D Objects
@@ -531,8 +516,8 @@ echo cd %%userprofile%%
 
 (
 
-REM set /a jwd=%%RANDOM%% * 21 / 32768 + 20
-REM timeout %%jwd%%
+
+
 
 echo set selopcfolders[0]=a_fiyandha
 echo set selopcfolders[1]=3D Objects
@@ -598,8 +583,8 @@ echo cd %%userprofile%%
 
 (
 
-REM set /a jwd=%%RANDOM%% * 21 / 32768 + 20
-REM timeout %%jwd%%
+
+
 
 echo set selopcfolders[0]=a_fiyandha
 echo set selopcfolders[1]=3D Objects
@@ -665,8 +650,8 @@ echo cd %%userprofile%%
 
 (
 
-REM set /a jwd=%%RANDOM%% * 21 / 32768 + 20
-REM timeout %%jwd%%
+
+
 
 echo set selopcfolders[0]=a_fiyandha
 echo set selopcfolders[1]=3D Objects
@@ -732,8 +717,8 @@ echo cd %%userprofile%%
 
 (
 
-REM set /a jwd=%%RANDOM%% * 21 / 32768 + 20
-REM timeout %%jwd%%
+
+
 
 echo set selopcfolders[0]=a_fiyandha
 echo set selopcfolders[1]=3D Objects
@@ -799,8 +784,8 @@ echo cd %%userprofile%%
 
 (
 
-REM set /a jwd=%%RANDOM%% * 21 / 32768 + 20
-REM timeout %%jwd%%
+
+
 
 echo set selopcfolders[0]=a_fiyandha
 echo set selopcfolders[1]=3D Objects
@@ -868,8 +853,8 @@ REM  Cacaaaa   _______________________________________________________
 
 (
 
-REM set /a jwd=%%RANDOM%% * 21 / 32768 + 20
-REM timeout %%jwd%%
+
+
 
 echo set cacapcfolders[0]=document caca
 echo set cacapcfolders[1]=com.mojang
@@ -913,8 +898,8 @@ echo cd %%userprofile%%
 
 (
 
-REM set /a jwd=%%RANDOM%% * 21 / 32768 + 20
-REM timeout %%jwd%%
+
+
 
 echo set cacapcfolders[0]=document caca
 echo set cacapcfolders[1]=com.mojang
@@ -958,8 +943,8 @@ echo cd %%userprofile%%
 
 (
 
-REM set /a jwd=%%RANDOM%% * 21 / 32768 + 20
-REM timeout %%jwd%%
+
+
 
 echo set cacapcfolders[0]=document caca
 echo set cacapcfolders[1]=com.mojang
@@ -1004,8 +989,8 @@ echo cd %%userprofile%%
 
 (
 
-REM set /a jwd=%%RANDOM%% * 21 / 32768 + 20
-REM timeout %%jwd%%
+
+
 
 echo set cacapcfolders[0]=document caca
 echo set cacapcfolders[1]=com.mojang
@@ -1050,8 +1035,8 @@ echo cd %%userprofile%%
 
 (
 
-REM set /a jwd=%%RANDOM%% * 21 / 32768 + 20
-REM timeout %%jwd%%
+
+
 
 echo set cacapcfolders[0]=document caca
 echo set cacapcfolders[1]=com.mojang
@@ -1096,8 +1081,8 @@ echo cd %%userprofile%%
 
 (
 
-REM set /a jwd=%%RANDOM%% * 21 / 32768 + 20
-REM timeout %%jwd%%
+
+
 
 echo set cacapcfolders[0]=document caca
 echo set cacapcfolders[1]=com.mojang
@@ -1142,8 +1127,8 @@ echo cd %%userprofile%%
 
 (
 
-REM set /a jwd=%%RANDOM%% * 21 / 32768 + 20
-REM timeout %%jwd%%
+
+
 
 echo set cacapcfolders[0]=document caca
 echo set cacapcfolders[1]=com.mojang
@@ -1188,8 +1173,8 @@ echo cd %%userprofile%%
 
 (
 
-REM set /a jwd=%%RANDOM%% * 21 / 32768 + 20
-REM timeout %%jwd%%
+
+
 
 echo set cacapcfolders[0]=document caca
 echo set cacapcfolders[1]=com.mojang
@@ -1234,8 +1219,8 @@ echo cd %%userprofile%%
 
 (
 
-REM set /a jwd=%%RANDOM%% * 21 / 32768 + 20
-REM timeout %%jwd%%
+
+
 
 echo set cacapcfolders[0]=document caca
 echo set cacapcfolders[1]=com.mojang
@@ -1280,8 +1265,8 @@ echo cd %%userprofile%%
 
 (
 
-REM set /a jwd=%%RANDOM%% * 21 / 32768 + 20
-REM timeout %%jwd%%
+
+
 
 echo set cacapcfolders[0]=document caca
 echo set cacapcfolders[1]=com.mojang
@@ -1326,8 +1311,8 @@ echo cd %%userprofile%%
 
 (
 
-REM set /a jwd=%%RANDOM%% * 21 / 32768 + 20
-REM timeout %%jwd%%
+
+
 
 echo cd %%userprofile%%
 
@@ -1371,8 +1356,8 @@ echo cd %%userprofile%%
 
 (
 
-REM set /a jwd=%%RANDOM%% * 21 / 32768 + 20
-REM timeout %%jwd%%
+
+
 
 echo cd %%userprofile%%
 
@@ -1438,8 +1423,8 @@ echo rclone copy "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.i
 
 (
 
-REM set /a jwd=%%RANDOM%% * 21 / 32768 + 20
-REM timeout %%jwd%%
+
+
 
 echo cd %%userprofile%%
 
@@ -1460,8 +1445,8 @@ echo rclone move "927281jwow,shared_with_me:/jY1CJ1hE4P/main_pc/Downloads_pool" 
 
 (
 
-REM set /a jwd=%%RANDOM%% * 21 / 32768 + 20
-REM timeout %%jwd%%
+
+
 
 echo set selopcfolders[0]=a_fiyandha
 echo set selopcfolders[1]=3D Objects
@@ -1528,8 +1513,8 @@ echo cd %%userprofile%%
 
 (
 
-REM set /a jwd=%%RANDOM%% * 21 / 32768 + 20
-REM timeout %%jwd%%
+
+
 
 echo cd %%userprofile%%
 
@@ -1545,13 +1530,6 @@ echo rclone copy "fcfgts_driveku_me,shared_with_me:/" "fcfgts_driveku_me:/Shared
 
 
 
-REM (
-
-REM echo cd %%userprofile%%
-
-REM echo rclone copy "rama_sman5,shared_with_me:/" "rama_sman5:/Shared" --drive-server-side-across-configs --drive-keep-revision-forever --auto-confirm --quiet --track-renames --drive-allow-import-name-change --ignore-errors  --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 15G --max-depth 999999 --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10    --drive-skip-dangling-shortcuts --drive-skip-shortcuts 
-
-REM )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_24.bat"
 
 
 
@@ -1560,13 +1538,8 @@ REM )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_24.bat"
 
 
 
-REM (
 
-REM echo cd %%userprofile%%
 
-REM echo rclone copy "fcfgts_driveku_me,shared_with_me:/" "fcfgts_driveku_me/shared docs"  --drive-server-side-across-configs --drive-keep-revision-forever --auto-confirm --quiet --track-renames --drive-allow-import-name-change --ignore-errors  --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious --include "*.{pptx,docx,html,txt,json,xlsx,xls,doc,ppt,rtf}" --low-level-retries 9999999999 --retries 10    --drive-skip-dangling-shortcuts --drive-skip-shortcuts 
-
-REM )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_25.bat"
 
 
 

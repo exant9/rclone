@@ -19,7 +19,7 @@ echo rclone cleanup "jsnwj84738_sg8:/" --low-level-retries 9999999999 --auto-con
 echo rclone cleanup "ffdnsak8272793_sg9:/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
 echo rclone cleanup "otipes7948_sg10:/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\__1.bat"
-s
+
 
 
 
@@ -129,7 +129,7 @@ REM echo rclone mkdir "aaveusdt_sg1:/Selo/main_cloud/computers/" --low-level-ret
 REM echo rclone mkdir "aaveusdt_sg1:/Selo/main_cloud/computers/main_pc/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
 REM echo rclone mkdir "aaveusdt_sg1:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
 REM echo rclone mkdir "aaveusdt_sg1:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
-REM echo.
+
 REM echo rclone purge "aaveusdt_sg1:/Caca/main_cloud/computers/laptop_caca/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
 REM echo rclone mkdir "aaveusdt_sg1:/Caca/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
 REM echo rclone mkdir "aaveusdt_sg1:/Caca/main_cloud/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
@@ -241,7 +241,7 @@ REM echo rclone mkdir "renaave50_sg2:/Selo/main_cloud/computers/" --low-level-re
 REM echo rclone mkdir "renaave50_sg2:/Selo/main_cloud/computers/main_pc/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
 REM echo rclone mkdir "renaave50_sg2:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
 REM echo rclone mkdir "renaave50_sg2:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
-REM echo.
+
 REM echo rclone purge "renaave50_sg2:/Caca/main_cloud/computers/laptop_caca/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
 REM echo rclone mkdir "renaave50_sg2:/Caca/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
 REM echo rclone mkdir "renaave50_sg2:/Caca/main_cloud/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
@@ -906,18 +906,10 @@ echo.
 echo.
 echo.
 echo.
-REM echo rclone mkdir "jsnwj84738_sg8:/Selo/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
-REM echo rclone mkdir "jsnwj84738_sg8:/Selo/main_cloud/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
-REM echo rclone mkdir "jsnwj84738_sg8:/Selo/main_cloud/computers/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
-REM echo rclone mkdir "jsnwj84738_sg8:/Selo/main_cloud/computers/main_pc/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
-REM echo rclone mkdir "jsnwj84738_sg8:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
-REM echo rclone mkdir "jsnwj84738_sg8:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
 
-REM echo rclone purge "jsnwj84738_sg8:/Caca/main_cloud/computers/laptop_caca/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
-REM echo rclone mkdir "jsnwj84738_sg8:/Caca/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
-REM echo rclone mkdir "jsnwj84738_sg8:/Caca/main_cloud/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
-REM echo rclone mkdir "jsnwj84738_sg8:/Caca/main_cloud/computers/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
-REM echo rclone mkdir "jsnwj84738_sg8:/Caca/main_cloud/computers/laptop_caca/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
+
+
+
 
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\__18.bat"
 
@@ -927,7 +919,7 @@ REM echo rclone mkdir "jsnwj84738_sg8:/Caca/main_cloud/computers/laptop_caca/" -
 
 echo cd %%userprofile%%
 
-REM echo rclone delete "ffdnsak8272793_sg9:/" --drive-trashed-only --drive-use-trash=false --fast-list --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
+
 
 echo rclone rmdirs "ffdnsak8272793_sg9:/" --leave-root --max-depth 1 --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  --fast-list
 echo.
@@ -1162,7 +1154,7 @@ REM set /a x=%%random%% %%%% 36
 REM set randomid=%%randomid%%^!string:^~%%x%%,1^!
 REM goto :eof
 REM :l23232
-REM echo.
+
 REM ^(echo {"mode":"run_rclone_clear_bats"}
 REM ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 REM python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
