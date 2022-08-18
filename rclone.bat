@@ -11,16 +11,11 @@ REM  A nya gabakal pake usage
 
 cd %userprofile%
 
-REM set mkdirpath[0]=Selo/" 
-REM set mkdirpath[1]=Selo/main_cloud/" 
-REM set mkdirpath[2]=Selo/main_cloud/computers/" 
-REM set mkdirpath[3]=Selo/main_cloud/computers/alyx/" 
-REM set mkdirpath[4]=Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
-REM set mkdirpath[5]=Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
-REM set mkdirpath[6]=Caca/" 
-REM set mkdirpath[7]=Caca/main_cloud/" 
-REM set mkdirpath[8]=Caca/main_cloud/computers/" 
-REM set mkdirpath[9]=Caca/main_cloud/computers/laptop_caca/"
+set mkdirpath[0]=Selo/"
+set mkdirpath[1]=Selo/main_cloud/computers/alyx/"
+set mkdirpath[2]=Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
+set mkdirpath[3]=Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
+set mkdirpath[4]=Caca/main_cloud/computers/caca/"
 
 set storage=aaveusdt_sg1
 
@@ -869,12 +864,12 @@ echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 echo set "x=0"
 echo :SymLoop1
 echo if defined cacapcfolders[%%x%%] ^(
-echo     call rclone copy "jjajai2818,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacapcfolders[%%x%%]%%%%" "jjajai2818_sg1:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/%%%%cacapcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-keep-revision-forever --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+echo     call rclone copy "jjajai2818,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacapcfolders[%%x%%]%%%%" "jjajai2818_sg1:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacapcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-keep-revision-forever --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1
 echo ^)
 
-echo rclone moveto "jjajai2818_sg1:/Caca/main_cloud/computers/laptop_caca/%%copyname%%" "jjajai2818_sg1:/Caca/main_cloud/computers/laptop_caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
+echo rclone moveto "jjajai2818_sg1:/Caca/main_cloud/computers/caca/%%copyname%%" "jjajai2818_sg1:/Caca/main_cloud/computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
 
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_12.bat"
 
@@ -913,12 +908,12 @@ echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 echo set "x=0"
 echo :SymLoop1
 echo if defined cacapcfolders[%%x%%] ^(
-echo     call rclone copy "eleoek28828,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacapcfolders[%%x%%]%%%%" "eleoek28828_sg2:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/%%%%cacapcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-keep-revision-forever --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+echo     call rclone copy "eleoek28828,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacapcfolders[%%x%%]%%%%" "eleoek28828_sg2:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacapcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-keep-revision-forever --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1
 echo ^)
 
-echo rclone moveto "eleoek28828_sg2:/Caca/main_cloud/computers/laptop_caca/%%copyname%%" "eleoek28828_sg2:/Caca/main_cloud/computers/laptop_caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
+echo rclone moveto "eleoek28828_sg2:/Caca/main_cloud/computers/caca/%%copyname%%" "eleoek28828_sg2:/Caca/main_cloud/computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
 
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_13.bat"
 
@@ -957,12 +952,12 @@ echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 echo set "x=0"
 echo :SymLoop1
 echo if defined cacapcfolders[%%x%%] ^(
-echo     call rclone copy "wjwn91178,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacapcfolders[%%x%%]%%%%" "wjwn91178_sg3:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/%%%%cacapcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-keep-revision-forever --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+echo     call rclone copy "wjwn91178,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacapcfolders[%%x%%]%%%%" "wjwn91178_sg3:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacapcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-keep-revision-forever --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1
 echo ^)
 
-echo rclone moveto "wjwn91178_sg3:/Caca/main_cloud/computers/laptop_caca/%%copyname%%" "wjwn91178_sg3:/Caca/main_cloud/computers/laptop_caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
+echo rclone moveto "wjwn91178_sg3:/Caca/main_cloud/computers/caca/%%copyname%%" "wjwn91178_sg3:/Caca/main_cloud/computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
 
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_14.bat"
 
@@ -1002,12 +997,12 @@ echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 echo set "x=0"
 echo :SymLoop1
 echo if defined cacapcfolders[%%x%%] ^(
-echo     call rclone copy "iaowk272818,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacapcfolders[%%x%%]%%%%" "iaowk272818_sg4:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/%%%%cacapcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-keep-revision-forever --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+echo     call rclone copy "iaowk272818,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacapcfolders[%%x%%]%%%%" "iaowk272818_sg4:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacapcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-keep-revision-forever --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1
 echo ^)
 
-echo rclone moveto "iaowk272818_sg4:/Caca/main_cloud/computers/laptop_caca/%%copyname%%" "iaowk272818_sg4:/Caca/main_cloud/computers/laptop_caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
+echo rclone moveto "iaowk272818_sg4:/Caca/main_cloud/computers/caca/%%copyname%%" "iaowk272818_sg4:/Caca/main_cloud/computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
 
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_15.bat"
 
@@ -1047,12 +1042,12 @@ echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 echo set "x=0"
 echo :SymLoop1
 echo if defined cacapcfolders[%%x%%] ^(
-echo     call rclone copy "ejsjskw28272,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacapcfolders[%%x%%]%%%%" "ejsjskw28272_sg5:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/%%%%cacapcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-keep-revision-forever --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+echo     call rclone copy "ejsjskw28272,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacapcfolders[%%x%%]%%%%" "ejsjskw28272_sg5:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacapcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-keep-revision-forever --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1
 echo ^)
 
-echo rclone moveto "ejsjskw28272_sg5:/Caca/main_cloud/computers/laptop_caca/%%copyname%%" "ejsjskw28272_sg5:/Caca/main_cloud/computers/laptop_caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
+echo rclone moveto "ejsjskw28272_sg5:/Caca/main_cloud/computers/caca/%%copyname%%" "ejsjskw28272_sg5:/Caca/main_cloud/computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
 
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_16.bat"
 
@@ -1092,12 +1087,12 @@ echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 echo set "x=0"
 echo :SymLoop1
 echo if defined cacapcfolders[%%x%%] ^(
-echo     call rclone copy "sjsiowkw272892,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacapcfolders[%%x%%]%%%%" "sjsiowkw272892_sg6:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/%%%%cacapcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-keep-revision-forever --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+echo     call rclone copy "sjsiowkw272892,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacapcfolders[%%x%%]%%%%" "sjsiowkw272892_sg6:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacapcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-keep-revision-forever --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1
 echo ^)
 
-echo rclone moveto "sjsiowkw272892_sg6:/Caca/main_cloud/computers/laptop_caca/%%copyname%%" "sjsiowkw272892_sg6:/Caca/main_cloud/computers/laptop_caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
+echo rclone moveto "sjsiowkw272892_sg6:/Caca/main_cloud/computers/caca/%%copyname%%" "sjsiowkw272892_sg6:/Caca/main_cloud/computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
 
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_17.bat"
 
@@ -1137,12 +1132,12 @@ echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 echo set "x=0"
 echo :SymLoop1
 echo if defined cacapcfolders[%%x%%] ^(
-echo     call rclone copy "s81wjwo17,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacapcfolders[%%x%%]%%%%" "s81wjwo17_sg7:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/%%%%cacapcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-keep-revision-forever --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+echo     call rclone copy "s81wjwo17,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacapcfolders[%%x%%]%%%%" "s81wjwo17_sg7:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacapcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-keep-revision-forever --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1
 echo ^)
 
-echo rclone moveto "s81wjwo17_sg7:/Caca/main_cloud/computers/laptop_caca/%%copyname%%" "s81wjwo17_sg7:/Caca/main_cloud/computers/laptop_caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
+echo rclone moveto "s81wjwo17_sg7:/Caca/main_cloud/computers/caca/%%copyname%%" "s81wjwo17_sg7:/Caca/main_cloud/computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
 
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_18.bat"
 
@@ -1182,12 +1177,12 @@ echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 echo set "x=0"
 echo :SymLoop1
 echo if defined cacapcfolders[%%x%%] ^(
-echo     call rclone copy "renaave50,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacapcfolders[%%x%%]%%%%" "jskwonw_sg8:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/%%%%cacapcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-keep-revision-forever --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+echo     call rclone copy "renaave50,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacapcfolders[%%x%%]%%%%" "jskwonw_sg8:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacapcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-keep-revision-forever --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1
 echo ^)
 
-echo rclone moveto "jskwonw_sg8:/Caca/main_cloud/computers/laptop_caca/%%copyname%%" "jskwonw_sg8:/Caca/main_cloud/computers/laptop_caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
+echo rclone moveto "jskwonw_sg8:/Caca/main_cloud/computers/caca/%%copyname%%" "jskwonw_sg8:/Caca/main_cloud/computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
 
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_19.bat"
 
@@ -1227,12 +1222,12 @@ echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 echo set "x=0"
 echo :SymLoop1
 echo if defined cacapcfolders[%%x%%] ^(
-echo     call rclone copy "usowns81,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacapcfolders[%%x%%]%%%%" "usowns81_sg9:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/%%%%cacapcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-keep-revision-forever --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+echo     call rclone copy "usowns81,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacapcfolders[%%x%%]%%%%" "usowns81_sg9:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacapcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-keep-revision-forever --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1
 echo ^)
 
-echo rclone moveto "usowns81_sg9:/Caca/main_cloud/computers/laptop_caca/%%copyname%%" "usowns81_sg9:/Caca/main_cloud/computers/laptop_caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
+echo rclone moveto "usowns81_sg9:/Caca/main_cloud/computers/caca/%%copyname%%" "usowns81_sg9:/Caca/main_cloud/computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
 
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_20.bat"
 
@@ -1272,12 +1267,12 @@ echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 echo set "x=0"
 echo :SymLoop1
 echo if defined cacapcfolders[%%x%%] ^(
-echo     call rclone copy "9288wowj,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacapcfolders[%%x%%]%%%%" "9288wowj_sg10:/Caca/main_cloud/computers/laptop_caca/%%copyname%%/%%%%cacapcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-keep-revision-forever --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+echo     call rclone copy "9288wowj,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacapcfolders[%%x%%]%%%%" "9288wowj_sg10:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacapcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-keep-revision-forever --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1
 echo ^)
 
-echo rclone moveto "9288wowj_sg10:/Caca/main_cloud/computers/laptop_caca/%%copyname%%" "9288wowj_sg10:/Caca/main_cloud/computers/laptop_caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
+echo rclone moveto "9288wowj_sg10:/Caca/main_cloud/computers/caca/%%copyname%%" "9288wowj_sg10:/Caca/main_cloud/computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
 
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_21.bat"
 
@@ -1459,7 +1454,7 @@ echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 echo set "x=0"
 echo :SymLoop1
 echo if defined selopcfolders[%%x%%] ^(
-echo     call rclone copy "9288wowj,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selopcfolders[%%x%%]%%%%" "9288wowj_sg10,shared_with_me:/alyx 7229179/%%copyname%%/%%%%selopcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-keep-revision-forever --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious  --drive-skip-dangling-shortcuts --drive-skip-shortcuts --low-level-retries 9999999999 --retries 10   
+echo     call rclone copy "9288wowj,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selopcfolders[%%x%%]%%%%" "9288wowj_sg10,shared_with_me:/alyx 7229179/%%copyname%%/%%%%selopcfolders[%%x%%]%%%%" --drive-server-side-across-configs --drive-keep-revision-forever --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  --drive-acknowledge-abuse  --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --max-depth 999999 --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1
 echo ^)
