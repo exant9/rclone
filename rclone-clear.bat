@@ -76,7 +76,7 @@ echo set cache_result=%%cache_result%%
 echo.
 echo set loopcount=%%cache_result%%
 echo :loop
-echo rclone purge "%acc%:/%fldr%/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
+echo rclone purge "%acc%:/%%fldr%%/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
 echo set /a loopcount=loopcount-1
 echo if %%loopcount%%==0 goto exitloop
 echo goto loop
@@ -118,7 +118,7 @@ echo set cache_result=%%cache_result%%
 echo.
 echo set loopcount=%%cache_result%%
 echo :loop1
-echo rclone purge "%acc%:/%fldr%/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
+echo rclone purge "%acc%:/%%fldr%%/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
 echo set /a loopcount=loopcount-1
 echo if %%loopcount%%==0 goto exitloop1
 echo goto loop1
@@ -159,7 +159,7 @@ echo set cache_result=%%cache_result%%
 echo.
 echo set loopcount=%%cache_result%%
 echo :loop
-echo rclone purge "%acc%:/%fldr%/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
+echo rclone purge "%acc%:/%%fldr%%/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
 echo set /a loopcount=loopcount-1
 echo if %%loopcount%%==0 goto exitloop
 echo goto loop
@@ -200,7 +200,7 @@ echo set cache_result=%%cache_result%%
 echo.
 echo set loopcount=%%cache_result%%
 echo :loop
-echo rclone purge "%acc%:/%fldr%/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
+echo rclone purge "%acc%:/%%fldr%%/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
 echo set /a loopcount=loopcount-1
 echo if %%loopcount%%==0 goto exitloop
 echo goto loop
@@ -266,7 +266,7 @@ echo set cache_result=%%cache_result%%
 echo.
 echo set loopcount=%%cache_result%%
 echo :loop
-echo rclone purge "%acc%:/%fldr%/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
+echo rclone purge "%acc%:/%%fldr%%/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
 echo set /a loopcount=loopcount-1
 echo if %%loopcount%%==0 goto exitloop
 echo goto loop
@@ -352,7 +352,7 @@ echo set cache_result=%%cache_result%%
 echo.
 echo set loopcount=%%cache_result%%
 echo :loop
-echo rclone purge "%acc%:/%fldr%/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
+echo rclone purge "%acc%:/%%fldr%%/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
 echo set /a loopcount=loopcount-1
 echo if %%loopcount%%==0 goto exitloop
 echo goto loop
@@ -393,7 +393,7 @@ echo set cache_result=%%cache_result%%
 echo.
 echo set loopcount=%%cache_result%%
 echo :loop
-echo rclone purge "%acc%:/%fldr%/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
+echo rclone purge "%acc%:/%%fldr%%/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
 echo set /a loopcount=loopcount-1
 echo if %%loopcount%%==0 goto exitloop
 echo goto loop
@@ -544,7 +544,7 @@ echo set cache_result=%%cache_result%%
 echo.
 echo set loopcount=%%cache_result%%
 echo :loop
-echo rclone purge "%acc%:/%fldr%/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
+echo rclone purge "%acc%:/%%fldr%%/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
 echo set /a loopcount=loopcount-1
 echo if %%loopcount%%==0 goto exitloop
 echo goto loop
@@ -585,7 +585,7 @@ echo set cache_result=%%cache_result%%
 echo.
 echo set loopcount=%%cache_result%%
 echo :loop
-echo rclone purge "%acc%:/%fldr%/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
+echo rclone purge "%acc%:/%%fldr%%/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
 echo set /a loopcount=loopcount-1
 echo if %%loopcount%%==0 goto exitloop
 echo goto loop
@@ -737,7 +737,7 @@ echo set cache_result=%%cache_result%%
 echo.
 echo set loopcount=%%cache_result%%
 echo :loop
-echo rclone purge "%acc%:/%fldr%/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
+echo rclone purge "%acc%:/%%fldr%%/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
 echo set /a loopcount=loopcount-1
 echo if %%loopcount%%==0 goto exitloop
 echo goto loop
@@ -778,7 +778,7 @@ echo set cache_result=%%cache_result%%
 echo.
 echo set loopcount=%%cache_result%%
 echo :loop
-echo rclone purge "%acc%:/%fldr%/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
+echo rclone purge "%acc%:/%%fldr%%/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
 echo set /a loopcount=loopcount-1
 echo if %%loopcount%%==0 goto exitloop
 echo goto loop
@@ -930,7 +930,7 @@ echo set cache_result=%%cache_result%%
 echo.
 echo set loopcount=%%cache_result%%
 echo :loop
-echo rclone purge "%acc%:/%fldr%/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
+echo rclone purge "%acc%:/%%fldr%%/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
 echo set /a loopcount=loopcount-1
 echo if %%loopcount%%==0 goto exitloop
 echo goto loop
@@ -971,7 +971,7 @@ echo set cache_result=%%cache_result%%
 echo.
 echo set loopcount=%%cache_result%%
 echo :loop
-echo rclone purge "%acc%:/%fldr%/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
+echo rclone purge "%acc%:/%%fldr%%/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
 echo set /a loopcount=loopcount-1
 echo if %%loopcount%%==0 goto exitloop
 echo goto loop
@@ -1122,7 +1122,7 @@ echo set cache_result=%%cache_result%%
 echo.
 echo set loopcount=%%cache_result%%
 echo :loop
-echo rclone purge "%acc%:/%fldr%/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
+echo rclone purge "%acc%:/%%fldr%%/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
 echo set /a loopcount=loopcount-1
 echo if %%loopcount%%==0 goto exitloop
 echo goto loop
@@ -1163,7 +1163,7 @@ echo set cache_result=%%cache_result%%
 echo.
 echo set loopcount=%%cache_result%%
 echo :loop
-echo rclone purge "%acc%:/%fldr%/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
+echo rclone purge "%acc%:/%%fldr%%/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
 echo set /a loopcount=loopcount-1
 echo if %%loopcount%%==0 goto exitloop
 echo goto loop
@@ -1315,7 +1315,7 @@ echo set cache_result=%%cache_result%%
 echo.
 echo set loopcount=%%cache_result%%
 echo :loop
-echo rclone purge "%acc%:/%fldr%/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
+echo rclone purge "%acc%:/%%fldr%%/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
 echo set /a loopcount=loopcount-1
 echo if %%loopcount%%==0 goto exitloop
 echo goto loop
@@ -1356,7 +1356,7 @@ echo set cache_result=%%cache_result%%
 echo.
 echo set loopcount=%%cache_result%%
 echo :loop
-echo rclone purge "%acc%:/%fldr%/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
+echo rclone purge "%acc%:/%%fldr%%/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
 echo set /a loopcount=loopcount-1
 echo if %%loopcount%%==0 goto exitloop
 echo goto loop
@@ -1508,7 +1508,7 @@ echo set cache_result=%%cache_result%%
 echo.
 echo set loopcount=%%cache_result%%
 echo :loop
-echo rclone purge "%acc%:/%fldr%/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
+echo rclone purge "%acc%:/%%fldr%%/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
 echo set /a loopcount=loopcount-1
 echo if %%loopcount%%==0 goto exitloop
 echo goto loop
@@ -1549,7 +1549,7 @@ echo set cache_result=%%cache_result%%
 echo.
 echo set loopcount=%%cache_result%%
 echo :loop
-echo rclone purge "%acc%:/%fldr%/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
+echo rclone purge "%acc%:/%%fldr%%/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
 echo set /a loopcount=loopcount-1
 echo if %%loopcount%%==0 goto exitloop
 echo goto loop
@@ -1704,7 +1704,7 @@ echo set cache_result=%%cache_result%%
 echo.
 echo set loopcount=%%cache_result%%
 echo :loop
-echo rclone purge "%acc%:/%fldr%/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
+echo rclone purge "%acc%:/%%fldr%%/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
 echo set /a loopcount=loopcount-1
 echo if %%loopcount%%==0 goto exitloop
 echo goto loop
@@ -1745,7 +1745,7 @@ echo set cache_result=%%cache_result%%
 echo.
 echo set loopcount=%%cache_result%%
 echo :loop
-echo rclone purge "%acc%:/%fldr%/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
+echo rclone purge "%acc%:/%%fldr%%/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
 echo set /a loopcount=loopcount-1
 echo if %%loopcount%%==0 goto exitloop
 echo goto loop
@@ -1897,7 +1897,7 @@ echo set cache_result=%%cache_result%%
 echo.
 echo set loopcount=%%cache_result%%
 echo :loop
-echo rclone purge "%acc%:/%fldr%/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
+echo rclone purge "%acc%:/%%fldr%%/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
 echo set /a loopcount=loopcount-1
 echo if %%loopcount%%==0 goto exitloop
 echo goto loop
@@ -1938,7 +1938,7 @@ echo set cache_result=%%cache_result%%
 echo.
 echo set loopcount=%%cache_result%%
 echo :loop
-echo rclone purge "%acc%:/%fldr%/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
+echo rclone purge "%acc%:/%%fldr%%/" --low-level-retries 9999999999 --auto-confirm --quiet  --drive-allow-import-name-change --ignore-errors  
 echo set /a loopcount=loopcount-1
 echo if %%loopcount%%==0 goto exitloop
 echo goto loop
