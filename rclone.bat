@@ -156,32 +156,32 @@ set sg=1
 
 (
 
-echo set selopcfldrs[0]=a_fiyandha
-echo set selopcfldrs[1]=3D Objects
-echo set selopcfldrs[2]=Desktop
-echo set selopcfldrs[3]=Documents
-echo set selopcfldrs[4]=Videos
-echo set selopcfldrs[5]=Saved Games
-echo set selopcfldrs[6]=Favorites
-echo set selopcfldrs[7]=Links
-echo set selopcfldrs[8]=Music
-echo set selopcfldrs[9]=Contacts
-echo set selopcfldrs[10]=a NDF1x extended
-echo set selopcfldrs[11]=Downloads
-echo set selopcfldrs[12]=Pictures
-echo set selopcfldrs[13]=behavior_packs
-echo set selopcfldrs[14]=development_behavior_packs
-echo set selopcfldrs[15]=development_resource_packs
-echo set selopcfldrs[16]=development_skin_packs
-echo set selopcfldrs[17]=minecraftpe
-echo set selopcfldrs[18]=minecraftWorlds
-echo set selopcfldrs[19]=resource_packs
-echo set selopcfldrs[20]=skin_packs
-echo set selopcfldrs[21]=world_templates
-echo set selopcfldrs[22]=Notepad++
-echo set selopcfldrs[23]=z-bat-vbs-file settings
-echo set selopcfldrs[24]=rclone
-echo set selopcfldrs[25]=profiles
+echo set selofldrs[0]=a_fiyandha
+echo set selofldrs[1]=3D Objects
+echo set selofldrs[2]=Desktop
+echo set selofldrs[3]=Documents
+echo set selofldrs[4]=Videos
+echo set selofldrs[5]=Saved Games
+echo set selofldrs[6]=Favorites
+echo set selofldrs[7]=Links
+echo set selofldrs[8]=Music
+echo set selofldrs[9]=Contacts
+echo set selofldrs[10]=a NDF1x extended
+echo set selofldrs[11]=Downloads
+echo set selofldrs[12]=Pictures
+echo set selofldrs[13]=behavior_packs
+echo set selofldrs[14]=development_behavior_packs
+echo set selofldrs[15]=development_resource_packs
+echo set selofldrs[16]=development_skin_packs
+echo set selofldrs[17]=minecraftpe
+echo set selofldrs[18]=minecraftWorlds
+echo set selofldrs[19]=resource_packs
+echo set selofldrs[20]=skin_packs
+echo set selofldrs[21]=world_templates
+echo set selofldrs[22]=Notepad++
+echo set selofldrs[23]=z-bat-vbs-file settings
+echo set selofldrs[24]=rclone
+echo set selofldrs[25]=profiles
 
 echo cd %%userprofile%%
 
@@ -198,15 +198,15 @@ echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
 echo set "x=0"
 echo :SymLoop1
-echo if defined selopcfldrs[%%x%%] ^(
-echo     call rclone copy "aaveusdt,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selopcfldrs[%%x%%]%%%%" "aaveusdt_sg1:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selopcfldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10
+echo if defined selofldrs[%%x%%] ^(
+echo     call rclone copy "aaveusdt,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selofldrs[%%x%%]%%%%" "aaveusdt_sg1:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1^)
 
 echo set "x=0"
 echo :SymLoop1
-echo if defined selopcfldrs[%%x%%] ^(
-echo     call rclone sync "aaveusdt,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selopcfldrs[%%x%%]%%%%" "aaveusdt_sg1:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selopcfldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
+echo if defined selofldrs[%%x%%] ^(
+echo     call rclone sync "aaveusdt,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selofldrs[%%x%%]%%%%" "aaveusdt_sg1:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1^)
 
@@ -222,32 +222,32 @@ set sg=1
 
 (
 
-echo set selopcfldrs[0]=a_fiyandha
-echo set selopcfldrs[1]=3D Objects
-echo set selopcfldrs[2]=Desktop
-echo set selopcfldrs[3]=Documents
-echo set selopcfldrs[4]=Videos
-echo set selopcfldrs[5]=Saved Games
-echo set selopcfldrs[6]=Favorites
-echo set selopcfldrs[7]=Links
-echo set selopcfldrs[8]=Music
-echo set selopcfldrs[9]=Contacts
-echo set selopcfldrs[10]=a NDF1x extended
-echo set selopcfldrs[11]=Downloads
-echo set selopcfldrs[12]=Pictures
-echo set selopcfldrs[13]=behavior_packs
-echo set selopcfldrs[14]=development_behavior_packs
-echo set selopcfldrs[15]=development_resource_packs
-echo set selopcfldrs[16]=development_skin_packs
-echo set selopcfldrs[17]=minecraftpe
-echo set selopcfldrs[18]=minecraftWorlds
-echo set selopcfldrs[19]=resource_packs
-echo set selopcfldrs[20]=skin_packs
-echo set selopcfldrs[21]=world_templates
-echo set selopcfldrs[22]=Notepad++
-echo set selopcfldrs[23]=z-bat-vbs-file settings
-echo set selopcfldrs[24]=rclone
-echo set selopcfldrs[25]=profiles
+echo set selofldrs[0]=a_fiyandha
+echo set selofldrs[1]=3D Objects
+echo set selofldrs[2]=Desktop
+echo set selofldrs[3]=Documents
+echo set selofldrs[4]=Videos
+echo set selofldrs[5]=Saved Games
+echo set selofldrs[6]=Favorites
+echo set selofldrs[7]=Links
+echo set selofldrs[8]=Music
+echo set selofldrs[9]=Contacts
+echo set selofldrs[10]=a NDF1x extended
+echo set selofldrs[11]=Downloads
+echo set selofldrs[12]=Pictures
+echo set selofldrs[13]=behavior_packs
+echo set selofldrs[14]=development_behavior_packs
+echo set selofldrs[15]=development_resource_packs
+echo set selofldrs[16]=development_skin_packs
+echo set selofldrs[17]=minecraftpe
+echo set selofldrs[18]=minecraftWorlds
+echo set selofldrs[19]=resource_packs
+echo set selofldrs[20]=skin_packs
+echo set selofldrs[21]=world_templates
+echo set selofldrs[22]=Notepad++
+echo set selofldrs[23]=z-bat-vbs-file settings
+echo set selofldrs[24]=rclone
+echo set selofldrs[25]=profiles
 
 
 
@@ -266,15 +266,15 @@ echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
 echo set "x=0"
 echo :SymLoop1
-echo if defined selopcfldrs[%%x%%] ^(
-echo     call rclone copy "renaave50,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selopcfldrs[%%x%%]%%%%" "renaave50_sg2:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selopcfldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10
+echo if defined selofldrs[%%x%%] ^(
+echo     call rclone copy "renaave50,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selofldrs[%%x%%]%%%%" "renaave50_sg2:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1^)
 
 echo set "x=0"
 echo :SymLoop1
-echo if defined selopcfldrs[%%x%%] ^(
-echo     call rclone sync "renaave50,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selopcfldrs[%%x%%]%%%%" "renaave50_sg2:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selopcfldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
+echo if defined selofldrs[%%x%%] ^(
+echo     call rclone sync "renaave50,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selofldrs[%%x%%]%%%%" "renaave50_sg2:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1^)
 
@@ -291,32 +291,32 @@ set sg=1
 
 (
 
-echo set selopcfldrs[0]=a_fiyandha
-echo set selopcfldrs[1]=3D Objects
-echo set selopcfldrs[2]=Desktop
-echo set selopcfldrs[3]=Documents
-echo set selopcfldrs[4]=Videos
-echo set selopcfldrs[5]=Saved Games
-echo set selopcfldrs[6]=Favorites
-echo set selopcfldrs[7]=Links
-echo set selopcfldrs[8]=Music
-echo set selopcfldrs[9]=Contacts
-echo set selopcfldrs[10]=a NDF1x extended
-echo set selopcfldrs[11]=Downloads
-echo set selopcfldrs[12]=Pictures
-echo set selopcfldrs[13]=behavior_packs
-echo set selopcfldrs[14]=development_behavior_packs
-echo set selopcfldrs[15]=development_resource_packs
-echo set selopcfldrs[16]=development_skin_packs
-echo set selopcfldrs[17]=minecraftpe
-echo set selopcfldrs[18]=minecraftWorlds
-echo set selopcfldrs[19]=resource_packs
-echo set selopcfldrs[20]=skin_packs
-echo set selopcfldrs[21]=world_templates
-echo set selopcfldrs[22]=Notepad++
-echo set selopcfldrs[23]=z-bat-vbs-file settings
-echo set selopcfldrs[24]=rclone
-echo set selopcfldrs[25]=profiles
+echo set selofldrs[0]=a_fiyandha
+echo set selofldrs[1]=3D Objects
+echo set selofldrs[2]=Desktop
+echo set selofldrs[3]=Documents
+echo set selofldrs[4]=Videos
+echo set selofldrs[5]=Saved Games
+echo set selofldrs[6]=Favorites
+echo set selofldrs[7]=Links
+echo set selofldrs[8]=Music
+echo set selofldrs[9]=Contacts
+echo set selofldrs[10]=a NDF1x extended
+echo set selofldrs[11]=Downloads
+echo set selofldrs[12]=Pictures
+echo set selofldrs[13]=behavior_packs
+echo set selofldrs[14]=development_behavior_packs
+echo set selofldrs[15]=development_resource_packs
+echo set selofldrs[16]=development_skin_packs
+echo set selofldrs[17]=minecraftpe
+echo set selofldrs[18]=minecraftWorlds
+echo set selofldrs[19]=resource_packs
+echo set selofldrs[20]=skin_packs
+echo set selofldrs[21]=world_templates
+echo set selofldrs[22]=Notepad++
+echo set selofldrs[23]=z-bat-vbs-file settings
+echo set selofldrs[24]=rclone
+echo set selofldrs[25]=profiles
 
 echo cd %%userprofile%%
 
@@ -333,15 +333,15 @@ echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
 echo set "x=0"
 echo :SymLoop1
-echo if defined selopcfldrs[%%x%%] ^(
-echo     call rclone copy "renaave7,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selopcfldrs[%%x%%]%%%%" "renaave7_sg3:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selopcfldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10
+echo if defined selofldrs[%%x%%] ^(
+echo     call rclone copy "renaave7,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selofldrs[%%x%%]%%%%" "renaave7_sg3:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1^)
 
 echo set "x=0"
 echo :SymLoop1
-echo if defined selopcfldrs[%%x%%] ^(
-echo     call rclone sync "renaave7,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selopcfldrs[%%x%%]%%%%" "renaave7_sg3:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selopcfldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
+echo if defined selofldrs[%%x%%] ^(
+echo     call rclone sync "renaave7,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selofldrs[%%x%%]%%%%" "renaave7_sg3:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1^)
 
@@ -358,32 +358,32 @@ set sg=1
 
 (
 
-echo set selopcfldrs[0]=a_fiyandha
-echo set selopcfldrs[1]=3D Objects
-echo set selopcfldrs[2]=Desktop
-echo set selopcfldrs[3]=Documents
-echo set selopcfldrs[4]=Videos
-echo set selopcfldrs[5]=Saved Games
-echo set selopcfldrs[6]=Favorites
-echo set selopcfldrs[7]=Links
-echo set selopcfldrs[8]=Music
-echo set selopcfldrs[9]=Contacts
-echo set selopcfldrs[10]=a NDF1x extended
-echo set selopcfldrs[11]=Downloads
-echo set selopcfldrs[12]=Pictures
-echo set selopcfldrs[13]=behavior_packs
-echo set selopcfldrs[14]=development_behavior_packs
-echo set selopcfldrs[15]=development_resource_packs
-echo set selopcfldrs[16]=development_skin_packs
-echo set selopcfldrs[17]=minecraftpe
-echo set selopcfldrs[18]=minecraftWorlds
-echo set selopcfldrs[19]=resource_packs
-echo set selopcfldrs[20]=skin_packs
-echo set selopcfldrs[21]=world_templates
-echo set selopcfldrs[22]=Notepad++
-echo set selopcfldrs[23]=z-bat-vbs-file settings
-echo set selopcfldrs[24]=rclone
-echo set selopcfldrs[25]=profiles
+echo set selofldrs[0]=a_fiyandha
+echo set selofldrs[1]=3D Objects
+echo set selofldrs[2]=Desktop
+echo set selofldrs[3]=Documents
+echo set selofldrs[4]=Videos
+echo set selofldrs[5]=Saved Games
+echo set selofldrs[6]=Favorites
+echo set selofldrs[7]=Links
+echo set selofldrs[8]=Music
+echo set selofldrs[9]=Contacts
+echo set selofldrs[10]=a NDF1x extended
+echo set selofldrs[11]=Downloads
+echo set selofldrs[12]=Pictures
+echo set selofldrs[13]=behavior_packs
+echo set selofldrs[14]=development_behavior_packs
+echo set selofldrs[15]=development_resource_packs
+echo set selofldrs[16]=development_skin_packs
+echo set selofldrs[17]=minecraftpe
+echo set selofldrs[18]=minecraftWorlds
+echo set selofldrs[19]=resource_packs
+echo set selofldrs[20]=skin_packs
+echo set selofldrs[21]=world_templates
+echo set selofldrs[22]=Notepad++
+echo set selofldrs[23]=z-bat-vbs-file settings
+echo set selofldrs[24]=rclone
+echo set selofldrs[25]=profiles
 
 echo cd %%userprofile%%
 
@@ -400,15 +400,15 @@ echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
 echo set "x=0"
 echo :SymLoop1
-echo if defined selopcfldrs[%%x%%] ^(
-echo     call rclone copy "renaave50,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selopcfldrs[%%x%%]%%%%" "oudhoh0050_sg4:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selopcfldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10
+echo if defined selofldrs[%%x%%] ^(
+echo     call rclone copy "renaave50,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selofldrs[%%x%%]%%%%" "oudhoh0050_sg4:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1^)
 
 echo set "x=0"
 echo :SymLoop1
-echo if defined selopcfldrs[%%x%%] ^(
-echo     call rclone sync "renaave50,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selopcfldrs[%%x%%]%%%%" "oudhoh0050_sg4:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selopcfldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
+echo if defined selofldrs[%%x%%] ^(
+echo     call rclone sync "renaave50,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selofldrs[%%x%%]%%%%" "oudhoh0050_sg4:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1^)
 
@@ -425,32 +425,32 @@ set sg=1
 
 (
 
-echo set selopcfldrs[0]=a_fiyandha
-echo set selopcfldrs[1]=3D Objects
-echo set selopcfldrs[2]=Desktop
-echo set selopcfldrs[3]=Documents
-echo set selopcfldrs[4]=Videos
-echo set selopcfldrs[5]=Saved Games
-echo set selopcfldrs[6]=Favorites
-echo set selopcfldrs[7]=Links
-echo set selopcfldrs[8]=Music
-echo set selopcfldrs[9]=Contacts
-echo set selopcfldrs[10]=a NDF1x extended
-echo set selopcfldrs[11]=Downloads
-echo set selopcfldrs[12]=Pictures
-echo set selopcfldrs[13]=behavior_packs
-echo set selopcfldrs[14]=development_behavior_packs
-echo set selopcfldrs[15]=development_resource_packs
-echo set selopcfldrs[16]=development_skin_packs
-echo set selopcfldrs[17]=minecraftpe
-echo set selopcfldrs[18]=minecraftWorlds
-echo set selopcfldrs[19]=resource_packs
-echo set selopcfldrs[20]=skin_packs
-echo set selopcfldrs[21]=world_templates
-echo set selopcfldrs[22]=Notepad++
-echo set selopcfldrs[23]=z-bat-vbs-file settings
-echo set selopcfldrs[24]=rclone
-echo set selopcfldrs[25]=profiles
+echo set selofldrs[0]=a_fiyandha
+echo set selofldrs[1]=3D Objects
+echo set selofldrs[2]=Desktop
+echo set selofldrs[3]=Documents
+echo set selofldrs[4]=Videos
+echo set selofldrs[5]=Saved Games
+echo set selofldrs[6]=Favorites
+echo set selofldrs[7]=Links
+echo set selofldrs[8]=Music
+echo set selofldrs[9]=Contacts
+echo set selofldrs[10]=a NDF1x extended
+echo set selofldrs[11]=Downloads
+echo set selofldrs[12]=Pictures
+echo set selofldrs[13]=behavior_packs
+echo set selofldrs[14]=development_behavior_packs
+echo set selofldrs[15]=development_resource_packs
+echo set selofldrs[16]=development_skin_packs
+echo set selofldrs[17]=minecraftpe
+echo set selofldrs[18]=minecraftWorlds
+echo set selofldrs[19]=resource_packs
+echo set selofldrs[20]=skin_packs
+echo set selofldrs[21]=world_templates
+echo set selofldrs[22]=Notepad++
+echo set selofldrs[23]=z-bat-vbs-file settings
+echo set selofldrs[24]=rclone
+echo set selofldrs[25]=profiles
 
 echo cd %%userprofile%%
 
@@ -467,15 +467,15 @@ echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
 echo set "x=0"
 echo :SymLoop1
-echo if defined selopcfldrs[%%x%%] ^(
-echo     call rclone copy "nkiux77509,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selopcfldrs[%%x%%]%%%%" "nkiux77509_sg5:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selopcfldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10
+echo if defined selofldrs[%%x%%] ^(
+echo     call rclone copy "nkiux77509,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selofldrs[%%x%%]%%%%" "nkiux77509_sg5:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1^)
 
 echo set "x=0"
 echo :SymLoop1
-echo if defined selopcfldrs[%%x%%] ^(
-echo     call rclone sync "nkiux77509,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selopcfldrs[%%x%%]%%%%" "nkiux77509_sg5:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selopcfldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
+echo if defined selofldrs[%%x%%] ^(
+echo     call rclone sync "nkiux77509,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selofldrs[%%x%%]%%%%" "nkiux77509_sg5:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1^)
 
@@ -492,32 +492,32 @@ set sg=1
 
 (
 
-echo set selopcfldrs[0]=a_fiyandha
-echo set selopcfldrs[1]=3D Objects
-echo set selopcfldrs[2]=Desktop
-echo set selopcfldrs[3]=Documents
-echo set selopcfldrs[4]=Videos
-echo set selopcfldrs[5]=Saved Games
-echo set selopcfldrs[6]=Favorites
-echo set selopcfldrs[7]=Links
-echo set selopcfldrs[8]=Music
-echo set selopcfldrs[9]=Contacts
-echo set selopcfldrs[10]=a NDF1x extended
-echo set selopcfldrs[11]=Downloads
-echo set selopcfldrs[12]=Pictures
-echo set selopcfldrs[13]=behavior_packs
-echo set selopcfldrs[14]=development_behavior_packs
-echo set selopcfldrs[15]=development_resource_packs
-echo set selopcfldrs[16]=development_skin_packs
-echo set selopcfldrs[17]=minecraftpe
-echo set selopcfldrs[18]=minecraftWorlds
-echo set selopcfldrs[19]=resource_packs
-echo set selopcfldrs[20]=skin_packs
-echo set selopcfldrs[21]=world_templates
-echo set selopcfldrs[22]=Notepad++
-echo set selopcfldrs[23]=z-bat-vbs-file settings
-echo set selopcfldrs[24]=rclone
-echo set selopcfldrs[25]=profiles
+echo set selofldrs[0]=a_fiyandha
+echo set selofldrs[1]=3D Objects
+echo set selofldrs[2]=Desktop
+echo set selofldrs[3]=Documents
+echo set selofldrs[4]=Videos
+echo set selofldrs[5]=Saved Games
+echo set selofldrs[6]=Favorites
+echo set selofldrs[7]=Links
+echo set selofldrs[8]=Music
+echo set selofldrs[9]=Contacts
+echo set selofldrs[10]=a NDF1x extended
+echo set selofldrs[11]=Downloads
+echo set selofldrs[12]=Pictures
+echo set selofldrs[13]=behavior_packs
+echo set selofldrs[14]=development_behavior_packs
+echo set selofldrs[15]=development_resource_packs
+echo set selofldrs[16]=development_skin_packs
+echo set selofldrs[17]=minecraftpe
+echo set selofldrs[18]=minecraftWorlds
+echo set selofldrs[19]=resource_packs
+echo set selofldrs[20]=skin_packs
+echo set selofldrs[21]=world_templates
+echo set selofldrs[22]=Notepad++
+echo set selofldrs[23]=z-bat-vbs-file settings
+echo set selofldrs[24]=rclone
+echo set selofldrs[25]=profiles
 
 echo cd %%userprofile%%
 
@@ -534,15 +534,15 @@ echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
 echo set "x=0"
 echo :SymLoop1
-echo if defined selopcfldrs[%%x%%] ^(
-echo     call rclone copy "didrhj9036,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selopcfldrs[%%x%%]%%%%" "didrhj9036_sg6:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selopcfldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10
+echo if defined selofldrs[%%x%%] ^(
+echo     call rclone copy "didrhj9036,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selofldrs[%%x%%]%%%%" "didrhj9036_sg6:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1^)
 
 echo set "x=0"
 echo :SymLoop1
-echo if defined selopcfldrs[%%x%%] ^(
-echo     call rclone sync "didrhj9036,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selopcfldrs[%%x%%]%%%%" "didrhj9036_sg6:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selopcfldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
+echo if defined selofldrs[%%x%%] ^(
+echo     call rclone sync "didrhj9036,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selofldrs[%%x%%]%%%%" "didrhj9036_sg6:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1^)
 
@@ -559,32 +559,32 @@ set sg=1
 
 (
 
-echo set selopcfldrs[0]=a_fiyandha
-echo set selopcfldrs[1]=3D Objects
-echo set selopcfldrs[2]=Desktop
-echo set selopcfldrs[3]=Documents
-echo set selopcfldrs[4]=Videos
-echo set selopcfldrs[5]=Saved Games
-echo set selopcfldrs[6]=Favorites
-echo set selopcfldrs[7]=Links
-echo set selopcfldrs[8]=Music
-echo set selopcfldrs[9]=Contacts
-echo set selopcfldrs[10]=a NDF1x extended
-echo set selopcfldrs[11]=Downloads
-echo set selopcfldrs[12]=Pictures
-echo set selopcfldrs[13]=behavior_packs
-echo set selopcfldrs[14]=development_behavior_packs
-echo set selopcfldrs[15]=development_resource_packs
-echo set selopcfldrs[16]=development_skin_packs
-echo set selopcfldrs[17]=minecraftpe
-echo set selopcfldrs[18]=minecraftWorlds
-echo set selopcfldrs[19]=resource_packs
-echo set selopcfldrs[20]=skin_packs
-echo set selopcfldrs[21]=world_templates
-echo set selopcfldrs[22]=Notepad++
-echo set selopcfldrs[23]=z-bat-vbs-file settings
-echo set selopcfldrs[24]=rclone
-echo set selopcfldrs[25]=profiles
+echo set selofldrs[0]=a_fiyandha
+echo set selofldrs[1]=3D Objects
+echo set selofldrs[2]=Desktop
+echo set selofldrs[3]=Documents
+echo set selofldrs[4]=Videos
+echo set selofldrs[5]=Saved Games
+echo set selofldrs[6]=Favorites
+echo set selofldrs[7]=Links
+echo set selofldrs[8]=Music
+echo set selofldrs[9]=Contacts
+echo set selofldrs[10]=a NDF1x extended
+echo set selofldrs[11]=Downloads
+echo set selofldrs[12]=Pictures
+echo set selofldrs[13]=behavior_packs
+echo set selofldrs[14]=development_behavior_packs
+echo set selofldrs[15]=development_resource_packs
+echo set selofldrs[16]=development_skin_packs
+echo set selofldrs[17]=minecraftpe
+echo set selofldrs[18]=minecraftWorlds
+echo set selofldrs[19]=resource_packs
+echo set selofldrs[20]=skin_packs
+echo set selofldrs[21]=world_templates
+echo set selofldrs[22]=Notepad++
+echo set selofldrs[23]=z-bat-vbs-file settings
+echo set selofldrs[24]=rclone
+echo set selofldrs[25]=profiles
 
 echo cd %%userprofile%%
 
@@ -601,15 +601,15 @@ echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
 echo set "x=0"
 echo :SymLoop1
-echo if defined selopcfldrs[%%x%%] ^(
-echo     call rclone copy "hjski8292882,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selopcfldrs[%%x%%]%%%%" "hjski8292882_sg7:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selopcfldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10
+echo if defined selofldrs[%%x%%] ^(
+echo     call rclone copy "hjski8292882,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selofldrs[%%x%%]%%%%" "hjski8292882_sg7:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1^)
 
 echo set "x=0"
 echo :SymLoop1
-echo if defined selopcfldrs[%%x%%] ^(
-echo     call rclone sync "hjski8292882,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selopcfldrs[%%x%%]%%%%" "hjski8292882_sg7:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selopcfldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
+echo if defined selofldrs[%%x%%] ^(
+echo     call rclone sync "hjski8292882,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selofldrs[%%x%%]%%%%" "hjski8292882_sg7:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1^)
 
@@ -626,32 +626,32 @@ set sg=1
 
 (
 
-echo set selopcfldrs[0]=a_fiyandha
-echo set selopcfldrs[1]=3D Objects
-echo set selopcfldrs[2]=Desktop
-echo set selopcfldrs[3]=Documents
-echo set selopcfldrs[4]=Videos
-echo set selopcfldrs[5]=Saved Games
-echo set selopcfldrs[6]=Favorites
-echo set selopcfldrs[7]=Links
-echo set selopcfldrs[8]=Music
-echo set selopcfldrs[9]=Contacts
-echo set selopcfldrs[10]=a NDF1x extended
-echo set selopcfldrs[11]=Downloads
-echo set selopcfldrs[12]=Pictures
-echo set selopcfldrs[13]=behavior_packs
-echo set selopcfldrs[14]=development_behavior_packs
-echo set selopcfldrs[15]=development_resource_packs
-echo set selopcfldrs[16]=development_skin_packs
-echo set selopcfldrs[17]=minecraftpe
-echo set selopcfldrs[18]=minecraftWorlds
-echo set selopcfldrs[19]=resource_packs
-echo set selopcfldrs[20]=skin_packs
-echo set selopcfldrs[21]=world_templates
-echo set selopcfldrs[22]=Notepad++
-echo set selopcfldrs[23]=z-bat-vbs-file settings
-echo set selopcfldrs[24]=rclone
-echo set selopcfldrs[25]=profiles
+echo set selofldrs[0]=a_fiyandha
+echo set selofldrs[1]=3D Objects
+echo set selofldrs[2]=Desktop
+echo set selofldrs[3]=Documents
+echo set selofldrs[4]=Videos
+echo set selofldrs[5]=Saved Games
+echo set selofldrs[6]=Favorites
+echo set selofldrs[7]=Links
+echo set selofldrs[8]=Music
+echo set selofldrs[9]=Contacts
+echo set selofldrs[10]=a NDF1x extended
+echo set selofldrs[11]=Downloads
+echo set selofldrs[12]=Pictures
+echo set selofldrs[13]=behavior_packs
+echo set selofldrs[14]=development_behavior_packs
+echo set selofldrs[15]=development_resource_packs
+echo set selofldrs[16]=development_skin_packs
+echo set selofldrs[17]=minecraftpe
+echo set selofldrs[18]=minecraftWorlds
+echo set selofldrs[19]=resource_packs
+echo set selofldrs[20]=skin_packs
+echo set selofldrs[21]=world_templates
+echo set selofldrs[22]=Notepad++
+echo set selofldrs[23]=z-bat-vbs-file settings
+echo set selofldrs[24]=rclone
+echo set selofldrs[25]=profiles
 
 echo cd %%userprofile%%
 
@@ -668,15 +668,15 @@ echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
 echo set "x=0"
 echo :SymLoop1
-echo if defined selopcfldrs[%%x%%] ^(
-echo     call rclone copy "jsnwj84738,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selopcfldrs[%%x%%]%%%%" "jsnwj84738_sg8:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selopcfldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10
+echo if defined selofldrs[%%x%%] ^(
+echo     call rclone copy "jsnwj84738,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selofldrs[%%x%%]%%%%" "jsnwj84738_sg8:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1^)
 
 echo set "x=0"
 echo :SymLoop1
-echo if defined selopcfldrs[%%x%%] ^(
-echo     call rclone sync "jsnwj84738,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selopcfldrs[%%x%%]%%%%" "jsnwj84738_sg8:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selopcfldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
+echo if defined selofldrs[%%x%%] ^(
+echo     call rclone sync "jsnwj84738,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selofldrs[%%x%%]%%%%" "jsnwj84738_sg8:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1^)
 
@@ -693,32 +693,32 @@ set sg=1
 
 (
 
-echo set selopcfldrs[0]=a_fiyandha
-echo set selopcfldrs[1]=3D Objects
-echo set selopcfldrs[2]=Desktop
-echo set selopcfldrs[3]=Documents
-echo set selopcfldrs[4]=Videos
-echo set selopcfldrs[5]=Saved Games
-echo set selopcfldrs[6]=Favorites
-echo set selopcfldrs[7]=Links
-echo set selopcfldrs[8]=Music
-echo set selopcfldrs[9]=Contacts
-echo set selopcfldrs[10]=a NDF1x extended
-echo set selopcfldrs[11]=Downloads
-echo set selopcfldrs[12]=Pictures
-echo set selopcfldrs[13]=behavior_packs
-echo set selopcfldrs[14]=development_behavior_packs
-echo set selopcfldrs[15]=development_resource_packs
-echo set selopcfldrs[16]=development_skin_packs
-echo set selopcfldrs[17]=minecraftpe
-echo set selopcfldrs[18]=minecraftWorlds
-echo set selopcfldrs[19]=resource_packs
-echo set selopcfldrs[20]=skin_packs
-echo set selopcfldrs[21]=world_templates
-echo set selopcfldrs[22]=Notepad++
-echo set selopcfldrs[23]=z-bat-vbs-file settings
-echo set selopcfldrs[24]=rclone
-echo set selopcfldrs[25]=profiles
+echo set selofldrs[0]=a_fiyandha
+echo set selofldrs[1]=3D Objects
+echo set selofldrs[2]=Desktop
+echo set selofldrs[3]=Documents
+echo set selofldrs[4]=Videos
+echo set selofldrs[5]=Saved Games
+echo set selofldrs[6]=Favorites
+echo set selofldrs[7]=Links
+echo set selofldrs[8]=Music
+echo set selofldrs[9]=Contacts
+echo set selofldrs[10]=a NDF1x extended
+echo set selofldrs[11]=Downloads
+echo set selofldrs[12]=Pictures
+echo set selofldrs[13]=behavior_packs
+echo set selofldrs[14]=development_behavior_packs
+echo set selofldrs[15]=development_resource_packs
+echo set selofldrs[16]=development_skin_packs
+echo set selofldrs[17]=minecraftpe
+echo set selofldrs[18]=minecraftWorlds
+echo set selofldrs[19]=resource_packs
+echo set selofldrs[20]=skin_packs
+echo set selofldrs[21]=world_templates
+echo set selofldrs[22]=Notepad++
+echo set selofldrs[23]=z-bat-vbs-file settings
+echo set selofldrs[24]=rclone
+echo set selofldrs[25]=profiles
 
 echo cd %%userprofile%%
 
@@ -735,15 +735,15 @@ echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
 echo set "x=0"
 echo :SymLoop1
-echo if defined selopcfldrs[%%x%%] ^(
-echo     call rclone copy "ffdnsak8272793,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selopcfldrs[%%x%%]%%%%" "ffdnsak8272793_sg9:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selopcfldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10
+echo if defined selofldrs[%%x%%] ^(
+echo     call rclone copy "ffdnsak8272793,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selofldrs[%%x%%]%%%%" "ffdnsak8272793_sg9:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1^)
 
 echo set "x=0"
 echo :SymLoop1
-echo if defined selopcfldrs[%%x%%] ^(
-echo     call rclone sync "ffdnsak8272793,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selopcfldrs[%%x%%]%%%%" "ffdnsak8272793_sg9:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selopcfldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
+echo if defined selofldrs[%%x%%] ^(
+echo     call rclone sync "ffdnsak8272793,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selofldrs[%%x%%]%%%%" "ffdnsak8272793_sg9:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1^)
 
@@ -760,32 +760,32 @@ set sg=1
 
 (
 
-echo set selopcfldrs[0]=a_fiyandha
-echo set selopcfldrs[1]=3D Objects
-echo set selopcfldrs[2]=Desktop
-echo set selopcfldrs[3]=Documents
-echo set selopcfldrs[4]=Videos
-echo set selopcfldrs[5]=Saved Games
-echo set selopcfldrs[6]=Favorites
-echo set selopcfldrs[7]=Links
-echo set selopcfldrs[8]=Music
-echo set selopcfldrs[9]=Contacts
-echo set selopcfldrs[10]=a NDF1x extended
-echo set selopcfldrs[11]=Downloads
-echo set selopcfldrs[12]=Pictures
-echo set selopcfldrs[13]=behavior_packs
-echo set selopcfldrs[14]=development_behavior_packs
-echo set selopcfldrs[15]=development_resource_packs
-echo set selopcfldrs[16]=development_skin_packs
-echo set selopcfldrs[17]=minecraftpe
-echo set selopcfldrs[18]=minecraftWorlds
-echo set selopcfldrs[19]=resource_packs
-echo set selopcfldrs[20]=skin_packs
-echo set selopcfldrs[21]=world_templates
-echo set selopcfldrs[22]=Notepad++
-echo set selopcfldrs[23]=z-bat-vbs-file settings
-echo set selopcfldrs[24]=rclone
-echo set selopcfldrs[25]=profiles
+echo set selofldrs[0]=a_fiyandha
+echo set selofldrs[1]=3D Objects
+echo set selofldrs[2]=Desktop
+echo set selofldrs[3]=Documents
+echo set selofldrs[4]=Videos
+echo set selofldrs[5]=Saved Games
+echo set selofldrs[6]=Favorites
+echo set selofldrs[7]=Links
+echo set selofldrs[8]=Music
+echo set selofldrs[9]=Contacts
+echo set selofldrs[10]=a NDF1x extended
+echo set selofldrs[11]=Downloads
+echo set selofldrs[12]=Pictures
+echo set selofldrs[13]=behavior_packs
+echo set selofldrs[14]=development_behavior_packs
+echo set selofldrs[15]=development_resource_packs
+echo set selofldrs[16]=development_skin_packs
+echo set selofldrs[17]=minecraftpe
+echo set selofldrs[18]=minecraftWorlds
+echo set selofldrs[19]=resource_packs
+echo set selofldrs[20]=skin_packs
+echo set selofldrs[21]=world_templates
+echo set selofldrs[22]=Notepad++
+echo set selofldrs[23]=z-bat-vbs-file settings
+echo set selofldrs[24]=rclone
+echo set selofldrs[25]=profiles
 
 echo cd %%userprofile%%
 
@@ -802,15 +802,15 @@ echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
 echo set "x=0"
 echo :SymLoop1
-echo if defined selopcfldrs[%%x%%] ^(
-echo     call rclone copy "otipes7948,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selopcfldrs[%%x%%]%%%%" "otipes7948_sg10:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selopcfldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10
+echo if defined selofldrs[%%x%%] ^(
+echo     call rclone copy "otipes7948,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selofldrs[%%x%%]%%%%" "otipes7948_sg10:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1^)
 
 echo set "x=0"
 echo :SymLoop1
-echo if defined selopcfldrs[%%x%%] ^(
-echo     call rclone sync "otipes7948,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selopcfldrs[%%x%%]%%%%" "otipes7948_sg10:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selopcfldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
+echo if defined selofldrs[%%x%%] ^(
+echo     call rclone sync "otipes7948,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selofldrs[%%x%%]%%%%" "otipes7948_sg10:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1^)
 
@@ -830,18 +830,18 @@ set sg=1
 
 (
 
-echo set cacapcfldrs[0]=document caca
-echo set cacapcfldrs[1]=com.mojang
-echo set cacapcfldrs[2]=Notepad++
-echo set cacapcfldrs[3]=3D Objects
-echo set cacapcfldrs[4]=Desktop
-echo set cacapcfldrs[5]=Downloads
-echo set cacapcfldrs[6]=Music
-echo set cacapcfldrs[7]=Links
-echo set cacapcfldrs[8]=Pictures
-echo set cacapcfldrs[9]=Videos
-echo set cacapcfldrs[10]=Links
-echo set cacapcfldrs[11]=Favorites
+echo set cacafldrs[0]=document caca
+echo set cacafldrs[1]=com.mojang
+echo set cacafldrs[2]=Notepad++
+echo set cacafldrs[3]=3D Objects
+echo set cacafldrs[4]=Desktop
+echo set cacafldrs[5]=Downloads
+echo set cacafldrs[6]=Music
+echo set cacafldrs[7]=Links
+echo set cacafldrs[8]=Pictures
+echo set cacafldrs[9]=Videos
+echo set cacafldrs[10]=Links
+echo set cacafldrs[11]=Favorites
 
 echo cd %%userprofile%%
 
@@ -856,15 +856,15 @@ echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
 echo set "x=0"
 echo :SymLoop1
-echo if defined cacapcfldrs[%%x%%] ^(
-echo     call rclone copy "jjajai2818,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacapcfldrs[%%x%%]%%%%" "jjajai2818_sg1:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacapcfldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+echo if defined cacafldrs[%%x%%] ^(
+echo     call rclone copy "jjajai2818,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "jjajai2818_sg1:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1^)
 
 echo set "x=0"
 echo :SymLoop1
-echo if defined cacapcfldrs[%%x%%] ^(
-echo     call rclone sync "jjajai2818,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacapcfldrs[%%x%%]%%%%" "jjajai2818_sg1:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacapcfldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
+echo if defined cacafldrs[%%x%%] ^(
+echo     call rclone sync "jjajai2818,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "jjajai2818_sg1:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1^)
 
@@ -880,18 +880,18 @@ set sg=1
 
 (
 
-echo set cacapcfldrs[0]=document caca
-echo set cacapcfldrs[1]=com.mojang
-echo set cacapcfldrs[2]=Notepad++
-echo set cacapcfldrs[3]=3D Objects
-echo set cacapcfldrs[4]=Desktop
-echo set cacapcfldrs[5]=Downloads
-echo set cacapcfldrs[6]=Music
-echo set cacapcfldrs[7]=Links
-echo set cacapcfldrs[8]=Pictures
-echo set cacapcfldrs[9]=Videos
-echo set cacapcfldrs[10]=Links
-echo set cacapcfldrs[11]=Favorites
+echo set cacafldrs[0]=document caca
+echo set cacafldrs[1]=com.mojang
+echo set cacafldrs[2]=Notepad++
+echo set cacafldrs[3]=3D Objects
+echo set cacafldrs[4]=Desktop
+echo set cacafldrs[5]=Downloads
+echo set cacafldrs[6]=Music
+echo set cacafldrs[7]=Links
+echo set cacafldrs[8]=Pictures
+echo set cacafldrs[9]=Videos
+echo set cacafldrs[10]=Links
+echo set cacafldrs[11]=Favorites
 
 echo cd %%userprofile%%
 
@@ -906,15 +906,15 @@ echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
 echo set "x=0"
 echo :SymLoop1
-echo if defined cacapcfldrs[%%x%%] ^(
-echo     call rclone copy "eleoek28828,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacapcfldrs[%%x%%]%%%%" "eleoek28828_sg2:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacapcfldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+echo if defined cacafldrs[%%x%%] ^(
+echo     call rclone copy "eleoek28828,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "eleoek28828_sg2:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1^)
 
 echo set "x=0"
 echo :SymLoop1
-echo if defined cacapcfldrs[%%x%%] ^(
-echo     call rclone sync "eleoek28828,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacapcfldrs[%%x%%]%%%%" "eleoek28828_sg2:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacapcfldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
+echo if defined cacafldrs[%%x%%] ^(
+echo     call rclone sync "eleoek28828,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "eleoek28828_sg2:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1^)
 
@@ -930,18 +930,18 @@ set sg=1
 
 (
 
-echo set cacapcfldrs[0]=document caca
-echo set cacapcfldrs[1]=com.mojang
-echo set cacapcfldrs[2]=Notepad++
-echo set cacapcfldrs[3]=3D Objects
-echo set cacapcfldrs[4]=Desktop
-echo set cacapcfldrs[5]=Downloads
-echo set cacapcfldrs[6]=Music
-echo set cacapcfldrs[7]=Links
-echo set cacapcfldrs[8]=Pictures
-echo set cacapcfldrs[9]=Videos
-echo set cacapcfldrs[10]=Links
-echo set cacapcfldrs[11]=Favorites
+echo set cacafldrs[0]=document caca
+echo set cacafldrs[1]=com.mojang
+echo set cacafldrs[2]=Notepad++
+echo set cacafldrs[3]=3D Objects
+echo set cacafldrs[4]=Desktop
+echo set cacafldrs[5]=Downloads
+echo set cacafldrs[6]=Music
+echo set cacafldrs[7]=Links
+echo set cacafldrs[8]=Pictures
+echo set cacafldrs[9]=Videos
+echo set cacafldrs[10]=Links
+echo set cacafldrs[11]=Favorites
 
 echo cd %%userprofile%%
 
@@ -956,15 +956,15 @@ echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
 echo set "x=0"
 echo :SymLoop1
-echo if defined cacapcfldrs[%%x%%] ^(
-echo     call rclone copy "wjwn91178,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacapcfldrs[%%x%%]%%%%" "wjwn91178_sg3:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacapcfldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+echo if defined cacafldrs[%%x%%] ^(
+echo     call rclone copy "wjwn91178,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "wjwn91178_sg3:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1^)
 
 echo set "x=0"
 echo :SymLoop1
-echo if defined cacapcfldrs[%%x%%] ^(
-echo     call rclone sync "wjwn91178,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacapcfldrs[%%x%%]%%%%" "wjwn91178_sg3:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacapcfldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
+echo if defined cacafldrs[%%x%%] ^(
+echo     call rclone sync "wjwn91178,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "wjwn91178_sg3:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1^)
 
@@ -981,18 +981,18 @@ set sg=1
 
 (
 
-echo set cacapcfldrs[0]=document caca
-echo set cacapcfldrs[1]=com.mojang
-echo set cacapcfldrs[2]=Notepad++
-echo set cacapcfldrs[3]=3D Objects
-echo set cacapcfldrs[4]=Desktop
-echo set cacapcfldrs[5]=Downloads
-echo set cacapcfldrs[6]=Music
-echo set cacapcfldrs[7]=Links
-echo set cacapcfldrs[8]=Pictures
-echo set cacapcfldrs[9]=Videos
-echo set cacapcfldrs[10]=Links
-echo set cacapcfldrs[11]=Favorites
+echo set cacafldrs[0]=document caca
+echo set cacafldrs[1]=com.mojang
+echo set cacafldrs[2]=Notepad++
+echo set cacafldrs[3]=3D Objects
+echo set cacafldrs[4]=Desktop
+echo set cacafldrs[5]=Downloads
+echo set cacafldrs[6]=Music
+echo set cacafldrs[7]=Links
+echo set cacafldrs[8]=Pictures
+echo set cacafldrs[9]=Videos
+echo set cacafldrs[10]=Links
+echo set cacafldrs[11]=Favorites
 
 echo cd %%userprofile%%
 
@@ -1007,15 +1007,15 @@ echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
 echo set "x=0"
 echo :SymLoop1
-echo if defined cacapcfldrs[%%x%%] ^(
-echo     call rclone copy "iaowk272818,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacapcfldrs[%%x%%]%%%%" "iaowk272818_sg4:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacapcfldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+echo if defined cacafldrs[%%x%%] ^(
+echo     call rclone copy "iaowk272818,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "iaowk272818_sg4:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1^)
 
 echo set "x=0"
 echo :SymLoop1
-echo if defined cacapcfldrs[%%x%%] ^(
-echo     call rclone sync "iaowk272818,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacapcfldrs[%%x%%]%%%%" "iaowk272818_sg4:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacapcfldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
+echo if defined cacafldrs[%%x%%] ^(
+echo     call rclone sync "iaowk272818,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "iaowk272818_sg4:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1^)
 
@@ -1032,18 +1032,18 @@ set sg=1
 
 (
 
-echo set cacapcfldrs[0]=document caca
-echo set cacapcfldrs[1]=com.mojang
-echo set cacapcfldrs[2]=Notepad++
-echo set cacapcfldrs[3]=3D Objects
-echo set cacapcfldrs[4]=Desktop
-echo set cacapcfldrs[5]=Downloads
-echo set cacapcfldrs[6]=Music
-echo set cacapcfldrs[7]=Links
-echo set cacapcfldrs[8]=Pictures
-echo set cacapcfldrs[9]=Videos
-echo set cacapcfldrs[10]=Links
-echo set cacapcfldrs[11]=Favorites
+echo set cacafldrs[0]=document caca
+echo set cacafldrs[1]=com.mojang
+echo set cacafldrs[2]=Notepad++
+echo set cacafldrs[3]=3D Objects
+echo set cacafldrs[4]=Desktop
+echo set cacafldrs[5]=Downloads
+echo set cacafldrs[6]=Music
+echo set cacafldrs[7]=Links
+echo set cacafldrs[8]=Pictures
+echo set cacafldrs[9]=Videos
+echo set cacafldrs[10]=Links
+echo set cacafldrs[11]=Favorites
 
 echo cd %%userprofile%%
 
@@ -1058,15 +1058,15 @@ echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
 echo set "x=0"
 echo :SymLoop1
-echo if defined cacapcfldrs[%%x%%] ^(
-echo     call rclone copy "ejsjskw28272,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacapcfldrs[%%x%%]%%%%" "ejsjskw28272_sg5:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacapcfldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+echo if defined cacafldrs[%%x%%] ^(
+echo     call rclone copy "ejsjskw28272,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "ejsjskw28272_sg5:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1^)
 
 echo set "x=0"
 echo :SymLoop1
-echo if defined cacapcfldrs[%%x%%] ^(
-echo     call rclone sync "ejsjskw28272,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacapcfldrs[%%x%%]%%%%" "ejsjskw28272_sg5:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacapcfldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
+echo if defined cacafldrs[%%x%%] ^(
+echo     call rclone sync "ejsjskw28272,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "ejsjskw28272_sg5:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1^)
 
@@ -1083,18 +1083,18 @@ set sg=1
 
 (
 
-echo set cacapcfldrs[0]=document caca
-echo set cacapcfldrs[1]=com.mojang
-echo set cacapcfldrs[2]=Notepad++
-echo set cacapcfldrs[3]=3D Objects
-echo set cacapcfldrs[4]=Desktop
-echo set cacapcfldrs[5]=Downloads
-echo set cacapcfldrs[6]=Music
-echo set cacapcfldrs[7]=Links
-echo set cacapcfldrs[8]=Pictures
-echo set cacapcfldrs[9]=Videos
-echo set cacapcfldrs[10]=Links
-echo set cacapcfldrs[11]=Favorites
+echo set cacafldrs[0]=document caca
+echo set cacafldrs[1]=com.mojang
+echo set cacafldrs[2]=Notepad++
+echo set cacafldrs[3]=3D Objects
+echo set cacafldrs[4]=Desktop
+echo set cacafldrs[5]=Downloads
+echo set cacafldrs[6]=Music
+echo set cacafldrs[7]=Links
+echo set cacafldrs[8]=Pictures
+echo set cacafldrs[9]=Videos
+echo set cacafldrs[10]=Links
+echo set cacafldrs[11]=Favorites
 
 echo cd %%userprofile%%
 
@@ -1109,15 +1109,15 @@ echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
 echo set "x=0"
 echo :SymLoop1
-echo if defined cacapcfldrs[%%x%%] ^(
-echo     call rclone copy "sjsiowkw272892,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacapcfldrs[%%x%%]%%%%" "sjsiowkw272892_sg6:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacapcfldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+echo if defined cacafldrs[%%x%%] ^(
+echo     call rclone copy "sjsiowkw272892,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "sjsiowkw272892_sg6:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1^)
 
 echo set "x=0"
 echo :SymLoop1
-echo if defined cacapcfldrs[%%x%%] ^(
-echo     call rclone sync "sjsiowkw272892,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacapcfldrs[%%x%%]%%%%" "sjsiowkw272892_sg6:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacapcfldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
+echo if defined cacafldrs[%%x%%] ^(
+echo     call rclone sync "sjsiowkw272892,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "sjsiowkw272892_sg6:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1^)
 
@@ -1134,18 +1134,18 @@ set sg=1
 
 (
 
-echo set cacapcfldrs[0]=document caca
-echo set cacapcfldrs[1]=com.mojang
-echo set cacapcfldrs[2]=Notepad++
-echo set cacapcfldrs[3]=3D Objects
-echo set cacapcfldrs[4]=Desktop
-echo set cacapcfldrs[5]=Downloads
-echo set cacapcfldrs[6]=Music
-echo set cacapcfldrs[7]=Links
-echo set cacapcfldrs[8]=Pictures
-echo set cacapcfldrs[9]=Videos
-echo set cacapcfldrs[10]=Links
-echo set cacapcfldrs[11]=Favorites
+echo set cacafldrs[0]=document caca
+echo set cacafldrs[1]=com.mojang
+echo set cacafldrs[2]=Notepad++
+echo set cacafldrs[3]=3D Objects
+echo set cacafldrs[4]=Desktop
+echo set cacafldrs[5]=Downloads
+echo set cacafldrs[6]=Music
+echo set cacafldrs[7]=Links
+echo set cacafldrs[8]=Pictures
+echo set cacafldrs[9]=Videos
+echo set cacafldrs[10]=Links
+echo set cacafldrs[11]=Favorites
 
 echo cd %%userprofile%%
 
@@ -1160,15 +1160,15 @@ echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
 echo set "x=0"
 echo :SymLoop1
-echo if defined cacapcfldrs[%%x%%] ^(
-echo     call rclone copy "s81wjwo17,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacapcfldrs[%%x%%]%%%%" "s81wjwo17_sg7:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacapcfldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+echo if defined cacafldrs[%%x%%] ^(
+echo     call rclone copy "s81wjwo17,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "s81wjwo17_sg7:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1^)
 
 echo set "x=0"
 echo :SymLoop1
-echo if defined cacapcfldrs[%%x%%] ^(
-echo     call rclone sync "s81wjwo17,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacapcfldrs[%%x%%]%%%%" "s81wjwo17_sg7:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacapcfldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
+echo if defined cacafldrs[%%x%%] ^(
+echo     call rclone sync "s81wjwo17,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "s81wjwo17_sg7:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1^)
 
@@ -1185,18 +1185,18 @@ set sg=1
 
 (
 
-echo set cacapcfldrs[0]=document caca
-echo set cacapcfldrs[1]=com.mojang
-echo set cacapcfldrs[2]=Notepad++
-echo set cacapcfldrs[3]=3D Objects
-echo set cacapcfldrs[4]=Desktop
-echo set cacapcfldrs[5]=Downloads
-echo set cacapcfldrs[6]=Music
-echo set cacapcfldrs[7]=Links
-echo set cacapcfldrs[8]=Pictures
-echo set cacapcfldrs[9]=Videos
-echo set cacapcfldrs[10]=Links
-echo set cacapcfldrs[11]=Favorites
+echo set cacafldrs[0]=document caca
+echo set cacafldrs[1]=com.mojang
+echo set cacafldrs[2]=Notepad++
+echo set cacafldrs[3]=3D Objects
+echo set cacafldrs[4]=Desktop
+echo set cacafldrs[5]=Downloads
+echo set cacafldrs[6]=Music
+echo set cacafldrs[7]=Links
+echo set cacafldrs[8]=Pictures
+echo set cacafldrs[9]=Videos
+echo set cacafldrs[10]=Links
+echo set cacafldrs[11]=Favorites
 
 echo cd %%userprofile%%
 
@@ -1211,15 +1211,15 @@ echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
 echo set "x=0"
 echo :SymLoop1
-echo if defined cacapcfldrs[%%x%%] ^(
-echo     call rclone copy "renaave50,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacapcfldrs[%%x%%]%%%%" "jskwonw_sg8:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacapcfldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+echo if defined cacafldrs[%%x%%] ^(
+echo     call rclone copy "renaave50,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "jskwonw_sg8:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1^)
 
 echo set "x=0"
 echo :SymLoop1
-echo if defined cacapcfldrs[%%x%%] ^(
-echo     call rclone sync "renaave50,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacapcfldrs[%%x%%]%%%%" "jskwonw_sg8:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacapcfldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
+echo if defined cacafldrs[%%x%%] ^(
+echo     call rclone sync "renaave50,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "jskwonw_sg8:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1^)
 
@@ -1236,18 +1236,18 @@ set sg=1
 
 (
 
-echo set cacapcfldrs[0]=document caca
-echo set cacapcfldrs[1]=com.mojang
-echo set cacapcfldrs[2]=Notepad++
-echo set cacapcfldrs[3]=3D Objects
-echo set cacapcfldrs[4]=Desktop
-echo set cacapcfldrs[5]=Downloads
-echo set cacapcfldrs[6]=Music
-echo set cacapcfldrs[7]=Links
-echo set cacapcfldrs[8]=Pictures
-echo set cacapcfldrs[9]=Videos
-echo set cacapcfldrs[10]=Links
-echo set cacapcfldrs[11]=Favorites
+echo set cacafldrs[0]=document caca
+echo set cacafldrs[1]=com.mojang
+echo set cacafldrs[2]=Notepad++
+echo set cacafldrs[3]=3D Objects
+echo set cacafldrs[4]=Desktop
+echo set cacafldrs[5]=Downloads
+echo set cacafldrs[6]=Music
+echo set cacafldrs[7]=Links
+echo set cacafldrs[8]=Pictures
+echo set cacafldrs[9]=Videos
+echo set cacafldrs[10]=Links
+echo set cacafldrs[11]=Favorites
 
 echo cd %%userprofile%%
 
@@ -1262,15 +1262,15 @@ echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
  --track-renames
 echo set "x=0"
 echo :SymLoop1
-echo if defined cacapcfldrs[%%x%%] ^(
-echo     call rclone copy "usowns81,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacapcfldrs[%%x%%]%%%%" "usowns81_sg9:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacapcfldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+echo if defined cacafldrs[%%x%%] ^(
+echo     call rclone copy "usowns81,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "usowns81_sg9:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1^)
 
 echo set "x=0"
 echo :SymLoop1
-echo if defined cacapcfldrs[%%x%%] ^(
-echo     call rclone sync "usowns81,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacapcfldrs[%%x%%]%%%%" "usowns81_sg9:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacapcfldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
+echo if defined cacafldrs[%%x%%] ^(
+echo     call rclone sync "usowns81,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "usowns81_sg9:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1^)
 
@@ -1287,18 +1287,18 @@ set sg=1
 
 (
 
-echo set cacapcfldrs[0]=document caca
-echo set cacapcfldrs[1]=com.mojang
-echo set cacapcfldrs[2]=Notepad++
-echo set cacapcfldrs[3]=3D Objects
-echo set cacapcfldrs[4]=Desktop
-echo set cacapcfldrs[5]=Downloads
-echo set cacapcfldrs[6]=Music
-echo set cacapcfldrs[7]=Links
-echo set cacapcfldrs[8]=Pictures
-echo set cacapcfldrs[9]=Videos
-echo set cacapcfldrs[10]=Links
-echo set cacapcfldrs[11]=Favorites
+echo set cacafldrs[0]=document caca
+echo set cacafldrs[1]=com.mojang
+echo set cacafldrs[2]=Notepad++
+echo set cacafldrs[3]=3D Objects
+echo set cacafldrs[4]=Desktop
+echo set cacafldrs[5]=Downloads
+echo set cacafldrs[6]=Music
+echo set cacafldrs[7]=Links
+echo set cacafldrs[8]=Pictures
+echo set cacafldrs[9]=Videos
+echo set cacafldrs[10]=Links
+echo set cacafldrs[11]=Favorites
 
 echo cd %%userprofile%%
 
@@ -1313,15 +1313,15 @@ echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
 echo set "x=0"
 echo :SymLoop1
-echo if defined cacapcfldrs[%%x%%] ^(
-echo     call rclone copy "9288wowj,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacapcfldrs[%%x%%]%%%%" "9288wowj_sg10:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacapcfldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+echo if defined cacafldrs[%%x%%] ^(
+echo     call rclone copy "9288wowj,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "9288wowj_sg10:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1^)
 
 echo set "x=0"
 echo :SymLoop1
-echo if defined cacapcfldrs[%%x%%] ^(
-echo     call rclone sync "9288wowj,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacapcfldrs[%%x%%]%%%%" "9288wowj_sg10:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacapcfldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
+echo if defined cacafldrs[%%x%%] ^(
+echo     call rclone sync "9288wowj,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "9288wowj_sg10:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1^)
 
@@ -1530,31 +1530,31 @@ set sg=1
 
 (
 
-echo set selopcfldrs[0]=a_fiyandha
-echo set selopcfldrs[1]=3D Objects
-echo set selopcfldrs[2]=Desktop
-echo set selopcfldrs[3]=Documents
-echo set selopcfldrs[4]=Videos
-echo set selopcfldrs[5]=Saved Games
-echo set selopcfldrs[6]=Favorites
-echo set selopcfldrs[7]=Links
-echo set selopcfldrs[8]=Music
-echo set selopcfldrs[9]=Contacts
-echo set selopcfldrs[10]=a NDF1x extended
-echo set selopcfldrs[11]=Downloads
-echo set selopcfldrs[12]=Pictures
-echo set selopcfldrs[13]=behavior_packs
-echo set selopcfldrs[14]=development_behavior_packs
-echo set selopcfldrs[15]=development_resource_packs
-echo set selopcfldrs[16]=development_skin_packs
-echo set selopcfldrs[17]=minecraftpe
-echo set selopcfldrs[18]=minecraftWorlds
-echo set selopcfldrs[19]=resource_packs
-echo set selopcfldrs[20]=skin_packs
-echo set selopcfldrs[21]=world_templates
-echo set selopcfldrs[22]=Notepad++
-echo set selopcfldrs[23]=z-bat-vbs-file settings
-echo set selopcfldrs[24]=rclone
+echo set selofldrs[0]=a_fiyandha
+echo set selofldrs[1]=3D Objects
+echo set selofldrs[2]=Desktop
+echo set selofldrs[3]=Documents
+echo set selofldrs[4]=Videos
+echo set selofldrs[5]=Saved Games
+echo set selofldrs[6]=Favorites
+echo set selofldrs[7]=Links
+echo set selofldrs[8]=Music
+echo set selofldrs[9]=Contacts
+echo set selofldrs[10]=a NDF1x extended
+echo set selofldrs[11]=Downloads
+echo set selofldrs[12]=Pictures
+echo set selofldrs[13]=behavior_packs
+echo set selofldrs[14]=development_behavior_packs
+echo set selofldrs[15]=development_resource_packs
+echo set selofldrs[16]=development_skin_packs
+echo set selofldrs[17]=minecraftpe
+echo set selofldrs[18]=minecraftWorlds
+echo set selofldrs[19]=resource_packs
+echo set selofldrs[20]=skin_packs
+echo set selofldrs[21]=world_templates
+echo set selofldrs[22]=Notepad++
+echo set selofldrs[23]=z-bat-vbs-file settings
+echo set selofldrs[24]=rclone
 
 echo cd %%userprofile%%
 
@@ -1572,15 +1572,15 @@ echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
 echo set "x=0"
 echo :SymLoop1
-echo if defined selopcfldrs[%%x%%] ^(
-echo     call rclone copy "9288wowj,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selopcfldrs[%%x%%]%%%%" "9288wowj_sg10,shared_with_me:/alyx 7229179/%%copyname%%/%%%%selopcfldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+echo if defined selofldrs[%%x%%] ^(
+echo     call rclone copy "9288wowj,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selofldrs[%%x%%]%%%%" "9288wowj_sg10,shared_with_me:/alyx 7229179/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1^)
 
 echo set "x=0"
 echo :SymLoop1
-echo if defined selopcfldrs[%%x%%] ^(
-echo     call rclone sync "9288wowj,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selopcfldrs[%%x%%]%%%%" "9288wowj_sg10,shared_with_me:/alyx 7229179/%%copyname%%/%%%%selopcfldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
+echo if defined selofldrs[%%x%%] ^(
+echo     call rclone sync "9288wowj,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selofldrs[%%x%%]%%%%" "9288wowj_sg10,shared_with_me:/alyx 7229179/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
 echo     set /a "x+=1"
 echo     GOTO :SymLoop1^)
 
