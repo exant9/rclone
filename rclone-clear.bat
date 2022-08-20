@@ -31,12 +31,11 @@ REM  Clear all shared drives
 set acc=aaveusdt_sg1
 
 (
-echo.
 echo cd %%userprofile%%
 echo.
 
 echo.
-REM echo rclone rmdirs "%acc%:/" --leave-root --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --fast-list
+
 echo.
 echo.
 echo.
@@ -220,12 +219,11 @@ echo.
 set acc=renaave50_sg2
 
 (
-echo.
 echo cd %%userprofile%%
 echo.
 
 echo.
-REM echo rclone rmdirs "%acc%:/" --leave-root --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --fast-list
+
 echo.
 echo.
 echo.
@@ -411,12 +409,11 @@ echo.
 set acc=renaave7_sg3
 
 (
-echo.
 echo cd %%userprofile%%
 echo.
 
 echo.
-REM echo rclone rmdirs "%acc%:/" --leave-root --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --fast-list
+
 echo.
 echo.
 echo.
@@ -608,7 +605,7 @@ echo cd %%userprofile%%
 
 
 
-REM echo rclone rmdirs "%acc%:/" --leave-root --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --fast-list
+
 echo.
 echo.
 echo.
@@ -800,7 +797,7 @@ echo cd %%userprofile%%
 
 
 
-REM echo rclone rmdirs "%acc%:/" --leave-root --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --fast-list
+
 echo.
 echo.
 echo.
@@ -991,7 +988,7 @@ echo cd %%userprofile%%
 
 
 
-REM echo rclone rmdirs "%acc%:/" --leave-root --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --fast-list
+
 echo.
 echo.
 echo.
@@ -1183,7 +1180,7 @@ echo cd %%userprofile%%
 
 
 
-REM echo rclone rmdirs "%acc%:/" --leave-root --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --fast-list
+
 echo.
 echo.
 echo.
@@ -1375,7 +1372,7 @@ echo cd %%userprofile%%
 
 REM --drive-trashed-only --drive-use-trash=false --fast-list --low-level-retries 9999999999 --no-traverse --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors  
 
-REM echo rclone rmdirs "%acc%:/" --leave-root --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --fast-list
+
 echo.
 echo.
 echo.
@@ -1570,7 +1567,7 @@ echo cd %%userprofile%%
 
 
 
-REM echo rclone rmdirs "%acc%:/" --leave-root --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --fast-list
+
 echo.
 echo.
 echo.
@@ -1762,7 +1759,7 @@ echo cd %%userprofile%%
 
 
 
-REM echo rclone rmdirs "%acc%:/" --leave-root --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --fast-list
+
 echo.
 echo.
 echo.
