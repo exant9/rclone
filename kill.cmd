@@ -35,7 +35,10 @@ if exist "%temp%\GetAdminUnicode.vbs" del /f /q "%temp%\GetAdminUnicode.vbs"
 cd %userprofile%
 taskkill /f /im rclone.exe
 taskkill /f /im cscript.exe
+
+
+
+
+
+
 taskkill /f /im cmd.exe
-
-
-exit
