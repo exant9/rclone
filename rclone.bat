@@ -11,13 +11,18 @@ REM  A nya gabakal pake usage
 
 
 
-REM set mkdirpath[0]=Selo/"
-REM set mkdirpath[1]=Selo/kamikaze/computers/alyx/"
-REM set mkdirpath[2]=Selo/kamikaze/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
-REM set mkdirpath[3]=Selo/kamikaze/m.shahruxips-1@sman5tambunselatan.sch.id/"
-REM set mkdirpath[4]=Caca/kamikaze/computers/caca/"
-REM set mkdirpath[5]=Anggun/kamikaze/gphotos/"
-REM set mkdirpath[6]=logs/"
+
+set mkdirpath[0]=Selo/"
+set mkdirpath[1]=Selo/kamikaze/computers/alyx/"
+set mkdirpath[2]=Selo/kamikaze/fiyandhax-mipa4@sman5tambunselatan.sch.id/Classroom"
+set mkdirpath[2]=Selo/kamikaze/fiyandhax-mipa4@sman5tambunselatan.sch.id/Shared"
+set mkdirpath[3]=Selo/kamikaze/m.shahruxips-1@sman5tambunselatan.sch.id/Classroom"
+set mkdirpath[3]=Selo/kamikaze/m.shahruxips-1@sman5tambunselatan.sch.id/Shared"
+set mkdirpath[3]=Selo/kamikaze/m.shahruxips-1@sman5tambunselatan.sch.id/Tugas Sekolah
+set mkdirpath[3]=Selo/kamikaze/m.shahruxips-1@sman5tambunselatan.sch.id/TUGAS SEMUA MAPEL KELAS X"
+set mkdirpath[4]=Caca/kamikaze/computers/caca/"
+set mkdirpath[5]=Anggun/kamikaze/gphotos/"
+set mkdirpath[6]=logs/"
 
 set storage=aaveusdt_sg1
 set "x=0"
@@ -126,7 +131,6 @@ echo     call rclone mkdir %%%%mkpath[%%x%%]%%%% --low-level-retries 9999999999 
 echo     set /a "x+=1"
 echo     GOTO :d12
 echo ^)
-
 
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_1.bat"
 
@@ -1601,24 +1605,6 @@ echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 set ihs92[0]=Classroom
 set ihs92[1]=Shared
 
-echo set "x=0"
-echo :i
-echo if defined ihs92[%%x%%] ^(
-
-echo call rclone mkdir "iajdos282728_sg1:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
-echo call rclone mkdir "iajdos282728_sg2:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
-echo call rclone mkdir "iajdos282728_sg3:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
-echo call rclone mkdir "iajdos282728_sg4:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
-echo call rclone mkdir "iajdos282728_sg5:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
-echo call rclone mkdir "iajdos282728_sg6:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
-echo call rclone mkdir "iajdos282728_sg7:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
-echo call rclone mkdir "iajdos282728_sg8:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
-echo call rclone mkdir "iajdos282728_sg9:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
-echo call rclone mkdir "iajdos282728_sg10:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
-
-echo     set /a "x+=1"
-echo     GOTO :i^)
-
 
 
 echo set "x=0"
@@ -1685,24 +1671,6 @@ set ihs92[0]=Classroom
 set ihs92[1]=Shared
 set ihs92[2]=Tugas Sekolah
 set ihs92[2]=TUGAS SEMUA MAPEL KELAS X
-
-echo set "x=0"
-echo :i
-echo if defined ihs92[%%x%%] ^(
-
-echo call rclone mkdir "iajdos282728_sg1:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
-echo call rclone mkdir "iajdos282728_sg2:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
-echo call rclone mkdir "iajdos282728_sg3:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
-echo call rclone mkdir "iajdos282728_sg4:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
-echo call rclone mkdir "iajdos282728_sg5:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
-echo call rclone mkdir "iajdos282728_sg6:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
-echo call rclone mkdir "iajdos282728_sg7:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
-echo call rclone mkdir "iajdos282728_sg8:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
-echo call rclone mkdir "iajdos282728_sg9:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
-echo call rclone mkdir "iajdos282728_sg10:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
-
-echo     set /a "x+=1"
-echo     GOTO :i^)
 
 
 
