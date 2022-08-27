@@ -136,124 +136,124 @@ echo ^)
 
 
 
-set acc[1]=aaveusdt
-set acc[2]=renaave50
-set acc[3]=renaave7
-set acc[4]=oudhoh0050
-set acc[5]=nkiux77509
-set acc[6]=didrhj9036
-set acc[7]=hjski8292882
-set acc[8]=jsnwj84738
-set acc[9]=ffdnsak8272793
-set acc[10]=otipes7948
+REM set acc[1]=aaveusdt
+REM set acc[2]=renaave50
+REM set acc[3]=renaave7
+REM set acc[4]=oudhoh0050
+REM set acc[5]=nkiux77509
+REM set acc[6]=didrhj9036
+REM set acc[7]=hjski8292882
+REM set acc[8]=jsnwj84738
+REM set acc[9]=ffdnsak8272793
+REM set acc[10]=otipes7948
 
 
-set x0[0]=aaveusdt
-set x0[1]=aaveusdt
-set x0[2]=renaave50
-set x0[3]=renaave7
-set x0[4]=oudhoh0050
-set x0[5]=nkiux77509
-set x0[6]=didrhj9036
-set x0[7]=hjski8292882
-set x0[8]=jsnwj84738
-set x0[9]=ffdnsak8272793
+REM set x0[0]=aaveusdt
+REM set x0[1]=aaveusdt
+REM set x0[2]=renaave50
+REM set x0[3]=renaave7
+REM set x0[4]=oudhoh0050
+REM set x0[5]=nkiux77509
+REM set x0[6]=didrhj9036
+REM set x0[7]=hjski8292882
+REM set x0[8]=jsnwj84738
+REM set x0[9]=ffdnsak8272793
 
-set "x=0"
-set "strg=1"
-set "k12=2"
-set "xv12=0"
-:d
-:i82ye
-if defined x0[%xv12%] (
+REM set "x=0"
+REM set "strg=1"
+REM set "k12=2"
+REM set "xv12=0"
+REM :d
+REM :i82ye
+REM if defined x0[%xv12%] (
 
-CALL :j219
-)
-
-
-
-
-
-:j219
+REM CALL :j219
+REM )
 
 
 
 
-(
 
-echo %%%%acc[%%strg%%]%%%%
-pause
-
-call echo set selofldrs[0]=a_fiyandha
-call echo set selofldrs[1]=3D Objects
-call echo set selofldrs[2]=Desktop
-call echo set selofldrs[3]=Documents
-call echo set selofldrs[4]=Videos
-call echo set selofldrs[5]=Saved Games
-call echo set selofldrs[6]=Favorites
-call echo set selofldrs[7]=Links
-call echo set selofldrs[8]=Music
-call echo set selofldrs[9]=Contacts
-call echo set selofldrs[10]=a NDF1x extended
-call echo set selofldrs[11]=Downloads
-call echo set selofldrs[12]=Pictures
-call echo set selofldrs[13]=behavior_packs
-call echo set selofldrs[14]=development_behavior_packs
-call echo set selofldrs[15]=development_resource_packs
-call echo set selofldrs[16]=development_skin_packs
-call echo set selofldrs[17]=minecraftpe
-call echo set selofldrs[18]=minecraftWorlds
-call echo set selofldrs[19]=resource_packs
-call echo set selofldrs[20]=skin_packs
-call echo set selofldrs[21]=world_templates
-call echo set selofldrs[22]=Notepad++
-call echo set selofldrs[23]=z-bat-vbs-file settings
-call echo set selofldrs[24]=rclone
-call echo set selofldrs[25]=profiles
-
-call echo cd %%%%userprofile%%%%
-
-call echo set day=%%%%date:~-7,2%%%%
-call echo set month=%%%%date:~-10,2%%%%
-call echo set year=%%%%date:~-4%%%%
-call echo set hour=%%%%time:~0,2%%%%
-call echo set minute=%%%%time:~3,2%%%%
-call echo set second=%%%%TIME:~6,2%%%%
-
-call echo set copyname=%%%%day%%%%-%%%%month%%%%-%%%%year%%%%_%%%%hour%%%%_%%%%minute%%%%_%%%%second%%%%
+REM :j219
 
 
 
-call echo set "x=0"
-call echo :i
-call echo if defined selofldrs[%%%%x%%%%] ^(
-call echo     call rclone copy "%%%%acc[%%strg%%]%%%%,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%%%%%selofldrs[%%%%x%%%%]%%%%%%%%" "%%%%acc[%%strg%%]%%%%_sg%%strg%%:/Selo/kamikaze/computers/alyx/%%%%copyname%%%%/%%%%%%%%selofldrs[%%%%x%%%%]%%%%%%%%"   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10
-call echo     set /a "x+=1"
-call echo     GOTO :i^)
 
-call echo set "x=0"
-call echo :i
-call echo if defined selofldrs[%%%%x%%%%] ^(
-call echo     call rclone sync "%%%%acc[%%strg%%]%%%%,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%%%%%selofldrs[%%%%x%%%%]%%%%%%%%" "%%%%acc[%%strg%%]%%%%_sg%%strg%%:/Selo/kamikaze/computers/alyx/%%%%copyname%%%%/%%%%%%%%selofldrs[%%%%x%%%%]%%%%%%%%"   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
-call echo     set /a "x+=1"
-call echo     GOTO :i^)
+REM (
 
-call echo set "x=0"
-call echo :i
-call echo if defined selofldrs[%%%%x%%%%] ^(
-call echo     call rclone mkdir "%%%%acc[%%strg%%]%%%%_sg%%strg%%:/Selo/kamikaze/computers/alyx/%%%%copyname%%%%/%%%%%%%%selofldrs[%%%%x%%%%]%%%%%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
-call echo     set /a "x+=1"
-call echo     GOTO :i^)
+REM echo %%%%acc[%%strg%%]%%%%
+REM pause
 
-call echo rclone moveto "%%acc[%%strg%%]%%_sg%%strg%%:/Selo/kamikaze/computers/alyx/%%%%copyname%%%%" "%%%%acc[%%strg%%]%%%%_sg%%strg%%:/Selo/kamikaze/computers/alyx/%%%%copyname%%%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
+REM call echo set selofldrs[0]=a_fiyandha
+REM call echo set selofldrs[1]=3D Objects
+REM call echo set selofldrs[2]=Desktop
+REM call echo set selofldrs[3]=Documents
+REM call echo set selofldrs[4]=Videos
+REM call echo set selofldrs[5]=Saved Games
+REM call echo set selofldrs[6]=Favorites
+REM call echo set selofldrs[7]=Links
+REM call echo set selofldrs[8]=Music
+REM call echo set selofldrs[9]=Contacts
+REM call echo set selofldrs[10]=a NDF1x extended
+REM call echo set selofldrs[11]=Downloads
+REM call echo set selofldrs[12]=Pictures
+REM call echo set selofldrs[13]=behavior_packs
+REM call echo set selofldrs[14]=development_behavior_packs
+REM call echo set selofldrs[15]=development_resource_packs
+REM call echo set selofldrs[16]=development_skin_packs
+REM call echo set selofldrs[17]=minecraftpe
+REM call echo set selofldrs[18]=minecraftWorlds
+REM call echo set selofldrs[19]=resource_packs
+REM call echo set selofldrs[20]=skin_packs
+REM call echo set selofldrs[21]=world_templates
+REM call echo set selofldrs[22]=Notepad++
+REM call echo set selofldrs[23]=z-bat-vbs-file settings
+REM call echo set selofldrs[24]=rclone
+REM call echo set selofldrs[25]=profiles
 
-)>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_%k12%.bat"
+REM call echo cd %%%%userprofile%%%%
 
-set /a "xv12+=1"
-set /a "strg+=1"
-set /a "k12+=1"
-set /a "x+=1"
-GOTO :i82ye
+REM call echo set day=%%%%date:~-7,2%%%%
+REM call echo set month=%%%%date:~-10,2%%%%
+REM call echo set year=%%%%date:~-4%%%%
+REM call echo set hour=%%%%time:~0,2%%%%
+REM call echo set minute=%%%%time:~3,2%%%%
+REM call echo set second=%%%%TIME:~6,2%%%%
+
+REM call echo set copyname=%%%%day%%%%-%%%%month%%%%-%%%%year%%%%_%%%%hour%%%%_%%%%minute%%%%_%%%%second%%%%
+
+
+
+REM call echo set "x=0"
+REM call echo :i
+REM call echo if defined selofldrs[%%%%x%%%%] ^(
+REM call echo     call rclone copy "%%%%acc[%%strg%%]%%%%,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%%%%%selofldrs[%%%%x%%%%]%%%%%%%%" "%%%%acc[%%strg%%]%%%%_sg%%strg%%:/Selo/kamikaze/computers/alyx/%%%%copyname%%%%/%%%%%%%%selofldrs[%%%%x%%%%]%%%%%%%%"   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10
+REM call echo     set /a "x+=1"
+REM call echo     GOTO :i^)
+
+REM call echo set "x=0"
+REM call echo :i
+REM call echo if defined selofldrs[%%%%x%%%%] ^(
+REM call echo     call rclone sync "%%%%acc[%%strg%%]%%%%,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%%%%%selofldrs[%%%%x%%%%]%%%%%%%%" "%%%%acc[%%strg%%]%%%%_sg%%strg%%:/Selo/kamikaze/computers/alyx/%%%%copyname%%%%/%%%%%%%%selofldrs[%%%%x%%%%]%%%%%%%%"   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
+REM call echo     set /a "x+=1"
+REM call echo     GOTO :i^)
+
+REM call echo set "x=0"
+REM call echo :i
+REM call echo if defined selofldrs[%%%%x%%%%] ^(
+REM call echo     call rclone mkdir "%%%%acc[%%strg%%]%%%%_sg%%strg%%:/Selo/kamikaze/computers/alyx/%%%%copyname%%%%/%%%%%%%%selofldrs[%%%%x%%%%]%%%%%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
+REM call echo     set /a "x+=1"
+REM call echo     GOTO :i^)
+
+REM call echo rclone moveto "%%acc[%%strg%%]%%_sg%%strg%%:/Selo/kamikaze/computers/alyx/%%%%copyname%%%%" "%%%%acc[%%strg%%]%%%%_sg%%strg%%:/Selo/kamikaze/computers/alyx/%%%%copyname%%%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
+
+REM )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_%k12%.bat"
+
+REM set /a "xv12+=1"
+REM set /a "strg+=1"
+REM set /a "k12+=1"
+REM set /a "x+=1"
+REM GOTO :i82ye
 
 
 
