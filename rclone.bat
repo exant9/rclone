@@ -246,7 +246,7 @@ REM call echo     GOTO :i^)
 REM call echo set "x=0"
 REM call echo :i
 REM call echo if defined selofldrs[%%%%x%%%%] ^(
-REM call echo     call rclone mkdir "%%%%acc[%%strg%%]%%%%_sg%%strg%%:/Selo/kamikaze/computers/alyx/%%%%copyname%%%%/%%%%%%%%selofldrs[%%%%x%%%%]%%%%%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change 
+REM call REM echo     call rclone mkdir "%%%%acc[%%strg%%]%%%%_sg%%strg%%:/Selo/kamikaze/computers/alyx/%%%%copyname%%%%/%%%%%%%%selofldrs[%%%%x%%%%]%%%%%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change 
 REM call echo     set /a "x+=1"
 REM call echo     GOTO :i^)
 
@@ -330,7 +330,7 @@ echo     GOTO :i2^)
 echo set "x=0"
 echo :i1
 echo if defined selofldrs[%%x%%] ^(
-echo     call rclone mkdir "%acc%_sg%sg%:/Selo/kamikaze/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change 
+REM echo     call rclone mkdir "%acc%_sg%sg%:/Selo/kamikaze/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change 
 echo     set /a "x+=1"
 echo     GOTO :i1^)
 
@@ -407,7 +407,7 @@ echo     GOTO :i2^)
 echo set "x=0"
 echo :i1
 echo if defined selofldrs[%%x%%] ^(
-echo     call rclone mkdir "%acc%_sg%sg%:/Selo/kamikaze/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change 
+REM echo     call rclone mkdir "%acc%_sg%sg%:/Selo/kamikaze/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change 
 echo     set /a "x+=1"
 echo     GOTO :i1^)
 
@@ -483,7 +483,7 @@ echo     GOTO :i2^)
 echo set "x=0"
 echo :i1
 echo if defined selofldrs[%%x%%] ^(
-echo     call rclone mkdir "%acc%_sg%sg%:/Selo/kamikaze/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change 
+REM echo     call rclone mkdir "%acc%_sg%sg%:/Selo/kamikaze/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change 
 echo     set /a "x+=1"
 echo     GOTO :i1^)
 
@@ -559,7 +559,7 @@ echo     GOTO :i2^)
 echo set "x=0"
 echo :i1
 echo if defined selofldrs[%%x%%] ^(
-echo     call rclone mkdir "%acc%_sg%sg%:/Selo/kamikaze/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change 
+REM echo     call rclone mkdir "%acc%_sg%sg%:/Selo/kamikaze/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change 
 echo     set /a "x+=1"
 echo     GOTO :i1^)
 
@@ -635,7 +635,7 @@ echo     GOTO :i1^)
 echo set "x=0"
 echo :i1
 echo if defined selofldrs[%%x%%] ^(
-echo     call rclone mkdir "%acc%_sg%sg%:/Selo/kamikaze/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change 
+REM echo     call rclone mkdir "%acc%_sg%sg%:/Selo/kamikaze/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change 
 echo     set /a "x+=1"
 echo     GOTO :i1^)
 
@@ -711,7 +711,7 @@ echo     GOTO :i2^)
 echo set "x=0"
 echo :i1
 echo if defined selofldrs[%%x%%] ^(
-echo     call rclone mkdir "%acc%_sg%sg%:/Selo/kamikaze/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change 
+REM echo     call rclone mkdir "%acc%_sg%sg%:/Selo/kamikaze/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change 
 echo     set /a "x+=1"
 echo     GOTO :i1^)
 
@@ -787,7 +787,7 @@ echo     GOTO :i2^)
 echo set "x=0"
 echo :i1
 echo if defined selofldrs[%%x%%] ^(
-echo     call rclone mkdir "%acc%_sg%sg%:/Selo/kamikaze/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change 
+REM echo     call rclone mkdir "%acc%_sg%sg%:/Selo/kamikaze/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change 
 echo     set /a "x+=1"
 echo     GOTO :i1^)
 
@@ -863,7 +863,7 @@ echo     GOTO :i2^)
 echo set "x=0"
 echo :i1
 echo if defined selofldrs[%%x%%] ^(
-echo     call rclone mkdir "%acc%_sg%sg%:/Selo/kamikaze/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change 
+REM echo     call rclone mkdir "%acc%_sg%sg%:/Selo/kamikaze/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change 
 echo     set /a "x+=1"
 echo     GOTO :i1^)
 
@@ -939,7 +939,7 @@ echo     GOTO :i2^)
 echo set "x=0"
 echo :i1
 echo if defined selofldrs[%%x%%] ^(
-echo     call rclone mkdir "%acc%_sg%sg%:/Selo/kamikaze/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change 
+REM echo     call rclone mkdir "%acc%_sg%sg%:/Selo/kamikaze/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change 
 echo     set /a "x+=1"
 echo     GOTO :i1^)
 
@@ -1015,7 +1015,7 @@ echo     GOTO :i2^)
 echo set "x=0"
 echo :i1
 echo if defined selofldrs[%%x%%] ^(
-echo     call rclone mkdir "%acc%_sg%sg%:/Selo/kamikaze/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change 
+REM echo     call rclone mkdir "%acc%_sg%sg%:/Selo/kamikaze/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change 
 echo     set /a "x+=1"
 echo     GOTO :i1^)
 
@@ -1078,7 +1078,7 @@ echo     GOTO :i3^)
 echo set "x=0"
 echo :i4
 echo if defined cacafldrs[%%x%%] ^(
-echo     call rclone mkdir "%acc%_sg%sg%:/Caca/kamikaze/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change 
+REM echo     call rclone mkdir "%acc%_sg%sg%:/Caca/kamikaze/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change 
 echo     set /a "x+=1"
 echo     GOTO :i4^)
 
@@ -1137,7 +1137,7 @@ echo     GOTO :i1^)
 echo set "x=0"
 echo :i2
 echo if defined cacafldrs[%%x%%] ^(
-echo     call rclone mkdir "%acc%_sg%sg%:/Caca/kamikaze/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change 
+REM echo     call rclone mkdir "%acc%_sg%sg%:/Caca/kamikaze/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change 
 echo     set /a "x+=1"
 echo     GOTO :i2^)
 
@@ -1196,7 +1196,7 @@ echo     GOTO :i2^)
 echo set "x=0"
 echo :i1
 echo if defined cacafldrs[%%x%%] ^(
-echo     call rclone mkdir "%acc%_sg%sg%:/Caca/kamikaze/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change 
+REM echo     call rclone mkdir "%acc%_sg%sg%:/Caca/kamikaze/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change 
 echo     set /a "x+=1"
 echo     GOTO :i1^)
 
@@ -1256,7 +1256,7 @@ echo     GOTO :i1^)
 echo set "x=0"
 echo :i2
 echo if defined cacafldrs[%%x%%] ^(
-echo     call rclone mkdir "%acc%_sg%sg%:/Caca/kamikaze/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change 
+REM echo     call rclone mkdir "%acc%_sg%sg%:/Caca/kamikaze/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change 
 echo     set /a "x+=1"
 echo     GOTO :i2^)
 
@@ -1316,7 +1316,7 @@ echo     GOTO :i2^)
 echo set "x=0"
 echo :i1
 echo if defined cacafldrs[%%x%%] ^(
-echo     call rclone mkdir "%acc%_sg%sg%:/Caca/kamikaze/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change 
+REM echo     call rclone mkdir "%acc%_sg%sg%:/Caca/kamikaze/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change 
 echo     set /a "x+=1"
 echo     GOTO :i1^)
 
@@ -1376,7 +1376,7 @@ echo     GOTO :i2^)
 echo set "x=0"
 echo :i1
 echo if defined cacafldrs[%%x%%] ^(
-echo     call rclone mkdir "%acc%_sg%sg%:/Caca/kamikaze/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change 
+REM echo     call rclone mkdir "%acc%_sg%sg%:/Caca/kamikaze/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change 
 echo     set /a "x+=1"
 echo     GOTO :i1^)
 
@@ -1436,7 +1436,7 @@ echo     GOTO :i23^)
 echo set "x=0"
 echo :i3243
 echo if defined cacafldrs[%%x%%] ^(
-echo     call rclone mkdir "%acc%_sg%sg%:/Caca/kamikaze/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change 
+REM echo     call rclone mkdir "%acc%_sg%sg%:/Caca/kamikaze/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change 
 echo     set /a "x+=1"
 echo     GOTO :i3243^)
 
@@ -1496,7 +1496,7 @@ echo     GOTO :i19842881^)
 echo set "x=0"
 echo :i91919372
 echo if defined cacafldrs[%%x%%] ^(
-echo     call rclone mkdir "%acc%_sg%sg%:/Caca/kamikaze/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change 
+REM echo     call rclone mkdir "%acc%_sg%sg%:/Caca/kamikaze/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change 
 echo     set /a "x+=1"
 echo     GOTO :i91919372^)
 
@@ -1556,7 +1556,7 @@ echo     GOTO :i6834831^)
 echo set "x=0"
 echo :i1038929
 echo if defined cacafldrs[%%x%%] ^(
-echo     call rclone mkdir "%acc%_sg%sg%:/Caca/kamikaze/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change 
+REM echo     call rclone mkdir "%acc%_sg%sg%:/Caca/kamikaze/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change 
 echo     set /a "x+=1"
 echo     GOTO :i1038929^)
 
@@ -1616,7 +1616,7 @@ echo     GOTO :i5757^)
 echo set "x=0"
 echo :i1213224
 echo if defined cacafldrs[%%x%%] ^(
-echo     call rclone mkdir "%acc%_sg%sg%:/Caca/kamikaze/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change 
+REM echo     call rclone mkdir "%acc%_sg%sg%:/Caca/kamikaze/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change 
 echo     set /a "x+=1"
 echo     GOTO :i1213224^)
 
@@ -1845,7 +1845,7 @@ echo     GOTO :i291^)
 echo set "x=0"
 echo :i912
 echo if defined selofldrs[%%x%%] ^(
-echo     call rclone mkdir "%acc%_sg%sg%:/Selo/kamikaze/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change 
+REM echo     call rclone mkdir "%acc%_sg%sg%:/Selo/kamikaze/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change 
 echo     set /a "x+=1"
 echo     GOTO :i912^)
 
