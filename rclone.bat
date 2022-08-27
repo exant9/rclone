@@ -104,16 +104,16 @@ cd "C:\a_fiyandha\z-bat-vbs-file\rclone"
 (
 echo cd %%userprofile%%
 
-echo rclone cleanup "aaveusdt_sg1:/"
-echo rclone cleanup "renaave50_sg2:/"
-echo rclone cleanup "renaave7_sg3:/"
-echo rclone cleanup "oudhoh0050_sg4:/"
-echo rclone cleanup "nkiux77509_sg5:/"
-echo rclone cleanup "didrhj9036_sg6:/"
-echo rclone cleanup "hjski8292882_sg7:/"
-echo rclone cleanup "jsnwj84738_sg8:/"
-echo rclone cleanup "ffdnsak8272793_sg9:/"
-echo rclone cleanup "otipes7948_sg10:/"
+echo rclone cleanup "aaveusdt_sg1:/" --low-level-retries 9999999999 --auto-confirm --no-traverse --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
+echo rclone cleanup "renaave50_sg2:/" --low-level-retries 9999999999 --auto-confirm --no-traverse --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
+echo rclone cleanup "renaave7_sg3:/" --low-level-retries 9999999999 --auto-confirm --no-traverse --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
+echo rclone cleanup "oudhoh0050_sg4:/" --low-level-retries 9999999999 --auto-confirm --no-traverse --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
+echo rclone cleanup "nkiux77509_sg5:/" --low-level-retries 9999999999 --auto-confirm --no-traverse --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
+echo rclone cleanup "didrhj9036_sg6:/" --low-level-retries 9999999999 --auto-confirm --no-traverse --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
+echo rclone cleanup "hjski8292882_sg7:/" --low-level-retries 9999999999 --auto-confirm --no-traverse --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
+echo rclone cleanup "jsnwj84738_sg8:/" --low-level-retries 9999999999 --auto-confirm --no-traverse --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
+echo rclone cleanup "ffdnsak8272793_sg9:/" --low-level-retries 9999999999 --auto-confirm --no-traverse --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
+echo rclone cleanup "otipes7948_sg10:/" --low-level-retries 9999999999 --auto-confirm --no-traverse --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
 
 echo set mkpath[0]="fcfgts_driveku_me:/Colab Notebooks"
 echo set mkpath[1]="fcfgts_driveku_me:/Files"
@@ -127,7 +127,7 @@ echo set mkpath[6]="fcfgts_driveku_me:/Unlimtd Copy/Minecraft"
 echo set "x=0"
 echo :d12
 echo if defined mkpath[%%x%%] ^(
-echo     call rclone mkdir %%%%mkpath[%%x%%]%%%% --no-traverse --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
+echo     call rclone mkdir %%%%mkpath[%%x%%]%%%% --low-level-retries 9999999999 --auto-confirm --no-traverse --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
 echo     set /a "x+=1"
 echo     GOTO :d12
 echo ^)
