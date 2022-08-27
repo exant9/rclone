@@ -1966,5 +1966,7 @@ REM setlocal disabledelayedexpansion
 
 "C:\a_fiyandha\z-bat-vbs-file\rclone\rclone-clear.vbs"
 "C:\a_fiyandha\z-bat-vbs-file\rclone\rclone-clear.vbs"
+"C:\a_fiyandha\z-bat-vbs-file\rclone\rclone-clear.vbs"
+"C:\a_fiyandha\z-bat-vbs-file\rclone\rclone-clear.vbs"
 
 exit
