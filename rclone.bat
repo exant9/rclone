@@ -1630,7 +1630,7 @@ echo rclone moveto "9288wowj_sg10:/Caca/kamikaze/computers/caca/%%copyname%%" "9
 
 (
 
-timeout 3
+timeout 21
 
 echo cd %%userprofile%%
 
@@ -1695,7 +1695,7 @@ echo     GOTO :i1930013^)
 
 (
 
-timeout 7
+timeout 22
 
 echo cd %%userprofile%%
 
@@ -1763,6 +1763,8 @@ echo     GOTO :i1929192^)
 
 (
 
+echo timeout 22
+
 echo cd %%userprofile%%
 
 echo rclone copy "fiyandha_sman5,shared_with_me:/" "fiyandha_sman5:/Shared"   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change  --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 15G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --drive-skip-dangling-shortcuts --drive-skip-shortcuts 
@@ -1786,7 +1788,7 @@ set sg=10
 
 (
 
-echo timeout 21
+echo timeout 23
 
 echo set selofldrs[0]=a_fiyandha
 echo set selofldrs[1]=3D Objects
@@ -1858,6 +1860,8 @@ echo rclone moveto "9288wowj_sg10:/Selo/kamikaze/computers/alyx/%%copyname%%" "9
 
 
 (
+
+echo timeout 24
 
 echo cd %%userprofile%%
 
