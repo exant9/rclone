@@ -8,16 +8,16 @@ REM if errorlevel 1 exit
 
 (
 echo cd %%userprofile%%
-echo rclone cleanup "aaveusdt_sg1:/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
-echo rclone cleanup "renaave50_sg2:/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
-echo rclone cleanup "renaave7_sg3:/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
-echo rclone cleanup "oudhoh0050_sg4:/"--low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
-echo rclone cleanup "nkiux77509_sg5:/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
-echo rclone cleanup "didrhj9036_sg6:/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
-echo rclone cleanup "hjski8292882_sg7:/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
-echo rclone cleanup "jsnwj84738_sg8:/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
-echo rclone cleanup "ffdnsak8272793_sg9:/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
-echo rclone cleanup "otipes7948_sg10:/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
+echo rclone cleanup "aaveusdt_sg1:/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change   
+echo rclone cleanup "renaave50_sg2:/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change   
+echo rclone cleanup "renaave7_sg3:/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change   
+echo rclone cleanup "oudhoh0050_sg4:/"--low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change   
+echo rclone cleanup "nkiux77509_sg5:/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change   
+echo rclone cleanup "didrhj9036_sg6:/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change   
+echo rclone cleanup "hjski8292882_sg7:/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change   
+echo rclone cleanup "jsnwj84738_sg8:/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change   
+echo rclone cleanup "ffdnsak8272793_sg9:/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change   
+echo rclone cleanup "otipes7948_sg10:/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change   
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\__1.bat"
 
 
@@ -57,7 +57,7 @@ echo :l23234
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors 
+echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -75,7 +75,7 @@ echo set cache_result=%%cache_result%%
 echo.
 echo set loopcount=%%cache_result%%
 echo :loop
-echo rclone purge "%acc%:/%%fldr%%/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
+echo rclone purge "%acc%:/%%fldr%%/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change   
 echo set /a loopcount=loopcount-1
 echo if %%loopcount%%==0 goto exitloop
 echo goto loop
@@ -99,7 +99,7 @@ echo :l23232
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors 
+echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -116,7 +116,7 @@ echo set cache_result=%%cache_result%%
 echo.
 echo set loopcount=%%cache_result%%
 echo :loop1
-echo rclone purge "%acc%:/%%fldr%%/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
+echo rclone purge "%acc%:/%%fldr%%/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change   
 echo set /a loopcount=loopcount-1
 echo if %%loopcount%%==0 goto exitloop1
 echo goto loop1
@@ -139,7 +139,7 @@ echo :l23234
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors 
+echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -157,7 +157,7 @@ echo set cache_result=%%cache_result%%
 echo.
 echo set loopcount=%%cache_result%%
 echo :loop
-echo rclone purge "%acc%:/%%fldr%%/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
+echo rclone purge "%acc%:/%%fldr%%/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change   
 echo set /a loopcount=loopcount-1
 echo if %%loopcount%%==0 goto exitloop
 echo goto loop
@@ -180,7 +180,7 @@ echo :l23234
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors 
+echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -198,7 +198,7 @@ echo set cache_result=%%cache_result%%
 echo.
 echo set loopcount=%%cache_result%%
 echo :loop
-echo rclone purge "%acc%:/%%fldr%%/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
+echo rclone purge "%acc%:/%%fldr%%/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change   
 echo set /a loopcount=loopcount-1
 echo if %%loopcount%%==0 goto exitloop
 echo goto loop
@@ -245,7 +245,7 @@ echo :l23234
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors 
+echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -263,7 +263,7 @@ echo set cache_result=%%cache_result%%
 echo.
 echo set loopcount=%%cache_result%%
 echo :loop
-echo rclone purge "%acc%:/%%fldr%%/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
+echo rclone purge "%acc%:/%%fldr%%/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change   
 echo set /a loopcount=loopcount-1
 echo if %%loopcount%%==0 goto exitloop
 echo goto loop
@@ -290,7 +290,7 @@ echo :l23232
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"Caca"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors 
+echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -307,7 +307,7 @@ echo set cache_result=%%cache_result%%
 echo.
 echo set loopcount=%%cache_result%%
 echo :loop1
-echo rclone purge "%acc%:/Caca/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
+echo rclone purge "%acc%:/Caca/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change   
 echo set /a loopcount=loopcount-1
 echo if %%loopcount%%==0 goto exitloop1
 echo goto loop1
@@ -330,7 +330,7 @@ echo :l23234
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors 
+echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -348,7 +348,7 @@ echo set cache_result=%%cache_result%%
 echo.
 echo set loopcount=%%cache_result%%
 echo :loop
-echo rclone purge "%acc%:/%%fldr%%/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
+echo rclone purge "%acc%:/%%fldr%%/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change   
 echo set /a loopcount=loopcount-1
 echo if %%loopcount%%==0 goto exitloop
 echo goto loop
@@ -371,7 +371,7 @@ echo :l23234
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors 
+echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -389,7 +389,7 @@ echo set cache_result=%%cache_result%%
 echo.
 echo set loopcount=%%cache_result%%
 echo :loop
-echo rclone purge "%acc%:/%%fldr%%/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
+echo rclone purge "%acc%:/%%fldr%%/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change   
 echo set /a loopcount=loopcount-1
 echo if %%loopcount%%==0 goto exitloop
 echo goto loop
@@ -435,7 +435,7 @@ echo :l23234
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors 
+echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -453,7 +453,7 @@ echo set cache_result=%%cache_result%%
 echo.
 echo set loopcount=%%cache_result%%
 echo :loop
-echo rclone purge "%acc%:/%%fldr%%/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
+echo rclone purge "%acc%:/%%fldr%%/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change   
 echo set /a loopcount=loopcount-1
 echo if %%loopcount%%==0 goto exitloop
 echo goto loop
@@ -480,7 +480,7 @@ echo :l23232
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"Caca"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors 
+echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -497,7 +497,7 @@ echo set cache_result=%%cache_result%%
 echo.
 echo set loopcount=%%cache_result%%
 echo :loop1
-echo rclone purge "%acc%:/Caca/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
+echo rclone purge "%acc%:/Caca/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change   
 echo set /a loopcount=loopcount-1
 echo if %%loopcount%%==0 goto exitloop1
 echo goto loop1
@@ -520,7 +520,7 @@ echo :l23234
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors 
+echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -538,7 +538,7 @@ echo set cache_result=%%cache_result%%
 echo.
 echo set loopcount=%%cache_result%%
 echo :loop
-echo rclone purge "%acc%:/%%fldr%%/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
+echo rclone purge "%acc%:/%%fldr%%/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change   
 echo set /a loopcount=loopcount-1
 echo if %%loopcount%%==0 goto exitloop
 echo goto loop
@@ -561,7 +561,7 @@ echo :l23234
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors 
+echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -579,7 +579,7 @@ echo set cache_result=%%cache_result%%
 echo.
 echo set loopcount=%%cache_result%%
 echo :loop
-echo rclone purge "%acc%:/%%fldr%%/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
+echo rclone purge "%acc%:/%%fldr%%/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change   
 echo set /a loopcount=loopcount-1
 echo if %%loopcount%%==0 goto exitloop
 echo goto loop
@@ -627,7 +627,7 @@ echo :l23234
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors 
+echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -645,7 +645,7 @@ echo set cache_result=%%cache_result%%
 echo.
 echo set loopcount=%%cache_result%%
 echo :loop
-echo rclone purge "oudhoh0050_sg4:/%%fldr%%/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
+echo rclone purge "oudhoh0050_sg4:/%%fldr%%/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change   
 echo set /a loopcount=loopcount-1
 echo if %%loopcount%%==0 goto exitloop
 echo goto loop
@@ -672,7 +672,7 @@ echo :l23232
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"Caca"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors 
+echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -689,7 +689,7 @@ echo set cache_result=%%cache_result%%
 echo.
 echo set loopcount=%%cache_result%%
 echo :loop1
-echo rclone purge "%acc%:/Caca/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
+echo rclone purge "%acc%:/Caca/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change   
 echo set /a loopcount=loopcount-1
 echo if %%loopcount%%==0 goto exitloop1
 echo goto loop1
@@ -712,7 +712,7 @@ echo :l23234
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors 
+echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -730,7 +730,7 @@ echo set cache_result=%%cache_result%%
 echo.
 echo set loopcount=%%cache_result%%
 echo :loop
-echo rclone purge "%acc%:/%%fldr%%/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
+echo rclone purge "%acc%:/%%fldr%%/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change   
 echo set /a loopcount=loopcount-1
 echo if %%loopcount%%==0 goto exitloop
 echo goto loop
@@ -753,7 +753,7 @@ echo :l23234
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors 
+echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -771,7 +771,7 @@ echo set cache_result=%%cache_result%%
 echo.
 echo set loopcount=%%cache_result%%
 echo :loop
-echo rclone purge "%acc%:/%%fldr%%/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
+echo rclone purge "%acc%:/%%fldr%%/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change   
 echo set /a loopcount=loopcount-1
 echo if %%loopcount%%==0 goto exitloop
 echo goto loop
@@ -819,7 +819,7 @@ echo :l23234
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors 
+echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -837,7 +837,7 @@ echo set cache_result=%%cache_result%%
 echo.
 echo set loopcount=%%cache_result%%
 echo :loop
-echo rclone purge "nkiux77509_sg5:/%%fldr%%/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
+echo rclone purge "nkiux77509_sg5:/%%fldr%%/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change   
 echo set /a loopcount=loopcount-1
 echo if %%loopcount%%==0 goto exitloop
 echo goto loop
@@ -864,7 +864,7 @@ echo :l23232
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"Caca"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors 
+echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -881,7 +881,7 @@ echo set cache_result=%%cache_result%%
 echo.
 echo set loopcount=%%cache_result%%
 echo :loop1
-echo rclone purge "%acc%:/Caca/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
+echo rclone purge "%acc%:/Caca/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change   
 echo set /a loopcount=loopcount-1
 echo if %%loopcount%%==0 goto exitloop1
 echo goto loop1
@@ -904,7 +904,7 @@ echo :l23234
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors 
+echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -922,7 +922,7 @@ echo set cache_result=%%cache_result%%
 echo.
 echo set loopcount=%%cache_result%%
 echo :loop
-echo rclone purge "%acc%:/%%fldr%%/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
+echo rclone purge "%acc%:/%%fldr%%/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change   
 echo set /a loopcount=loopcount-1
 echo if %%loopcount%%==0 goto exitloop
 echo goto loop
@@ -945,7 +945,7 @@ echo :l23234
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors 
+echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -963,7 +963,7 @@ echo set cache_result=%%cache_result%%
 echo.
 echo set loopcount=%%cache_result%%
 echo :loop
-echo rclone purge "%acc%:/%%fldr%%/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
+echo rclone purge "%acc%:/%%fldr%%/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change   
 echo set /a loopcount=loopcount-1
 echo if %%loopcount%%==0 goto exitloop
 echo goto loop
@@ -1010,7 +1010,7 @@ echo :l23234
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors 
+echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -1028,7 +1028,7 @@ echo set cache_result=%%cache_result%%
 echo.
 echo set loopcount=%%cache_result%%
 echo :loop
-echo rclone purge "didrhj9036_sg6:/%%fldr%%/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
+echo rclone purge "didrhj9036_sg6:/%%fldr%%/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change   
 echo set /a loopcount=loopcount-1
 echo if %%loopcount%%==0 goto exitloop
 echo goto loop
@@ -1055,7 +1055,7 @@ echo :l23232
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"Caca"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors 
+echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -1072,7 +1072,7 @@ echo set cache_result=%%cache_result%%
 echo.
 echo set loopcount=%%cache_result%%
 echo :loop1
-echo rclone purge "%acc%:/Caca/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
+echo rclone purge "%acc%:/Caca/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change   
 echo set /a loopcount=loopcount-1
 echo if %%loopcount%%==0 goto exitloop1
 echo goto loop1
@@ -1095,7 +1095,7 @@ echo :l23234
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors 
+echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -1113,7 +1113,7 @@ echo set cache_result=%%cache_result%%
 echo.
 echo set loopcount=%%cache_result%%
 echo :loop
-echo rclone purge "%acc%:/%%fldr%%/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
+echo rclone purge "%acc%:/%%fldr%%/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change   
 echo set /a loopcount=loopcount-1
 echo if %%loopcount%%==0 goto exitloop
 echo goto loop
@@ -1136,7 +1136,7 @@ echo :l23234
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors 
+echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -1154,7 +1154,7 @@ echo set cache_result=%%cache_result%%
 echo.
 echo set loopcount=%%cache_result%%
 echo :loop
-echo rclone purge "%acc%:/%%fldr%%/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
+echo rclone purge "%acc%:/%%fldr%%/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change   
 echo set /a loopcount=loopcount-1
 echo if %%loopcount%%==0 goto exitloop
 echo goto loop
@@ -1202,7 +1202,7 @@ echo :l23234
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors 
+echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -1220,7 +1220,7 @@ echo set cache_result=%%cache_result%%
 echo.
 echo set loopcount=%%cache_result%%
 echo :loop
-echo rclone purge "hjski8292882_sg7:/%%fldr%%/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
+echo rclone purge "hjski8292882_sg7:/%%fldr%%/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change   
 echo set /a loopcount=loopcount-1
 echo if %%loopcount%%==0 goto exitloop
 echo goto loop
@@ -1247,7 +1247,7 @@ echo :l23232
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"Caca"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors 
+echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -1264,7 +1264,7 @@ echo set cache_result=%%cache_result%%
 echo.
 echo set loopcount=%%cache_result%%
 echo :loop1
-echo rclone purge "%acc%:/Caca/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
+echo rclone purge "%acc%:/Caca/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change   
 echo set /a loopcount=loopcount-1
 echo if %%loopcount%%==0 goto exitloop1
 echo goto loop1
@@ -1287,7 +1287,7 @@ echo :l23234
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors 
+echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -1305,7 +1305,7 @@ echo set cache_result=%%cache_result%%
 echo.
 echo set loopcount=%%cache_result%%
 echo :loop
-echo rclone purge "%acc%:/%%fldr%%/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
+echo rclone purge "%acc%:/%%fldr%%/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change   
 echo set /a loopcount=loopcount-1
 echo if %%loopcount%%==0 goto exitloop
 echo goto loop
@@ -1328,7 +1328,7 @@ echo :l23234
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors 
+echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -1346,7 +1346,7 @@ echo set cache_result=%%cache_result%%
 echo.
 echo set loopcount=%%cache_result%%
 echo :loop
-echo rclone purge "%acc%:/%%fldr%%/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
+echo rclone purge "%acc%:/%%fldr%%/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change   
 echo set /a loopcount=loopcount-1
 echo if %%loopcount%%==0 goto exitloop
 echo goto loop
@@ -1370,7 +1370,7 @@ set acc=jsnwj84738_sg8
 
 echo cd %%userprofile%%
 
-REM --drive-trashed-only --drive-use-trash=false --fast-list --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
+REM --drive-trashed-only --drive-use-trash=false --fast-list --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change   
 
 
 echo.
@@ -1394,7 +1394,7 @@ echo :l23234
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"Caca"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors 
+echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -1412,7 +1412,7 @@ echo set cache_result=%%cache_result%%
 echo.
 echo set loopcount=%%cache_result%%
 echo :loop
-echo rclone purge "jsnwj84738_sg8:/%%fldr%%/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
+echo rclone purge "jsnwj84738_sg8:/%%fldr%%/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change   
 echo set /a loopcount=loopcount-1
 echo if %%loopcount%%==0 goto exitloop
 echo goto loop
@@ -1439,7 +1439,7 @@ echo :l23232
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"Caca"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors 
+echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -1456,7 +1456,7 @@ echo set cache_result=%%cache_result%%
 echo.
 echo set loopcount=%%cache_result%%
 echo :loop1
-echo rclone purge "%acc%:/Caca/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
+echo rclone purge "%acc%:/Caca/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change   
 echo set /a loopcount=loopcount-1
 echo if %%loopcount%%==0 goto exitloop1
 echo goto loop1
@@ -1479,7 +1479,7 @@ echo :l23234
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors 
+echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -1497,7 +1497,7 @@ echo set cache_result=%%cache_result%%
 echo.
 echo set loopcount=%%cache_result%%
 echo :loop
-echo rclone purge "%acc%:/%%fldr%%/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
+echo rclone purge "%acc%:/%%fldr%%/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change   
 echo set /a loopcount=loopcount-1
 echo if %%loopcount%%==0 goto exitloop
 echo goto loop
@@ -1520,7 +1520,7 @@ echo :l23234
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors 
+echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -1538,7 +1538,7 @@ echo set cache_result=%%cache_result%%
 echo.
 echo set loopcount=%%cache_result%%
 echo :loop
-echo rclone purge "%acc%:/%%fldr%%/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
+echo rclone purge "%acc%:/%%fldr%%/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change   
 echo set /a loopcount=loopcount-1
 echo if %%loopcount%%==0 goto exitloop
 echo goto loop
@@ -1589,7 +1589,7 @@ echo :l23234
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors 
+echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -1607,7 +1607,7 @@ echo set cache_result=%%cache_result%%
 echo.
 echo set loopcount=%%cache_result%%
 echo :loop
-echo rclone purge "ffdnsak8272793_sg9:/%%fldr%%/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
+echo rclone purge "ffdnsak8272793_sg9:/%%fldr%%/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change   
 echo set /a loopcount=loopcount-1
 echo if %%loopcount%%==0 goto exitloop
 echo goto loop
@@ -1634,7 +1634,7 @@ echo :l23232
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"Caca"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors 
+echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -1651,7 +1651,7 @@ echo set cache_result=%%cache_result%%
 echo.
 echo set loopcount=%%cache_result%%
 echo :loop1
-echo rclone purge "%acc%:/Caca/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
+echo rclone purge "%acc%:/Caca/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change   
 echo set /a loopcount=loopcount-1
 echo if %%loopcount%%==0 goto exitloop1
 echo goto loop1
@@ -1674,7 +1674,7 @@ echo :l23234
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors 
+echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -1692,7 +1692,7 @@ echo set cache_result=%%cache_result%%
 echo.
 echo set loopcount=%%cache_result%%
 echo :loop
-echo rclone purge "%acc%:/%%fldr%%/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
+echo rclone purge "%acc%:/%%fldr%%/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change   
 echo set /a loopcount=loopcount-1
 echo if %%loopcount%%==0 goto exitloop
 echo goto loop
@@ -1715,7 +1715,7 @@ echo :l23234
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors 
+echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -1733,7 +1733,7 @@ echo set cache_result=%%cache_result%%
 echo.
 echo set loopcount=%%cache_result%%
 echo :loop
-echo rclone purge "%acc%:/%%fldr%%/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
+echo rclone purge "%acc%:/%%fldr%%/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change   
 echo set /a loopcount=loopcount-1
 echo if %%loopcount%%==0 goto exitloop
 echo goto loop
@@ -1781,7 +1781,7 @@ echo :l23234
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors 
+echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -1799,7 +1799,7 @@ echo set cache_result=%%cache_result%%
 echo.
 echo set loopcount=%%cache_result%%
 echo :loop
-echo rclone purge "otipes7948_sg10:/%%fldr%%/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
+echo rclone purge "otipes7948_sg10:/%%fldr%%/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change   
 echo set /a loopcount=loopcount-1
 echo if %%loopcount%%==0 goto exitloop
 echo goto loop
@@ -1826,7 +1826,7 @@ echo :l23232
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"Caca"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors 
+echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -1843,7 +1843,7 @@ echo set cache_result=%%cache_result%%
 echo.
 echo set loopcount=%%cache_result%%
 echo :loop1
-echo rclone purge "%acc%:/Caca/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
+echo rclone purge "%acc%:/Caca/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change   
 echo set /a loopcount=loopcount-1
 echo if %%loopcount%%==0 goto exitloop1
 echo goto loop1
@@ -1866,7 +1866,7 @@ echo :l23234
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors 
+echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -1884,7 +1884,7 @@ echo set cache_result=%%cache_result%%
 echo.
 echo set loopcount=%%cache_result%%
 echo :loop
-echo rclone purge "%acc%:/%%fldr%%/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
+echo rclone purge "%acc%:/%%fldr%%/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change   
 echo set /a loopcount=loopcount-1
 echo if %%loopcount%%==0 goto exitloop
 echo goto loop
@@ -1907,7 +1907,7 @@ echo :l23234
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors 
+echo rclone lsd "%acc%:/" --max-depth 1 --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -1925,7 +1925,7 @@ echo set cache_result=%%cache_result%%
 echo.
 echo set loopcount=%%cache_result%%
 echo :loop
-echo rclone purge "%acc%:/%%fldr%%/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
+echo rclone purge "%acc%:/%%fldr%%/" --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change   
 echo set /a loopcount=loopcount-1
 echo if %%loopcount%%==0 goto exitloop
 echo goto loop
