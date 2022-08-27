@@ -1,4 +1,5 @@
 if not DEFINED IS_MINIMIZED set IS_MINIMIZED=1 && start "" /min "%~dpnx0" %* && exit
+cd %userprofile%
 
 
 REM ping www.google.com -n 1 -w 1000
@@ -9,86 +10,85 @@ REM  rclone copy A B
 REM  A nya gabakal pake usage
 
 
-cd %userprofile%
 
-set mkdirpath[0]=Selo/"
-set mkdirpath[1]=Selo/main_cloud/computers/alyx/"
-set mkdirpath[2]=Selo/main_cloud/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
-set mkdirpath[3]=Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
-set mkdirpath[4]=Caca/main_cloud/computers/caca/"
-set mkdirpath[5]=Anggun/main_cloud/gphotos/"
-set mkdirpath[6]=logs/"
+REM set mkdirpath[0]=Selo/"
+REM set mkdirpath[1]=Selo/kamikaze/computers/alyx/"
+REM set mkdirpath[2]=Selo/kamikaze/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
+REM set mkdirpath[3]=Selo/kamikaze/m.shahruxips-1@sman5tambunselatan.sch.id/"
+REM set mkdirpath[4]=Caca/kamikaze/computers/caca/"
+REM set mkdirpath[5]=Anggun/kamikaze/gphotos/"
+REM set mkdirpath[6]=logs/"
 
 set storage=aaveusdt_sg1
 set "x=0"
-:SymLoop2
+:d
 if defined mkdirpath[%x%] (
-    call rclone mkdir "%storage%:/%%mkdirpath[%x%]%% --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors
+    call rclone mkdir "%storage%:/%%mkdirpath[%x%]%% --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
     set /a "x+=1"
-    GOTO :SymLoop2)
+    GOTO :d)
 set storage=renaave50_sg2
 set "x=0"
-:SymLoop2
+:d
 if defined mkdirpath[%x%] (
-    call rclone mkdir "%storage%:/%%mkdirpath[%x%]%% --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors
+    call rclone mkdir "%storage%:/%%mkdirpath[%x%]%% --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
     set /a "x+=1"
-    GOTO :SymLoop2)
+    GOTO :d)
 set storage=renaave7_sg3
 set "x=0"
-:SymLoop2
+:d
 if defined mkdirpath[%x%] (
-    call rclone mkdir "%storage%:/%%mkdirpath[%x%]%% --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors
+    call rclone mkdir "%storage%:/%%mkdirpath[%x%]%% --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
     set /a "x+=1"
-    GOTO :SymLoop2)
+    GOTO :d)
 set storage=oudhoh0050_sg4
 set "x=0"
-:SymLoop2
+:d
 if defined mkdirpath[%x%] (
-    call rclone mkdir "%storage%:/%%mkdirpath[%x%]%% --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors
+    call rclone mkdir "%storage%:/%%mkdirpath[%x%]%% --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
     set /a "x+=1"
-    GOTO :SymLoop2)
+    GOTO :d)
 set storage=nkiux77509_sg5
 set "x=0"
-:SymLoop2
+:d
 if defined mkdirpath[%x%] (
-    call rclone mkdir "%storage%:/%%mkdirpath[%x%]%% --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors
+    call rclone mkdir "%storage%:/%%mkdirpath[%x%]%% --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
     set /a "x+=1"
-    GOTO :SymLoop2)
+    GOTO :d)
 set storage=didrhj9036_sg6
 set "x=0"
-:SymLoop2
+:d
 if defined mkdirpath[%x%] (
-    call rclone mkdir "%storage%:/%%mkdirpath[%x%]%% --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors
+    call rclone mkdir "%storage%:/%%mkdirpath[%x%]%% --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
     set /a "x+=1"
-    GOTO :SymLoop2)
+    GOTO :d)
 set storage=hjski8292882_sg7
 set "x=0"
-:SymLoop2
+:d
 if defined mkdirpath[%x%] (
-    call rclone mkdir "%storage%:/%%mkdirpath[%x%]%% --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors
+    call rclone mkdir "%storage%:/%%mkdirpath[%x%]%% --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
     set /a "x+=1"
-    GOTO :SymLoop2)
+    GOTO :d)
 set storage=jsnwj84738_sg8
 set "x=0"
-:SymLoop2
+:d
 if defined mkdirpath[%x%] (
-    call rclone mkdir "%storage%:/%%mkdirpath[%x%]%% --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors
+    call rclone mkdir "%storage%:/%%mkdirpath[%x%]%% --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
     set /a "x+=1"
-    GOTO :SymLoop2)
+    GOTO :d)
 set storage=ffdnsak8272793_sg9
 set "x=0"
-:SymLoop2
+:d
 if defined mkdirpath[%x%] (
-    call rclone mkdir "%storage%:/%%mkdirpath[%x%]%% --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors
+    call rclone mkdir "%storage%:/%%mkdirpath[%x%]%% --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
     set /a "x+=1"
-    GOTO :SymLoop2)
+    GOTO :d)
 set storage=otipes7948_sg10
 set "x=0"
-:SymLoop2
+:d
 if defined mkdirpath[%x%] (
-    call rclone mkdir "%storage%:/%%mkdirpath[%x%]%% --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors
+    call rclone mkdir "%storage%:/%%mkdirpath[%x%]%% --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors  
     set /a "x+=1"
-    GOTO :SymLoop2)
+    GOTO :d)
 
 
 
@@ -120,17 +120,12 @@ echo set mkpath[5]="fcfgts_driveku_me:/Unlimtd Copy/Downloads_pool_83174"
 echo set mkpath[6]="fcfgts_driveku_me:/Unlimtd Copy/Minecraft"
 
 echo set "x=0"
-echo :SymLoop212
+echo :d12
 echo if defined mkpath[%%x%%] ^(
-echo     call rclone mkdir %%%%mkpath[%%x%%]%%%% --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors
+echo     call rclone mkdir %%%%mkpath[%%x%%]%%%% --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
 echo     set /a "x+=1"
-echo     GOTO :SymLoop212
+echo     GOTO :d12
 echo ^)
-
-
-
-
-
 
 
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_1.bat"
@@ -141,742 +136,867 @@ echo ^)
 
 
 
-set acc=aaveusdt
-set sg=1
+set acc[1]=aaveusdt
+set acc[2]=renaave50
+set acc[3]=renaave7
+set acc[4]=oudhoh0050
+set acc[5]=nkiux77509
+set acc[6]=didrhj9036
+set acc[7]=hjski8292882
+set acc[8]=jsnwj84738
+set acc[9]=ffdnsak8272793
+set acc[10]=otipes7948
+
+
+set x0[0]=aaveusdt
+set x0[1]=aaveusdt
+set x0[2]=renaave50
+set x0[3]=renaave7
+set x0[4]=oudhoh0050
+set x0[5]=nkiux77509
+set x0[6]=didrhj9036
+set x0[7]=hjski8292882
+set x0[8]=jsnwj84738
+set x0[9]=ffdnsak8272793
+
+set "x=0"
+set "strg=1"
+set "k12=2"
+set "xv12=0"
+:d
+:i82ye
+if defined x0[%xv12%] (
+
+CALL :j219
+)
+
+
+
+
+
+:j219
+
+
+
 
 (
 
-echo set selofldrs[0]=a_fiyandha
-echo set selofldrs[1]=3D Objects
-echo set selofldrs[2]=Desktop
-echo set selofldrs[3]=Documents
-echo set selofldrs[4]=Videos
-echo set selofldrs[5]=Saved Games
-echo set selofldrs[6]=Favorites
-echo set selofldrs[7]=Links
-echo set selofldrs[8]=Music
-echo set selofldrs[9]=Contacts
-echo set selofldrs[10]=a NDF1x extended
-echo set selofldrs[11]=Downloads
-echo set selofldrs[12]=Pictures
-echo set selofldrs[13]=behavior_packs
-echo set selofldrs[14]=development_behavior_packs
-echo set selofldrs[15]=development_resource_packs
-echo set selofldrs[16]=development_skin_packs
-echo set selofldrs[17]=minecraftpe
-echo set selofldrs[18]=minecraftWorlds
-echo set selofldrs[19]=resource_packs
-echo set selofldrs[20]=skin_packs
-echo set selofldrs[21]=world_templates
-echo set selofldrs[22]=Notepad++
-echo set selofldrs[23]=z-bat-vbs-file settings
-echo set selofldrs[24]=rclone
-echo set selofldrs[25]=profiles
-
-echo cd %%userprofile%%
-
-echo set day=%%date:~-7,2%%
-echo set month=%%date:~-10,2%%
-echo set year=%%date:~-4%%
-echo set hour=%%time:~0,2%%
-echo set minute=%%time:~3,2%%
-echo set second=%%TIME:~6,2%%
-
-echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
-
-
-
-echo set "x=0"
-echo :SymLoop1
-echo if defined selofldrs[%%x%%] ^(
-echo     call rclone copy "aaveusdt,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selofldrs[%%x%%]%%%%" "aaveusdt_sg1:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10
-echo     set /a "x+=1"
-echo     GOTO :SymLoop1^)
-
-echo set "x=0"
-echo :SymLoop1
-echo if defined selofldrs[%%x%%] ^(
-echo     call rclone sync "aaveusdt,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selofldrs[%%x%%]%%%%" "aaveusdt_sg1:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
-echo     set /a "x+=1"
-echo     GOTO :SymLoop1^)
-
-echo set "x=0"
-echo :SymLoop1
-echo if defined selofldrs[%%x%%] ^(
-echo     call rclone mkdir "%acc%_sg%sg%:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors
-echo     set /a "x+=1"
-echo     GOTO :SymLoop1^)
-
-echo rclone moveto "aaveusdt_sg1:/Selo/main_cloud/computers/alyx/%%copyname%%" "aaveusdt_sg1:/Selo/main_cloud/computers/alyx/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors
-
-)>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_2.bat"
-
-
-
-
-set acc=renaave50
-set sg=2
-
-(
-
-echo set selofldrs[0]=a_fiyandha
-echo set selofldrs[1]=3D Objects
-echo set selofldrs[2]=Desktop
-echo set selofldrs[3]=Documents
-echo set selofldrs[4]=Videos
-echo set selofldrs[5]=Saved Games
-echo set selofldrs[6]=Favorites
-echo set selofldrs[7]=Links
-echo set selofldrs[8]=Music
-echo set selofldrs[9]=Contacts
-echo set selofldrs[10]=a NDF1x extended
-echo set selofldrs[11]=Downloads
-echo set selofldrs[12]=Pictures
-echo set selofldrs[13]=behavior_packs
-echo set selofldrs[14]=development_behavior_packs
-echo set selofldrs[15]=development_resource_packs
-echo set selofldrs[16]=development_skin_packs
-echo set selofldrs[17]=minecraftpe
-echo set selofldrs[18]=minecraftWorlds
-echo set selofldrs[19]=resource_packs
-echo set selofldrs[20]=skin_packs
-echo set selofldrs[21]=world_templates
-echo set selofldrs[22]=Notepad++
-echo set selofldrs[23]=z-bat-vbs-file settings
-echo set selofldrs[24]=rclone
-echo set selofldrs[25]=profiles
-
-
+echo %%%%acc[%%strg%%]%%%%
+pause
+
+call echo set selofldrs[0]=a_fiyandha
+call echo set selofldrs[1]=3D Objects
+call echo set selofldrs[2]=Desktop
+call echo set selofldrs[3]=Documents
+call echo set selofldrs[4]=Videos
+call echo set selofldrs[5]=Saved Games
+call echo set selofldrs[6]=Favorites
+call echo set selofldrs[7]=Links
+call echo set selofldrs[8]=Music
+call echo set selofldrs[9]=Contacts
+call echo set selofldrs[10]=a NDF1x extended
+call echo set selofldrs[11]=Downloads
+call echo set selofldrs[12]=Pictures
+call echo set selofldrs[13]=behavior_packs
+call echo set selofldrs[14]=development_behavior_packs
+call echo set selofldrs[15]=development_resource_packs
+call echo set selofldrs[16]=development_skin_packs
+call echo set selofldrs[17]=minecraftpe
+call echo set selofldrs[18]=minecraftWorlds
+call echo set selofldrs[19]=resource_packs
+call echo set selofldrs[20]=skin_packs
+call echo set selofldrs[21]=world_templates
+call echo set selofldrs[22]=Notepad++
+call echo set selofldrs[23]=z-bat-vbs-file settings
+call echo set selofldrs[24]=rclone
+call echo set selofldrs[25]=profiles
+
+call echo cd %%%%userprofile%%%%
+
+call echo set day=%%%%date:~-7,2%%%%
+call echo set month=%%%%date:~-10,2%%%%
+call echo set year=%%%%date:~-4%%%%
+call echo set hour=%%%%time:~0,2%%%%
+call echo set minute=%%%%time:~3,2%%%%
+call echo set second=%%%%TIME:~6,2%%%%
+
+call echo set copyname=%%%%day%%%%-%%%%month%%%%-%%%%year%%%%_%%%%hour%%%%_%%%%minute%%%%_%%%%second%%%%
+
+
+
+call echo set "x=0"
+call echo :i
+call echo if defined selofldrs[%%%%x%%%%] ^(
+call echo     call rclone copy "%%%%acc[%%strg%%]%%%%,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%%%%%selofldrs[%%%%x%%%%]%%%%%%%%" "%%%%acc[%%strg%%]%%%%_sg%%strg%%:/Selo/kamikaze/computers/alyx/%%%%copyname%%%%/%%%%%%%%selofldrs[%%%%x%%%%]%%%%%%%%"   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10
+call echo     set /a "x+=1"
+call echo     GOTO :i^)
+
+call echo set "x=0"
+call echo :i
+call echo if defined selofldrs[%%%%x%%%%] ^(
+call echo     call rclone sync "%%%%acc[%%strg%%]%%%%,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%%%%%selofldrs[%%%%x%%%%]%%%%%%%%" "%%%%acc[%%strg%%]%%%%_sg%%strg%%:/Selo/kamikaze/computers/alyx/%%%%copyname%%%%/%%%%%%%%selofldrs[%%%%x%%%%]%%%%%%%%"   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
+call echo     set /a "x+=1"
+call echo     GOTO :i^)
+
+call echo set "x=0"
+call echo :i
+call echo if defined selofldrs[%%%%x%%%%] ^(
+call echo     call rclone mkdir "%%%%acc[%%strg%%]%%%%_sg%%strg%%:/Selo/kamikaze/computers/alyx/%%%%copyname%%%%/%%%%%%%%selofldrs[%%%%x%%%%]%%%%%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
+call echo     set /a "x+=1"
+call echo     GOTO :i^)
+
+call echo rclone moveto "%%acc[%%strg%%]%%_sg%%strg%%:/Selo/kamikaze/computers/alyx/%%%%copyname%%%%" "%%%%acc[%%strg%%]%%%%_sg%%strg%%:/Selo/kamikaze/computers/alyx/%%%%copyname%%%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
+
+)>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_%k12%.bat"
+
+set /a "xv12+=1"
+set /a "strg+=1"
+set /a "k12+=1"
+set /a "x+=1"
+GOTO :i82ye
+
+
+
+
+
+
+
+REM set acc=aaveusdt
+REM set sg=1
+
+REM (
+
+REM echo set selofldrs[0]=a_fiyandha
+REM echo set selofldrs[1]=3D Objects
+REM echo set selofldrs[2]=Desktop
+REM echo set selofldrs[3]=Documents
+REM echo set selofldrs[4]=Videos
+REM echo set selofldrs[5]=Saved Games
+REM echo set selofldrs[6]=Favorites
+REM echo set selofldrs[7]=Links
+REM echo set selofldrs[8]=Music
+REM echo set selofldrs[9]=Contacts
+REM echo set selofldrs[10]=a NDF1x extended
+REM echo set selofldrs[11]=Downloads
+REM echo set selofldrs[12]=Pictures
+REM echo set selofldrs[13]=behavior_packs
+REM echo set selofldrs[14]=development_behavior_packs
+REM echo set selofldrs[15]=development_resource_packs
+REM echo set selofldrs[16]=development_skin_packs
+REM echo set selofldrs[17]=minecraftpe
+REM echo set selofldrs[18]=minecraftWorlds
+REM echo set selofldrs[19]=resource_packs
+REM echo set selofldrs[20]=skin_packs
+REM echo set selofldrs[21]=world_templates
+REM echo set selofldrs[22]=Notepad++
+REM echo set selofldrs[23]=z-bat-vbs-file settings
+REM echo set selofldrs[24]=rclone
+REM echo set selofldrs[25]=profiles
+
+REM echo cd %%userprofile%%
+
+REM echo set day=%%date:~-7,2%%
+REM echo set month=%%date:~-10,2%%
+REM echo set year=%%date:~-4%%
+REM echo set hour=%%time:~0,2%%
+REM echo set minute=%%time:~3,2%%
+REM echo set second=%%TIME:~6,2%%
+
+REM echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
+
+
+
+REM echo set "x=0"
+REM echo :i
+REM echo if defined selofldrs[%%x%%] ^(
+REM echo     call rclone copy "aaveusdt,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selofldrs[%%x%%]%%%%" "aaveusdt_sg1:/Selo/kamikaze/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%"   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10
+REM echo     set /a "x+=1"
+REM echo     GOTO :i^)
 
-echo cd %%userprofile%%
+REM echo set "x=0"
+REM echo :i
+REM echo if defined selofldrs[%%x%%] ^(
+REM echo     call rclone sync "aaveusdt,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selofldrs[%%x%%]%%%%" "aaveusdt_sg1:/Selo/kamikaze/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%"   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
+REM echo     set /a "x+=1"
+REM echo     GOTO :i^)
 
-echo set day=%%date:~-7,2%%
-echo set month=%%date:~-10,2%%
-echo set year=%%date:~-4%%
-echo set hour=%%time:~0,2%%
-echo set minute=%%time:~3,2%%
-echo set second=%%TIME:~6,2%%
-
-echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
-
-
-
-echo set "x=0"
-echo :SymLoop1
-echo if defined selofldrs[%%x%%] ^(
-echo     call rclone copy "renaave50,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selofldrs[%%x%%]%%%%" "renaave50_sg2:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10
-echo     set /a "x+=1"
-echo     GOTO :SymLoop1^)
-
-echo set "x=0"
-echo :SymLoop1
-echo if defined selofldrs[%%x%%] ^(
-echo     call rclone sync "renaave50,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selofldrs[%%x%%]%%%%" "renaave50_sg2:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
-echo     set /a "x+=1"
-echo     GOTO :SymLoop1^)
-
-echo set "x=0"
-echo :SymLoop1
-echo if defined selofldrs[%%x%%] ^(
-echo     call rclone mkdir "%acc%_sg%sg%:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors
-echo     set /a "x+=1"
-echo     GOTO :SymLoop1^)
-
-echo rclone moveto "renaave50_sg2:/Selo/main_cloud/computers/alyx/%%copyname%%" "renaave50_sg2:/Selo/main_cloud/computers/alyx/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors
-
-)>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_3.bat"
-
-
-
-
-
-set acc=renaave7
-set sg=3
-
-(
-
-echo set selofldrs[0]=a_fiyandha
-echo set selofldrs[1]=3D Objects
-echo set selofldrs[2]=Desktop
-echo set selofldrs[3]=Documents
-echo set selofldrs[4]=Videos
-echo set selofldrs[5]=Saved Games
-echo set selofldrs[6]=Favorites
-echo set selofldrs[7]=Links
-echo set selofldrs[8]=Music
-echo set selofldrs[9]=Contacts
-echo set selofldrs[10]=a NDF1x extended
-echo set selofldrs[11]=Downloads
-echo set selofldrs[12]=Pictures
-echo set selofldrs[13]=behavior_packs
-echo set selofldrs[14]=development_behavior_packs
-echo set selofldrs[15]=development_resource_packs
-echo set selofldrs[16]=development_skin_packs
-echo set selofldrs[17]=minecraftpe
-echo set selofldrs[18]=minecraftWorlds
-echo set selofldrs[19]=resource_packs
-echo set selofldrs[20]=skin_packs
-echo set selofldrs[21]=world_templates
-echo set selofldrs[22]=Notepad++
-echo set selofldrs[23]=z-bat-vbs-file settings
-echo set selofldrs[24]=rclone
-echo set selofldrs[25]=profiles
-
-echo cd %%userprofile%%
-
-echo set day=%%date:~-7,2%%
-echo set month=%%date:~-10,2%%
-echo set year=%%date:~-4%%
-echo set hour=%%time:~0,2%%
-echo set minute=%%time:~3,2%%
-echo set second=%%TIME:~6,2%%
-
-echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
-
-
-
-echo set "x=0"
-echo :SymLoop1
-echo if defined selofldrs[%%x%%] ^(
-echo     call rclone copy "renaave7,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selofldrs[%%x%%]%%%%" "renaave7_sg3:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10
-echo     set /a "x+=1"
-echo     GOTO :SymLoop1^)
-
-echo set "x=0"
-echo :SymLoop1
-echo if defined selofldrs[%%x%%] ^(
-echo     call rclone sync "renaave7,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selofldrs[%%x%%]%%%%" "renaave7_sg3:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
-echo     set /a "x+=1"
-echo     GOTO :SymLoop1^)
-
-echo set "x=0"
-echo :SymLoop1
-echo if defined selofldrs[%%x%%] ^(
-echo     call rclone mkdir "%acc%_sg%sg%:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors
-echo     set /a "x+=1"
-echo     GOTO :SymLoop1^)
-
-echo rclone moveto "renaave7_sg3:/Selo/main_cloud/computers/alyx/%%copyname%%" "renaave7_sg3:/Selo/main_cloud/computers/alyx/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors
-
-)>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_4.bat"
-
-
-
-
-
-set acc=oudhoh0050
-set sg=4
-
-(
-
-echo set selofldrs[0]=a_fiyandha
-echo set selofldrs[1]=3D Objects
-echo set selofldrs[2]=Desktop
-echo set selofldrs[3]=Documents
-echo set selofldrs[4]=Videos
-echo set selofldrs[5]=Saved Games
-echo set selofldrs[6]=Favorites
-echo set selofldrs[7]=Links
-echo set selofldrs[8]=Music
-echo set selofldrs[9]=Contacts
-echo set selofldrs[10]=a NDF1x extended
-echo set selofldrs[11]=Downloads
-echo set selofldrs[12]=Pictures
-echo set selofldrs[13]=behavior_packs
-echo set selofldrs[14]=development_behavior_packs
-echo set selofldrs[15]=development_resource_packs
-echo set selofldrs[16]=development_skin_packs
-echo set selofldrs[17]=minecraftpe
-echo set selofldrs[18]=minecraftWorlds
-echo set selofldrs[19]=resource_packs
-echo set selofldrs[20]=skin_packs
-echo set selofldrs[21]=world_templates
-echo set selofldrs[22]=Notepad++
-echo set selofldrs[23]=z-bat-vbs-file settings
-echo set selofldrs[24]=rclone
-echo set selofldrs[25]=profiles
-
-echo cd %%userprofile%%
-
-echo set day=%%date:~-7,2%%
-echo set month=%%date:~-10,2%%
-echo set year=%%date:~-4%%
-echo set hour=%%time:~0,2%%
-echo set minute=%%time:~3,2%%
-echo set second=%%TIME:~6,2%%
-
-echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
-
-
-
-echo set "x=0"
-echo :SymLoop1
-echo if defined selofldrs[%%x%%] ^(
-echo     call rclone copy "oudhoh0050,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selofldrs[%%x%%]%%%%" "oudhoh0050_sg4:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10
-echo     set /a "x+=1"
-echo     GOTO :SymLoop1^)
-
-echo set "x=0"
-echo :SymLoop1
-echo if defined selofldrs[%%x%%] ^(
-echo     call rclone sync "oudhoh0050,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selofldrs[%%x%%]%%%%" "oudhoh0050_sg4:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
-echo     set /a "x+=1"
-echo     GOTO :SymLoop1^)
-
-echo set "x=0"
-echo :SymLoop1
-echo if defined selofldrs[%%x%%] ^(
-echo     call rclone mkdir "%acc%_sg%sg%:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors
-echo     set /a "x+=1"
-echo     GOTO :SymLoop1^)
-
-echo rclone moveto "oudhoh0050_sg4:/Selo/main_cloud/computers/alyx/%%copyname%%" "oudhoh0050_sg4:/Selo/main_cloud/computers/alyx/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors
-
-)>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_5.bat"
-
-
-
-
-
-set acc=nkiux77509
-set sg=5
-
-(
-
-echo set selofldrs[0]=a_fiyandha
-echo set selofldrs[1]=3D Objects
-echo set selofldrs[2]=Desktop
-echo set selofldrs[3]=Documents
-echo set selofldrs[4]=Videos
-echo set selofldrs[5]=Saved Games
-echo set selofldrs[6]=Favorites
-echo set selofldrs[7]=Links
-echo set selofldrs[8]=Music
-echo set selofldrs[9]=Contacts
-echo set selofldrs[10]=a NDF1x extended
-echo set selofldrs[11]=Downloads
-echo set selofldrs[12]=Pictures
-echo set selofldrs[13]=behavior_packs
-echo set selofldrs[14]=development_behavior_packs
-echo set selofldrs[15]=development_resource_packs
-echo set selofldrs[16]=development_skin_packs
-echo set selofldrs[17]=minecraftpe
-echo set selofldrs[18]=minecraftWorlds
-echo set selofldrs[19]=resource_packs
-echo set selofldrs[20]=skin_packs
-echo set selofldrs[21]=world_templates
-echo set selofldrs[22]=Notepad++
-echo set selofldrs[23]=z-bat-vbs-file settings
-echo set selofldrs[24]=rclone
-echo set selofldrs[25]=profiles
-
-echo cd %%userprofile%%
-
-echo set day=%%date:~-7,2%%
-echo set month=%%date:~-10,2%%
-echo set year=%%date:~-4%%
-echo set hour=%%time:~0,2%%
-echo set minute=%%time:~3,2%%
-echo set second=%%TIME:~6,2%%
-
-echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
-
-
-
-echo set "x=0"
-echo :SymLoop1
-echo if defined selofldrs[%%x%%] ^(
-echo     call rclone copy "nkiux77509,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selofldrs[%%x%%]%%%%" "nkiux77509_sg5:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10
-echo     set /a "x+=1"
-echo     GOTO :SymLoop1^)
-
-echo set "x=0"
-echo :SymLoop1
-echo if defined selofldrs[%%x%%] ^(
-echo     call rclone sync "nkiux77509,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selofldrs[%%x%%]%%%%" "nkiux77509_sg5:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
-echo     set /a "x+=1"
-echo     GOTO :SymLoop1^)
-
-echo set "x=0"
-echo :SymLoop1
-echo if defined selofldrs[%%x%%] ^(
-echo     call rclone mkdir "%acc%_sg%sg%:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors
-echo     set /a "x+=1"
-echo     GOTO :SymLoop1^)
-
-echo rclone moveto "nkiux77509_sg5:/Selo/main_cloud/computers/alyx/%%copyname%%" "nkiux77509_sg5:/Selo/main_cloud/computers/alyx/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors
-
-)>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_6.bat"
-
-
-
-
-
-set acc=didrhj9036
-set sg=6
-
-(
-
-echo set selofldrs[0]=a_fiyandha
-echo set selofldrs[1]=3D Objects
-echo set selofldrs[2]=Desktop
-echo set selofldrs[3]=Documents
-echo set selofldrs[4]=Videos
-echo set selofldrs[5]=Saved Games
-echo set selofldrs[6]=Favorites
-echo set selofldrs[7]=Links
-echo set selofldrs[8]=Music
-echo set selofldrs[9]=Contacts
-echo set selofldrs[10]=a NDF1x extended
-echo set selofldrs[11]=Downloads
-echo set selofldrs[12]=Pictures
-echo set selofldrs[13]=behavior_packs
-echo set selofldrs[14]=development_behavior_packs
-echo set selofldrs[15]=development_resource_packs
-echo set selofldrs[16]=development_skin_packs
-echo set selofldrs[17]=minecraftpe
-echo set selofldrs[18]=minecraftWorlds
-echo set selofldrs[19]=resource_packs
-echo set selofldrs[20]=skin_packs
-echo set selofldrs[21]=world_templates
-echo set selofldrs[22]=Notepad++
-echo set selofldrs[23]=z-bat-vbs-file settings
-echo set selofldrs[24]=rclone
-echo set selofldrs[25]=profiles
-
-echo cd %%userprofile%%
-
-echo set day=%%date:~-7,2%%
-echo set month=%%date:~-10,2%%
-echo set year=%%date:~-4%%
-echo set hour=%%time:~0,2%%
-echo set minute=%%time:~3,2%%
-echo set second=%%TIME:~6,2%%
-
-echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
-
-
-
-echo set "x=0"
-echo :SymLoop1
-echo if defined selofldrs[%%x%%] ^(
-echo     call rclone copy "didrhj9036,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selofldrs[%%x%%]%%%%" "didrhj9036_sg6:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10
-echo     set /a "x+=1"
-echo     GOTO :SymLoop1^)
-
-echo set "x=0"
-echo :SymLoop1
-echo if defined selofldrs[%%x%%] ^(
-echo     call rclone sync "didrhj9036,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selofldrs[%%x%%]%%%%" "didrhj9036_sg6:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
-echo     set /a "x+=1"
-echo     GOTO :SymLoop1^)
-
-echo set "x=0"
-echo :SymLoop1
-echo if defined selofldrs[%%x%%] ^(
-echo     call rclone mkdir "%acc%_sg%sg%:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors
-echo     set /a "x+=1"
-echo     GOTO :SymLoop1^)
-
-echo rclone moveto "didrhj9036_sg6:/Selo/main_cloud/computers/alyx/%%copyname%%" "didrhj9036_sg6:/Selo/main_cloud/computers/alyx/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors
-
-)>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_7.bat"
-
-
-
-
-
-set acc=hjski8292882
-set sg=7
-
-(
-
-echo set selofldrs[0]=a_fiyandha
-echo set selofldrs[1]=3D Objects
-echo set selofldrs[2]=Desktop
-echo set selofldrs[3]=Documents
-echo set selofldrs[4]=Videos
-echo set selofldrs[5]=Saved Games
-echo set selofldrs[6]=Favorites
-echo set selofldrs[7]=Links
-echo set selofldrs[8]=Music
-echo set selofldrs[9]=Contacts
-echo set selofldrs[10]=a NDF1x extended
-echo set selofldrs[11]=Downloads
-echo set selofldrs[12]=Pictures
-echo set selofldrs[13]=behavior_packs
-echo set selofldrs[14]=development_behavior_packs
-echo set selofldrs[15]=development_resource_packs
-echo set selofldrs[16]=development_skin_packs
-echo set selofldrs[17]=minecraftpe
-echo set selofldrs[18]=minecraftWorlds
-echo set selofldrs[19]=resource_packs
-echo set selofldrs[20]=skin_packs
-echo set selofldrs[21]=world_templates
-echo set selofldrs[22]=Notepad++
-echo set selofldrs[23]=z-bat-vbs-file settings
-echo set selofldrs[24]=rclone
-echo set selofldrs[25]=profiles
-
-echo cd %%userprofile%%
-
-echo set day=%%date:~-7,2%%
-echo set month=%%date:~-10,2%%
-echo set year=%%date:~-4%%
-echo set hour=%%time:~0,2%%
-echo set minute=%%time:~3,2%%
-echo set second=%%TIME:~6,2%%
-
-echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
-
-
-
-echo set "x=0"
-echo :SymLoop1
-echo if defined selofldrs[%%x%%] ^(
-echo     call rclone copy "hjski8292882,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selofldrs[%%x%%]%%%%" "hjski8292882_sg7:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10
-echo     set /a "x+=1"
-echo     GOTO :SymLoop1^)
-
-echo set "x=0"
-echo :SymLoop1
-echo if defined selofldrs[%%x%%] ^(
-echo     call rclone sync "hjski8292882,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selofldrs[%%x%%]%%%%" "hjski8292882_sg7:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
-echo     set /a "x+=1"
-echo     GOTO :SymLoop1^)
-
-echo set "x=0"
-echo :SymLoop1
-echo if defined selofldrs[%%x%%] ^(
-echo     call rclone mkdir "%acc%_sg%sg%:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors
-echo     set /a "x+=1"
-echo     GOTO :SymLoop1^)
-
-echo rclone moveto "hjski8292882_sg7:/Selo/main_cloud/computers/alyx/%%copyname%%" "hjski8292882_sg7:/Selo/main_cloud/computers/alyx/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors
-
-)>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_8.bat"
-
-
-
-
-
-set acc=jsnwj84738
-set sg=8
-
-(
-
-echo set selofldrs[0]=a_fiyandha
-echo set selofldrs[1]=3D Objects
-echo set selofldrs[2]=Desktop
-echo set selofldrs[3]=Documents
-echo set selofldrs[4]=Videos
-echo set selofldrs[5]=Saved Games
-echo set selofldrs[6]=Favorites
-echo set selofldrs[7]=Links
-echo set selofldrs[8]=Music
-echo set selofldrs[9]=Contacts
-echo set selofldrs[10]=a NDF1x extended
-echo set selofldrs[11]=Downloads
-echo set selofldrs[12]=Pictures
-echo set selofldrs[13]=behavior_packs
-echo set selofldrs[14]=development_behavior_packs
-echo set selofldrs[15]=development_resource_packs
-echo set selofldrs[16]=development_skin_packs
-echo set selofldrs[17]=minecraftpe
-echo set selofldrs[18]=minecraftWorlds
-echo set selofldrs[19]=resource_packs
-echo set selofldrs[20]=skin_packs
-echo set selofldrs[21]=world_templates
-echo set selofldrs[22]=Notepad++
-echo set selofldrs[23]=z-bat-vbs-file settings
-echo set selofldrs[24]=rclone
-echo set selofldrs[25]=profiles
-
-echo cd %%userprofile%%
-
-echo set day=%%date:~-7,2%%
-echo set month=%%date:~-10,2%%
-echo set year=%%date:~-4%%
-echo set hour=%%time:~0,2%%
-echo set minute=%%time:~3,2%%
-echo set second=%%TIME:~6,2%%
-
-echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
-
-
-
-echo set "x=0"
-echo :SymLoop1
-echo if defined selofldrs[%%x%%] ^(
-echo     call rclone copy "jsnwj84738,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selofldrs[%%x%%]%%%%" "jsnwj84738_sg8:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10
-echo     set /a "x+=1"
-echo     GOTO :SymLoop1^)
-
-echo set "x=0"
-echo :SymLoop1
-echo if defined selofldrs[%%x%%] ^(
-echo     call rclone sync "jsnwj84738,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selofldrs[%%x%%]%%%%" "jsnwj84738_sg8:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
-echo     set /a "x+=1"
-echo     GOTO :SymLoop1^)
-
-echo set "x=0"
-echo :SymLoop1
-echo if defined selofldrs[%%x%%] ^(
-echo     call rclone mkdir "%acc%_sg%sg%:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors
-echo     set /a "x+=1"
-echo     GOTO :SymLoop1^)
-
-echo rclone moveto "jsnwj84738_sg8:/Selo/main_cloud/computers/alyx/%%copyname%%" "jsnwj84738_sg8:/Selo/main_cloud/computers/alyx/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors
-
-)>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_9.bat"
-
-
-
-
-
-set acc=ffdnsak8272793
-set sg=9
-
-(
-
-echo set selofldrs[0]=a_fiyandha
-echo set selofldrs[1]=3D Objects
-echo set selofldrs[2]=Desktop
-echo set selofldrs[3]=Documents
-echo set selofldrs[4]=Videos
-echo set selofldrs[5]=Saved Games
-echo set selofldrs[6]=Favorites
-echo set selofldrs[7]=Links
-echo set selofldrs[8]=Music
-echo set selofldrs[9]=Contacts
-echo set selofldrs[10]=a NDF1x extended
-echo set selofldrs[11]=Downloads
-echo set selofldrs[12]=Pictures
-echo set selofldrs[13]=behavior_packs
-echo set selofldrs[14]=development_behavior_packs
-echo set selofldrs[15]=development_resource_packs
-echo set selofldrs[16]=development_skin_packs
-echo set selofldrs[17]=minecraftpe
-echo set selofldrs[18]=minecraftWorlds
-echo set selofldrs[19]=resource_packs
-echo set selofldrs[20]=skin_packs
-echo set selofldrs[21]=world_templates
-echo set selofldrs[22]=Notepad++
-echo set selofldrs[23]=z-bat-vbs-file settings
-echo set selofldrs[24]=rclone
-echo set selofldrs[25]=profiles
-
-echo cd %%userprofile%%
-
-echo set day=%%date:~-7,2%%
-echo set month=%%date:~-10,2%%
-echo set year=%%date:~-4%%
-echo set hour=%%time:~0,2%%
-echo set minute=%%time:~3,2%%
-echo set second=%%TIME:~6,2%%
-
-echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
-
-
-
-echo set "x=0"
-echo :SymLoop1
-echo if defined selofldrs[%%x%%] ^(
-echo     call rclone copy "ffdnsak8272793,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selofldrs[%%x%%]%%%%" "ffdnsak8272793_sg9:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10
-echo     set /a "x+=1"
-echo     GOTO :SymLoop1^)
-
-echo set "x=0"
-echo :SymLoop1
-echo if defined selofldrs[%%x%%] ^(
-echo     call rclone sync "ffdnsak8272793,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selofldrs[%%x%%]%%%%" "ffdnsak8272793_sg9:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
-echo     set /a "x+=1"
-echo     GOTO :SymLoop1^)
-
-echo set "x=0"
-echo :SymLoop1
-echo if defined selofldrs[%%x%%] ^(
-echo     call rclone mkdir "%acc%_sg%sg%:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors
-echo     set /a "x+=1"
-echo     GOTO :SymLoop1^)
-
-echo rclone moveto "ffdnsak8272793_sg9:/Selo/main_cloud/computers/alyx/%%copyname%%" "ffdnsak8272793_sg9:/Selo/main_cloud/computers/alyx/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors
-
-)>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_10.bat"
-
-
-
-
-
-set acc=otipes7948
-set sg=10
-
-(
-
-echo set selofldrs[0]=a_fiyandha
-echo set selofldrs[1]=3D Objects
-echo set selofldrs[2]=Desktop
-echo set selofldrs[3]=Documents
-echo set selofldrs[4]=Videos
-echo set selofldrs[5]=Saved Games
-echo set selofldrs[6]=Favorites
-echo set selofldrs[7]=Links
-echo set selofldrs[8]=Music
-echo set selofldrs[9]=Contacts
-echo set selofldrs[10]=a NDF1x extended
-echo set selofldrs[11]=Downloads
-echo set selofldrs[12]=Pictures
-echo set selofldrs[13]=behavior_packs
-echo set selofldrs[14]=development_behavior_packs
-echo set selofldrs[15]=development_resource_packs
-echo set selofldrs[16]=development_skin_packs
-echo set selofldrs[17]=minecraftpe
-echo set selofldrs[18]=minecraftWorlds
-echo set selofldrs[19]=resource_packs
-echo set selofldrs[20]=skin_packs
-echo set selofldrs[21]=world_templates
-echo set selofldrs[22]=Notepad++
-echo set selofldrs[23]=z-bat-vbs-file settings
-echo set selofldrs[24]=rclone
-echo set selofldrs[25]=profiles
-
-echo cd %%userprofile%%
-
-echo set day=%%date:~-7,2%%
-echo set month=%%date:~-10,2%%
-echo set year=%%date:~-4%%
-echo set hour=%%time:~0,2%%
-echo set minute=%%time:~3,2%%
-echo set second=%%TIME:~6,2%%
-
-echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
-
-
-
-echo set "x=0"
-echo :SymLoop1
-echo if defined selofldrs[%%x%%] ^(
-echo     call rclone copy "otipes7948,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selofldrs[%%x%%]%%%%" "otipes7948_sg10:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10
-echo     set /a "x+=1"
-echo     GOTO :SymLoop1^)
-
-echo set "x=0"
-echo :SymLoop1
-echo if defined selofldrs[%%x%%] ^(
-echo     call rclone sync "otipes7948,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selofldrs[%%x%%]%%%%" "otipes7948_sg10:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
-echo     set /a "x+=1"
-echo     GOTO :SymLoop1^)
-
-echo set "x=0"
-echo :SymLoop1
-echo if defined selofldrs[%%x%%] ^(
-echo     call rclone mkdir "%acc%_sg%sg%:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors
-echo     set /a "x+=1"
-echo     GOTO :SymLoop1^)
-
-echo rclone moveto "otipes7948_sg10:/Selo/main_cloud/computers/alyx/%%copyname%%" "otipes7948_sg10:/Selo/main_cloud/computers/alyx/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors
-
-)>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_11.bat"
+REM echo set "x=0"
+REM echo :i
+REM echo if defined selofldrs[%%x%%] ^(
+REM echo     call rclone mkdir "%acc%_sg%sg%:/Selo/kamikaze/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
+REM echo     set /a "x+=1"
+REM echo     GOTO :i^)
+
+REM echo rclone moveto "aaveusdt_sg1:/Selo/kamikaze/computers/alyx/%%copyname%%" "aaveusdt_sg1:/Selo/kamikaze/computers/alyx/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
+
+REM )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_%k12%.bat"
+
+
+
+
+REM set acc=renaave50
+REM set sg=2
+
+REM (
+
+REM echo set selofldrs[0]=a_fiyandha
+REM echo set selofldrs[1]=3D Objects
+REM echo set selofldrs[2]=Desktop
+REM echo set selofldrs[3]=Documents
+REM echo set selofldrs[4]=Videos
+REM echo set selofldrs[5]=Saved Games
+REM echo set selofldrs[6]=Favorites
+REM echo set selofldrs[7]=Links
+REM echo set selofldrs[8]=Music
+REM echo set selofldrs[9]=Contacts
+REM echo set selofldrs[10]=a NDF1x extended
+REM echo set selofldrs[11]=Downloads
+REM echo set selofldrs[12]=Pictures
+REM echo set selofldrs[13]=behavior_packs
+REM echo set selofldrs[14]=development_behavior_packs
+REM echo set selofldrs[15]=development_resource_packs
+REM echo set selofldrs[16]=development_skin_packs
+REM echo set selofldrs[17]=minecraftpe
+REM echo set selofldrs[18]=minecraftWorlds
+REM echo set selofldrs[19]=resource_packs
+REM echo set selofldrs[20]=skin_packs
+REM echo set selofldrs[21]=world_templates
+REM echo set selofldrs[22]=Notepad++
+REM echo set selofldrs[23]=z-bat-vbs-file settings
+REM echo set selofldrs[24]=rclone
+REM echo set selofldrs[25]=profiles
+
+
+
+REM echo cd %%userprofile%%
+
+REM echo set day=%%date:~-7,2%%
+REM echo set month=%%date:~-10,2%%
+REM echo set year=%%date:~-4%%
+REM echo set hour=%%time:~0,2%%
+REM echo set minute=%%time:~3,2%%
+REM echo set second=%%TIME:~6,2%%
+
+REM echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
+
+
+
+REM echo set "x=0"
+REM echo :i
+REM echo if defined selofldrs[%%x%%] ^(
+REM echo     call rclone copy "renaave50,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selofldrs[%%x%%]%%%%" "renaave50_sg2:/Selo/kamikaze/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%"   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10
+REM echo     set /a "x+=1"
+REM echo     GOTO :i^)
+
+REM echo set "x=0"
+REM echo :i
+REM echo if defined selofldrs[%%x%%] ^(
+REM echo     call rclone sync "renaave50,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selofldrs[%%x%%]%%%%" "renaave50_sg2:/Selo/kamikaze/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%"   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
+REM echo     set /a "x+=1"
+REM echo     GOTO :i^)
+
+REM echo set "x=0"
+REM echo :i
+REM echo if defined selofldrs[%%x%%] ^(
+REM echo     call rclone mkdir "%acc%_sg%sg%:/Selo/kamikaze/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
+REM echo     set /a "x+=1"
+REM echo     GOTO :i^)
+
+REM echo rclone moveto "renaave50_sg2:/Selo/kamikaze/computers/alyx/%%copyname%%" "renaave50_sg2:/Selo/kamikaze/computers/alyx/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
+
+REM )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_3.bat"
+
+
+
+
+
+REM set acc=renaave7
+REM set sg=3
+
+REM (
+
+REM echo set selofldrs[0]=a_fiyandha
+REM echo set selofldrs[1]=3D Objects
+REM echo set selofldrs[2]=Desktop
+REM echo set selofldrs[3]=Documents
+REM echo set selofldrs[4]=Videos
+REM echo set selofldrs[5]=Saved Games
+REM echo set selofldrs[6]=Favorites
+REM echo set selofldrs[7]=Links
+REM echo set selofldrs[8]=Music
+REM echo set selofldrs[9]=Contacts
+REM echo set selofldrs[10]=a NDF1x extended
+REM echo set selofldrs[11]=Downloads
+REM echo set selofldrs[12]=Pictures
+REM echo set selofldrs[13]=behavior_packs
+REM echo set selofldrs[14]=development_behavior_packs
+REM echo set selofldrs[15]=development_resource_packs
+REM echo set selofldrs[16]=development_skin_packs
+REM echo set selofldrs[17]=minecraftpe
+REM echo set selofldrs[18]=minecraftWorlds
+REM echo set selofldrs[19]=resource_packs
+REM echo set selofldrs[20]=skin_packs
+REM echo set selofldrs[21]=world_templates
+REM echo set selofldrs[22]=Notepad++
+REM echo set selofldrs[23]=z-bat-vbs-file settings
+REM echo set selofldrs[24]=rclone
+REM echo set selofldrs[25]=profiles
+
+REM echo cd %%userprofile%%
+
+REM echo set day=%%date:~-7,2%%
+REM echo set month=%%date:~-10,2%%
+REM echo set year=%%date:~-4%%
+REM echo set hour=%%time:~0,2%%
+REM echo set minute=%%time:~3,2%%
+REM echo set second=%%TIME:~6,2%%
+
+REM echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
+
+
+
+REM echo set "x=0"
+REM echo :i
+REM echo if defined selofldrs[%%x%%] ^(
+REM echo     call rclone copy "renaave7,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selofldrs[%%x%%]%%%%" "renaave7_sg3:/Selo/kamikaze/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%"   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10
+REM echo     set /a "x+=1"
+REM echo     GOTO :i^)
+
+REM echo set "x=0"
+REM echo :i
+REM echo if defined selofldrs[%%x%%] ^(
+REM echo     call rclone sync "renaave7,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selofldrs[%%x%%]%%%%" "renaave7_sg3:/Selo/kamikaze/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%"   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
+REM echo     set /a "x+=1"
+REM echo     GOTO :i^)
+
+REM echo set "x=0"
+REM echo :i
+REM echo if defined selofldrs[%%x%%] ^(
+REM echo     call rclone mkdir "%acc%_sg%sg%:/Selo/kamikaze/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
+REM echo     set /a "x+=1"
+REM echo     GOTO :i^)
+
+REM echo rclone moveto "renaave7_sg3:/Selo/kamikaze/computers/alyx/%%copyname%%" "renaave7_sg3:/Selo/kamikaze/computers/alyx/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
+
+REM )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_4.bat"
+
+
+
+
+
+REM set acc=oudhoh0050
+REM set sg=4
+
+REM (
+
+REM echo set selofldrs[0]=a_fiyandha
+REM echo set selofldrs[1]=3D Objects
+REM echo set selofldrs[2]=Desktop
+REM echo set selofldrs[3]=Documents
+REM echo set selofldrs[4]=Videos
+REM echo set selofldrs[5]=Saved Games
+REM echo set selofldrs[6]=Favorites
+REM echo set selofldrs[7]=Links
+REM echo set selofldrs[8]=Music
+REM echo set selofldrs[9]=Contacts
+REM echo set selofldrs[10]=a NDF1x extended
+REM echo set selofldrs[11]=Downloads
+REM echo set selofldrs[12]=Pictures
+REM echo set selofldrs[13]=behavior_packs
+REM echo set selofldrs[14]=development_behavior_packs
+REM echo set selofldrs[15]=development_resource_packs
+REM echo set selofldrs[16]=development_skin_packs
+REM echo set selofldrs[17]=minecraftpe
+REM echo set selofldrs[18]=minecraftWorlds
+REM echo set selofldrs[19]=resource_packs
+REM echo set selofldrs[20]=skin_packs
+REM echo set selofldrs[21]=world_templates
+REM echo set selofldrs[22]=Notepad++
+REM echo set selofldrs[23]=z-bat-vbs-file settings
+REM echo set selofldrs[24]=rclone
+REM echo set selofldrs[25]=profiles
+
+REM echo cd %%userprofile%%
+
+REM echo set day=%%date:~-7,2%%
+REM echo set month=%%date:~-10,2%%
+REM echo set year=%%date:~-4%%
+REM echo set hour=%%time:~0,2%%
+REM echo set minute=%%time:~3,2%%
+REM echo set second=%%TIME:~6,2%%
+
+REM echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
+
+
+
+REM echo set "x=0"
+REM echo :i
+REM echo if defined selofldrs[%%x%%] ^(
+REM echo     call rclone copy "oudhoh0050,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selofldrs[%%x%%]%%%%" "oudhoh0050_sg4:/Selo/kamikaze/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%"   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10
+REM echo     set /a "x+=1"
+REM echo     GOTO :i^)
+
+REM echo set "x=0"
+REM echo :i
+REM echo if defined selofldrs[%%x%%] ^(
+REM echo     call rclone sync "oudhoh0050,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selofldrs[%%x%%]%%%%" "oudhoh0050_sg4:/Selo/kamikaze/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%"   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
+REM echo     set /a "x+=1"
+REM echo     GOTO :i^)
+
+REM echo set "x=0"
+REM echo :i
+REM echo if defined selofldrs[%%x%%] ^(
+REM echo     call rclone mkdir "%acc%_sg%sg%:/Selo/kamikaze/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
+REM echo     set /a "x+=1"
+REM echo     GOTO :i^)
+
+REM echo rclone moveto "oudhoh0050_sg4:/Selo/kamikaze/computers/alyx/%%copyname%%" "oudhoh0050_sg4:/Selo/kamikaze/computers/alyx/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
+
+REM )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_5.bat"
+
+
+
+
+
+REM set acc=nkiux77509
+REM set sg=5
+
+REM (
+
+REM echo set selofldrs[0]=a_fiyandha
+REM echo set selofldrs[1]=3D Objects
+REM echo set selofldrs[2]=Desktop
+REM echo set selofldrs[3]=Documents
+REM echo set selofldrs[4]=Videos
+REM echo set selofldrs[5]=Saved Games
+REM echo set selofldrs[6]=Favorites
+REM echo set selofldrs[7]=Links
+REM echo set selofldrs[8]=Music
+REM echo set selofldrs[9]=Contacts
+REM echo set selofldrs[10]=a NDF1x extended
+REM echo set selofldrs[11]=Downloads
+REM echo set selofldrs[12]=Pictures
+REM echo set selofldrs[13]=behavior_packs
+REM echo set selofldrs[14]=development_behavior_packs
+REM echo set selofldrs[15]=development_resource_packs
+REM echo set selofldrs[16]=development_skin_packs
+REM echo set selofldrs[17]=minecraftpe
+REM echo set selofldrs[18]=minecraftWorlds
+REM echo set selofldrs[19]=resource_packs
+REM echo set selofldrs[20]=skin_packs
+REM echo set selofldrs[21]=world_templates
+REM echo set selofldrs[22]=Notepad++
+REM echo set selofldrs[23]=z-bat-vbs-file settings
+REM echo set selofldrs[24]=rclone
+REM echo set selofldrs[25]=profiles
+
+REM echo cd %%userprofile%%
+
+REM echo set day=%%date:~-7,2%%
+REM echo set month=%%date:~-10,2%%
+REM echo set year=%%date:~-4%%
+REM echo set hour=%%time:~0,2%%
+REM echo set minute=%%time:~3,2%%
+REM echo set second=%%TIME:~6,2%%
+
+REM echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
+
+
+
+REM echo set "x=0"
+REM echo :i
+REM echo if defined selofldrs[%%x%%] ^(
+REM echo     call rclone copy "nkiux77509,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selofldrs[%%x%%]%%%%" "nkiux77509_sg5:/Selo/kamikaze/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%"   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10
+REM echo     set /a "x+=1"
+REM echo     GOTO :i^)
+
+REM echo set "x=0"
+REM echo :i
+REM echo if defined selofldrs[%%x%%] ^(
+REM echo     call rclone sync "nkiux77509,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selofldrs[%%x%%]%%%%" "nkiux77509_sg5:/Selo/kamikaze/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%"   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
+REM echo     set /a "x+=1"
+REM echo     GOTO :i^)
+
+REM echo set "x=0"
+REM echo :i
+REM echo if defined selofldrs[%%x%%] ^(
+REM echo     call rclone mkdir "%acc%_sg%sg%:/Selo/kamikaze/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
+REM echo     set /a "x+=1"
+REM echo     GOTO :i^)
+
+REM echo rclone moveto "nkiux77509_sg5:/Selo/kamikaze/computers/alyx/%%copyname%%" "nkiux77509_sg5:/Selo/kamikaze/computers/alyx/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
+
+REM )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_6.bat"
+
+
+
+
+
+REM set acc=didrhj9036
+REM set sg=6
+
+REM (
+
+REM echo set selofldrs[0]=a_fiyandha
+REM echo set selofldrs[1]=3D Objects
+REM echo set selofldrs[2]=Desktop
+REM echo set selofldrs[3]=Documents
+REM echo set selofldrs[4]=Videos
+REM echo set selofldrs[5]=Saved Games
+REM echo set selofldrs[6]=Favorites
+REM echo set selofldrs[7]=Links
+REM echo set selofldrs[8]=Music
+REM echo set selofldrs[9]=Contacts
+REM echo set selofldrs[10]=a NDF1x extended
+REM echo set selofldrs[11]=Downloads
+REM echo set selofldrs[12]=Pictures
+REM echo set selofldrs[13]=behavior_packs
+REM echo set selofldrs[14]=development_behavior_packs
+REM echo set selofldrs[15]=development_resource_packs
+REM echo set selofldrs[16]=development_skin_packs
+REM echo set selofldrs[17]=minecraftpe
+REM echo set selofldrs[18]=minecraftWorlds
+REM echo set selofldrs[19]=resource_packs
+REM echo set selofldrs[20]=skin_packs
+REM echo set selofldrs[21]=world_templates
+REM echo set selofldrs[22]=Notepad++
+REM echo set selofldrs[23]=z-bat-vbs-file settings
+REM echo set selofldrs[24]=rclone
+REM echo set selofldrs[25]=profiles
+
+REM echo cd %%userprofile%%
+
+REM echo set day=%%date:~-7,2%%
+REM echo set month=%%date:~-10,2%%
+REM echo set year=%%date:~-4%%
+REM echo set hour=%%time:~0,2%%
+REM echo set minute=%%time:~3,2%%
+REM echo set second=%%TIME:~6,2%%
+
+REM echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
+
+
+
+REM echo set "x=0"
+REM echo :i
+REM echo if defined selofldrs[%%x%%] ^(
+REM echo     call rclone copy "didrhj9036,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selofldrs[%%x%%]%%%%" "didrhj9036_sg6:/Selo/kamikaze/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%"   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10
+REM echo     set /a "x+=1"
+REM echo     GOTO :i^)
+
+REM echo set "x=0"
+REM echo :i
+REM echo if defined selofldrs[%%x%%] ^(
+REM echo     call rclone sync "didrhj9036,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selofldrs[%%x%%]%%%%" "didrhj9036_sg6:/Selo/kamikaze/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%"   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
+REM echo     set /a "x+=1"
+REM echo     GOTO :i^)
+
+REM echo set "x=0"
+REM echo :i
+REM echo if defined selofldrs[%%x%%] ^(
+REM echo     call rclone mkdir "%acc%_sg%sg%:/Selo/kamikaze/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
+REM echo     set /a "x+=1"
+REM echo     GOTO :i^)
+
+REM echo rclone moveto "didrhj9036_sg6:/Selo/kamikaze/computers/alyx/%%copyname%%" "didrhj9036_sg6:/Selo/kamikaze/computers/alyx/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
+
+REM )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_7.bat"
+
+
+
+
+
+REM set acc=hjski8292882
+REM set sg=7
+
+REM (
+
+REM echo set selofldrs[0]=a_fiyandha
+REM echo set selofldrs[1]=3D Objects
+REM echo set selofldrs[2]=Desktop
+REM echo set selofldrs[3]=Documents
+REM echo set selofldrs[4]=Videos
+REM echo set selofldrs[5]=Saved Games
+REM echo set selofldrs[6]=Favorites
+REM echo set selofldrs[7]=Links
+REM echo set selofldrs[8]=Music
+REM echo set selofldrs[9]=Contacts
+REM echo set selofldrs[10]=a NDF1x extended
+REM echo set selofldrs[11]=Downloads
+REM echo set selofldrs[12]=Pictures
+REM echo set selofldrs[13]=behavior_packs
+REM echo set selofldrs[14]=development_behavior_packs
+REM echo set selofldrs[15]=development_resource_packs
+REM echo set selofldrs[16]=development_skin_packs
+REM echo set selofldrs[17]=minecraftpe
+REM echo set selofldrs[18]=minecraftWorlds
+REM echo set selofldrs[19]=resource_packs
+REM echo set selofldrs[20]=skin_packs
+REM echo set selofldrs[21]=world_templates
+REM echo set selofldrs[22]=Notepad++
+REM echo set selofldrs[23]=z-bat-vbs-file settings
+REM echo set selofldrs[24]=rclone
+REM echo set selofldrs[25]=profiles
+
+REM echo cd %%userprofile%%
+
+REM echo set day=%%date:~-7,2%%
+REM echo set month=%%date:~-10,2%%
+REM echo set year=%%date:~-4%%
+REM echo set hour=%%time:~0,2%%
+REM echo set minute=%%time:~3,2%%
+REM echo set second=%%TIME:~6,2%%
+
+REM echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
+
+
+
+REM echo set "x=0"
+REM echo :i
+REM echo if defined selofldrs[%%x%%] ^(
+REM echo     call rclone copy "hjski8292882,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selofldrs[%%x%%]%%%%" "hjski8292882_sg7:/Selo/kamikaze/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%"   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10
+REM echo     set /a "x+=1"
+REM echo     GOTO :i^)
+
+REM echo set "x=0"
+REM echo :i
+REM echo if defined selofldrs[%%x%%] ^(
+REM echo     call rclone sync "hjski8292882,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selofldrs[%%x%%]%%%%" "hjski8292882_sg7:/Selo/kamikaze/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%"   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
+REM echo     set /a "x+=1"
+REM echo     GOTO :i^)
+
+REM echo set "x=0"
+REM echo :i
+REM echo if defined selofldrs[%%x%%] ^(
+REM echo     call rclone mkdir "%acc%_sg%sg%:/Selo/kamikaze/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
+REM echo     set /a "x+=1"
+REM echo     GOTO :i^)
+
+REM echo rclone moveto "hjski8292882_sg7:/Selo/kamikaze/computers/alyx/%%copyname%%" "hjski8292882_sg7:/Selo/kamikaze/computers/alyx/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
+
+REM )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_8.bat"
+
+
+
+
+
+REM set acc=jsnwj84738
+REM set sg=8
+
+REM (
+
+REM echo set selofldrs[0]=a_fiyandha
+REM echo set selofldrs[1]=3D Objects
+REM echo set selofldrs[2]=Desktop
+REM echo set selofldrs[3]=Documents
+REM echo set selofldrs[4]=Videos
+REM echo set selofldrs[5]=Saved Games
+REM echo set selofldrs[6]=Favorites
+REM echo set selofldrs[7]=Links
+REM echo set selofldrs[8]=Music
+REM echo set selofldrs[9]=Contacts
+REM echo set selofldrs[10]=a NDF1x extended
+REM echo set selofldrs[11]=Downloads
+REM echo set selofldrs[12]=Pictures
+REM echo set selofldrs[13]=behavior_packs
+REM echo set selofldrs[14]=development_behavior_packs
+REM echo set selofldrs[15]=development_resource_packs
+REM echo set selofldrs[16]=development_skin_packs
+REM echo set selofldrs[17]=minecraftpe
+REM echo set selofldrs[18]=minecraftWorlds
+REM echo set selofldrs[19]=resource_packs
+REM echo set selofldrs[20]=skin_packs
+REM echo set selofldrs[21]=world_templates
+REM echo set selofldrs[22]=Notepad++
+REM echo set selofldrs[23]=z-bat-vbs-file settings
+REM echo set selofldrs[24]=rclone
+REM echo set selofldrs[25]=profiles
+
+REM echo cd %%userprofile%%
+
+REM echo set day=%%date:~-7,2%%
+REM echo set month=%%date:~-10,2%%
+REM echo set year=%%date:~-4%%
+REM echo set hour=%%time:~0,2%%
+REM echo set minute=%%time:~3,2%%
+REM echo set second=%%TIME:~6,2%%
+
+REM echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
+
+
+
+REM echo set "x=0"
+REM echo :i
+REM echo if defined selofldrs[%%x%%] ^(
+REM echo     call rclone copy "jsnwj84738,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selofldrs[%%x%%]%%%%" "jsnwj84738_sg8:/Selo/kamikaze/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%"   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10
+REM echo     set /a "x+=1"
+REM echo     GOTO :i^)
+
+REM echo set "x=0"
+REM echo :i
+REM echo if defined selofldrs[%%x%%] ^(
+REM echo     call rclone sync "jsnwj84738,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selofldrs[%%x%%]%%%%" "jsnwj84738_sg8:/Selo/kamikaze/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%"   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
+REM echo     set /a "x+=1"
+REM echo     GOTO :i^)
+
+REM echo set "x=0"
+REM echo :i
+REM echo if defined selofldrs[%%x%%] ^(
+REM echo     call rclone mkdir "%acc%_sg%sg%:/Selo/kamikaze/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
+REM echo     set /a "x+=1"
+REM echo     GOTO :i^)
+
+REM echo rclone moveto "jsnwj84738_sg8:/Selo/kamikaze/computers/alyx/%%copyname%%" "jsnwj84738_sg8:/Selo/kamikaze/computers/alyx/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
+
+REM )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_9.bat"
+
+
+
+
+
+REM set acc=ffdnsak8272793
+REM set sg=9
+
+REM (
+
+REM echo set selofldrs[0]=a_fiyandha
+REM echo set selofldrs[1]=3D Objects
+REM echo set selofldrs[2]=Desktop
+REM echo set selofldrs[3]=Documents
+REM echo set selofldrs[4]=Videos
+REM echo set selofldrs[5]=Saved Games
+REM echo set selofldrs[6]=Favorites
+REM echo set selofldrs[7]=Links
+REM echo set selofldrs[8]=Music
+REM echo set selofldrs[9]=Contacts
+REM echo set selofldrs[10]=a NDF1x extended
+REM echo set selofldrs[11]=Downloads
+REM echo set selofldrs[12]=Pictures
+REM echo set selofldrs[13]=behavior_packs
+REM echo set selofldrs[14]=development_behavior_packs
+REM echo set selofldrs[15]=development_resource_packs
+REM echo set selofldrs[16]=development_skin_packs
+REM echo set selofldrs[17]=minecraftpe
+REM echo set selofldrs[18]=minecraftWorlds
+REM echo set selofldrs[19]=resource_packs
+REM echo set selofldrs[20]=skin_packs
+REM echo set selofldrs[21]=world_templates
+REM echo set selofldrs[22]=Notepad++
+REM echo set selofldrs[23]=z-bat-vbs-file settings
+REM echo set selofldrs[24]=rclone
+REM echo set selofldrs[25]=profiles
+
+REM echo cd %%userprofile%%
+
+REM echo set day=%%date:~-7,2%%
+REM echo set month=%%date:~-10,2%%
+REM echo set year=%%date:~-4%%
+REM echo set hour=%%time:~0,2%%
+REM echo set minute=%%time:~3,2%%
+REM echo set second=%%TIME:~6,2%%
+
+REM echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
+
+
+
+REM echo set "x=0"
+REM echo :i
+REM echo if defined selofldrs[%%x%%] ^(
+REM echo     call rclone copy "ffdnsak8272793,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selofldrs[%%x%%]%%%%" "ffdnsak8272793_sg9:/Selo/kamikaze/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%"   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10
+REM echo     set /a "x+=1"
+REM echo     GOTO :i^)
+
+REM echo set "x=0"
+REM echo :i
+REM echo if defined selofldrs[%%x%%] ^(
+REM echo     call rclone sync "ffdnsak8272793,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selofldrs[%%x%%]%%%%" "ffdnsak8272793_sg9:/Selo/kamikaze/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%"   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
+REM echo     set /a "x+=1"
+REM echo     GOTO :i^)
+
+REM echo set "x=0"
+REM echo :i
+REM echo if defined selofldrs[%%x%%] ^(
+REM echo     call rclone mkdir "%acc%_sg%sg%:/Selo/kamikaze/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
+REM echo     set /a "x+=1"
+REM echo     GOTO :i^)
+
+REM echo rclone moveto "ffdnsak8272793_sg9:/Selo/kamikaze/computers/alyx/%%copyname%%" "ffdnsak8272793_sg9:/Selo/kamikaze/computers/alyx/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
+
+REM )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_10.bat"
+
+
+
+
+
+REM set acc=otipes7948
+REM set sg=10
+
+REM (
+
+REM echo set selofldrs[0]=a_fiyandha
+REM echo set selofldrs[1]=3D Objects
+REM echo set selofldrs[2]=Desktop
+REM echo set selofldrs[3]=Documents
+REM echo set selofldrs[4]=Videos
+REM echo set selofldrs[5]=Saved Games
+REM echo set selofldrs[6]=Favorites
+REM echo set selofldrs[7]=Links
+REM echo set selofldrs[8]=Music
+REM echo set selofldrs[9]=Contacts
+REM echo set selofldrs[10]=a NDF1x extended
+REM echo set selofldrs[11]=Downloads
+REM echo set selofldrs[12]=Pictures
+REM echo set selofldrs[13]=behavior_packs
+REM echo set selofldrs[14]=development_behavior_packs
+REM echo set selofldrs[15]=development_resource_packs
+REM echo set selofldrs[16]=development_skin_packs
+REM echo set selofldrs[17]=minecraftpe
+REM echo set selofldrs[18]=minecraftWorlds
+REM echo set selofldrs[19]=resource_packs
+REM echo set selofldrs[20]=skin_packs
+REM echo set selofldrs[21]=world_templates
+REM echo set selofldrs[22]=Notepad++
+REM echo set selofldrs[23]=z-bat-vbs-file settings
+REM echo set selofldrs[24]=rclone
+REM echo set selofldrs[25]=profiles
+
+REM echo cd %%userprofile%%
+
+REM echo set day=%%date:~-7,2%%
+REM echo set month=%%date:~-10,2%%
+REM echo set year=%%date:~-4%%
+REM echo set hour=%%time:~0,2%%
+REM echo set minute=%%time:~3,2%%
+REM echo set second=%%TIME:~6,2%%
+
+REM echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
+
+
+
+REM echo set "x=0"
+REM echo :i
+REM echo if defined selofldrs[%%x%%] ^(
+REM echo     call rclone copy "otipes7948,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selofldrs[%%x%%]%%%%" "otipes7948_sg10:/Selo/kamikaze/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%"   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10
+REM echo     set /a "x+=1"
+REM echo     GOTO :i^)
+
+REM echo set "x=0"
+REM echo :i
+REM echo if defined selofldrs[%%x%%] ^(
+REM echo     call rclone sync "otipes7948,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selofldrs[%%x%%]%%%%" "otipes7948_sg10:/Selo/kamikaze/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%"   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
+REM echo     set /a "x+=1"
+REM echo     GOTO :i^)
+
+REM echo set "x=0"
+REM echo :i
+REM echo if defined selofldrs[%%x%%] ^(
+REM echo     call rclone mkdir "%acc%_sg%sg%:/Selo/kamikaze/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
+REM echo     set /a "x+=1"
+REM echo     GOTO :i^)
+
+REM echo rclone moveto "otipes7948_sg10:/Selo/kamikaze/computers/alyx/%%copyname%%" "otipes7948_sg10:/Selo/kamikaze/computers/alyx/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
+
+REM )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_11.bat"
 
 
 
@@ -915,27 +1035,27 @@ echo set second=%%TIME:~6,2%%
 echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
 echo set "x=0"
-echo :SymLoop1
+echo :i
 echo if defined cacafldrs[%%x%%] ^(
-echo     call rclone copy "jjajai2818,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "jjajai2818_sg1:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+echo     call rclone copy "jjajai2818,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "jjajai2818_sg1:/Caca/kamikaze/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%"   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
 echo     set /a "x+=1"
-echo     GOTO :SymLoop1^)
+echo     GOTO :i^)
 
 echo set "x=0"
-echo :SymLoop1
+echo :i
 echo if defined cacafldrs[%%x%%] ^(
-echo     call rclone sync "jjajai2818,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "jjajai2818_sg1:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
+echo     call rclone sync "jjajai2818,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "jjajai2818_sg1:/Caca/kamikaze/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%"   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
 echo     set /a "x+=1"
-echo     GOTO :SymLoop1^)
+echo     GOTO :i^)
 
 echo set "x=0"
-echo :SymLoop1
+echo :i
 echo if defined cacafldrs[%%x%%] ^(
-echo     call rclone mkdir "%acc%_sg%sg%:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors
+echo     call rclone mkdir "%acc%_sg%sg%:/Caca/kamikaze/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
 echo     set /a "x+=1"
-echo     GOTO :SymLoop1^)
+echo     GOTO :i^)
 
-echo rclone moveto "jjajai2818_sg1:/Caca/main_cloud/computers/caca/%%copyname%%" "jjajai2818_sg1:/Caca/main_cloud/computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors
+echo rclone moveto "jjajai2818_sg1:/Caca/kamikaze/computers/caca/%%copyname%%" "jjajai2818_sg1:/Caca/kamikaze/computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
 
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_12.bat"
 
@@ -972,27 +1092,27 @@ echo set second=%%TIME:~6,2%%
 echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
 echo set "x=0"
-echo :SymLoop1
+echo :i
 echo if defined cacafldrs[%%x%%] ^(
-echo     call rclone copy "eleoek28828,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "eleoek28828_sg2:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+echo     call rclone copy "eleoek28828,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "eleoek28828_sg2:/Caca/kamikaze/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%"   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
 echo     set /a "x+=1"
-echo     GOTO :SymLoop1^)
+echo     GOTO :i^)
 
 echo set "x=0"
-echo :SymLoop1
+echo :i
 echo if defined cacafldrs[%%x%%] ^(
-echo     call rclone sync "eleoek28828,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "eleoek28828_sg2:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
+echo     call rclone sync "eleoek28828,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "eleoek28828_sg2:/Caca/kamikaze/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%"   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
 echo     set /a "x+=1"
-echo     GOTO :SymLoop1^)
+echo     GOTO :i^)
 
 echo set "x=0"
-echo :SymLoop1
+echo :i
 echo if defined cacafldrs[%%x%%] ^(
-echo     call rclone mkdir "%acc%_sg%sg%:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors
+echo     call rclone mkdir "%acc%_sg%sg%:/Caca/kamikaze/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
 echo     set /a "x+=1"
-echo     GOTO :SymLoop1^)
+echo     GOTO :i^)
 
-echo rclone moveto "eleoek28828_sg2:/Caca/main_cloud/computers/caca/%%copyname%%" "eleoek28828_sg2:/Caca/main_cloud/computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors
+echo rclone moveto "eleoek28828_sg2:/Caca/kamikaze/computers/caca/%%copyname%%" "eleoek28828_sg2:/Caca/kamikaze/computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
 
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_13.bat"
 
@@ -1029,27 +1149,27 @@ echo set second=%%TIME:~6,2%%
 echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
 echo set "x=0"
-echo :SymLoop1
+echo :i
 echo if defined cacafldrs[%%x%%] ^(
-echo     call rclone copy "wjwn91178,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "wjwn91178_sg3:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+echo     call rclone copy "wjwn91178,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "wjwn91178_sg3:/Caca/kamikaze/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%"   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
 echo     set /a "x+=1"
-echo     GOTO :SymLoop1^)
+echo     GOTO :i^)
 
 echo set "x=0"
-echo :SymLoop1
+echo :i
 echo if defined cacafldrs[%%x%%] ^(
-echo     call rclone sync "wjwn91178,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "wjwn91178_sg3:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
+echo     call rclone sync "wjwn91178,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "wjwn91178_sg3:/Caca/kamikaze/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%"   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
 echo     set /a "x+=1"
-echo     GOTO :SymLoop1^)
+echo     GOTO :i^)
 
 echo set "x=0"
-echo :SymLoop1
+echo :i
 echo if defined cacafldrs[%%x%%] ^(
-echo     call rclone mkdir "%acc%_sg%sg%:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors
+echo     call rclone mkdir "%acc%_sg%sg%:/Caca/kamikaze/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
 echo     set /a "x+=1"
-echo     GOTO :SymLoop1^)
+echo     GOTO :i^)
 
-echo rclone moveto "wjwn91178_sg3:/Caca/main_cloud/computers/caca/%%copyname%%" "wjwn91178_sg3:/Caca/main_cloud/computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors
+echo rclone moveto "wjwn91178_sg3:/Caca/kamikaze/computers/caca/%%copyname%%" "wjwn91178_sg3:/Caca/kamikaze/computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
 
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_14.bat"
 
@@ -1087,27 +1207,27 @@ echo set second=%%TIME:~6,2%%
 echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
 echo set "x=0"
-echo :SymLoop1
+echo :i
 echo if defined cacafldrs[%%x%%] ^(
-echo     call rclone copy "iaowk272818,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "iaowk272818_sg4:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+echo     call rclone copy "iaowk272818,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "iaowk272818_sg4:/Caca/kamikaze/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%"   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
 echo     set /a "x+=1"
-echo     GOTO :SymLoop1^)
+echo     GOTO :i^)
 
 echo set "x=0"
-echo :SymLoop1
+echo :i
 echo if defined cacafldrs[%%x%%] ^(
-echo     call rclone sync "iaowk272818,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "iaowk272818_sg4:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
+echo     call rclone sync "iaowk272818,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "iaowk272818_sg4:/Caca/kamikaze/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%"   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
 echo     set /a "x+=1"
-echo     GOTO :SymLoop1^)
+echo     GOTO :i^)
 
 echo set "x=0"
-echo :SymLoop1
+echo :i
 echo if defined cacafldrs[%%x%%] ^(
-echo     call rclone mkdir "%acc%_sg%sg%:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors
+echo     call rclone mkdir "%acc%_sg%sg%:/Caca/kamikaze/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
 echo     set /a "x+=1"
-echo     GOTO :SymLoop1^)
+echo     GOTO :i^)
 
-echo rclone moveto "iaowk272818_sg4:/Caca/main_cloud/computers/caca/%%copyname%%" "iaowk272818_sg4:/Caca/main_cloud/computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors
+echo rclone moveto "iaowk272818_sg4:/Caca/kamikaze/computers/caca/%%copyname%%" "iaowk272818_sg4:/Caca/kamikaze/computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
 
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_15.bat"
 
@@ -1145,27 +1265,27 @@ echo set second=%%TIME:~6,2%%
 echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
 echo set "x=0"
-echo :SymLoop1
+echo :i
 echo if defined cacafldrs[%%x%%] ^(
-echo     call rclone copy "ejsjskw28272,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "ejsjskw28272_sg5:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+echo     call rclone copy "ejsjskw28272,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "ejsjskw28272_sg5:/Caca/kamikaze/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%"   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
 echo     set /a "x+=1"
-echo     GOTO :SymLoop1^)
+echo     GOTO :i^)
 
 echo set "x=0"
-echo :SymLoop1
+echo :i
 echo if defined cacafldrs[%%x%%] ^(
-echo     call rclone sync "ejsjskw28272,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "ejsjskw28272_sg5:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
+echo     call rclone sync "ejsjskw28272,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "ejsjskw28272_sg5:/Caca/kamikaze/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%"   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
 echo     set /a "x+=1"
-echo     GOTO :SymLoop1^)
+echo     GOTO :i^)
 
 echo set "x=0"
-echo :SymLoop1
+echo :i
 echo if defined cacafldrs[%%x%%] ^(
-echo     call rclone mkdir "%acc%_sg%sg%:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors
+echo     call rclone mkdir "%acc%_sg%sg%:/Caca/kamikaze/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
 echo     set /a "x+=1"
-echo     GOTO :SymLoop1^)
+echo     GOTO :i^)
 
-echo rclone moveto "ejsjskw28272_sg5:/Caca/main_cloud/computers/caca/%%copyname%%" "ejsjskw28272_sg5:/Caca/main_cloud/computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors
+echo rclone moveto "ejsjskw28272_sg5:/Caca/kamikaze/computers/caca/%%copyname%%" "ejsjskw28272_sg5:/Caca/kamikaze/computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
 
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_16.bat"
 
@@ -1203,27 +1323,27 @@ echo set second=%%TIME:~6,2%%
 echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
 echo set "x=0"
-echo :SymLoop1
+echo :i
 echo if defined cacafldrs[%%x%%] ^(
-echo     call rclone copy "sjsiowkw272892,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "sjsiowkw272892_sg6:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+echo     call rclone copy "sjsiowkw272892,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "sjsiowkw272892_sg6:/Caca/kamikaze/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%"   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
 echo     set /a "x+=1"
-echo     GOTO :SymLoop1^)
+echo     GOTO :i^)
 
 echo set "x=0"
-echo :SymLoop1
+echo :i
 echo if defined cacafldrs[%%x%%] ^(
-echo     call rclone sync "sjsiowkw272892,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "sjsiowkw272892_sg6:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
+echo     call rclone sync "sjsiowkw272892,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "sjsiowkw272892_sg6:/Caca/kamikaze/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%"   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
 echo     set /a "x+=1"
-echo     GOTO :SymLoop1^)
+echo     GOTO :i^)
 
 echo set "x=0"
-echo :SymLoop1
+echo :i
 echo if defined cacafldrs[%%x%%] ^(
-echo     call rclone mkdir "%acc%_sg%sg%:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors
+echo     call rclone mkdir "%acc%_sg%sg%:/Caca/kamikaze/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
 echo     set /a "x+=1"
-echo     GOTO :SymLoop1^)
+echo     GOTO :i^)
 
-echo rclone moveto "sjsiowkw272892_sg6:/Caca/main_cloud/computers/caca/%%copyname%%" "sjsiowkw272892_sg6:/Caca/main_cloud/computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors
+echo rclone moveto "sjsiowkw272892_sg6:/Caca/kamikaze/computers/caca/%%copyname%%" "sjsiowkw272892_sg6:/Caca/kamikaze/computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
 
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_17.bat"
 
@@ -1261,27 +1381,27 @@ echo set second=%%TIME:~6,2%%
 echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
 echo set "x=0"
-echo :SymLoop1
+echo :i
 echo if defined cacafldrs[%%x%%] ^(
-echo     call rclone copy "s81wjwo17,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "s81wjwo17_sg7:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+echo     call rclone copy "s81wjwo17,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "s81wjwo17_sg7:/Caca/kamikaze/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%"   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
 echo     set /a "x+=1"
-echo     GOTO :SymLoop1^)
+echo     GOTO :i^)
 
 echo set "x=0"
-echo :SymLoop1
+echo :i
 echo if defined cacafldrs[%%x%%] ^(
-echo     call rclone sync "s81wjwo17,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "s81wjwo17_sg7:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
+echo     call rclone sync "s81wjwo17,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "s81wjwo17_sg7:/Caca/kamikaze/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%"   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
 echo     set /a "x+=1"
-echo     GOTO :SymLoop1^)
+echo     GOTO :i^)
 
 echo set "x=0"
-echo :SymLoop1
+echo :i
 echo if defined cacafldrs[%%x%%] ^(
-echo     call rclone mkdir "%acc%_sg%sg%:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors
+echo     call rclone mkdir "%acc%_sg%sg%:/Caca/kamikaze/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
 echo     set /a "x+=1"
-echo     GOTO :SymLoop1^)
+echo     GOTO :i^)
 
-echo rclone moveto "s81wjwo17_sg7:/Caca/main_cloud/computers/caca/%%copyname%%" "s81wjwo17_sg7:/Caca/main_cloud/computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors
+echo rclone moveto "s81wjwo17_sg7:/Caca/kamikaze/computers/caca/%%copyname%%" "s81wjwo17_sg7:/Caca/kamikaze/computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
 
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_18.bat"
 
@@ -1319,27 +1439,27 @@ echo set second=%%TIME:~6,2%%
 echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
 echo set "x=0"
-echo :SymLoop1
+echo :i
 echo if defined cacafldrs[%%x%%] ^(
-echo     call rclone copy "jskwonw,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "jskwonw_sg8:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+echo     call rclone copy "jskwonw,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "jskwonw_sg8:/Caca/kamikaze/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%"   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
 echo     set /a "x+=1"
-echo     GOTO :SymLoop1^)
+echo     GOTO :i^)
 
 echo set "x=0"
-echo :SymLoop1
+echo :i
 echo if defined cacafldrs[%%x%%] ^(
-echo     call rclone sync "jskwonw,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "jskwonw_sg8:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
+echo     call rclone sync "jskwonw,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "jskwonw_sg8:/Caca/kamikaze/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%"   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
 echo     set /a "x+=1"
-echo     GOTO :SymLoop1^)
+echo     GOTO :i^)
 
 echo set "x=0"
-echo :SymLoop1
+echo :i
 echo if defined cacafldrs[%%x%%] ^(
-echo     call rclone mkdir "%acc%_sg%sg%:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors
+echo     call rclone mkdir "%acc%_sg%sg%:/Caca/kamikaze/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
 echo     set /a "x+=1"
-echo     GOTO :SymLoop1^)
+echo     GOTO :i^)
 
-echo rclone moveto "jskwonw_sg8:/Caca/main_cloud/computers/caca/%%copyname%%" "jskwonw_sg8:/Caca/main_cloud/computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors
+echo rclone moveto "jskwonw_sg8:/Caca/kamikaze/computers/caca/%%copyname%%" "jskwonw_sg8:/Caca/kamikaze/computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
 
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_19.bat"
 
@@ -1377,27 +1497,27 @@ echo set second=%%TIME:~6,2%%
 echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
 echo set "x=0"
-echo :SymLoop1
+echo :i
 echo if defined cacafldrs[%%x%%] ^(
-echo     call rclone copy "usowns81,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "usowns81_sg9:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+echo     call rclone copy "usowns81,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "usowns81_sg9:/Caca/kamikaze/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%"   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
 echo     set /a "x+=1"
-echo     GOTO :SymLoop1^)
+echo     GOTO :i^)
 
 echo set "x=0"
-echo :SymLoop1
+echo :i
 echo if defined cacafldrs[%%x%%] ^(
-echo     call rclone sync "usowns81,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "usowns81_sg9:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
+echo     call rclone sync "usowns81,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "usowns81_sg9:/Caca/kamikaze/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%"   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
 echo     set /a "x+=1"
-echo     GOTO :SymLoop1^)
+echo     GOTO :i^)
 
 echo set "x=0"
-echo :SymLoop1
+echo :i
 echo if defined cacafldrs[%%x%%] ^(
-echo     call rclone mkdir "%acc%_sg%sg%:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors
+echo     call rclone mkdir "%acc%_sg%sg%:/Caca/kamikaze/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
 echo     set /a "x+=1"
-echo     GOTO :SymLoop1^)
+echo     GOTO :i^)
 
-echo rclone moveto "usowns81_sg9:/Caca/main_cloud/computers/caca/%%copyname%%" "usowns81_sg9:/Caca/main_cloud/computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors
+echo rclone moveto "usowns81_sg9:/Caca/kamikaze/computers/caca/%%copyname%%" "usowns81_sg9:/Caca/kamikaze/computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
 
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_20.bat"
 
@@ -1435,27 +1555,27 @@ echo set second=%%TIME:~6,2%%
 echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
 echo set "x=0"
-echo :SymLoop1
+echo :i
 echo if defined cacafldrs[%%x%%] ^(
-echo     call rclone copy "9288wowj,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "9288wowj_sg10:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+echo     call rclone copy "9288wowj,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "9288wowj_sg10:/Caca/kamikaze/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%"   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
 echo     set /a "x+=1"
-echo     GOTO :SymLoop1^)
+echo     GOTO :i^)
 
 echo set "x=0"
-echo :SymLoop1
+echo :i
 echo if defined cacafldrs[%%x%%] ^(
-echo     call rclone sync "9288wowj,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "9288wowj_sg10:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
+echo     call rclone sync "9288wowj,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "9288wowj_sg10:/Caca/kamikaze/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%"   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
 echo     set /a "x+=1"
-echo     GOTO :SymLoop1^)
+echo     GOTO :i^)
 
 echo set "x=0"
-echo :SymLoop1
+echo :i
 echo if defined cacafldrs[%%x%%] ^(
-echo     call rclone mkdir "%acc%_sg%sg%:/Caca/main_cloud/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors
+echo     call rclone mkdir "%acc%_sg%sg%:/Caca/kamikaze/computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
 echo     set /a "x+=1"
-echo     GOTO :SymLoop1^)
+echo     GOTO :i^)
 
-echo rclone moveto "9288wowj_sg10:/Caca/main_cloud/computers/caca/%%copyname%%" "9288wowj_sg10:/Caca/main_cloud/computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors
+echo rclone moveto "9288wowj_sg10:/Caca/kamikaze/computers/caca/%%copyname%%" "9288wowj_sg10:/Caca/kamikaze/computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
 
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_21.bat"
 
@@ -1465,6 +1585,8 @@ echo rclone moveto "9288wowj_sg10:/Caca/main_cloud/computers/caca/%%copyname%%" 
 
 (
 
+timeout 3
+
 echo cd %%userprofile%%
 
 echo set day=%%date:~-7,2%%
@@ -1476,49 +1598,67 @@ echo set second=%%TIME:~6,2%%
 
 echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
-echo rclone copy "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/Classroom" "iajdos282728_sg1:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/Classroom" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
-echo rclone copy "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/Classroom" "iajdos282728_sg2:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/Classroom" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
-echo rclone copy "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/Classroom" "iajdos282728_sg3:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/Classroom" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
-echo rclone copy "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/Classroom" "iajdos282728_sg4:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/Classroom" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
-echo rclone copy "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/Classroom" "iajdos282728_sg5:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/Classroom" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
-echo rclone copy "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/Classroom" "iajdos282728_sg6:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/Classroom" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
-echo rclone copy "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/Classroom" "iajdos282728_sg7:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/Classroom" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
-echo rclone copy "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/Classroom" "iajdos282728_sg8:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/Classroom" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
-echo rclone copy "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/Classroom" "iajdos282728_sg9:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/Classroom" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
-echo rclone copy "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/Classroom" "iajdos282728_sg10:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/Classroom" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
+set ihs92[0]=Classroom
+set ihs92[1]=Shared
 
-echo rclone copy "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/Shared" "iajdos282728_sg1:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/Shared" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
-echo rclone copy "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/Shared" "iajdos282728_sg2:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/Shared" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
-echo rclone copy "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/Shared" "iajdos282728_sg3:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/Shared" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
-echo rclone copy "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/Shared" "iajdos282728_sg4:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/Shared" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
-echo rclone copy "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/Shared" "iajdos282728_sg5:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/Shared" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
-echo rclone copy "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/Shared" "iajdos282728_sg6:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/Shared" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
-echo rclone copy "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/Shared" "iajdos282728_sg7:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/Shared" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
-echo rclone copy "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/Shared" "iajdos282728_sg8:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/Shared" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
-echo rclone copy "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/Shared" "iajdos282728_sg9:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/Shared" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
-echo rclone copy "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/Shared" "iajdos282728_sg10:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/Shared" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
+echo set "x=0"
+echo :i
+echo if defined ihs92[%%x%%] ^(
 
-echo rclone sync "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/Classroom" "iajdos282728_sg1:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/Classroom" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
-echo rclone sync "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/Classroom" "iajdos282728_sg2:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/Classroom" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
-echo rclone sync "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/Classroom" "iajdos282728_sg3:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/Classroom" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
-echo rclone sync "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/Classroom" "iajdos282728_sg4:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/Classroom" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
-echo rclone sync "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/Classroom" "iajdos282728_sg5:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/Classroom" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
-echo rclone sync "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/Classroom" "iajdos282728_sg6:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/Classroom" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
-echo rclone sync "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/Classroom" "iajdos282728_sg7:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/Classroom" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
-echo rclone sync "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/Classroom" "iajdos282728_sg8:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/Classroom" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
-echo rclone sync "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/Classroom" "iajdos282728_sg9:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/Classroom" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
-echo rclone sync "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/Classroom" "iajdos282728_sg10:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/Classroom" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
+echo call rclone mkdir "iajdos282728_sg1:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
+echo call rclone mkdir "iajdos282728_sg2:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
+echo call rclone mkdir "iajdos282728_sg3:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
+echo call rclone mkdir "iajdos282728_sg4:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
+echo call rclone mkdir "iajdos282728_sg5:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
+echo call rclone mkdir "iajdos282728_sg6:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
+echo call rclone mkdir "iajdos282728_sg7:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
+echo call rclone mkdir "iajdos282728_sg8:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
+echo call rclone mkdir "iajdos282728_sg9:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
+echo call rclone mkdir "iajdos282728_sg10:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
 
-echo rclone sync "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/Shared" "iajdos282728_sg1:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/Shared" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
-echo rclone sync "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/Shared" "iajdos282728_sg2:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/Shared" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
-echo rclone sync "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/Shared" "iajdos282728_sg3:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/Shared" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
-echo rclone sync "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/Shared" "iajdos282728_sg4:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/Shared" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
-echo rclone sync "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/Shared" "iajdos282728_sg5:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/Shared" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
-echo rclone sync "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/Shared" "iajdos282728_sg6:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/Shared" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
-echo rclone sync "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/Shared" "iajdos282728_sg7:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/Shared" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
-echo rclone sync "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/Shared" "iajdos282728_sg8:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/Shared" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
-echo rclone sync "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/Shared" "iajdos282728_sg9:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/Shared" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
-echo rclone sync "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/Shared" "iajdos282728_sg10:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/Shared" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
+echo     set /a "x+=1"
+echo     GOTO :i^)
+
+
+
+echo set "x=0"
+echo :i
+echo if defined ihs92[%%x%%] ^(
+
+echo call rclone copy "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%%%ihs92[%%x%%]%%%%" "iajdos282728_sg1:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --drive-skip-dangling-shortcuts --drive-skip-shortcuts   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
+echo call rclone copy "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%%%ihs92[%%x%%]%%%%" "iajdos282728_sg2:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --drive-skip-dangling-shortcuts --drive-skip-shortcuts   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
+echo call rclone copy "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%%%ihs92[%%x%%]%%%%" "iajdos282728_sg3:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --drive-skip-dangling-shortcuts --drive-skip-shortcuts   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
+echo call rclone copy "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%%%ihs92[%%x%%]%%%%" "iajdos282728_sg4:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --drive-skip-dangling-shortcuts --drive-skip-shortcuts   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
+echo call rclone copy "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%%%ihs92[%%x%%]%%%%" "iajdos282728_sg5:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --drive-skip-dangling-shortcuts --drive-skip-shortcuts   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
+echo call rclone copy "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%%%ihs92[%%x%%]%%%%" "iajdos282728_sg6:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --drive-skip-dangling-shortcuts --drive-skip-shortcuts   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
+echo call rclone copy "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%%%ihs92[%%x%%]%%%%" "iajdos282728_sg7:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --drive-skip-dangling-shortcuts --drive-skip-shortcuts   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
+echo call rclone copy "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%%%ihs92[%%x%%]%%%%" "iajdos282728_sg8:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --drive-skip-dangling-shortcuts --drive-skip-shortcuts   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
+echo call rclone copy "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%%%ihs92[%%x%%]%%%%" "iajdos282728_sg9:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --drive-skip-dangling-shortcuts --drive-skip-shortcuts   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
+echo call rclone copy "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%%%ihs92[%%x%%]%%%%" "iajdos282728_sg10:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --drive-skip-dangling-shortcuts --drive-skip-shortcuts   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
+
+echo     set /a "x+=1"
+echo     GOTO :i^)
+
+
+
+echo set "x=0"
+echo :i
+echo if defined ihs92[%%x%%] ^(
+
+echo call rclone sync "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%%%ihs92[%%x%%]%%%%" "iajdos282728_sg1:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --drive-skip-dangling-shortcuts --drive-skip-shortcuts   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
+echo call rclone sync "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%%%ihs92[%%x%%]%%%%" "iajdos282728_sg2:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --drive-skip-dangling-shortcuts --drive-skip-shortcuts   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
+echo call rclone sync "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%%%ihs92[%%x%%]%%%%" "iajdos282728_sg3:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --drive-skip-dangling-shortcuts --drive-skip-shortcuts   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
+echo call rclone sync "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%%%ihs92[%%x%%]%%%%" "iajdos282728_sg4:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --drive-skip-dangling-shortcuts --drive-skip-shortcuts   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
+echo call rclone sync "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%%%ihs92[%%x%%]%%%%" "iajdos282728_sg5:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --drive-skip-dangling-shortcuts --drive-skip-shortcuts   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
+echo call rclone sync "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%%%ihs92[%%x%%]%%%%" "iajdos282728_sg6:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --drive-skip-dangling-shortcuts --drive-skip-shortcuts   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
+echo call rclone sync "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%%%ihs92[%%x%%]%%%%" "iajdos282728_sg7:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --drive-skip-dangling-shortcuts --drive-skip-shortcuts   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
+echo call rclone sync "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%%%ihs92[%%x%%]%%%%" "iajdos282728_sg8:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --drive-skip-dangling-shortcuts --drive-skip-shortcuts   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
+echo call rclone sync "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%%%ihs92[%%x%%]%%%%" "iajdos282728_sg9:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --drive-skip-dangling-shortcuts --drive-skip-shortcuts   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
+echo call rclone sync "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%%%ihs92[%%x%%]%%%%" "iajdos282728_sg10:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --drive-skip-dangling-shortcuts --drive-skip-shortcuts   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
+
+echo     set /a "x+=1"
+echo     GOTO :i^)
+
 
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_22.bat"
 
@@ -1528,6 +1668,8 @@ echo rclone sync "xjdik82288:/rclone/gcr/fiyandhax-mipa4@sman5tambunselatan.sch.
 
 (
 
+timeout 7
+
 echo cd %%userprofile%%
 
 echo set day=%%date:~-7,2%%
@@ -1539,93 +1681,68 @@ echo set second=%%TIME:~6,2%%
 
 echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
-echo rclone copy "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/Classroom" "xjdik82288_sg1:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Classroom" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone copy "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/Classroom" "xjdik82288_sg2:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Classroom" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone copy "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/Classroom" "xjdik82288_sg3:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Classroom" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone copy "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/Classroom" "xjdik82288_sg4:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Classroom" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone copy "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/Classroom" "xjdik82288_sg5:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Classroom" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone copy "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/Classroom" "xjdik82288_sg6:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Classroom" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone copy "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/Classroom" "xjdik82288_sg7:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Classroom" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone copy "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/Classroom" "xjdik82288_sg8:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Classroom" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone copy "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/Classroom" "xjdik82288_sg9:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Classroom" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone copy "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/Classroom" "xjdik82288_sg10:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Classroom" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
+set ihs92[0]=Classroom
+set ihs92[1]=Shared
+set ihs92[2]=Tugas Sekolah
+set ihs92[2]=TUGAS SEMUA MAPEL KELAS X
 
-echo rclone copy "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/Tugas Sekolah" "xjdik82288_sg1:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Tugas Sekolah" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone copy "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/Tugas Sekolah" "xjdik82288_sg2:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Tugas Sekolah" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone copy "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/Tugas Sekolah" "xjdik82288_sg3:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Tugas Sekolah" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone copy "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/Tugas Sekolah" "xjdik82288_sg4:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Tugas Sekolah" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone copy "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/Tugas Sekolah" "xjdik82288_sg5:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Tugas Sekolah" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone copy "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/Tugas Sekolah" "xjdik82288_sg6:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Tugas Sekolah" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone copy "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/Tugas Sekolah" "xjdik82288_sg7:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Tugas Sekolah" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone copy "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/Tugas Sekolah" "xjdik82288_sg8:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Tugas Sekolah" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone copy "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/Tugas Sekolah" "xjdik82288_sg9:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Tugas Sekolah" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone copy "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/Tugas Sekolah" "xjdik82288_sg10:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Tugas Sekolah" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
+echo set "x=0"
+echo :i
+echo if defined ihs92[%%x%%] ^(
 
-echo rclone copy "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/TUGAS SEMUA MAPEL KELAS X " "xjdik82288_sg1:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Tugas Sekolah" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone copy "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/TUGAS SEMUA MAPEL KELAS X " "xjdik82288_sg2:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Tugas Sekolah" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone copy "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/TUGAS SEMUA MAPEL KELAS X " "xjdik82288_sg3:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Tugas Sekolah" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone copy "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/TUGAS SEMUA MAPEL KELAS X " "xjdik82288_sg4:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Tugas Sekolah" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone copy "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/TUGAS SEMUA MAPEL KELAS X " "xjdik82288_sg5:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Tugas Sekolah" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone copy "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/TUGAS SEMUA MAPEL KELAS X " "xjdik82288_sg6:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Tugas Sekolah" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone copy "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/TUGAS SEMUA MAPEL KELAS X " "xjdik82288_sg7:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Tugas Sekolah" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone copy "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/TUGAS SEMUA MAPEL KELAS X " "xjdik82288_sg8:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Tugas Sekolah" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone copy "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/TUGAS SEMUA MAPEL KELAS X " "xjdik82288_sg9:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Tugas Sekolah" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone copy "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/TUGAS SEMUA MAPEL KELAS X " "xjdik82288_sg10:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Tugas Sekolah" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
+echo call rclone mkdir "iajdos282728_sg1:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
+echo call rclone mkdir "iajdos282728_sg2:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
+echo call rclone mkdir "iajdos282728_sg3:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
+echo call rclone mkdir "iajdos282728_sg4:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
+echo call rclone mkdir "iajdos282728_sg5:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
+echo call rclone mkdir "iajdos282728_sg6:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
+echo call rclone mkdir "iajdos282728_sg7:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
+echo call rclone mkdir "iajdos282728_sg8:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
+echo call rclone mkdir "iajdos282728_sg9:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
+echo call rclone mkdir "iajdos282728_sg10:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
 
-echo rclone copy "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/Shared" "xjdik82288_sg1:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Shared" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone copy "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/Shared" "xjdik82288_sg2:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Shared" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone copy "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/Shared" "xjdik82288_sg3:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Shared" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone copy "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/Shared" "xjdik82288_sg4:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Shared" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone copy "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/Shared" "xjdik82288_sg5:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Shared" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone copy "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/Shared" "xjdik82288_sg6:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Shared" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone copy "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/Shared" "xjdik82288_sg7:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Shared" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone copy "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/Shared" "xjdik82288_sg8:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Shared" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone copy "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/Shared" "xjdik82288_sg9:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Shared" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone copy "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/Shared" "xjdik82288_sg10:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Shared" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames  
+echo     set /a "x+=1"
+echo     GOTO :i^)
 
-echo rclone sync "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/Classroom" "xjdik82288_sg1:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Classroom" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone sync "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/Classroom" "xjdik82288_sg2:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Classroom" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone sync "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/Classroom" "xjdik82288_sg3:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Classroom" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone sync "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/Classroom" "xjdik82288_sg4:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Classroom" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone sync "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/Classroom" "xjdik82288_sg5:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Classroom" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone sync "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/Classroom" "xjdik82288_sg6:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Classroom" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone sync "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/Classroom" "xjdik82288_sg7:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Classroom" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone sync "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/Classroom" "xjdik82288_sg8:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Classroom" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone sync "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/Classroom" "xjdik82288_sg9:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Classroom" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone sync "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/Classroom" "xjdik82288_sg10:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Classroom" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
 
-echo rclone sync "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/Tugas Sekolah" "xjdik82288_sg1:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Tugas Sekolah" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone sync "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/Tugas Sekolah" "xjdik82288_sg2:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Tugas Sekolah" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone sync "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/Tugas Sekolah" "xjdik82288_sg3:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Tugas Sekolah" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone sync "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/Tugas Sekolah" "xjdik82288_sg4:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Tugas Sekolah" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone sync "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/Tugas Sekolah" "xjdik82288_sg5:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Tugas Sekolah" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone sync "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/Tugas Sekolah" "xjdik82288_sg6:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Tugas Sekolah" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone sync "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/Tugas Sekolah" "xjdik82288_sg7:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Tugas Sekolah" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone sync "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/Tugas Sekolah" "xjdik82288_sg8:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Tugas Sekolah" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone sync "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/Tugas Sekolah" "xjdik82288_sg9:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Tugas Sekolah" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone sync "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/Tugas Sekolah" "xjdik82288_sg10:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Tugas Sekolah" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
 
-echo rclone sync "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/TUGAS SEMUA MAPEL KELAS X " "xjdik82288_sg1:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Tugas Sekolah" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone sync "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/TUGAS SEMUA MAPEL KELAS X " "xjdik82288_sg2:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Tugas Sekolah" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone sync "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/TUGAS SEMUA MAPEL KELAS X " "xjdik82288_sg3:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Tugas Sekolah" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone sync "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/TUGAS SEMUA MAPEL KELAS X " "xjdik82288_sg4:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Tugas Sekolah" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone sync "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/TUGAS SEMUA MAPEL KELAS X " "xjdik82288_sg5:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Tugas Sekolah" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone sync "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/TUGAS SEMUA MAPEL KELAS X " "xjdik82288_sg6:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Tugas Sekolah" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone sync "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/TUGAS SEMUA MAPEL KELAS X " "xjdik82288_sg7:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Tugas Sekolah" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone sync "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/TUGAS SEMUA MAPEL KELAS X " "xjdik82288_sg8:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Tugas Sekolah" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone sync "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/TUGAS SEMUA MAPEL KELAS X " "xjdik82288_sg9:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Tugas Sekolah" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone sync "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/TUGAS SEMUA MAPEL KELAS X " "xjdik82288_sg10:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Tugas Sekolah" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
+echo set "x=0"
+echo :i
+echo if defined ihs92[%%x%%] ^(
 
-echo rclone sync "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/Shared" "xjdik82288_sg1:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Shared" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone sync "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/Shared" "xjdik82288_sg2:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Shared" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone sync "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/Shared" "xjdik82288_sg3:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Shared" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone sync "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/Shared" "xjdik82288_sg4:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Shared" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone sync "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/Shared" "xjdik82288_sg5:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Shared" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone sync "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/Shared" "xjdik82288_sg6:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Shared" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone sync "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/Shared" "xjdik82288_sg7:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Shared" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone sync "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/Shared" "xjdik82288_sg8:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Shared" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone sync "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/Shared" "xjdik82288_sg9:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Shared" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames   
-echo rclone sync "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/Shared" "xjdik82288_sg10:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/Shared" --drive-skip-dangling-shortcuts --drive-skip-shortcuts --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames    
+echo call rclone copy "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/%%%%ihs92[%%x%%]%%%%" "iajdos282728_sg1:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --drive-skip-dangling-shortcuts --drive-skip-shortcuts   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
+echo call rclone copy "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/%%%%ihs92[%%x%%]%%%%" "iajdos282728_sg2:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --drive-skip-dangling-shortcuts --drive-skip-shortcuts   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
+echo call rclone copy "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/%%%%ihs92[%%x%%]%%%%" "iajdos282728_sg3:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --drive-skip-dangling-shortcuts --drive-skip-shortcuts   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
+echo call rclone copy "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/%%%%ihs92[%%x%%]%%%%" "iajdos282728_sg4:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --drive-skip-dangling-shortcuts --drive-skip-shortcuts   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
+echo call rclone copy "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/%%%%ihs92[%%x%%]%%%%" "iajdos282728_sg5:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --drive-skip-dangling-shortcuts --drive-skip-shortcuts   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
+echo call rclone copy "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/%%%%ihs92[%%x%%]%%%%" "iajdos282728_sg6:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --drive-skip-dangling-shortcuts --drive-skip-shortcuts   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
+echo call rclone copy "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/%%%%ihs92[%%x%%]%%%%" "iajdos282728_sg7:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --drive-skip-dangling-shortcuts --drive-skip-shortcuts   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
+echo call rclone copy "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/%%%%ihs92[%%x%%]%%%%" "iajdos282728_sg8:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --drive-skip-dangling-shortcuts --drive-skip-shortcuts   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
+echo call rclone copy "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/%%%%ihs92[%%x%%]%%%%" "iajdos282728_sg9:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --drive-skip-dangling-shortcuts --drive-skip-shortcuts   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
+echo call rclone copy "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/%%%%ihs92[%%x%%]%%%%" "iajdos282728_sg10:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --drive-skip-dangling-shortcuts --drive-skip-shortcuts   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
+
+echo     set /a "x+=1"
+echo     GOTO :i^)
+
+
+
+echo set "x=0"
+echo :i
+echo if defined ihs92[%%x%%] ^(
+
+echo call rclone sync "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/%%%%ihs92[%%x%%]%%%%" "iajdos282728_sg1:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --drive-skip-dangling-shortcuts --drive-skip-shortcuts   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
+echo call rclone sync "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/%%%%ihs92[%%x%%]%%%%" "iajdos282728_sg2:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --drive-skip-dangling-shortcuts --drive-skip-shortcuts   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
+echo call rclone sync "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/%%%%ihs92[%%x%%]%%%%" "iajdos282728_sg3:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --drive-skip-dangling-shortcuts --drive-skip-shortcuts   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
+echo call rclone sync "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/%%%%ihs92[%%x%%]%%%%" "iajdos282728_sg4:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --drive-skip-dangling-shortcuts --drive-skip-shortcuts   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
+echo call rclone sync "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/%%%%ihs92[%%x%%]%%%%" "iajdos282728_sg5:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --drive-skip-dangling-shortcuts --drive-skip-shortcuts   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
+echo call rclone sync "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/%%%%ihs92[%%x%%]%%%%" "iajdos282728_sg6:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --drive-skip-dangling-shortcuts --drive-skip-shortcuts   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
+echo call rclone sync "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/%%%%ihs92[%%x%%]%%%%" "iajdos282728_sg7:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --drive-skip-dangling-shortcuts --drive-skip-shortcuts   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
+echo call rclone sync "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/%%%%ihs92[%%x%%]%%%%" "iajdos282728_sg8:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --drive-skip-dangling-shortcuts --drive-skip-shortcuts   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
+echo call rclone sync "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/%%%%ihs92[%%x%%]%%%%" "iajdos282728_sg9:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --drive-skip-dangling-shortcuts --drive-skip-shortcuts   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
+echo call rclone sync "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.id/%%%%ihs92[%%x%%]%%%%" "iajdos282728_sg10:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --drive-skip-dangling-shortcuts --drive-skip-shortcuts   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --track-renames --drive-skip-dangling-shortcuts --drive-skip-shortcuts
+
+echo     set /a "x+=1"
+echo     GOTO :i^)
 
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_23.bat"
 
@@ -1639,13 +1756,13 @@ echo rclone sync "xjdik82288:/rclone/gcr/m.shahruxips-1@sman5tambunselatan.sch.i
 
 echo cd %%userprofile%%
 
-echo rclone copy "fiyandha_sman5,shared_with_me:/" "fiyandha_sman5:/Shared" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 15G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --drive-skip-dangling-shortcuts --drive-skip-shortcuts 
+echo rclone copy "fiyandha_sman5,shared_with_me:/" "fiyandha_sman5:/Shared"   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 15G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --drive-skip-dangling-shortcuts --drive-skip-shortcuts 
 
-echo rclone copy "rama_sman5,shared_with_me:/" "rama_sman5:/Shared" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 15G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --drive-skip-dangling-shortcuts --drive-skip-shortcuts 
+echo rclone copy "rama_sman5,shared_with_me:/" "rama_sman5:/Shared"   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 15G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --drive-skip-dangling-shortcuts --drive-skip-shortcuts 
 
-echo rclone copy "fcfgts_driveku_me,shared_with_me:/" "fcfgts_driveku_me:/shared docs" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --include {pptx,docx,html,txt,json,xlsx,xls,doc,ppt,rtf,do m,dot,dotm,docb,wll,pdf,wbk,wwl,doc,docm,dotx,htm,mht,mhtml,odt,pdf,rtf,txt,wps,xml,xml,xps,csv,dbf,dif,ods,prn,slk,xla,xlam,xlsb,xls,xlsm,xlt,xltm,xltx,xlw,xml,xps,bmp,emf,gif,odp,pdf,pot,potm,potx,ppa,ppam,pps,ppsm,ppsx,pptm,rtf,thmx,tif,wmf,xml,xps}" --low-level-retries 9999999999 --retries 10 --drive-skip-dangling-shortcuts --drive-skip-shortcuts --max-transfer 15G
+echo rclone copy "fcfgts_driveku_me,shared_with_me:/" "fcfgts_driveku_me:/shared docs"   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --include {pptx,docx,html,txt,json,xlsx,xls,doc,ppt,rtf,do m,dot,dotm,docb,wll,pdf,wbk,wwl,doc,docm,dotx,htm,mht,mhtml,odt,pdf,rtf,txt,wps,xml,xml,xps,csv,dbf,dif,ods,prn,slk,xla,xlam,xlsb,xls,xlsm,xlt,xltm,xltx,xlw,xml,xps,bmp,emf,gif,odp,pdf,pot,potm,potx,ppa,ppam,pps,ppsm,ppsx,pptm,rtf,thmx,tif,wmf,xml,xps}" --low-level-retries 9999999999 --retries 10 --drive-skip-dangling-shortcuts --drive-skip-shortcuts --max-transfer 15G
 
-echo rclone move "927281jwow,shared_with_me:/jY1CJ1hE4P/main_pc/Downloads_pool" "927281jwow,shared_with_me:/Downloads_pool_83174" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+echo rclone move "927281jwow,shared_with_me:/jY1CJ1hE4P/main_pc/Downloads_pool" "927281jwow,shared_with_me:/Downloads_pool_83174"   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
 
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_24.bat"
 
@@ -1701,27 +1818,27 @@ echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
 
 echo set "x=0"
-echo :SymLoop1
+echo :i
 echo if defined selofldrs[%%x%%] ^(
-echo     call rclone copy "9288wowj,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selofldrs[%%x%%]%%%%" "9288wowj_sg10,shared_with_me:/alyx 7229179/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+echo     call rclone copy "9288wowj,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selofldrs[%%x%%]%%%%" "9288wowj_sg10,shared_with_me:/alyx 7229179/%%copyname%%/%%%%selofldrs[%%x%%]%%%%"   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
 echo     set /a "x+=1"
-echo     GOTO :SymLoop1^)
+echo     GOTO :i^)
 
 echo set "x=0"
-echo :SymLoop1
+echo :i
 echo if defined selofldrs[%%x%%] ^(
-echo     call rclone sync "9288wowj,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selofldrs[%%x%%]%%%%" "9288wowj_sg10,shared_with_me:/alyx 7229179/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
+echo     call rclone sync "9288wowj,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selofldrs[%%x%%]%%%%" "9288wowj_sg10,shared_with_me:/alyx 7229179/%%copyname%%/%%%%selofldrs[%%x%%]%%%%"   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
 echo     set /a "x+=1"
-echo     GOTO :SymLoop1^)
+echo     GOTO :i^)
 
 echo set "x=0"
-echo :SymLoop1
+echo :i
 echo if defined selofldrs[%%x%%] ^(
-echo     call rclone mkdir "%acc%_sg%sg%:/Selo/main_cloud/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors
+echo     call rclone mkdir "%acc%_sg%sg%:/Selo/kamikaze/computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
 echo     set /a "x+=1"
-echo     GOTO :SymLoop1^)
+echo     GOTO :i^)
 
-echo rclone moveto "9288wowj_sg10:/Selo/main_cloud/computers/alyx/%%copyname%%" "9288wowj_sg10:/Selo/main_cloud/computers/alyx/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --low-level-retries 9999999999 --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors
+echo rclone moveto "9288wowj_sg10:/Selo/kamikaze/computers/alyx/%%copyname%%" "9288wowj_sg10:/Selo/kamikaze/computers/alyx/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
 
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_25.bat"
 
@@ -1733,10 +1850,10 @@ echo rclone moveto "9288wowj_sg10:/Selo/main_cloud/computers/alyx/%%copyname%%" 
 
 echo cd %%userprofile%%
 
-echo rclone copy "fcfgts_driveku_me:/" "fcfgts_driveku_me:/Files/" --max-depth 1 --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --drive-skip-dangling-shortcuts --drive-skip-shortcuts
+echo rclone copy "fcfgts_driveku_me:/" "fcfgts_driveku_me:/Files/" --max-depth 1   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --drive-skip-dangling-shortcuts --drive-skip-shortcuts
 REM
-echo rclone sync "fcfgts_driveku_me:/" "fcfgts_driveku_me:/Files/" --max-depth 1 --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --drive-skip-dangling-shortcuts --drive-skip-shortcuts --track-renames
-echo rclone delete "fcfgts_driveku_me:/" --max-depth 1 --drive-server-side-across-configs --no-traverse --drive-keep-revision-forever --auto-confirm --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --drive-skip-dangling-shortcuts --drive-skip-shortcuts
+echo rclone sync "fcfgts_driveku_me:/" "fcfgts_driveku_me:/Files/" --max-depth 1   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --drive-skip-dangling-shortcuts --drive-skip-shortcuts --track-renames
+echo rclone delete "fcfgts_driveku_me:/" --max-depth 1   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --drive-skip-dangling-shortcuts --drive-skip-shortcuts
 
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_26.bat"
 

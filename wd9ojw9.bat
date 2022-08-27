@@ -1,123 +1,44 @@
-set mkpath[11]="fcfgts_driveku_me:/Colab Notebooks"
-set mkpath[12]="fcfgts_driveku_me:/Files"
-set mkpath[13]="fcfgts_driveku_me:/PC/alyx"
-set mkpath[14]="fcfgts_driveku_me:/system/rclone"
-set mkpath[15]="fcfgts_driveku_me:/system/test"
-set mkpath[16]="fcfgts_driveku_me:/Unlimtd Copy/Computers"
-set mkpath[17]="fcfgts_driveku_me:/Unlimtd Copy/Downloads_pool_83174"
-set mkpath[18]="fcfgts_driveku_me:/Unlimtd Copy/Minecraft"
-
-echo set "x=0"
-echo :SymLoop2
-echo if defined mkpath[%x%] (
-echo     call rclone mkdir %%mkpath[%x%]%%
-echo     set /a "x+=1"
-echo     GOTO :SymLoop2
 
 
+set mkdirspath[0]=1
+
+set "xv=0"
+:d
+if defined mkdirspath[%xv%] (
+
+(
+call echo cd %%%%userprofile%%%%
+
+call echo rclone cleanup "aaveusdt_sg1:/"
+call echo rclone cleanup "renaave50_sg2:/"
+call echo rclone cleanup "renaave7_sg3:/"
+call echo rclone cleanup "oudhoh0050_sg4:/"
+call echo rclone cleanup "nkiux77509_sg5:/"
+call echo rclone cleanup "didrhj9036_sg6:/"
+call echo rclone cleanup "hjski8292882_sg7:/"
+call echo rclone cleanup "jsnwj84738_sg8:/"
+call echo rclone cleanup "ffdnsak8272793_sg9:/"
+call echo rclone cleanup "otipes7948_sg10:/"
+
+call echo set mkpath[0]="fcfgts_driveku_me:/Colab Notebooks"
+call echo set mkpath[1]="fcfgts_driveku_me:/Files"
+call echo set mkpath[2]="fcfgts_driveku_me:/PC/alyx"
+call echo set mkpath[2]="fcfgts_driveku_me:/PC/caca"
+call echo set mkpath[3]="fcfgts_driveku_me:/system/rclone"
+call echo set mkpath[4]="fcfgts_driveku_me:/system/test"
+call echo set mkpath[5]="fcfgts_driveku_me:/Unlimtd Copy/Downloads_pool_83174"
+call echo set mkpath[6]="fcfgts_driveku_me:/Unlimtd Copy/Minecraft"
+
+call echo set "x=0"
+call echo :d12
+call echo if defined mkpath[%%%%x%%%%] ^(
+call echo     call rclone mkdir %%%%%%%%mkpath[%%%%x%%%%]%%%%%%%% --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --ignore-errors
+call echo     set /a "x+=1"
+call echo     GOTO :d12
+call echo ^)
 
 
+)>"C:\a_fiyandha\z-bat-vbs-file\rclone\_1.bat"
 
-set mkdirpath[1]=Selo/" 
-set mkdirpath[2]=Selo/main_cloud/" 
-set mkdirpath[3]=Selo/main_cloud/computers/" 
-set mkdirpath[4]=Selo/main_cloud/computers/alyx/" 
-set mkdirpath[5]=Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/" 
-set mkdirpath[6]=Selo/main_cloud/m.shahruxips-1@sman5tambunselatan.sch.id/"
-set mkdirpath[7]=Caca/" 
-set mkdirpath[8]=Caca/main_cloud/" 
-set mkdirpath[9]=Caca/main_cloud/computers/" 
-set mkdirpath[10]=Caca/main_cloud/computers/laptop_caca/"
-
-set storage=aaveusdt_sg1
-
-echo set "x=0"
-echo :SymLoop2
-echo if defined mkdirpath[%x%] (
-echo     call rclone mkdir "%storage%:/%%mkdirpath[%x%]%%
-echo     set /a "x+=1"
-echo     GOTO :SymLoop2
-
-set storage=renaave50_sg2
-
-echo set "x=0"
-echo :SymLoop2
-echo if defined mkdirpath[%x%] (
-echo     call rclone mkdir "%storage%:/%%mkdirpath[%x%]%%
-echo     set /a "x+=1"
-echo     GOTO :SymLoop2
-
-set storage=renaave7_sg3
-
-echo set "x=0"
-echo :SymLoop2
-echo if defined mkdirpath[%x%] (
-echo     call rclone mkdir "%storage%:/%%mkdirpath[%x%]%%
-echo     set /a "x+=1"
-echo     GOTO :SymLoop2
-
-set storage=oudhoh0050_sg4
-
-echo set "x=0"
-echo :SymLoop2
-echo if defined mkdirpath[%x%] (
-echo     call rclone mkdir "%storage%:/%%mkdirpath[%x%]%%
-echo     set /a "x+=1"
-echo     GOTO :SymLoop2
-
-set storage=nkiux77509_sg5
-
-echo set "x=0"
-echo :SymLoop2
-echo if defined mkdirpath[%x%] (
-echo     call rclone mkdir "%storage%:/%%mkdirpath[%x%]%%
-echo     set /a "x+=1"
-echo     GOTO :SymLoop2
-
-set storage=didrhj9036_sg6
-
-echo set "x=0"
-echo :SymLoop2
-echo if defined mkdirpath[%x%] (
-echo     call rclone mkdir "%storage%:/%%mkdirpath[%x%]%%
-echo     set /a "x+=1"
-echo     GOTO :SymLoop2
-
-set storage=hjski8292882_sg7
-
-echo set "x=0"
-echo :SymLoop2
-echo if defined mkdirpath[%x%] (
-echo     call rclone mkdir "%storage%:/%%mkdirpath[%x%]%%
-echo     set /a "x+=1"
-echo     GOTO :SymLoop2
-
-set storage=jsnwj84738_sg8
-
-echo set "x=0"
-echo :SymLoop2
-echo if defined mkdirpath[%x%] (
-echo     call rclone mkdir "%storage%:/%%mkdirpath[%x%]%%
-echo     set /a "x+=1"
-echo     GOTO :SymLoop2
-
-set storage=ffdnsak8272793_sg9
-
-echo set "x=0"
-echo :SymLoop2
-echo if defined mkdirpath[%x%] (
-echo     call rclone mkdir "%storage%:/%%mkdirpath[%x%]%%
-echo     set /a "x+=1"
-echo     GOTO :SymLoop2
-
-set storage=otipes7948_sg10
-
-echo set "x=0"
-echo :SymLoop2
-echo if defined mkdirpath[%x%] (
-echo     call rclone mkdir "%storage%:/%%mkdirpath[%x%]%%
-echo     set /a "x+=1"
-echo     GOTO :SymLoop2
-
-
-pause
+    set /a "xv+=1"
+    GOTO :d)
