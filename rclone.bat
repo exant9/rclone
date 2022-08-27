@@ -12,17 +12,17 @@ REM  A nya gabakal pake usage
 
 
 
-set mkdirpath[0]=Selo/"
-set mkdirpath[1]=Selo/kamikaze/computers/alyx/"
-set mkdirpath[2]=Selo/kamikaze/fiyandhax-mipa4@sman5tambunselatan.sch.id/Classroom"
-set mkdirpath[3]=Selo/kamikaze/fiyandhax-mipa4@sman5tambunselatan.sch.id/Shared"
-set mkdirpath[4]=Selo/kamikaze/m.shahruxips-1@sman5tambunselatan.sch.id/Classroom"
-set mkdirpath[5]=Selo/kamikaze/m.shahruxips-1@sman5tambunselatan.sch.id/Shared"
-set mkdirpath[6]=Selo/kamikaze/m.shahruxips-1@sman5tambunselatan.sch.id/Tugas Sekolah"
-set mkdirpath[7]=Selo/kamikaze/m.shahruxips-1@sman5tambunselatan.sch.id/TUGAS SEMUA MAPEL KELAS X"
-set mkdirpath[8]=Caca/kamikaze/computers/caca/"
-set mkdirpath[9]=Anggun/kamikaze/gphotos/"
-set mkdirpath[10]=logs/"
+REM set mkdirpath[0]=Selo/"
+REM set mkdirpath[1]=Selo/kamikaze/computers/alyx/"
+REM set mkdirpath[2]=Selo/kamikaze/fiyandhax-mipa4@sman5tambunselatan.sch.id/Classroom"
+REM set mkdirpath[3]=Selo/kamikaze/fiyandhax-mipa4@sman5tambunselatan.sch.id/Shared"
+REM set mkdirpath[4]=Selo/kamikaze/m.shahruxips-1@sman5tambunselatan.sch.id/Classroom"
+REM set mkdirpath[5]=Selo/kamikaze/m.shahruxips-1@sman5tambunselatan.sch.id/Shared"
+REM set mkdirpath[6]=Selo/kamikaze/m.shahruxips-1@sman5tambunselatan.sch.id/Tugas Sekolah"
+REM set mkdirpath[7]=Selo/kamikaze/m.shahruxips-1@sman5tambunselatan.sch.id/TUGAS SEMUA MAPEL KELAS X"
+REM set mkdirpath[8]=Caca/kamikaze/computers/caca/"
+REM set mkdirpath[9]=Anggun/kamikaze/gphotos/"
+REM set mkdirpath[10]=logs/"
 
 
 REM set storage=aaveusdt_sg1
