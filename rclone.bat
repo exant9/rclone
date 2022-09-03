@@ -21,6 +21,8 @@ if defined mkdirpath[%x%] (
 
 
 
+REM   cleanup
+
 cd "C:\a_fiyandha\z-bat-vbs-file\rclone"
 
 (
@@ -55,131 +57,6 @@ echo     GOTO :d12
 echo ^)
 
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_1.bat"
-
-
-
-
-
-
-
-REM set acc[1]=aaveusdt
-REM set acc[2]=renaave50
-REM set acc[3]=renaave7
-REM set acc[4]=oudhoh0050
-REM set acc[5]=nkiux77509
-REM set acc[6]=didrhj9036
-REM set acc[7]=hjski8292882
-REM set acc[8]=jsnwj84738
-REM set acc[9]=ffdnsak8272793
-REM set acc[10]=otipes7948
-
-
-REM set x0[0]=aaveusdt
-REM set x0[1]=aaveusdt
-REM set x0[2]=renaave50
-REM set x0[3]=renaave7
-REM set x0[4]=oudhoh0050
-REM set x0[5]=nkiux77509
-REM set x0[6]=didrhj9036
-REM set x0[7]=hjski8292882
-REM set x0[8]=jsnwj84738
-REM set x0[9]=ffdnsak8272793
-
-REM set "x=0"
-REM set "strg=1"
-REM set "k12=2"
-REM set "xv12=0"
-REM :d
-REM :i82ye
-REM if defined x0[%xv12%] (
-
-REM CALL :j219
-REM )
-
-
-
-
-
-REM :j219
-
-
-
-
-REM (
-
-REM echo %%%%acc[%%strg%%]%%%%
-REM pause
-
-REM call echo set selofldrs[0]=a_fiyandha
-REM call echo set selofldrs[1]=3D Objects
-REM call echo set selofldrs[2]=Desktop
-REM call echo set selofldrs[3]=Documents
-REM call echo set selofldrs[4]=Videos
-REM call echo set selofldrs[5]=Saved Games
-REM call echo set selofldrs[6]=Favorites
-REM call echo set selofldrs[7]=Links
-REM call echo set selofldrs[8]=Music
-REM call echo set selofldrs[9]=Contacts
-REM call echo set selofldrs[10]=a NDF1x extended
-REM call echo set selofldrs[11]=Downloads
-REM call echo set selofldrs[12]=Pictures
-REM call echo set selofldrs[13]=behavior_packs
-REM call echo set selofldrs[14]=development_behavior_packs
-REM call echo set selofldrs[15]=development_resource_packs
-REM call echo set selofldrs[16]=development_skin_packs
-REM call echo set selofldrs[17]=minecraftpe
-REM call echo set selofldrs[18]=minecraftWorlds
-REM call echo set selofldrs[19]=resource_packs
-REM call echo set selofldrs[20]=skin_packs
-REM call echo set selofldrs[21]=world_templates
-REM call echo set selofldrs[22]=Notepad++
-REM call echo set selofldrs[23]=z-bat-vbs-file settings
-REM call echo set selofldrs[24]=rclone
-REM call echo set selofldrs[25]=profiles
-
-REM call echo cd %%%%userprofile%%%%
-
-REM call echo set day=%%%%date:~-7,2%%%%
-REM call echo set month=%%%%date:~-10,2%%%%
-REM call echo set year=%%%%date:~-4%%%%
-REM call echo set hour=%%%%time:~0,2%%%%
-REM call echo set minute=%%%%time:~3,2%%%%
-REM call echo set second=%%%%TIME:~6,2%%%%
-
-REM call echo set copyname=%%%%day%%%%-%%%%month%%%%-%%%%year%%%%_%%%%hour%%%%_%%%%minute%%%%_%%%%second%%%%
-
-
-
-REM call echo set "x=0"
-REM call echo :i
-REM call echo if defined selofldrs[%%%%x%%%%] ^(
-REM call echo     call rclone copy "%%%%acc[%%strg%%]%%%%,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%%%%%selofldrs[%%%%x%%%%]%%%%%%%%" "%%%%acc[%%strg%%]%%%%_sg%%strg%%:/Selo/kamikaze/computers/alyx/%%%%copyname%%%%/%%%%%%%%selofldrs[%%%%x%%%%]%%%%%%%%"   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change  --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10
-REM call echo     set /a "x+=1"
-REM call echo     GOTO :i^)
-
-REM call echo set "x=0"
-REM call echo :i
-REM call echo if defined selofldrs[%%%%x%%%%] ^(
-REM call echo     call rclone sync "%%%%acc[%%strg%%]%%%%,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%%%%%selofldrs[%%%%x%%%%]%%%%%%%%" "%%%%acc[%%strg%%]%%%%_sg%%strg%%:/Selo/kamikaze/computers/alyx/%%%%copyname%%%%/%%%%%%%%selofldrs[%%%%x%%%%]%%%%%%%%"   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change  --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
-REM call echo     set /a "x+=1"
-REM call echo     GOTO :i^)
-
-REM call echo set "x=0"
-REM call echo :i
-REM call echo if defined selofldrs[%%%%x%%%%] ^(
-REM call REM echo     call rclone mkdir "%%%%acc[%%strg%%]%%%%_sg%%strg%%:/Selo/kamikaze/computers/alyx/%%%%copyname%%%%/%%%%%%%%selofldrs[%%%%x%%%%]%%%%%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change 
-REM call echo     set /a "x+=1"
-REM call echo     GOTO :i^)
-
-REM call echo rclone moveto "%%acc[%%strg%%]%%_sg%%strg%%:/Selo/kamikaze/computers/alyx/%%%%copyname%%%%" "%%%%acc[%%strg%%]%%%%_sg%%strg%%:/Selo/kamikaze/computers/alyx/%%%%copyname%%%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change  --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change 
-
-REM )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_%k12%.bat"
-
-REM set /a "xv12+=1"
-REM set /a "strg+=1"
-REM set /a "k12+=1"
-REM set /a "x+=1"
-REM GOTO :i82ye
 
 
 
