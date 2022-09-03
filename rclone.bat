@@ -2,8 +2,6 @@ if not DEFINED IS_MINIMIZED set IS_MINIMIZED=1 && start "" /min "%~dpnx0" %* && 
 cd %userprofile%
 
 
-REM ping www.google.com -n 1 -w 1000
-REM if errorlevel 1 exit
 
 
 REM  rclone copy A B
@@ -11,27 +9,6 @@ REM  A nya gabakal pake usage
 
 
 
-
-REM set mkdirpath[0]=Selo/"
-REM set mkdirpath[1]=Selo/kamikaze/computers/alyx/"
-REM set mkdirpath[2]=Selo/kamikaze/fiyandhax-mipa4@sman5tambunselatan.sch.id/Classroom"
-REM set mkdirpath[3]=Selo/kamikaze/fiyandhax-mipa4@sman5tambunselatan.sch.id/Shared"
-REM set mkdirpath[4]=Selo/kamikaze/m.shahruxips-1@sman5tambunselatan.sch.id/Classroom"
-REM set mkdirpath[5]=Selo/kamikaze/m.shahruxips-1@sman5tambunselatan.sch.id/Shared"
-REM set mkdirpath[6]=Selo/kamikaze/m.shahruxips-1@sman5tambunselatan.sch.id/Tugas Sekolah"
-REM set mkdirpath[7]=Selo/kamikaze/m.shahruxips-1@sman5tambunselatan.sch.id/TUGAS SEMUA MAPEL KELAS X"
-REM set mkdirpath[8]=Caca/kamikaze/computers/caca/"
-REM set mkdirpath[9]=Anggun/kamikaze/gphotos/"
-REM set mkdirpath[10]=logs/"
-
-
-REM set storage=aaveusdt_sg1
-REM set "x=0"
-REM :d2455
-REM if defined mkdirpath[%x%] (
-    REM call rclone mkdir "%storage%:/%%mkdirpath[%x%]%% --low-level-retries 9999999999 --auto-confirm --no-traverse --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change   
-	REM set /a "x+=1"
-    REM GOTO :d2455)
 set storage=renaave50_sg2
 set "x=0"
 :h18
@@ -39,62 +16,6 @@ if defined mkdirpath[%x%] (
     call rclone mkdir "%storage%:/%%mkdirpath[%x%]%% --low-level-retries 9999999999 --auto-confirm --no-traverse --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change   
     set /a "x+=1"
     GOTO :h18)
-REM set storage=renaave7_sg3
-REM set "x=0"
-REM :h1812
-REM if defined mkdirpath[%x%] (
-    REM call rclone mkdir "%storage%:/%%mkdirpath[%x%]%% --low-level-retries 9999999999 --auto-confirm --no-traverse --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change   
-    REM set /a "x+=1"
-    REM GOTO :h1812)
-REM set storage=oudhoh0050_sg4
-REM set "x=0"
-REM :k29299
-REM if defined mkdirpath[%x%] (
-    REM call rclone mkdir "%storage%:/%%mkdirpath[%x%]%% --low-level-retries 9999999999 --auto-confirm --no-traverse --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change   
-    REM set /a "x+=1"
-    REM GOTO :k29299)
-REM set storage=nkiux77509_sg5
-REM set "x=0"
-REM :m81838
-REM if defined mkdirpath[%x%] (
-    REM call rclone mkdir "%storage%:/%%mkdirpath[%x%]%% --low-level-retries 9999999999 --auto-confirm --no-traverse --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change   
-    REM set /a "x+=1"
-    REM GOTO :m81838)
-REM set storage=didrhj9036_sg6
-REM set "x=0"
-REM :j9s919
-REM if defined mkdirpath[%x%] (
-    REM call rclone mkdir "%storage%:/%%mkdirpath[%x%]%% --low-level-retries 9999999999 --auto-confirm --no-traverse --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change   
-    REM set /a "x+=1"
-    REM GOTO :j9s919)
-REM set storage=hjski8292882_sg7
-REM set "x=0"
-REM :ks01092992
-REM if defined mkdirpath[%x%] (
-    REM call rclone mkdir "%storage%:/%%mkdirpath[%x%]%% --low-level-retries 9999999999 --auto-confirm --no-traverse --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change   
-    REM set /a "x+=1"
-    REM GOTO :ks01092992)
-REM set storage=jsnwj84738_sg8
-REM set "x=0"
-REM :nw82271
-REM if defined mkdirpath[%x%] (
-    REM call rclone mkdir "%storage%:/%%mkdirpath[%x%]%% --low-level-retries 9999999999 --auto-confirm --no-traverse --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change   
-    REM set /a "x+=1"
-    REM GOTO :nw82271)
-REM set storage=ffdnsak8272793_sg9
-REM set "x=0"
-REM :2j299r399
-REM if defined mkdirpath[%x%] (
-    REM call rclone mkdir "%storage%:/%%mkdirpath[%x%]%% --low-level-retries 9999999999 --auto-confirm --no-traverse --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change   
-    REM set /a "x+=1"
-    REM GOTO :2j299r399)
-REM set storage=otipes7948_sg10
-REM set "x=0"
-REM :jw992929
-REM if defined mkdirpath[%x%] (
-    REM call rclone mkdir "%storage%:/%%mkdirpath[%x%]%% --low-level-retries 9999999999 --auto-confirm --no-traverse --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change   
-    REM set /a "x+=1"
-    REM GOTO :jw992929)
 
 
 
