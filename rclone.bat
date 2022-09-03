@@ -63,7 +63,6 @@ echo ^)
 
 
 
-
 set acc=aaveusdt
 set sg=1
 
@@ -136,7 +135,6 @@ echo     GOTO :i1^)
 echo rclone moveto "aaveusdt_sg1:/Selo/kamikaze/Computers/alyx/%%copyname%%" "aaveusdt_sg1:/Selo/kamikaze/Computers/alyx/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change  --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change 
 
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_%k12%.bat"
-
 
 
 
@@ -218,7 +216,6 @@ echo rclone moveto "renaave50_sg2:/Selo/kamikaze/Computers/alyx/%%copyname%%" "r
 
 
 
-
 set acc=renaave7
 set sg=3
 
@@ -291,7 +288,6 @@ echo     GOTO :i1^)
 echo rclone moveto "renaave7_sg3:/Selo/kamikaze/Computers/alyx/%%copyname%%" "renaave7_sg3:/Selo/kamikaze/Computers/alyx/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change  --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change 
 
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_4.bat"
-
 
 
 
@@ -372,7 +368,6 @@ echo rclone moveto "oudhoh0050_sg4:/Selo/kamikaze/Computers/alyx/%%copyname%%" "
 
 
 
-
 set acc=nkiux77509
 set sg=5
 
@@ -445,7 +440,6 @@ echo     GOTO :i1^)
 echo rclone moveto "nkiux77509_sg5:/Selo/kamikaze/Computers/alyx/%%copyname%%" "nkiux77509_sg5:/Selo/kamikaze/Computers/alyx/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change  --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change 
 
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_6.bat"
-
 
 
 
@@ -526,7 +520,6 @@ echo rclone moveto "didrhj9036_sg6:/Selo/kamikaze/Computers/alyx/%%copyname%%" "
 
 
 
-
 set acc=hjski8292882
 set sg=7
 
@@ -599,7 +592,6 @@ echo     GOTO :i1^)
 echo rclone moveto "hjski8292882_sg7:/Selo/kamikaze/Computers/alyx/%%copyname%%" "hjski8292882_sg7:/Selo/kamikaze/Computers/alyx/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change  --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change 
 
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_8.bat"
-
 
 
 
@@ -680,7 +672,6 @@ echo rclone moveto "jsnwj84738_sg8:/Selo/kamikaze/Computers/alyx/%%copyname%%" "
 
 
 
-
 set acc=ffdnsak8272793
 set sg=9
 
@@ -753,7 +744,6 @@ echo     GOTO :i1^)
 echo rclone moveto "ffdnsak8272793_sg9:/Selo/kamikaze/Computers/alyx/%%copyname%%" "ffdnsak8272793_sg9:/Selo/kamikaze/Computers/alyx/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change  --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change 
 
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_10.bat"
-
 
 
 
@@ -837,7 +827,6 @@ echo rclone moveto "otipes7948_sg10:/Selo/kamikaze/Computers/alyx/%%copyname%%" 
 REM  Cacaaaa   _______________________________________________________
 
 
-
 set acc=jjajai2818
 set sg=1
 
@@ -894,7 +883,6 @@ echo     GOTO :i4^)
 echo rclone moveto "jjajai2818_sg1:/Caca/kamikaze/Computers/caca/%%copyname%%" "jjajai2818_sg1:/Caca/kamikaze/Computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change  --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change 
 
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_12.bat"
-
 
 
 
@@ -957,7 +945,6 @@ echo rclone moveto "eleoek28828_sg2:/Caca/kamikaze/Computers/caca/%%copyname%%" 
 
 
 
-
 set acc=wjwn91178
 set sg=3
 
@@ -1014,7 +1001,6 @@ echo     GOTO :i1^)
 echo rclone moveto "wjwn91178_sg3:/Caca/kamikaze/Computers/caca/%%copyname%%" "wjwn91178_sg3:/Caca/kamikaze/Computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change  --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change 
 
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_14.bat"
-
 
 
 
@@ -1079,7 +1065,6 @@ echo rclone moveto "iaowk272818_sg4:/Caca/kamikaze/Computers/caca/%%copyname%%" 
 
 
 
-
 set acc=ejsjskw28272
 set sg=5
 
@@ -1136,7 +1121,6 @@ echo     GOTO :i1^)
 echo rclone moveto "ejsjskw28272_sg5:/Caca/kamikaze/Computers/caca/%%copyname%%" "ejsjskw28272_sg5:/Caca/kamikaze/Computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change  --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change 
 
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_16.bat"
-
 
 
 
@@ -1201,7 +1185,6 @@ echo rclone moveto "sjsiowkw272892_sg6:/Caca/kamikaze/Computers/caca/%%copyname%
 
 
 
-
 set acc=s81wjwo17
 set sg=7
 
@@ -1258,7 +1241,6 @@ echo     GOTO :i3243^)
 echo rclone moveto "s81wjwo17_sg7:/Caca/kamikaze/Computers/caca/%%copyname%%" "s81wjwo17_sg7:/Caca/kamikaze/Computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change  --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change 
 
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_18.bat"
-
 
 
 
@@ -1323,7 +1305,6 @@ echo rclone moveto "jskwonw_sg8:/Caca/kamikaze/Computers/caca/%%copyname%%" "jsk
 
 
 
-
 set acc=usowns81
 set sg=9
 
@@ -1380,7 +1361,6 @@ echo     GOTO :i1038929^)
 echo rclone moveto "usowns81_sg9:/Caca/kamikaze/Computers/caca/%%copyname%%" "usowns81_sg9:/Caca/kamikaze/Computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change  --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change 
 
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_20.bat"
-
 
 
 
@@ -1601,7 +1581,6 @@ echo rclone move "927281jwow,shared_with_me:/jY1CJ1hE4P/main_pc/Downloads_pool" 
 
 
 REM     Backup PC to main cloud ACC
-
 
 set acc=9288wowj
 set sg=10
