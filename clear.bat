@@ -34,13 +34,6 @@ set acc=aaveusdt_sg1
 echo cd %%userprofile%%
 echo.
 
-echo.
-
-echo.
-echo.
-echo.
-echo.
-
 echo set fldr=Selo
 
 echo @echo off
@@ -220,13 +213,6 @@ set acc=renaave50_sg2
 
 (
 echo cd %%userprofile%%
-echo.
-
-echo.
-
-echo.
-echo.
-echo.
 echo.
 
 echo set fldr=Selo
@@ -410,13 +396,6 @@ set acc=renaave7_sg3
 
 (
 echo cd %%userprofile%%
-echo.
-
-echo.
-
-echo.
-echo.
-echo.
 echo.
 
 echo set fldr=Selo
