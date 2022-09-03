@@ -1428,7 +1428,7 @@ echo rclone moveto "9288wowj_sg10:/Caca/kamikaze/computers/caca/%%copyname%%" "9
 
 (
 
-timeout 21
+echo timeout 21
 
 echo cd %%userprofile%%
 
@@ -1493,7 +1493,7 @@ echo     GOTO :i1930013^)
 
 (
 
-timeout 22
+echo timeout 22
 
 echo cd %%userprofile%%
 
@@ -1580,6 +1580,8 @@ echo rclone move "927281jwow,shared_with_me:/jY1CJ1hE4P/main_pc/Downloads_pool" 
 
 
 
+REM     Backup PC to main cloud ACC
+
 
 set acc=9288wowj
 set sg=10
@@ -1663,8 +1665,9 @@ echo timeout 24
 
 echo cd %%userprofile%%
 
+REM    Copy files from highest folder
+
 echo rclone copy "fcfgts_driveku_me:/" "fcfgts_driveku_me:/Files/" --max-depth 1   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change  --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --drive-skip-dangling-shortcuts --drive-skip-shortcuts
-REM
 echo rclone sync "fcfgts_driveku_me:/" "fcfgts_driveku_me:/Files/" --max-depth 1   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change  --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --drive-skip-dangling-shortcuts --drive-skip-shortcuts --track-renames
 echo rclone delete "fcfgts_driveku_me:/" --max-depth 1   --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet  --drive-allow-import-name-change  --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --drive-skip-dangling-shortcuts --drive-skip-shortcuts
 
