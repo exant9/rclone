@@ -1557,6 +1557,11 @@ echo     GOTO :i1929192^)
 
 (
 
+REM shared sekolah
+REM shared docs
+REM downlaods pool
+REM main cloud files upper
+
 echo timeout 22
 
 echo cd %%userprofile%%
@@ -1576,9 +1581,11 @@ echo rclone sync "fcfgts_driveku_me,shared_with_me:/" "fcfgts_driveku_me:/shared
 echo rclone move "927281jwow,shared_with_me:/jY1CJ1hE4P/main_pc/Downloads_pool" "927281jwow,shared_with_me:/Downloads_pool_83174" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
 echo rclone sync "927281jwow,shared_with_me:/jY1CJ1hE4P/main_pc/Downloads_pool" "927281jwow,shared_with_me:/Downloads_pool_83174" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
 
-echo rclone copy "fcfgts_driveku_me:/" "fcfgts_driveku_me:/Files/" --max-depth 1 --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --drive-skip-dangling-shortcuts --drive-skip-shortcuts
-echo rclone sync "fcfgts_driveku_me:/" "fcfgts_driveku_me:/Files/" --max-depth 1 --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --drive-skip-dangling-shortcuts --drive-skip-shortcuts --track-renames
-echo rclone delete "fcfgts_driveku_me:/" --max-depth 1 --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --drive-skip-dangling-shortcuts --drive-skip-shortcuts
+echo rclone move "fcfgts_driveku_me:/" "fcfgts_driveku_me:/Files/" --max-depth 1 --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --drive-skip-dangling-shortcuts --drive-skip-shortcuts
+REM echo rclone sync "fcfgts_driveku_me:/" "fcfgts_driveku_me:/Files/" --max-depth 1 --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --drive-skip-dangling-shortcuts --drive-skip-shortcuts --track-renames
+REM echo rclone delete "fcfgts_driveku_me:/" --max-depth 1 --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --drive-skip-dangling-shortcuts --drive-skip-shortcuts
+
+echo rclone dedupe "918qjj_sgtrash:/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --drive-skip-dangling-shortcuts --drive-skip-shortcuts
 
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_24.bat"
 
@@ -1621,6 +1628,93 @@ echo set selofldrs[21]=world_templates
 echo set selofldrs[22]=Notepad++
 echo set selofldrs[23]=z-bat-vbs-file settings
 echo set selofldrs[24]=rclone
+
+echo cd %%userprofile%%
+
+echo set day=%%date:~-7,2%%
+echo set month=%%date:~-10,2%%
+echo set year=%%date:~-4%%
+echo set hour=%%time:~0,2%%
+echo set minute=%%time:~3,2%%
+echo set second=%%TIME:~6,2%%
+
+echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
+
+
+
+
+echo set "x=0"
+echo :i1232
+echo if defined selofldrs[%%x%%] ^(
+echo     call rclone copy "9288wowj,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selofldrs[%%x%%]%%%%" "9288wowj_sg10,shared_with_me:/alyx 7229179/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+echo     set /a "x+=1"
+echo     GOTO :i1232^)
+
+echo set "x=0"
+echo :i291
+echo if defined selofldrs[%%x%%] ^(
+echo     call rclone sync "9288wowj,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selofldrs[%%x%%]%%%%" "9288wowj_sg10,shared_with_me:/alyx 7229179/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
+echo     call rclone sync "9288wowj,shared_with_me:/jY1CJ1hE4P/main_pc/%%%%selofldrs[%%x%%]%%%%" "9288wowj_sg10,shared_with_me:/alyx 7229179/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
+echo     set /a "x+=1"
+echo     GOTO :i291^)
+
+echo set "x=0"
+echo :i912
+echo if defined selofldrs[%%x%%] ^(
+REM echo     call rclone mkdir "%acc%_sg%sg%:/Selo/kamikaze/Computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change 
+echo     set /a "x+=1"
+echo     GOTO :i912^)
+
+echo rclone moveto "9288wowj_sg10:/Selo/kamikaze/Computers/alyx/%%copyname%%" "9288wowj_sg10:/Selo/kamikaze/Computers/alyx/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change 
+
+)>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_25.bat"
+
+
+
+
+
+
+
+
+
+set acc=jwwk199
+set sg=10
+
+(
+
+echo timeout 24
+
+echo set selofldrs[0]=Takeout
+echo set selofldrs[1]=Folgo Dock
+echo set selofldrs[2]=Classroom
+echo set selofldrs[3]=sound effects
+echo set selofldrs[4]=sc docs
+echo set selofldrs[5]=redstone .mcwld
+echo set selofldrs[6]=ms word
+echo set selofldrs[7]=ms powerpoint
+echo set selofldrs[8]=ms excel
+echo set selofldrs[9]=Minecraft
+echo set selofldrs[10]=Lr Presets
+echo set selofldrs[11]=Colab Notebooks
+echo set selofldrs[12]=Classroom
+echo set selofldrs[13]=Canva
+echo set selofldrs[14]=buku cetak digital
+
+echo set path[0]=fcfvalrahman/Takeout
+echo set path[1]=fcfvalrahman/Folgo Dock
+echo set path[2]=fcfmacc/Classroom
+echo set path[3]=fcfgts/sound effects
+echo set path[4]=fcfgts/sc docs
+echo set path[5]=fcfgts/redstone .mcwld
+echo set path[6]=fcfgts/ms word
+echo set path[7]=fcfgts/ms powerpoint
+echo set path[8]=fcfgts/ms excel
+echo set path[9]=fcfgts/Minecraft
+echo set path[10]=fcfgts/Lr Presets
+echo set path[11]=fcfgts/Colab Notebooks
+echo set path[12]=fcfgts/Classroom
+echo set path[13]=fcfgts/Canva
+echo set path[14]=fcfgts/buku cetak digital
 
 echo cd %%userprofile%%
 
