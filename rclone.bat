@@ -1925,7 +1925,6 @@ echo     set /a "x+=1"
 echo     GOTO :i912111^)
 
 
-
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_26.bat"
 
 
