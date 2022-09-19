@@ -1852,9 +1852,19 @@ echo rclone moveto "jwwk199_sg2:/Selo/%%_15g_acc%%/%%copyname%%" "jwwk199_sg2:/S
 
 
 
+)>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_26.bat"
 
+
+
+
+
+
+(
 
 REM   spam dump
+
+echo timeout 25
+
 
 echo set selofldrs[0]=alyx_pc
 echo set selofldrs[1]=m.shahruxips-1@sman5tambunselatan.sch.id
@@ -1895,7 +1905,7 @@ echo     set /a "x+=1"
 echo     GOTO :i912111^)
 
 
-)>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_26.bat"
+)>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_27.bat"
 
 
 
