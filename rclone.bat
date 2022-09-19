@@ -1692,6 +1692,8 @@ echo timeout 24
 echo set selofldrs[0]=Takeout
 echo set selofldrs[1]=Folgo Dock
 
+echo set _15g_acc=fcfvalrahman
+
 echo cd %%userprofile%%
 
 echo set day=%%date:~-7,2%%
@@ -1705,7 +1707,7 @@ echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
 
 
-echo set _15g_acc=fcfvalrahman
+
 
 echo set "x=0"
 echo :i1232
@@ -1735,6 +1737,8 @@ echo rclone moveto "jwwk199_sg2:/Selo/%%_15g_acc%%/%%copyname%%_fix" "jwwk199_sg
 
 echo set selofldrs[0]=Classroom
 
+echo set _15g_acc=fcfmacc
+
 echo cd %%userprofile%%
 
 echo set day=%%date:~-7,2%%
@@ -1747,9 +1751,6 @@ echo set second=%%TIME:~6,2%%
 echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
 
-
-
-echo set _15g_acc=fcfmacc
 
 echo set "x=0"
 echo :i12321
@@ -1790,6 +1791,8 @@ echo set selofldrs[9]=Classroom
 echo set selofldrs[10]=Canva
 echo set selofldrs[11]=buku cetak digital
 
+echo set _15g_acc=fcfgts
+
 echo cd %%userprofile%%
 
 echo set day=%%date:~-7,2%%
@@ -1803,9 +1806,6 @@ echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
 
 
-
-
-echo set _15g_acc=fcfgts
 
 echo set "x=0"
 echo :i123211
@@ -1843,6 +1843,7 @@ echo set selofldrs[3]=fiyandhax-mipa4@sman5tambunselatan.sch.id
 echo set selofldrs[4]=fcfvalrahman
 echo set selofldrs[5]=fcfmacc
 echo set selofldrs[6]=fcfgts
+echo set selofldrs[7]=kamikaze
 
 echo cd %%userprofile%%
 
