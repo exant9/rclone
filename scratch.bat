@@ -1,10 +1,3 @@
-@echo off
-set loop22=0
-:loop435541
-rclone purge "renaave50_sg2:/Caca/" --low-level-retries 60 
-set /a loop22=%loop22%+1 
-if "%loop22%"==<"2" goto next23231
-goto loop435541
-:next23231
-@echo on
-setlocal disabledelayedexpansion
+
+cd %userprofile%
+rclone sync "aaveusdt,shared_with_me:/jY1CJ1hE4P/wdwdwwfr/" "aaveusdt,shared_with_me:/dump 2781" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
