@@ -1349,7 +1349,7 @@ set acc=jsnwj84738_sg8
 
 echo cd %%userprofile%%
 
-REM --drive-trashed-only --drive-use-trash=false --fast-list --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change   
+REM --drive-trashed-only --drive-use-trash=false  --low-level-retries 9999999999 --no-traverse --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change   
 
 
 echo.
