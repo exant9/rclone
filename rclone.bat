@@ -2717,7 +2717,7 @@ REM echo rclone moveto "jwwk199_sg2:/Selo/%%_15g_acc%%/%%copyname%%" "jwwk199_sg
 
 (
 
-REM   spam dump
+REM   dump all jyc1e4p
 
 echo timeout 25
 
