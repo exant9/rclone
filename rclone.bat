@@ -6,6 +6,7 @@ cd %userprofile%
 
 REM  rclone copy A B
 REM  A nya gabakal pake usage
+REM  15gb gausah di dump, udah ada di dump jyc1e4p
 
 
 
