@@ -136,7 +136,7 @@ echo     GOTO :i1^)
 echo rclone moveto "%%acc%%_sg%%sg%%:/Selo/kamikaze/Computers/alyx/%%copyname%%" "%%acc%%_sg%%sg%%:/Selo/kamikaze/Computers/alyx/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change 
 
 
-REM  dump one time (no need to do all of 10!)
+REM  dump one time (sekali aja)
 
 echo set "x=0"
 echo :i2
@@ -225,6 +225,68 @@ echo     set /a "sg+=1"
 echo     rclone moveto "%%acc%%_sg%%sg%%:/Selo/%%_15g_acc%%/%%copyname%%" "%%acc%%_sg%%sg%%:/Selo/%%_15g_acc%%/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change 
 echo set /a "x+=1"
 echo GOTO :m1827172^)
+
+
+
+REM echo timeout 11
+
+echo set cacafldrs[0]=document caca
+echo set cacafldrs[1]=com.mojang
+echo set cacafldrs[2]=Notepad++
+echo set cacafldrs[3]=3D Objects
+echo set cacafldrs[4]=Desktop
+echo set cacafldrs[5]=Downloads
+echo set cacafldrs[6]=Music
+echo set cacafldrs[7]=Links
+echo set cacafldrs[8]=Pictures
+echo set cacafldrs[9]=Videos
+echo set cacafldrs[10]=Links
+echo set cacafldrs[11]=Favorites
+
+echo cd %%userprofile%%
+
+echo set day=%%date:~-7,2%%
+echo set month=%%date:~-10,2%%
+echo set year=%%date:~-4%%
+echo set hour=%%time:~0,2%%
+echo set minute=%%time:~3,2%%
+echo set second=%%TIME:~6,2%%
+
+echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
+
+REM echo set "x=0"
+REM echo :i2
+REM echo if defined cacafldrs[%%x%%] ^(
+REM echo     call rclone copy "jjajai2818,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "jjajai2818_sg1:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+REM echo     set /a "x+=1"
+REM echo     GOTO :i2^)
+
+echo set "x=0"
+echo :i3
+echo if defined cacafldrs[%%x%%] ^(
+echo     call rclone sync "%%acc%%,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
+echo     call rclone sync "%%acc%%,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
+echo     set /a "x+=1"
+echo     GOTO :i3^)
+
+echo set "x=0"
+echo :i4
+echo if defined cacafldrs[%%x%%] ^(
+REM echo     call rclone mkdir "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change 
+echo     set /a "x+=1"
+echo     GOTO :i4^)
+
+echo rclone moveto "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%" "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change 
+
+REM  dump one time (no need to do all of 10!)
+
+echo set "x=0"
+echo :i2
+echo if defined selofldrs[%%x%%] ^(
+echo     call rclone sync "%%acc%%,shared_with_me:/jY1CJ1hE4P/alyx_pc/%%%%cacafldrs[%%x%%]%%%%" "%%acc%%,shared_with_me:/dump 2781" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
+echo     call rclone sync "%%acc%%,shared_with_me:/jY1CJ1hE4P/alyx_pc/%%%%cacafldrs[%%x%%]%%%%" "%%acc%%,shared_with_me:/dump 2781" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
+echo     set /a "x+=1"
+echo     GOTO :i2^)
 
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_%k12%.bat"
 
@@ -383,6 +445,58 @@ echo     rclone moveto "%%acc%%_sg%%sg%%:/Selo/%%_15g_acc%%/%%copyname%%" "%%acc
 echo set /a "x+=1"
 echo GOTO :m1827172^)
 
+
+echo timeout 12
+
+echo set cacafldrs[0]=document caca
+echo set cacafldrs[1]=com.mojang
+echo set cacafldrs[2]=Notepad++
+echo set cacafldrs[3]=3D Objects
+echo set cacafldrs[4]=Desktop
+echo set cacafldrs[5]=Downloads
+echo set cacafldrs[6]=Music
+echo set cacafldrs[7]=Links
+echo set cacafldrs[8]=Pictures
+echo set cacafldrs[9]=Videos
+echo set cacafldrs[10]=Links
+echo set cacafldrs[11]=Favorites
+
+echo cd %%userprofile%%
+
+echo set day=%%date:~-7,2%%
+echo set month=%%date:~-10,2%%
+echo set year=%%date:~-4%%
+echo set hour=%%time:~0,2%%
+echo set minute=%%time:~3,2%%
+echo set second=%%TIME:~6,2%%
+
+echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
+
+REM echo set "x=0"
+REM echo :i3
+REM echo if defined cacafldrs[%%x%%] ^(
+REM echo     call rclone copy "eleoek28828,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "eleoek28828_sg2:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+REM echo     set /a "x+=1"
+REM echo     GOTO :i3^)
+
+echo set "x=0"
+echo :i1
+echo if defined cacafldrs[%%x%%] ^(
+echo     call rclone sync "%%acc%%,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
+echo     call rclone sync "%%acc%%,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
+echo     set /a "x+=1"
+echo     GOTO :i1^)
+
+echo set "x=0"
+echo :i2
+echo if defined cacafldrs[%%x%%] ^(
+REM echo     call rclone mkdir "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change 
+echo     set /a "x+=1"
+echo     GOTO :i2^)
+
+echo rclone moveto "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%" "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change 
+
+
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_3.bat"
 
 
@@ -538,6 +652,56 @@ echo     set /a "sg+=1"
 echo     rclone moveto "%%acc%%_sg%%sg%%:/Selo/%%_15g_acc%%/%%copyname%%" "%%acc%%_sg%%sg%%:/Selo/%%_15g_acc%%/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change 
 echo set /a "x+=1"
 echo GOTO :m1827172^)
+
+REM echo timeout 13
+
+echo set cacafldrs[0]=document caca
+echo set cacafldrs[1]=com.mojang
+echo set cacafldrs[2]=Notepad++
+echo set cacafldrs[3]=3D Objects
+echo set cacafldrs[4]=Desktop
+echo set cacafldrs[5]=Downloads
+echo set cacafldrs[6]=Music
+echo set cacafldrs[7]=Links
+echo set cacafldrs[8]=Pictures
+echo set cacafldrs[9]=Videos
+echo set cacafldrs[10]=Links
+echo set cacafldrs[11]=Favorites
+
+echo cd %%userprofile%%
+
+echo set day=%%date:~-7,2%%
+echo set month=%%date:~-10,2%%
+echo set year=%%date:~-4%%
+echo set hour=%%time:~0,2%%
+echo set minute=%%time:~3,2%%
+echo set second=%%TIME:~6,2%%
+
+echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
+
+REM echo set "x=0"
+REM echo :i3
+REM echo if defined cacafldrs[%%x%%] ^(
+REM echo     call rclone copy "wjwn91178,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "wjwn91178_sg3:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+REM echo     set /a "x+=1"
+REM echo     GOTO :i3^)
+
+echo set "x=0"
+echo :i2
+echo if defined cacafldrs[%%x%%] ^(
+echo     call rclone sync "%%acc%%,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
+echo     call rclone sync "%%acc%%,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
+echo     set /a "x+=1"
+echo     GOTO :i2^)
+
+echo set "x=0"
+echo :i1
+echo if defined cacafldrs[%%x%%] ^(
+REM echo     call rclone mkdir "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change 
+echo     set /a "x+=1"
+echo     GOTO :i1^)
+
+echo rclone moveto "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%" "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change 
 
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_4.bat"
 
@@ -695,6 +859,56 @@ echo     rclone moveto "%%acc%%_sg%%sg%%:/Selo/%%_15g_acc%%/%%copyname%%" "%%acc
 echo set /a "x+=1"
 echo GOTO :m1827172^)
 
+REM echo timeout 14
+
+echo set cacafldrs[0]=document caca
+echo set cacafldrs[1]=com.mojang
+echo set cacafldrs[2]=Notepad++
+echo set cacafldrs[3]=3D Objects
+echo set cacafldrs[4]=Desktop
+echo set cacafldrs[5]=Downloads
+echo set cacafldrs[6]=Music
+echo set cacafldrs[7]=Links
+echo set cacafldrs[8]=Pictures
+echo set cacafldrs[9]=Videos
+echo set cacafldrs[10]=Links
+echo set cacafldrs[11]=Favorites
+
+echo cd %%userprofile%%
+
+echo set day=%%date:~-7,2%%
+echo set month=%%date:~-10,2%%
+echo set year=%%date:~-4%%
+echo set hour=%%time:~0,2%%
+echo set minute=%%time:~3,2%%
+echo set second=%%TIME:~6,2%%
+
+echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
+
+REM echo set "x=0"
+REM echo :i34
+REM echo if defined cacafldrs[%%x%%] ^(
+REM echo     call rclone copy "iaowk272818,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "iaowk272818_sg4:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+REM echo     set /a "x+=1"
+REM echo     GOTO :i34^)
+
+echo set "x=0"
+echo :i1
+echo if defined cacafldrs[%%x%%] ^(
+echo     call rclone sync "%%acc%%,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
+echo     call rclone sync "%%acc%%,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
+echo     set /a "x+=1"
+echo     GOTO :i1^)
+
+echo set "x=0"
+echo :i2
+echo if defined cacafldrs[%%x%%] ^(
+REM echo     call rclone mkdir "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change 
+echo     set /a "x+=1"
+echo     GOTO :i2^)
+
+echo rclone moveto "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%" "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change 
+
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_5.bat"
 
 
@@ -850,6 +1064,56 @@ echo     set /a "sg+=1"
 echo     rclone moveto "%%acc%%_sg%%sg%%:/Selo/%%_15g_acc%%/%%copyname%%" "%%acc%%_sg%%sg%%:/Selo/%%_15g_acc%%/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change 
 echo set /a "x+=1"
 echo GOTO :m1827172^)
+
+REM echo timeout 15
+
+echo set cacafldrs[0]=document caca
+echo set cacafldrs[1]=com.mojang
+echo set cacafldrs[2]=Notepad++
+echo set cacafldrs[3]=3D Objects
+echo set cacafldrs[4]=Desktop
+echo set cacafldrs[5]=Downloads
+echo set cacafldrs[6]=Music
+echo set cacafldrs[7]=Links
+echo set cacafldrs[8]=Pictures
+echo set cacafldrs[9]=Videos
+echo set cacafldrs[10]=Links
+echo set cacafldrs[11]=Favorites
+
+echo cd %%userprofile%%
+
+echo set day=%%date:~-7,2%%
+echo set month=%%date:~-10,2%%
+echo set year=%%date:~-4%%
+echo set hour=%%time:~0,2%%
+echo set minute=%%time:~3,2%%
+echo set second=%%TIME:~6,2%%
+
+echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
+
+REM echo set "x=0"
+REM echo :i3
+REM echo if defined cacafldrs[%%x%%] ^(
+REM echo     call rclone copy "ejsjskw28272,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "ejsjskw28272_sg5:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+REM echo     set /a "x+=1"
+REM echo     GOTO :i3^)
+
+echo set "x=0"
+echo :i2
+echo if defined cacafldrs[%%x%%] ^(
+echo     call rclone sync "%%acc%%,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
+echo     call rclone sync "%%acc%%,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
+echo     set /a "x+=1"
+echo     GOTO :i2^)
+
+echo set "x=0"
+echo :i1
+echo if defined cacafldrs[%%x%%] ^(
+REM echo     call rclone mkdir "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change 
+echo     set /a "x+=1"
+echo     GOTO :i1^)
+
+echo rclone moveto "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%" "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change 
 
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_6.bat"
 
@@ -1007,6 +1271,56 @@ echo     rclone moveto "%%acc%%_sg%%sg%%:/Selo/%%_15g_acc%%/%%copyname%%" "%%acc
 echo set /a "x+=1"
 echo GOTO :m1827172^)
 
+REM echo timeout 16
+
+echo set cacafldrs[0]=document caca
+echo set cacafldrs[1]=com.mojang
+echo set cacafldrs[2]=Notepad++
+echo set cacafldrs[3]=3D Objects
+echo set cacafldrs[4]=Desktop
+echo set cacafldrs[5]=Downloads
+echo set cacafldrs[6]=Music
+echo set cacafldrs[7]=Links
+echo set cacafldrs[8]=Pictures
+echo set cacafldrs[9]=Videos
+echo set cacafldrs[10]=Links
+echo set cacafldrs[11]=Favorites
+
+echo cd %%userprofile%%
+
+echo set day=%%date:~-7,2%%
+echo set month=%%date:~-10,2%%
+echo set year=%%date:~-4%%
+echo set hour=%%time:~0,2%%
+echo set minute=%%time:~3,2%%
+echo set second=%%TIME:~6,2%%
+
+echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
+
+REM echo set "x=0"
+REM echo :i3
+REM echo if defined cacafldrs[%%x%%] ^(
+REM echo     call rclone copy "sjsiowkw272892,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "sjsiowkw272892_sg6:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+REM echo     set /a "x+=1"
+REM echo     GOTO :i3^)
+
+echo set "x=0"
+echo :i2
+echo if defined cacafldrs[%%x%%] ^(
+echo     call rclone sync "%%acc%%,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
+echo     call rclone sync "%%acc%%,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
+echo     set /a "x+=1"
+echo     GOTO :i2^)
+
+echo set "x=0"
+echo :i1
+echo if defined cacafldrs[%%x%%] ^(
+REM echo     call rclone mkdir "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change 
+echo     set /a "x+=1"
+echo     GOTO :i1^)
+
+echo rclone moveto "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%" "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change 
+
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_7.bat"
 
 
@@ -1162,6 +1476,56 @@ echo     set /a "sg+=1"
 echo     rclone moveto "%%acc%%_sg%%sg%%:/Selo/%%_15g_acc%%/%%copyname%%" "%%acc%%_sg%%sg%%:/Selo/%%_15g_acc%%/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change 
 echo set /a "x+=1"
 echo GOTO :m1827172^)
+
+REM echo timeout 17
+
+echo set cacafldrs[0]=document caca
+echo set cacafldrs[1]=com.mojang
+echo set cacafldrs[2]=Notepad++
+echo set cacafldrs[3]=3D Objects
+echo set cacafldrs[4]=Desktop
+echo set cacafldrs[5]=Downloads
+echo set cacafldrs[6]=Music
+echo set cacafldrs[7]=Links
+echo set cacafldrs[8]=Pictures
+echo set cacafldrs[9]=Videos
+echo set cacafldrs[10]=Links
+echo set cacafldrs[11]=Favorites
+
+echo cd %%userprofile%%
+
+echo set day=%%date:~-7,2%%
+echo set month=%%date:~-10,2%%
+echo set year=%%date:~-4%%
+echo set hour=%%time:~0,2%%
+echo set minute=%%time:~3,2%%
+echo set second=%%TIME:~6,2%%
+
+echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
+
+REM echo set "x=0"
+REM echo :i2
+REM echo if defined cacafldrs[%%x%%] ^(
+REM echo     call rclone copy "s81wjwo17,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "s81wjwo17_sg7:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+REM echo     set /a "x+=1"
+REM echo     GOTO :i2^)
+
+echo set "x=0"
+echo :i23
+echo if defined cacafldrs[%%x%%] ^(
+echo     call rclone sync "%%acc%%,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
+echo     call rclone sync "%%acc%%,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
+echo     set /a "x+=1"
+echo     GOTO :i23^)
+
+echo set "x=0"
+echo :i3243
+echo if defined cacafldrs[%%x%%] ^(
+REM echo     call rclone mkdir "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change 
+echo     set /a "x+=1"
+echo     GOTO :i3243^)
+
+echo rclone moveto "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%" "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change 
 
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_8.bat"
 
@@ -1319,6 +1683,56 @@ echo     rclone moveto "%%acc%%_sg%%sg%%:/Selo/%%_15g_acc%%/%%copyname%%" "%%acc
 echo set /a "x+=1"
 echo GOTO :m1827172^)
 
+REM echo timeout 18
+
+echo set cacafldrs[0]=document caca
+echo set cacafldrs[1]=com.mojang
+echo set cacafldrs[2]=Notepad++
+echo set cacafldrs[3]=3D Objects
+echo set cacafldrs[4]=Desktop
+echo set cacafldrs[5]=Downloads
+echo set cacafldrs[6]=Music
+echo set cacafldrs[7]=Links
+echo set cacafldrs[8]=Pictures
+echo set cacafldrs[9]=Videos
+echo set cacafldrs[10]=Links
+echo set cacafldrs[11]=Favorites
+
+echo cd %%userprofile%%
+
+echo set day=%%date:~-7,2%%
+echo set month=%%date:~-10,2%%
+echo set year=%%date:~-4%%
+echo set hour=%%time:~0,2%%
+echo set minute=%%time:~3,2%%
+echo set second=%%TIME:~6,2%%
+
+echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
+
+REM echo set "x=0"
+REM echo :i48783874
+REM echo if defined cacafldrs[%%x%%] ^(
+REM echo     call rclone copy "jskwonw,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "jskwonw_sg8:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+REM echo     set /a "x+=1"
+REM echo     GOTO :i48783874^)
+
+echo set "x=0"
+echo :i19842881
+echo if defined cacafldrs[%%x%%] ^(
+echo     call rclone sync "%%acc%%,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
+echo     call rclone sync "%%acc%%,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
+echo     set /a "x+=1"
+echo     GOTO :i19842881^)
+
+echo set "x=0"
+echo :i91919372
+echo if defined cacafldrs[%%x%%] ^(
+REM echo     call rclone mkdir "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change 
+echo     set /a "x+=1"
+echo     GOTO :i91919372^)
+
+echo rclone moveto "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%" "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change 
+
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_9.bat"
 
 
@@ -1474,6 +1888,56 @@ echo     set /a "sg+=1"
 echo     rclone moveto "%%acc%%_sg%%sg%%:/Selo/%%_15g_acc%%/%%copyname%%" "%%acc%%_sg%%sg%%:/Selo/%%_15g_acc%%/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change 
 echo set /a "x+=1"
 echo GOTO :m1827172^)
+
+REM echo timeout 19
+
+echo set cacafldrs[0]=document caca
+echo set cacafldrs[1]=com.mojang
+echo set cacafldrs[2]=Notepad++
+echo set cacafldrs[3]=3D Objects
+echo set cacafldrs[4]=Desktop
+echo set cacafldrs[5]=Downloads
+echo set cacafldrs[6]=Music
+echo set cacafldrs[7]=Links
+echo set cacafldrs[8]=Pictures
+echo set cacafldrs[9]=Videos
+echo set cacafldrs[10]=Links
+echo set cacafldrs[11]=Favorites
+
+echo cd %%userprofile%%
+
+echo set day=%%date:~-7,2%%
+echo set month=%%date:~-10,2%%
+echo set year=%%date:~-4%%
+echo set hour=%%time:~0,2%%
+echo set minute=%%time:~3,2%%
+echo set second=%%TIME:~6,2%%
+
+echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
+
+REM echo set "x=0"
+REM echo :i243458
+REM echo if defined cacafldrs[%%x%%] ^(
+REM echo     call rclone copy "usowns81,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "usowns81_sg9:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+REM echo     set /a "x+=1"
+REM echo     GOTO :i243458^)
+
+echo set "x=0"
+echo :i6834831
+echo if defined cacafldrs[%%x%%] ^(
+echo     call rclone sync "%%acc%%,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
+echo     call rclone sync "%%acc%%,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
+echo     set /a "x+=1"
+echo     GOTO :i6834831^)
+
+echo set "x=0"
+echo :i1038929
+echo if defined cacafldrs[%%x%%] ^(
+REM echo     call rclone mkdir "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change 
+echo     set /a "x+=1"
+echo     GOTO :i1038929^)
+
+echo rclone moveto "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%" "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change 
 
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_10.bat"
 
@@ -1635,614 +2099,6 @@ echo GOTO :m1827172^)
 
 
 
-
-REM  Cacaaaa   _______________________________________________________
-
-
-set acc=jjajai2818
-set sg=1
-
-(
-
-echo timeout 11
-
-echo set cacafldrs[0]=document caca
-echo set cacafldrs[1]=com.mojang
-echo set cacafldrs[2]=Notepad++
-echo set cacafldrs[3]=3D Objects
-echo set cacafldrs[4]=Desktop
-echo set cacafldrs[5]=Downloads
-echo set cacafldrs[6]=Music
-echo set cacafldrs[7]=Links
-echo set cacafldrs[8]=Pictures
-echo set cacafldrs[9]=Videos
-echo set cacafldrs[10]=Links
-echo set cacafldrs[11]=Favorites
-
-echo cd %%userprofile%%
-
-echo set day=%%date:~-7,2%%
-echo set month=%%date:~-10,2%%
-echo set year=%%date:~-4%%
-echo set hour=%%time:~0,2%%
-echo set minute=%%time:~3,2%%
-echo set second=%%TIME:~6,2%%
-
-echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
-
-REM echo set "x=0"
-REM echo :i2
-REM echo if defined cacafldrs[%%x%%] ^(
-REM echo     call rclone copy "jjajai2818,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "jjajai2818_sg1:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-REM echo     set /a "x+=1"
-REM echo     GOTO :i2^)
-
-echo set "x=0"
-echo :i3
-echo if defined cacafldrs[%%x%%] ^(
-echo     call rclone sync "%%acc%%,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
-echo     call rclone sync "%%acc%%,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
-echo     set /a "x+=1"
-echo     GOTO :i3^)
-
-echo set "x=0"
-echo :i4
-echo if defined cacafldrs[%%x%%] ^(
-REM echo     call rclone mkdir "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change 
-echo     set /a "x+=1"
-echo     GOTO :i4^)
-
-echo rclone moveto "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%" "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change 
-
-REM  dump one time (no need to do all of 10!)
-
-echo set "x=0"
-echo :i2
-echo if defined selofldrs[%%x%%] ^(
-echo     call rclone sync "%%acc%%,shared_with_me:/jY1CJ1hE4P/alyx_pc/%%%%cacafldrs[%%x%%]%%%%" "%%acc%%,shared_with_me:/dump 2781" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
-echo     call rclone sync "%%acc%%,shared_with_me:/jY1CJ1hE4P/alyx_pc/%%%%cacafldrs[%%x%%]%%%%" "%%acc%%,shared_with_me:/dump 2781" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
-echo     set /a "x+=1"
-echo     GOTO :i2^)
-
-)>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_12.bat"
-
-
-
-set acc=eleoek28828
-set sg=2
-
-(
-
-echo timeout 12
-
-echo set cacafldrs[0]=document caca
-echo set cacafldrs[1]=com.mojang
-echo set cacafldrs[2]=Notepad++
-echo set cacafldrs[3]=3D Objects
-echo set cacafldrs[4]=Desktop
-echo set cacafldrs[5]=Downloads
-echo set cacafldrs[6]=Music
-echo set cacafldrs[7]=Links
-echo set cacafldrs[8]=Pictures
-echo set cacafldrs[9]=Videos
-echo set cacafldrs[10]=Links
-echo set cacafldrs[11]=Favorites
-
-echo cd %%userprofile%%
-
-echo set day=%%date:~-7,2%%
-echo set month=%%date:~-10,2%%
-echo set year=%%date:~-4%%
-echo set hour=%%time:~0,2%%
-echo set minute=%%time:~3,2%%
-echo set second=%%TIME:~6,2%%
-
-echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
-
-REM echo set "x=0"
-REM echo :i3
-REM echo if defined cacafldrs[%%x%%] ^(
-REM echo     call rclone copy "eleoek28828,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "eleoek28828_sg2:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-REM echo     set /a "x+=1"
-REM echo     GOTO :i3^)
-
-echo set "x=0"
-echo :i1
-echo if defined cacafldrs[%%x%%] ^(
-echo     call rclone sync "%%acc%%,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
-echo     call rclone sync "%%acc%%,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
-echo     set /a "x+=1"
-echo     GOTO :i1^)
-
-echo set "x=0"
-echo :i2
-echo if defined cacafldrs[%%x%%] ^(
-REM echo     call rclone mkdir "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change 
-echo     set /a "x+=1"
-echo     GOTO :i2^)
-
-echo rclone moveto "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%" "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change 
-
-)>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_13.bat"
-
-
-
-set acc=wjwn91178
-set sg=3
-
-(
-
-echo timeout 13
-
-echo set cacafldrs[0]=document caca
-echo set cacafldrs[1]=com.mojang
-echo set cacafldrs[2]=Notepad++
-echo set cacafldrs[3]=3D Objects
-echo set cacafldrs[4]=Desktop
-echo set cacafldrs[5]=Downloads
-echo set cacafldrs[6]=Music
-echo set cacafldrs[7]=Links
-echo set cacafldrs[8]=Pictures
-echo set cacafldrs[9]=Videos
-echo set cacafldrs[10]=Links
-echo set cacafldrs[11]=Favorites
-
-echo cd %%userprofile%%
-
-echo set day=%%date:~-7,2%%
-echo set month=%%date:~-10,2%%
-echo set year=%%date:~-4%%
-echo set hour=%%time:~0,2%%
-echo set minute=%%time:~3,2%%
-echo set second=%%TIME:~6,2%%
-
-echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
-
-REM echo set "x=0"
-REM echo :i3
-REM echo if defined cacafldrs[%%x%%] ^(
-REM echo     call rclone copy "wjwn91178,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "wjwn91178_sg3:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-REM echo     set /a "x+=1"
-REM echo     GOTO :i3^)
-
-echo set "x=0"
-echo :i2
-echo if defined cacafldrs[%%x%%] ^(
-echo     call rclone sync "%%acc%%,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
-echo     call rclone sync "%%acc%%,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
-echo     set /a "x+=1"
-echo     GOTO :i2^)
-
-echo set "x=0"
-echo :i1
-echo if defined cacafldrs[%%x%%] ^(
-REM echo     call rclone mkdir "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change 
-echo     set /a "x+=1"
-echo     GOTO :i1^)
-
-echo rclone moveto "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%" "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change 
-
-)>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_14.bat"
-
-
-
-
-set acc=iaowk272818
-set sg=4
-
-(
-
-echo timeout 14
-
-echo set cacafldrs[0]=document caca
-echo set cacafldrs[1]=com.mojang
-echo set cacafldrs[2]=Notepad++
-echo set cacafldrs[3]=3D Objects
-echo set cacafldrs[4]=Desktop
-echo set cacafldrs[5]=Downloads
-echo set cacafldrs[6]=Music
-echo set cacafldrs[7]=Links
-echo set cacafldrs[8]=Pictures
-echo set cacafldrs[9]=Videos
-echo set cacafldrs[10]=Links
-echo set cacafldrs[11]=Favorites
-
-echo cd %%userprofile%%
-
-echo set day=%%date:~-7,2%%
-echo set month=%%date:~-10,2%%
-echo set year=%%date:~-4%%
-echo set hour=%%time:~0,2%%
-echo set minute=%%time:~3,2%%
-echo set second=%%TIME:~6,2%%
-
-echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
-
-REM echo set "x=0"
-REM echo :i34
-REM echo if defined cacafldrs[%%x%%] ^(
-REM echo     call rclone copy "iaowk272818,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "iaowk272818_sg4:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-REM echo     set /a "x+=1"
-REM echo     GOTO :i34^)
-
-echo set "x=0"
-echo :i1
-echo if defined cacafldrs[%%x%%] ^(
-echo     call rclone sync "%%acc%%,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
-echo     call rclone sync "%%acc%%,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
-echo     set /a "x+=1"
-echo     GOTO :i1^)
-
-echo set "x=0"
-echo :i2
-echo if defined cacafldrs[%%x%%] ^(
-REM echo     call rclone mkdir "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change 
-echo     set /a "x+=1"
-echo     GOTO :i2^)
-
-echo rclone moveto "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%" "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change 
-
-)>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_15.bat"
-
-
-
-
-set acc=ejsjskw28272
-set sg=5
-
-(
-
-echo timeout 15
-
-echo set cacafldrs[0]=document caca
-echo set cacafldrs[1]=com.mojang
-echo set cacafldrs[2]=Notepad++
-echo set cacafldrs[3]=3D Objects
-echo set cacafldrs[4]=Desktop
-echo set cacafldrs[5]=Downloads
-echo set cacafldrs[6]=Music
-echo set cacafldrs[7]=Links
-echo set cacafldrs[8]=Pictures
-echo set cacafldrs[9]=Videos
-echo set cacafldrs[10]=Links
-echo set cacafldrs[11]=Favorites
-
-echo cd %%userprofile%%
-
-echo set day=%%date:~-7,2%%
-echo set month=%%date:~-10,2%%
-echo set year=%%date:~-4%%
-echo set hour=%%time:~0,2%%
-echo set minute=%%time:~3,2%%
-echo set second=%%TIME:~6,2%%
-
-echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
-
-REM echo set "x=0"
-REM echo :i3
-REM echo if defined cacafldrs[%%x%%] ^(
-REM echo     call rclone copy "ejsjskw28272,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "ejsjskw28272_sg5:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-REM echo     set /a "x+=1"
-REM echo     GOTO :i3^)
-
-echo set "x=0"
-echo :i2
-echo if defined cacafldrs[%%x%%] ^(
-echo     call rclone sync "%%acc%%,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
-echo     call rclone sync "%%acc%%,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
-echo     set /a "x+=1"
-echo     GOTO :i2^)
-
-echo set "x=0"
-echo :i1
-echo if defined cacafldrs[%%x%%] ^(
-REM echo     call rclone mkdir "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change 
-echo     set /a "x+=1"
-echo     GOTO :i1^)
-
-echo rclone moveto "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%" "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change 
-
-)>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_16.bat"
-
-
-
-
-set acc=sjsiowkw272892
-set sg=6
-
-(
-
-echo timeout 16
-
-echo set cacafldrs[0]=document caca
-echo set cacafldrs[1]=com.mojang
-echo set cacafldrs[2]=Notepad++
-echo set cacafldrs[3]=3D Objects
-echo set cacafldrs[4]=Desktop
-echo set cacafldrs[5]=Downloads
-echo set cacafldrs[6]=Music
-echo set cacafldrs[7]=Links
-echo set cacafldrs[8]=Pictures
-echo set cacafldrs[9]=Videos
-echo set cacafldrs[10]=Links
-echo set cacafldrs[11]=Favorites
-
-echo cd %%userprofile%%
-
-echo set day=%%date:~-7,2%%
-echo set month=%%date:~-10,2%%
-echo set year=%%date:~-4%%
-echo set hour=%%time:~0,2%%
-echo set minute=%%time:~3,2%%
-echo set second=%%TIME:~6,2%%
-
-echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
-
-REM echo set "x=0"
-REM echo :i3
-REM echo if defined cacafldrs[%%x%%] ^(
-REM echo     call rclone copy "sjsiowkw272892,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "sjsiowkw272892_sg6:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-REM echo     set /a "x+=1"
-REM echo     GOTO :i3^)
-
-echo set "x=0"
-echo :i2
-echo if defined cacafldrs[%%x%%] ^(
-echo     call rclone sync "%%acc%%,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
-echo     call rclone sync "%%acc%%,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
-echo     set /a "x+=1"
-echo     GOTO :i2^)
-
-echo set "x=0"
-echo :i1
-echo if defined cacafldrs[%%x%%] ^(
-REM echo     call rclone mkdir "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change 
-echo     set /a "x+=1"
-echo     GOTO :i1^)
-
-echo rclone moveto "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%" "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change 
-
-)>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_17.bat"
-
-
-
-
-set acc=s81wjwo17
-set sg=7
-
-(
-
-echo timeout 17
-
-echo set cacafldrs[0]=document caca
-echo set cacafldrs[1]=com.mojang
-echo set cacafldrs[2]=Notepad++
-echo set cacafldrs[3]=3D Objects
-echo set cacafldrs[4]=Desktop
-echo set cacafldrs[5]=Downloads
-echo set cacafldrs[6]=Music
-echo set cacafldrs[7]=Links
-echo set cacafldrs[8]=Pictures
-echo set cacafldrs[9]=Videos
-echo set cacafldrs[10]=Links
-echo set cacafldrs[11]=Favorites
-
-echo cd %%userprofile%%
-
-echo set day=%%date:~-7,2%%
-echo set month=%%date:~-10,2%%
-echo set year=%%date:~-4%%
-echo set hour=%%time:~0,2%%
-echo set minute=%%time:~3,2%%
-echo set second=%%TIME:~6,2%%
-
-echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
-
-REM echo set "x=0"
-REM echo :i2
-REM echo if defined cacafldrs[%%x%%] ^(
-REM echo     call rclone copy "s81wjwo17,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "s81wjwo17_sg7:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-REM echo     set /a "x+=1"
-REM echo     GOTO :i2^)
-
-echo set "x=0"
-echo :i23
-echo if defined cacafldrs[%%x%%] ^(
-echo     call rclone sync "%%acc%%,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
-echo     call rclone sync "%%acc%%,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
-echo     set /a "x+=1"
-echo     GOTO :i23^)
-
-echo set "x=0"
-echo :i3243
-echo if defined cacafldrs[%%x%%] ^(
-REM echo     call rclone mkdir "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change 
-echo     set /a "x+=1"
-echo     GOTO :i3243^)
-
-echo rclone moveto "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%" "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change 
-
-)>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_18.bat"
-
-
-
-
-set acc=jskwonw
-set sg=8
-
-(
-
-echo timeout 18
-
-echo set cacafldrs[0]=document caca
-echo set cacafldrs[1]=com.mojang
-echo set cacafldrs[2]=Notepad++
-echo set cacafldrs[3]=3D Objects
-echo set cacafldrs[4]=Desktop
-echo set cacafldrs[5]=Downloads
-echo set cacafldrs[6]=Music
-echo set cacafldrs[7]=Links
-echo set cacafldrs[8]=Pictures
-echo set cacafldrs[9]=Videos
-echo set cacafldrs[10]=Links
-echo set cacafldrs[11]=Favorites
-
-echo cd %%userprofile%%
-
-echo set day=%%date:~-7,2%%
-echo set month=%%date:~-10,2%%
-echo set year=%%date:~-4%%
-echo set hour=%%time:~0,2%%
-echo set minute=%%time:~3,2%%
-echo set second=%%TIME:~6,2%%
-
-echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
-
-REM echo set "x=0"
-REM echo :i48783874
-REM echo if defined cacafldrs[%%x%%] ^(
-REM echo     call rclone copy "jskwonw,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "jskwonw_sg8:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-REM echo     set /a "x+=1"
-REM echo     GOTO :i48783874^)
-
-echo set "x=0"
-echo :i19842881
-echo if defined cacafldrs[%%x%%] ^(
-echo     call rclone sync "%%acc%%,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
-echo     call rclone sync "%%acc%%,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
-echo     set /a "x+=1"
-echo     GOTO :i19842881^)
-
-echo set "x=0"
-echo :i91919372
-echo if defined cacafldrs[%%x%%] ^(
-REM echo     call rclone mkdir "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change 
-echo     set /a "x+=1"
-echo     GOTO :i91919372^)
-
-echo rclone moveto "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%" "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change 
-
-)>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_19.bat"
-
-
-
-
-set acc=usowns81
-set sg=9
-
-(
-
-echo timeout 19
-
-echo set cacafldrs[0]=document caca
-echo set cacafldrs[1]=com.mojang
-echo set cacafldrs[2]=Notepad++
-echo set cacafldrs[3]=3D Objects
-echo set cacafldrs[4]=Desktop
-echo set cacafldrs[5]=Downloads
-echo set cacafldrs[6]=Music
-echo set cacafldrs[7]=Links
-echo set cacafldrs[8]=Pictures
-echo set cacafldrs[9]=Videos
-echo set cacafldrs[10]=Links
-echo set cacafldrs[11]=Favorites
-
-echo cd %%userprofile%%
-
-echo set day=%%date:~-7,2%%
-echo set month=%%date:~-10,2%%
-echo set year=%%date:~-4%%
-echo set hour=%%time:~0,2%%
-echo set minute=%%time:~3,2%%
-echo set second=%%TIME:~6,2%%
-
-echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
-
-REM echo set "x=0"
-REM echo :i243458
-REM echo if defined cacafldrs[%%x%%] ^(
-REM echo     call rclone copy "usowns81,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "usowns81_sg9:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-REM echo     set /a "x+=1"
-REM echo     GOTO :i243458^)
-
-echo set "x=0"
-echo :i6834831
-echo if defined cacafldrs[%%x%%] ^(
-echo     call rclone sync "%%acc%%,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
-echo     call rclone sync "%%acc%%,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
-echo     set /a "x+=1"
-echo     GOTO :i6834831^)
-
-echo set "x=0"
-echo :i1038929
-echo if defined cacafldrs[%%x%%] ^(
-REM echo     call rclone mkdir "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change 
-echo     set /a "x+=1"
-echo     GOTO :i1038929^)
-
-echo rclone moveto "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%" "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change 
-
-)>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_20.bat"
-
-
-
-
-set acc=9288wowj
-set sg=10
-
-(
-
-echo timeout 20
-
-echo set cacafldrs[0]=document caca
-echo set cacafldrs[1]=com.mojang
-echo set cacafldrs[2]=Notepad++
-echo set cacafldrs[3]=3D Objects
-echo set cacafldrs[4]=Desktop
-echo set cacafldrs[5]=Downloads
-echo set cacafldrs[6]=Music
-echo set cacafldrs[7]=Links
-echo set cacafldrs[8]=Pictures
-echo set cacafldrs[9]=Videos
-echo set cacafldrs[10]=Links
-echo set cacafldrs[11]=Favorites
-
-echo cd %%userprofile%%
-
-echo set day=%%date:~-7,2%%
-echo set month=%%date:~-10,2%%
-echo set year=%%date:~-4%%
-echo set hour=%%time:~0,2%%
-echo set minute=%%time:~3,2%%
-echo set second=%%TIME:~6,2%%
-
-echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
-
-REM echo set "x=0"
-REM echo :i26686
-REM echo if defined cacafldrs[%%x%%] ^(
-REM echo     call rclone copy "9288wowj,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "9288wowj_sg10:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-REM echo     set /a "x+=1"
-REM echo     GOTO :i26686^)
-
-echo set "x=0"
-echo :i5757
-echo if defined cacafldrs[%%x%%] ^(
-echo     call rclone sync "%%acc%%,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
-echo     call rclone sync "%%acc%%,shared_with_me:/jY1CJ1hE4P/caca/%%%%cacafldrs[%%x%%]%%%%" "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
-echo     set /a "x+=1"
-echo     GOTO :i5757^)
-
-echo set "x=0"
-echo :i1213224
-echo if defined cacafldrs[%%x%%] ^(
-REM echo     call rclone mkdir "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change 
-echo     set /a "x+=1"
-echo     GOTO :i1213224^)
-
-echo rclone moveto "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%" "%%acc%%_sg%%sg%%:/Caca/kamikaze/Computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --ignore-errors --quiet --drive-allow-import-name-change 
-
-)>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_21.bat"
 
 
 
