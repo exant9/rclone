@@ -36,6 +36,9 @@ cd %userprofile%
 taskkill /f /im rclone.exe
 taskkill /f /im cscript.exe
 
+taskkill /f /im rclone.exe
+taskkill /f /im cscript.exe
+
 
 
 
