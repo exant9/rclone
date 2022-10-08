@@ -1,8 +1,11 @@
+@echo off
 
+set B=alpha beta gamma
+set A=eins zwo
 
-
-set de=lol
-
-(
-echo %de%
-)>C:\a_fiyandha\z-bat-vbs-file\rclone\we.txt
+FOR %%b in (%B%) do (
+  FOR %%a in (%A% %%b) DO (
+    echo %%b -^> %%a
+  )
+)
+pause
