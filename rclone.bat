@@ -236,7 +236,7 @@ REM echo     call rclone mkdir "%acc%_sg%sg%:/Caca/kamikaze/Computers/caca/%%cop
 echo     set /a "x+=1"
 echo     GOTO :i4332ed3^)
 
-echo rclone moveto "%acc%_sg%sg%:/Caca/kamikaze/Computers/caca/%%copyname%%" "%acc%_sg%sg%:/Caca/kamikaze/Computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change 
+echo rclone moveto "%acc%_sg%sg%:/Caca/calista_ar/Computers/laptop_caca/%%copyname%%" "%acc%_sg%sg%:/Caca/kamikaze/Computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change 
 
 REM  dump one time (no need to do all of 10!)
 
@@ -408,7 +408,7 @@ REM echo     call rclone mkdir "%acc%_sg%sg%:/Caca/kamikaze/Computers/caca/%%cop
 echo     set /a "x+=1"
 echo     GOTO :2e12e22s11w1w^)
 
-echo rclone moveto "%acc%_sg%sg%:/Caca/kamikaze/Computers/caca/%%copyname%%" "%acc%_sg%sg%:/Caca/kamikaze/Computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change 
+echo rclone moveto "%acc%_sg%sg%:/Caca/calista_ar/Computers/laptop_caca/%%copyname%%" "%acc%_sg%sg%:/Caca/kamikaze/Computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change 
 
 
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_3.bat"
@@ -565,7 +565,7 @@ REM echo     call rclone mkdir "%acc%_sg%sg%:/Caca/kamikaze/Computers/caca/%%cop
 echo     set /a "x+=1"
 echo     GOTO :dqwd2e2e00a^)
 
-echo rclone moveto "%acc%_sg%sg%:/Caca/kamikaze/Computers/caca/%%copyname%%" "%acc%_sg%sg%:/Caca/kamikaze/Computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change 
+echo rclone moveto "%acc%_sg%sg%:/Caca/calista_ar/Computers/laptop_caca/%%copyname%%" "%acc%_sg%sg%:/Caca/kamikaze/Computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change 
 
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_4.bat"
 
@@ -721,7 +721,7 @@ REM echo     call rclone mkdir "%acc%_sg%sg%:/Caca/kamikaze/Computers/caca/%%cop
 echo     set /a "x+=1"
 echo     GOTO :u9qd9u10u10ue1e^)
 
-echo rclone moveto "%acc%_sg%sg%:/Caca/kamikaze/Computers/caca/%%copyname%%" "%acc%_sg%sg%:/Caca/kamikaze/Computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change 
+echo rclone moveto "%acc%_sg%sg%:/Caca/calista_ar/Computers/laptop_caca/%%copyname%%" "%acc%_sg%sg%:/Caca/kamikaze/Computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change 
 
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_5.bat"
 
@@ -877,7 +877,7 @@ REM echo     call rclone mkdir "%acc%_sg%sg%:/Caca/kamikaze/Computers/caca/%%cop
 echo     set /a "x+=1"
 echo     GOTO :cu9du9d^)
 
-echo rclone moveto "%acc%_sg%sg%:/Caca/kamikaze/Computers/caca/%%copyname%%" "%acc%_sg%sg%:/Caca/kamikaze/Computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change 
+echo rclone moveto "%acc%_sg%sg%:/Caca/calista_ar/Computers/laptop_caca/%%copyname%%" "%acc%_sg%sg%:/Caca/kamikaze/Computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change 
 
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_6.bat"
 
@@ -1033,7 +1033,7 @@ REM echo     call rclone mkdir "%acc%_sg%sg%:/Caca/kamikaze/Computers/caca/%%cop
 echo     set /a "x+=1"
 echo     GOTO :i1astas6s^)
 
-echo rclone moveto "%acc%_sg%sg%:/Caca/kamikaze/Computers/caca/%%copyname%%" "%acc%_sg%sg%:/Caca/kamikaze/Computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change 
+echo rclone moveto "%acc%_sg%sg%:/Caca/calista_ar/Computers/laptop_caca/%%copyname%%" "%acc%_sg%sg%:/Caca/kamikaze/Computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change 
 
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_7.bat"
 
@@ -1189,7 +1189,7 @@ REM echo     call rclone mkdir "%acc%_sg%sg%:/Caca/kamikaze/Computers/caca/%%cop
 echo     set /a "x+=1"
 echo     GOTO :i3243axaxaxaxaxac^)
 
-echo rclone moveto "%acc%_sg%sg%:/Caca/kamikaze/Computers/caca/%%copyname%%" "%acc%_sg%sg%:/Caca/kamikaze/Computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change 
+echo rclone moveto "%acc%_sg%sg%:/Caca/calista_ar/Computers/laptop_caca/%%copyname%%" "%acc%_sg%sg%:/Caca/kamikaze/Computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change 
 
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_8.bat"
 
@@ -1345,7 +1345,7 @@ REM echo     call rclone mkdir "%acc%_sg%sg%:/Caca/kamikaze/Computers/caca/%%cop
 echo     set /a "x+=1"
 echo     GOTO :1w1w1w1w1w1w1w1^)
 
-echo rclone moveto "%acc%_sg%sg%:/Caca/kamikaze/Computers/caca/%%copyname%%" "%acc%_sg%sg%:/Caca/kamikaze/Computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change 
+echo rclone moveto "%acc%_sg%sg%:/Caca/calista_ar/Computers/laptop_caca/%%copyname%%" "%acc%_sg%sg%:/Caca/kamikaze/Computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change 
 
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_9.bat"
 
@@ -1501,7 +1501,7 @@ REM echo     call rclone mkdir "%acc%_sg%sg%:/Caca/kamikaze/Computers/caca/%%cop
 echo     set /a "x+=1"
 echo     GOTO :9w91io0uuuui^)
 
-echo rclone moveto "%acc%_sg%sg%:/Caca/kamikaze/Computers/caca/%%copyname%%" "%acc%_sg%sg%:/Caca/kamikaze/Computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change 
+echo rclone moveto "%acc%_sg%sg%:/Caca/calista_ar/Computers/laptop_caca/%%copyname%%" "%acc%_sg%sg%:/Caca/kamikaze/Computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change 
 
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_10.bat"
 
@@ -1608,6 +1608,55 @@ echo if defined accv[%%x%%] ^(
 echo     rclone moveto "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%" "%accv%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change 
 echo set /a "x+=1"
 echo GOTO :m18271723113113^)
+
+
+echo set cacafldrs[0]=document caca
+echo set cacafldrs[1]=com.mojang
+echo set cacafldrs[2]=Notepad++
+echo set cacafldrs[3]=3D Objects
+echo set cacafldrs[4]=Desktop
+echo set cacafldrs[5]=Downloads
+echo set cacafldrs[6]=Music
+echo set cacafldrs[7]=Links
+echo set cacafldrs[8]=Pictures
+echo set cacafldrs[9]=Videos
+echo set cacafldrs[10]=Links
+echo set cacafldrs[11]=Favorites
+
+echo cd %%userprofile%%
+
+echo set day=%%date:~-7,2%%
+echo set month=%%date:~-10,2%%
+echo set year=%%date:~-4%%
+echo set hour=%%time:~0,2%%
+echo set minute=%%time:~3,2%%
+echo set second=%%TIME:~6,2%%
+
+echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
+
+REM echo set "x=0"
+REM echo :i243458
+REM echo if defined cacafldrs[%%x%%] ^(
+REM echo     call rclone copy "usowns81,shared_with_me:/jY1CJ1hE4P/laptop_caca/%%%%cacafldrs[%%x%%]%%%%" "usowns81_sg9:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+REM echo     set /a "x+=1"
+REM echo     GOTO :i243458^)
+
+echo set "x=0"
+echo :1s1w1wd9912d92td76d
+echo if defined cacafldrs[%%x%%] ^(
+echo     call rclone sync "%acc%,shared_with_me:/jY1CJ1hE4P/laptop_caca/%%%%cacafldrs[%%x%%]%%%%" "%acc%_sg%sg%:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
+echo     call rclone sync "%acc%,shared_with_me:/jY1CJ1hE4P/laptop_caca/%%%%cacafldrs[%%x%%]%%%%" "%acc%_sg%sg%:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
+echo     set /a "x+=1"
+echo     GOTO :1s1w1wd9912d92td76d^)
+
+echo set "x=0"
+echo :9w91io0uuuui
+echo if defined cacafldrs[%%x%%] ^(
+REM echo     call rclone mkdir "%acc%_sg%sg%:/Caca/kamikaze/Computers/caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change 
+echo     set /a "x+=1"
+echo     GOTO :9w91io0uuuui^)
+
+echo rclone moveto "%acc%_sg%sg%:/Caca/calista_ar/Computers/laptop_caca/%%copyname%%" "%acc%_sg%sg%:/Caca/kamikaze/Computers/caca/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change 
 
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_11.bat"
 
