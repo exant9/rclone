@@ -19,28 +19,38 @@ set fldr=fcfvalrahman/Takeout,fcfvalrahman/Folgo Dock,fcfmacc/Classroom,fcfgts/s
 
 
 set /a vv=0
-for %%a in ("%fldr:,=" "%") do (
-	for /F "tokens=1 delims=/" %%x in ("%%~a") do (
-		set usrname[%vv%]=%%x
-		set /a vv=vv+1
-   )
+for %%x in ("%fldr:,=" "%") do (
+	for /F "tokens=1,2 delims=/" %%a in ("%%~x") do (
+	echo %%a/%%b
+	echo	rclone sync "aaveusdt,shared_with_me:/jY1CJ1hE4P/%%a/%%b" "aaveusdt:/Selo/%%a/%copyname%/%%b" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
+)
+   
+   REM for /F "tokens=2 delims=/" %%y in ("%%~x") do (
+		REM echo %%y
+		REM set pathhh=%%y
+		REM set /a vv=vv+1
+   REM )
+   
+   REM echo rclone !usrname!/!pathhh!
 )
 
-set /a vv=0
-for %%a in ("%fldr:,=" "%") do (
-	for /F "tokens=2 delims=/" %%x in ("%%~a") do (
-		set fldrnm[%vv%]=%%x
-		set /a vv=vv+1
-   )
-)
+REM set vv=0
+REM for %%a in ("%fldr:,=" "%") do (
+	REM for /F "tokens=2 delims=/" %%x in ("%%~a") do (
+		REM set /a fldrnm[%vv%]=%%x
+		REM set /a vv=vv+1
+   REM )
+REM )
 
-pause
+REM echo %usrname[1]%
 
-set "x=0"
-:i291321242
-if defined usrname[%x%] (
-	echo %%usrname[%x%]%%
-set /a "x+=1"
-GOTO :i291321242)
+
+
+REM set "x=0"
+REM :i291321242
+REM if defined usrname[%x%] (
+	REM echo %%usrname[%x%]%%
+REM set /a "x+=1"
+REM GOTO :i291321242)
 
 pause
