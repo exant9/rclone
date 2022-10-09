@@ -1972,13 +1972,6 @@ echo rclone sync "aaveusdt_sg1:/Selo/google photos/" "%acc%,shared_with_me:/alyx
 
 
 
-(
-
-echo cd %%userprofile%%
-echo rclone mount "fcfgts_driveku_me_gphotos:/" J:\
-
-)>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_26.bat"
-
 
 
 

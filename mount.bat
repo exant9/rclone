@@ -12,7 +12,7 @@ cd %userprofile%
 echo cd %%userprofile%%
 echo rclone mount "fcfgts_driveku_me_gphotos:/" J:\
 
-)>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_26.bat"
+)>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_1.bat"
 
 
 
@@ -23,7 +23,7 @@ echo rclone mount "fcfgts_driveku_me_gphotos:/" J:\
 
 
 
-"C:\a_fiyandha\z-bat-vbs-file\rclone\rclone.vbs"
+"C:\a_fiyandha\z-bat-vbs-file\rclone\mount.vbs"
 
 exit
 
