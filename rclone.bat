@@ -1880,6 +1880,8 @@ echo rclone dedupe "918qjj_sgtrash:/" --drive-keep-revision-forever --auto-confi
 echo rclone dedupe "918qjj,shared_with_me:/dump 2781" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --drive-skip-dangling-shortcuts --drive-skip-shortcuts
 
 echo rclone sync "fcfgts_driveku_me_gphotos:/" "aaveusdt_sg1:/Selo/google photos/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+echo rclone sync "k91819_medriveku_com_gphotos:/" "aaveusdt_sg1:/Family/google photos/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+echo rclone sync "calista_ar_cloddrive_com_gphotos:/" "aaveusdt_sg1:/Caca/google photos/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
 
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_24.bat"
 
@@ -2038,7 +2040,7 @@ REM  desktop manager
 
 echo timeout 25
 
-REM echo rclone move "C:/a_fiyandha/ "C:/a_fiyandha/ms word/" --max-depth 1 --auto-confirm --quiet --ignore-size --max-transfer 740G --cutoff-mode=cautious --include {docx,docm,dotx,dotm,docb,dot,wbk}" --low-level-retries 9999999999 --retries 10
+REM echo rclone move C:\a_fiyandha\ "C:\a_fiyandha\ms word\" --max-depth 1 --auto-confirm --quiet --ignore-size --max-transfer 740G --cutoff-mode=cautious --include {docx,docm,dotx,dotm,docb,dot,wbk}" --low-level-retries 9999999999 --retries 10
 REM echo rclone move "C:/a_fiyandha/" "C:/a_fiyandha/ms excel/" --max-depth 1 --auto-confirm --quiet --ignore-size --max-transfer 740G --cutoff-mode=cautious --include {xlsx,xls,xlt,xlm,xll_,xla_,xla5,xla8,xltx,xlsm,xltm,xlsb,xla,xlam,xlw,xll}" --low-level-retries 9999999999 --retries 10
 REM echo rclone move "C:/a_fiyandha/" "C:/a_fiyandha/ms powerpoint/" --max-depth 1 --auto-confirm --quiet --ignore-size --max-transfer 740G --cutoff-mode=cautious --include {ppt,pot,pps,ppa,ppam,pptx,pptm,potx,potm,ppam,ppsx,ppsm,sldx,sldm,pa}" --low-level-retries 9999999999 --retries 10
 
