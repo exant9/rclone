@@ -78,7 +78,7 @@ set sg=1
 
 (
 
-echo timeout 1
+REM echo timeout 1
 
 echo set selofldrs[0]=a_fiyandha
 echo set selofldrs[1]=3D Objects
@@ -188,7 +188,7 @@ echo GOTO :m18271723113113^)
 
 
 
-REM echo timeout 11
+REM REM echo timeout 11
 
 echo set cacafldrs[0]=document caca
 echo set cacafldrs[1]=com.mojang
@@ -259,7 +259,7 @@ set sg=2
 
 (
 
-echo timeout 2
+REM echo timeout 2
 
 echo set selofldrs[0]=a_fiyandha
 echo set selofldrs[1]=3D Objects
@@ -362,7 +362,7 @@ echo GOTO :m18271723113113^)
 
 
 
-echo timeout 12
+REM echo timeout 12
 
 echo set cacafldrs[0]=document caca
 echo set cacafldrs[1]=com.mojang
@@ -426,7 +426,7 @@ set sg=3
 
 (
 
-echo timeout 3
+REM echo timeout 3
 
 echo set selofldrs[0]=a_fiyandha
 echo set selofldrs[1]=3D Objects
@@ -522,7 +522,7 @@ echo     rclone moveto "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%" "%a
 echo set /a "x+=1"
 echo GOTO :m18271723113113^)
 
-REM echo timeout 13
+REM REM echo timeout 13
 
 echo set cacafldrs[0]=document caca
 echo set cacafldrs[1]=com.mojang
@@ -586,7 +586,7 @@ set sg=4
 
 (
 
-echo timeout 4
+REM echo timeout 4
 
 echo set selofldrs[0]=a_fiyandha
 echo set selofldrs[1]=3D Objects
@@ -682,7 +682,7 @@ echo     rclone moveto "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%" "%a
 echo set /a "x+=1"
 echo GOTO :m18271723113113^)
 
-REM echo timeout 14
+REM REM echo timeout 14
 
 echo set cacafldrs[0]=document caca
 echo set cacafldrs[1]=com.mojang
@@ -746,7 +746,7 @@ set sg=5
 
 (
 
-echo timeout 5
+REM echo timeout 5
 
 echo set selofldrs[0]=a_fiyandha
 echo set selofldrs[1]=3D Objects
@@ -842,7 +842,7 @@ echo     rclone moveto "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%" "%a
 echo set /a "x+=1"
 echo GOTO :m18271723113113^)
 
-REM echo timeout 15
+REM REM echo timeout 15
 
 echo set cacafldrs[0]=document caca
 echo set cacafldrs[1]=com.mojang
@@ -906,7 +906,7 @@ set sg=6
 
 (
 
-echo timeout 6
+REM echo timeout 6
 
 echo set selofldrs[0]=a_fiyandha
 echo set selofldrs[1]=3D Objects
@@ -1002,7 +1002,7 @@ echo     rclone moveto "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%" "%a
 echo set /a "x+=1"
 echo GOTO :m18271723113113^)
 
-REM echo timeout 16
+REM REM echo timeout 16
 
 echo set cacafldrs[0]=document caca
 echo set cacafldrs[1]=com.mojang
@@ -1066,7 +1066,7 @@ set sg=7
 
 (
 
-echo timeout 7
+REM echo timeout 7
 
 echo set selofldrs[0]=a_fiyandha
 echo set selofldrs[1]=3D Objects
@@ -1162,7 +1162,7 @@ echo     rclone moveto "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%" "%a
 echo set /a "x+=1"
 echo GOTO :m18271723113113^)
 
-REM echo timeout 17
+REM REM echo timeout 17
 
 echo set cacafldrs[0]=document caca
 echo set cacafldrs[1]=com.mojang
@@ -1226,7 +1226,7 @@ set sg=8
 
 (
 
-echo timeout 8
+REM echo timeout 8
 
 echo set selofldrs[0]=a_fiyandha
 echo set selofldrs[1]=3D Objects
@@ -1322,7 +1322,7 @@ echo     rclone moveto "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%" "%a
 echo set /a "x+=1"
 echo GOTO :m18271723113113^)
 
-REM echo timeout 18
+REM REM echo timeout 18
 
 echo set cacafldrs[0]=document caca
 echo set cacafldrs[1]=com.mojang
@@ -1386,7 +1386,7 @@ set sg=9
 
 (
 
-echo timeout 9
+REM echo timeout 9
 
 echo set selofldrs[0]=a_fiyandha
 echo set selofldrs[1]=3D Objects
@@ -1482,7 +1482,7 @@ echo     rclone moveto "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%" "%a
 echo set /a "x+=1"
 echo GOTO :m18271723113113^)
 
-REM echo timeout 19
+REM REM echo timeout 19
 
 echo set cacafldrs[0]=document caca
 echo set cacafldrs[1]=com.mojang
@@ -1546,7 +1546,7 @@ set sg=10
 
 (
 
-echo timeout 10
+REM echo timeout 10
 
 echo set selofldrs[0]=a_fiyandha
 echo set selofldrs[1]=3D Objects
@@ -1718,7 +1718,7 @@ echo rclone sync "aaveusdt_sg1:/Selo/google photos/" "%acc%_sg%sg%:/Selo/google 
 
 (
 
-echo timeout 21
+REM echo timeout 21
 
 echo cd %%userprofile%%
 
@@ -1781,7 +1781,7 @@ echo     GOTO :i1930013sxqsqqasqzs^)
 
 (
 
-echo timeout 22
+REM echo timeout 22
 
 echo cd %%userprofile%%
 
@@ -1850,10 +1850,9 @@ echo     GOTO :i1929192^)
 REM	shared sekolah
 REM shared docs
 REM downlaods pool
-REM main cloud files upper
-rem gphotos selo
+REM gphotos selo
 
-echo timeout 22
+REM echo timeout 22
 
 echo cd %%userprofile%%
 
@@ -1893,7 +1892,7 @@ set sg=10
 
 (
 
-echo timeout 23
+REM echo timeout 23
 
 echo set selofldrs[0]=a_fiyandha
 echo set selofldrs[1]=3D Objects
@@ -2008,7 +2007,7 @@ echo     GOTO :i291^)
 
 REM   dump jyc1e4p
 
-echo timeout 25
+REM echo timeout 25
 
 
 echo set selofldrs[0]=alyx_pc
@@ -2058,15 +2057,21 @@ echo     GOTO :s0i1i0s0is^)
 
 
 
+REM main cloud files upper
+REM main cloud sync to sg
+
 (
 
-REM  desktop manager
+echo cd %%userprofile%%
 
-echo timeout 25
+echo rclone copy "fcfgts_driveku_me,shared_with_me:/" "fcfgts_driveku_me:/shared docs" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --include {pptx,docx,html,txt,json,xlsx,xls,doc,ppt,rtf,do m,dot,dotm,docb,wll,pdf,wbk,wwl,doc,docm,dotx,htm,mht,mhtml,odt,pdf,rtf,txt,wps,xml,xml,xps,csv,dbf,dif,ods,prn,slk,xla,xlam,xlsb,xls,xlsm,xlt,xltm,xltx,xlw,xml,xps,bmp,emf,gif,odp,pdf,pot,potm,potx,ppa,ppam,pps,ppsm,ppsx,pptm,rtf,thmx,tif,wmf,xml,xps}" --low-level-retries 9999999999 --retries 10 --drive-skip-dangling-shortcuts --drive-skip-shortcuts --max-transfer 15G
+echo rclone sync "fcfgts_driveku_me,shared_with_me:/" "fcfgts_driveku_me:/shared docs" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --include {pptx,docx,html,txt,json,xlsx,xls,doc,ppt,rtf,do m,dot,dotm,docb,wll,pdf,wbk,wwl,doc,docm,dotx,htm,mht,mhtml,odt,pdf,rtf,txt,wps,xml,xml,xps,csv,dbf,dif,ods,prn,slk,xla,xlam,xlsb,xls,xlsm,xlt,xltm,xltx,xlw,xml,xps,bmp,emf,gif,odp,pdf,pot,potm,potx,ppa,ppam,pps,ppsm,ppsx,pptm,rtf,thmx,tif,wmf,xml,xps}" --low-level-retries 9999999999 --retries 10 --drive-skip-dangling-shortcuts --drive-skip-shortcuts --max-transfer 15G
 
-REM echo rclone move C:\a_fiyandha\ "C:\a_fiyandha\ms word\" --max-depth 1 --auto-confirm --quiet --ignore-size --max-transfer 740G --cutoff-mode=cautious --include {docx,docm,dotx,dotm,docb,dot,wbk}" --low-level-retries 9999999999 --retries 10
-REM echo rclone move "C:/a_fiyandha/" "C:/a_fiyandha/ms excel/" --max-depth 1 --auto-confirm --quiet --ignore-size --max-transfer 740G --cutoff-mode=cautious --include {xlsx,xls,xlt,xlm,xll_,xla_,xla5,xla8,xltx,xlsm,xltm,xlsb,xla,xlam,xlw,xll}" --low-level-retries 9999999999 --retries 10
-REM echo rclone move "C:/a_fiyandha/" "C:/a_fiyandha/ms powerpoint/" --max-depth 1 --auto-confirm --quiet --ignore-size --max-transfer 740G --cutoff-mode=cautious --include {ppt,pot,pps,ppa,ppam,pptx,pptm,potx,potm,ppam,ppsx,ppsm,sldx,sldm,pa}" --low-level-retries 9999999999 --retries 10
+echo rclone move "fcfgts_driveku_me:/" "fcfgts_driveku_me:/Files/" --max-depth 1 --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --drive-skip-dangling-shortcuts --drive-skip-shortcuts
+REM echo rclone sync "fcfgts_driveku_me:/" "fcfgts_driveku_me:/Files/" --max-depth 1 --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --drive-skip-dangling-shortcuts --drive-skip-shortcuts --track-renames
+REM echo rclone delete "fcfgts_driveku_me:/" --max-depth 1 --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --drive-skip-dangling-shortcuts --drive-skip-shortcuts
+
+REM sync sg
 
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_28.bat"
 
