@@ -1974,9 +1974,16 @@ echo rclone sync "aaveusdt_sg1:/Selo/google photos/" "%acc%,shared_with_me:/alyx
 
 echo cd %%userprofile%%
 
-echo set gph[0]=a_fiyandha
-echo set gph[1]=3D Objects
-echo set gph[2]=Desktop
+echo set gph[0]=aaveusdt_sg1
+echo set gph[1]=renaave50_sg2
+echo set gph[2]=renaave7_sg3
+echo set gph[3]=oudhoh0050_sg4
+echo set gph[4]=nkiux77509_sg5
+echo set gph[5]=didrhj9036_sg6
+echo set gph[6]=hjski8292882_sg7
+echo set gph[7]=jsnwj84738_sg8
+echo set gph[8]=ffdnsak8272793_sg9
+echo set gph[9]=otipes7948_sg10
 
 echo set "x=0"
 echo :i291
