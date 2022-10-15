@@ -1992,6 +1992,10 @@ echo rclone sync "fcfgts_driveku_me_gphotos:/" "%%%%gph[%%x%%]%%%%:/Selo/google 
 echo rclone sync "k91819_medriveku_com_gphotos:/" "%%%%gph[%%x%%]%%%%:/Family/google photos/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
 echo rclone sync "calista_ar_cloddrive_com_gphotos:/" "%%%%gph[%%x%%]%%%%:/Caca/google photos/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
 
+echo rclone sync "fcfgts_driveku_me_gphotos:/" "%%%%gph[%%x%%]%%%%:/Selo/google photos/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+echo rclone sync "k91819_medriveku_com_gphotos:/" "%%%%gph[%%x%%]%%%%:/Family/google photos/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+echo rclone sync "calista_ar_cloddrive_com_gphotos:/" "%%%%gph[%%x%%]%%%%:/Caca/google photos/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+
 echo     set /a "x+=1"
 echo     GOTO :i291^)
 
@@ -2075,6 +2079,17 @@ echo set gph[7]=jsnwj84738_sg8
 echo set gph[8]=ffdnsak8272793_sg9
 echo set gph[9]=otipes7948_sg10
 
+echo set acc[0]=aaveusdt
+echo set acc[1]=renaave50
+echo set acc[2]=renaave7
+echo set acc[3]=oudhoh0050
+echo set acc[4]=nkiux77509
+echo set acc[5]=didrhj9036
+echo set acc[6]=hjski8292882
+echo set acc[7]=jsnwj84738
+echo set acc[8]=ffdnsak8272793
+echo set acc[9]=otipes7948
+
 echo rclone copy "fcfgts_driveku_me,shared_with_me:/" "fcfgts_driveku_me:/shared docs" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --include {pptx,docx,html,txt,json,xlsx,xls,doc,ppt,rtf,do m,dot,dotm,docb,wll,pdf,wbk,wwl,doc,docm,dotx,htm,mht,mhtml,odt,pdf,rtf,txt,wps,xml,xml,xps,csv,dbf,dif,ods,prn,slk,xla,xlam,xlsb,xls,xlsm,xlt,xltm,xltx,xlw,xml,xps,bmp,emf,gif,odp,pdf,pot,potm,potx,ppa,ppam,pps,ppsm,ppsx,pptm,rtf,thmx,tif,wmf,xml,xps}" --low-level-retries 9999999999 --retries 10 --drive-skip-dangling-shortcuts --drive-skip-shortcuts --max-transfer 15G
 echo rclone sync "fcfgts_driveku_me,shared_with_me:/" "fcfgts_driveku_me:/shared docs" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --include {pptx,docx,html,txt,json,xlsx,xls,doc,ppt,rtf,do m,dot,dotm,docb,wll,pdf,wbk,wwl,doc,docm,dotx,htm,mht,mhtml,odt,pdf,rtf,txt,wps,xml,xml,xps,csv,dbf,dif,ods,prn,slk,xla,xlam,xlsb,xls,xlsm,xlt,xltm,xltx,xlw,xml,xps,bmp,emf,gif,odp,pdf,pot,potm,potx,ppa,ppam,pps,ppsm,ppsx,pptm,rtf,thmx,tif,wmf,xml,xps}" --low-level-retries 9999999999 --retries 10 --drive-skip-dangling-shortcuts --drive-skip-shortcuts --max-transfer 15G
 
@@ -2082,7 +2097,15 @@ echo rclone move "fcfgts_driveku_me:/" "fcfgts_driveku_me:/Files/" --max-depth 1
 REM echo rclone sync "fcfgts_driveku_me:/" "fcfgts_driveku_me:/Files/" --max-depth 1 --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --drive-skip-dangling-shortcuts --drive-skip-shortcuts --track-renames
 REM echo rclone delete "fcfgts_driveku_me:/" --max-depth 1 --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --low-level-retries 9999999999 --retries 10 --drive-skip-dangling-shortcuts --drive-skip-shortcuts
 
-REM sync sg
+echo set "x=0"
+echo :i291111wdh2od9y189y389d
+echo if defined selofldrs[%%x%%] ^(
+
+echo     call rclone sync "%%%%acc[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P/kamikaze/" "%%%%gph[%%x%%]%%%%:/Selo/kamikaze/My Drive/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames 
+echo     call rclone sync "%%%%acc[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P/kamikaze/" "%%%%gph[%%x%%]%%%%:/Selo/kamikaze/My Drive/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames 
+
+echo     set /a "x+=1"
+echo     GOTO :i291111wdh2od9y189y389d^)
 
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_28.bat"
 
