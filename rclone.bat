@@ -78,7 +78,7 @@ set sg=1
 
 (
 
-REM echo timeout 1
+echo timeout 1
 
 echo set selofldrs[0]=a_fiyandha
 echo set selofldrs[1]=3D Objects
@@ -188,7 +188,7 @@ echo GOTO :m18271723113113^)
 
 
 
-REM REM echo timeout 11
+REM echo timeout 11
 
 echo set cacafldrs[0]=document caca
 echo set cacafldrs[1]=com.mojang
@@ -279,7 +279,7 @@ set sg=2
 
 (
 
-REM echo timeout 2
+echo timeout 2
 
 echo set selofldrs[0]=a_fiyandha
 echo set selofldrs[1]=3D Objects
@@ -382,7 +382,7 @@ echo GOTO :m18271723113113^)
 
 
 
-REM echo timeout 12
+echo timeout 12
 
 echo set cacafldrs[0]=document caca
 echo set cacafldrs[1]=com.mojang
@@ -460,7 +460,7 @@ set sg=3
 
 (
 
-REM echo timeout 3
+echo timeout 3
 
 echo set selofldrs[0]=a_fiyandha
 echo set selofldrs[1]=3D Objects
@@ -556,7 +556,7 @@ echo     rclone moveto "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%" "%a
 echo set /a "x+=1"
 echo GOTO :m18271723113113^)
 
-REM REM echo timeout 13
+REM echo timeout 13
 
 echo set cacafldrs[0]=document caca
 echo set cacafldrs[1]=com.mojang
@@ -632,7 +632,7 @@ set sg=4
 
 (
 
-REM echo timeout 4
+echo timeout 4
 
 echo set selofldrs[0]=a_fiyandha
 echo set selofldrs[1]=3D Objects
@@ -728,7 +728,7 @@ echo     rclone moveto "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%" "%a
 echo set /a "x+=1"
 echo GOTO :m18271723113113^)
 
-REM REM echo timeout 14
+REM echo timeout 14
 
 echo set cacafldrs[0]=document caca
 echo set cacafldrs[1]=com.mojang
@@ -804,7 +804,7 @@ set sg=5
 
 (
 
-REM echo timeout 5
+echo timeout 5
 
 echo set selofldrs[0]=a_fiyandha
 echo set selofldrs[1]=3D Objects
@@ -900,7 +900,7 @@ echo     rclone moveto "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%" "%a
 echo set /a "x+=1"
 echo GOTO :m18271723113113^)
 
-REM REM echo timeout 15
+REM echo timeout 15
 
 echo set cacafldrs[0]=document caca
 echo set cacafldrs[1]=com.mojang
@@ -976,7 +976,7 @@ set sg=6
 
 (
 
-REM echo timeout 6
+echo timeout 6
 
 echo set selofldrs[0]=a_fiyandha
 echo set selofldrs[1]=3D Objects
@@ -1072,7 +1072,7 @@ echo     rclone moveto "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%" "%a
 echo set /a "x+=1"
 echo GOTO :m18271723113113^)
 
-REM REM echo timeout 16
+REM echo timeout 16
 
 echo set cacafldrs[0]=document caca
 echo set cacafldrs[1]=com.mojang
@@ -1148,7 +1148,7 @@ set sg=7
 
 (
 
-REM echo timeout 7
+echo timeout 7
 
 echo set selofldrs[0]=a_fiyandha
 echo set selofldrs[1]=3D Objects
@@ -1244,7 +1244,7 @@ echo     rclone moveto "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%" "%a
 echo set /a "x+=1"
 echo GOTO :m18271723113113^)
 
-REM REM echo timeout 17
+REM echo timeout 17
 
 echo set cacafldrs[0]=document caca
 echo set cacafldrs[1]=com.mojang
@@ -1320,7 +1320,7 @@ set sg=8
 
 (
 
-REM echo timeout 8
+echo timeout 8
 
 echo set selofldrs[0]=a_fiyandha
 echo set selofldrs[1]=3D Objects
@@ -1416,7 +1416,7 @@ echo     rclone moveto "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%" "%a
 echo set /a "x+=1"
 echo GOTO :m18271723113113^)
 
-REM REM echo timeout 18
+REM echo timeout 18
 
 echo set cacafldrs[0]=document caca
 echo set cacafldrs[1]=com.mojang
@@ -1492,7 +1492,7 @@ set sg=9
 
 (
 
-REM echo timeout 9
+echo timeout 9
 
 echo set selofldrs[0]=a_fiyandha
 echo set selofldrs[1]=3D Objects
@@ -1588,7 +1588,7 @@ echo     rclone moveto "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%" "%a
 echo set /a "x+=1"
 echo GOTO :m18271723113113^)
 
-REM REM echo timeout 19
+REM echo timeout 19
 
 echo set cacafldrs[0]=document caca
 echo set cacafldrs[1]=com.mojang
@@ -1664,7 +1664,7 @@ set sg=10
 
 (
 
-REM echo timeout 10
+echo timeout 10
 
 echo set selofldrs[0]=a_fiyandha
 echo set selofldrs[1]=3D Objects
@@ -1848,7 +1848,7 @@ echo     GOTO :i291312r3e^)
 
 (
 
-REM echo timeout 21
+echo timeout 21
 
 echo cd %%userprofile%%
 
@@ -1911,7 +1911,7 @@ echo     GOTO :i1930013sxqsqqasqzs^)
 
 (
 
-REM echo timeout 22
+echo timeout 22
 
 echo cd %%userprofile%%
 
@@ -1982,7 +1982,7 @@ REM shared docs
 REM downlaods pool
 REM gphotos selo
 
-REM echo timeout 22
+echo timeout 22
 
 echo cd %%userprofile%%
 
@@ -2022,7 +2022,7 @@ set sg=10
 
 (
 
-REM echo timeout 23
+echo timeout 23
 
 echo set selofldrs[0]=a_fiyandha
 echo set selofldrs[1]=3D Objects
@@ -2153,7 +2153,7 @@ echo     GOTO :i291^)
 
 REM   dump jyc1e4p
 
-REM echo timeout 25
+echo timeout 25
 
 
 echo set selofldrs[0]=alyx_pc
