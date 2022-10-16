@@ -16,6 +16,27 @@ echo rclone mount "fcfgts_driveku_me_gphotos:/" J:\
 
 
 
+(
+
+echo cd %%userprofile%%
+echo rclone mount "k91819_medriveku_com_gphotos:/" K:\
+
+)>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_2.bat"
+
+
+
+
+
+
+(
+
+echo cd %%userprofile%%
+echo rclone mount "calista_ar_cloddrive_com_gphotos:/" L:\
+
+)>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_3.bat"
+
+
+
 
 
 
