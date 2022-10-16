@@ -248,6 +248,27 @@ echo     call rclone sync "%acc%,shared_with_me:/jY1CJ1hE4P/alyx_pc/%%%%cacafldr
 echo     set /a "x+=1"
 echo     GOTO :i2d2e2342^)
 
+REM gphotos (sync from account one time)
+
+echo set gph[0]=fcfgts_driveku_me_gphotos
+echo set gph[1]=k91819_medriveku_com_gphotos
+echo set gph[2]=calista_ar_cloddrive_com_gphotos
+
+echo set "x=0"
+echo :i291
+echo if defined selofldrs[%%x%%] ^(
+
+echo rclone sync "%%%%gph[%%x%%]%%%%:/" "%acc%_sg%sg%:/Selo/google photos/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+echo rclone sync "%%%%gph[%%x%%]%%%%:/" "%acc%_sg%sg%:/Family/google photos/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+echo rclone sync "%%%%gph[%%x%%]%%%%:/" "%acc%_sg%sg%:/Caca/google photos/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+
+echo rclone sync "%%%%gph[%%x%%]%%%%:/" "%acc%_sg%sg%:/Selo/google photos/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+echo rclone sync "%%%%gph[%%x%%]%%%%:/" "%acc%_sg%sg%:/Family/google photos/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+echo rclone sync "%%%%gph[%%x%%]%%%%:/" "%acc%_sg%sg%:/Caca/google photos/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+
+echo     set /a "x+=1"
+echo     GOTO :i291^)
+
 REM  gphotos sync starting at sg2
 
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_2.bat"
