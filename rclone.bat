@@ -254,17 +254,16 @@ echo set gph[0]=fcfgts_driveku_me_gphotos
 echo set gph[1]=k91819_medriveku_com_gphotos
 echo set gph[2]=calista_ar_cloddrive_com_gphotos
 
+echo set gphb[0]=Selo/google photos/
+echo set gphb[1]=Family/google photos/
+echo set gphb[2]=Caca/google photos/
+
 echo set "x=0"
 echo :i291
 echo if defined selofldrs[%%x%%] ^(
 
-echo rclone sync "%%%%gph[%%x%%]%%%%:/" "%acc%_sg%sg%:/Selo/google photos/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone sync "%%%%gph[%%x%%]%%%%:/" "%acc%_sg%sg%:/Family/google photos/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone sync "%%%%gph[%%x%%]%%%%:/" "%acc%_sg%sg%:/Caca/google photos/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-
-echo rclone sync "%%%%gph[%%x%%]%%%%:/" "%acc%_sg%sg%:/Selo/google photos/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone sync "%%%%gph[%%x%%]%%%%:/" "%acc%_sg%sg%:/Family/google photos/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
-echo rclone sync "%%%%gph[%%x%%]%%%%:/" "%acc%_sg%sg%:/Caca/google photos/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+echo rclone sync "%%%%gph[%%x%%]%%%%:/" "%acc%_sg%sg%:/%%%%gphb[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+echo rclone sync "%%%%gph[%%x%%]%%%%:/" "%acc%_sg%sg%:/%%%%gphb[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
 
 echo     set /a "x+=1"
 echo     GOTO :i291^)
@@ -436,6 +435,20 @@ echo rclone moveto "%acc%_sg%sg%:/Caca/calista_ar/Computers/laptop_caca/%%copyna
 REM  google photos
 
 echo rclone sync "aaveusdt_sg1:/Selo/google photos/" "%acc%_sg%sg%:/Selo/google photos/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+
+echo set gphb[0]=Selo/google photos/
+echo set gphb[1]=Family/google photos/
+echo set gphb[2]=Caca/google photos/
+
+echo set "x=0"
+echo :i291312r3e
+echo if defined selofldrs[%%x%%] ^(
+
+echo rclone sync "aaveusdt_sg1:/%%%%gphb[%%x%%]%%%" "%acc%_sg%sg%:/%%%%gphb[%%x%%]%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+echo rclone sync "aaveusdt_sg1:/%%%%gphb[%%x%%]%%%" "%acc%_sg%sg%:/%%%%gphb[%%x%%]%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+
+echo     set /a "x+=1"
+echo     GOTO :i291312r3e^)
 
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_3.bat"
 
