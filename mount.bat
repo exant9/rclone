@@ -12,7 +12,7 @@ cd %userprofile%
 echo cd %%userprofile%%
 echo rclone mount "fcfgts_driveku_me_gphotos:/" J:\
 
-)>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_1.bat"
+)>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\m_1.bat"
 
 
 
@@ -21,9 +21,7 @@ echo rclone mount "fcfgts_driveku_me_gphotos:/" J:\
 echo cd %%userprofile%%
 echo rclone mount "k91819_medriveku_com_gphotos:/" K:\
 
-)>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_2.bat"
-
-
+)>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\m_2.bat"
 
 
 
@@ -33,7 +31,7 @@ echo rclone mount "k91819_medriveku_com_gphotos:/" K:\
 echo cd %%userprofile%%
 echo rclone mount "calista_ar_cloddrive_com_gphotos:/" L:\
 
-)>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_3.bat"
+)>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\m_3.bat"
 
 
 
