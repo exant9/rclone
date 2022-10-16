@@ -172,6 +172,7 @@ echo set hour=%%time:~0,2%%
 echo set minute=%%time:~3,2%%
 echo set second=%%TIME:~6,2%%
 echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
+
 echo for %%%%x in ^("%%fldr:,=" "%%"^) do ^(
 echo 	for /F "tokens=1,2 delims=/" %%%%a in ^("%%%%~x"^) do ^(
 	echo rclone sync "%acc%,shared_with_me:/jY1CJ1hE4P/%%%%a/%%%%b" "%acc%:/Selo/%%a/%%copyname%%/%%%%b" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --transfers 5 --checkers 10 --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
@@ -2242,6 +2243,15 @@ REM echo rclone delete "fcfgts_driveku_me:/" --max-depth 1 --drive-keep-revision
 echo set "x=0"
 echo :i291111wdh2od9y189y389d
 echo if defined gph[%%x%%] ^(
+
+echo     call rclone mkdir "%%%%gph[%%x%%]%%%%:/Selo/kamikaze/My Drive/Colab Notebooks" --low-level-retries 9999999999 --auto-confirm --no-traverse --drive-server-side-across-configs --transfers 5 --checkers 10 --quiet --drive-allow-import-name-change   
+echo     call rclone mkdir "%%%%gph[%%x%%]%%%%:/Selo/kamikaze/My Drive/Files" --low-level-retries 9999999999 --auto-confirm --no-traverse --drive-server-side-across-configs --transfers 5 --checkers 10 --quiet --drive-allow-import-name-change   
+echo     call rclone mkdir  "%%%%gph[%%x%%]%%%%:/Selo/kamikaze/My Drive/PC/alyx" --low-level-retries 9999999999 --auto-confirm --no-traverse --drive-server-side-across-configs --transfers 5 --checkers 10 --quiet --drive-allow-import-name-change   
+echo     call rclone mkdir "%%%%gph[%%x%%]%%%%:/Selo/kamikaze/My Drive/system/rclone" --low-level-retries 9999999999 --auto-confirm --no-traverse --drive-server-side-across-configs --transfers 5 --checkers 10 --quiet --drive-allow-import-name-change   
+echo     call rclone mkdir "%%%%gph[%%x%%]%%%%:/Selo/kamikaze/My Drive/system/test" --low-level-retries 9999999999 --auto-confirm --no-traverse --drive-server-side-across-configs --transfers 5 --checkers 10 --quiet --drive-allow-import-name-change   
+echo     call rclone mkdir  "%%%%gph[%%x%%]%%%%:/Selo/kamikaze/My Drive/Unlimtd Copy/Downloads_pool_83174" --low-level-retries 9999999999 --auto-confirm --no-traverse --drive-server-side-across-configs --transfers 5 --checkers 10 --quiet --drive-allow-import-name-change   
+echo     call rclone mkdir  "%%%%gph[%%x%%]%%%%:/Selo/kamikaze/My Drive/Unlimtd Copy/Minecraft" --low-level-retries 9999999999 --auto-confirm --no-traverse --drive-server-side-across-configs --transfers 5 --checkers 10 --quiet --drive-allow-import-name-change   
+
 
 echo     call rclone sync "%%%%acc[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P/kamikaze/" "%%%%gph[%%x%%]%%%%:/Selo/kamikaze/My Drive/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --transfers 5 --checkers 10 --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames 
 echo     call rclone sync "%%%%acc[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P/kamikaze/" "%%%%gph[%%x%%]%%%%:/Selo/kamikaze/My Drive/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --transfers 5 --checkers 10 --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames 
