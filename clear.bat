@@ -4,6 +4,13 @@ if not DEFINED IS_MINIMIZED set IS_MINIMIZED=1 && start "" /min "%~dpnx0" %* && 
 REM ping www.google.com -n 1 -w 1000
 REM if errorlevel 1 exit
 
+cd %userprofile%
+taskkill /f /im rclone.exe
+taskkill /f /im cscript.exe
+
+taskkill /f /im rclone.exe
+taskkill /f /im cscript.exe
+
 
 
 (
