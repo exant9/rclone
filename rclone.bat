@@ -266,6 +266,12 @@ echo if defined gphb[%%x%%] ^(
 echo rclone sync "%%%%gph[%%x%%]%%%%:/" "%acc%_sg%sg%:/%%%%gphb[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --transfers 5 --checkers 10 --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
 echo rclone sync "%%%%gph[%%x%%]%%%%:/" "%acc%_sg%sg%:/%%%%gphb[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --transfers 5 --checkers 10 --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
 
+s
+REM dump gphotos one time only
+
+echo rclone sync "%acc%:/%%%%gphb[%%x%%]%%%" "%acc%,shared_with_me:/dump google photos 912309" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --transfers 5 --checkers 10 --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+echo rclone sync "%acc%:/%%%%gphb[%%x%%]%%%" "%acc%,shared_with_me:/dump google photos 912309" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --transfers 5 --checkers 10 --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10   
+
 echo     set /a "x+=1"
 echo     GOTO :i291^)
 
