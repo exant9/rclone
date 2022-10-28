@@ -81,31 +81,6 @@ set sg=1
 echo timeout 1
 
 echo set selofldrs[0]=a_fiyandha
-echo set selofldrs[1]=3D Objects
-echo set selofldrs[2]=Desktop
-echo set selofldrs[3]=Documents
-echo set selofldrs[4]=Videos
-echo set selofldrs[5]=Saved Games
-echo set selofldrs[6]=Favorites
-echo set selofldrs[7]=Links
-echo set selofldrs[8]=Music
-echo set selofldrs[9]=Contacts
-echo set selofldrs[10]=a NDF1x extended
-echo set selofldrs[11]=Downloads
-echo set selofldrs[12]=Pictures
-echo set selofldrs[13]=behavior_packs
-echo set selofldrs[14]=development_behavior_packs
-echo set selofldrs[15]=development_resource_packs
-echo set selofldrs[16]=development_skin_packs
-echo set selofldrs[17]=minecraftpe
-echo set selofldrs[18]=minecraftWorlds
-echo set selofldrs[19]=resource_packs
-echo set selofldrs[20]=skin_packs
-echo set selofldrs[21]=world_templates
-echo set selofldrs[22]=Notepad++
-echo set selofldrs[23]=z-bat-vbs-file settings
-echo set selofldrs[24]=rclone
-echo set selofldrs[25]=profiles
 
 echo cd %%userprofile%%
 
@@ -143,8 +118,8 @@ REM  dump one time (sekali aja)
 echo set "x=0"
 echo :i212
 echo if defined selofldrs[%%x%%] ^(
-echo     call rclone sync "%acc%,shared_with_me:/jY1CJ1hE4P/alyx_pc/%%%%selofldrs[%%x%%]%%%%" "%acc%,shared_with_me:/dump 2781" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --transfers 5 --checkers 10 --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
-echo     call rclone sync "%acc%,shared_with_me:/jY1CJ1hE4P/alyx_pc/%%%%selofldrs[%%x%%]%%%%" "%acc%,shared_with_me:/dump 2781" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --transfers 5 --checkers 10 --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
+echo     call rclone sync "%acc%,shared_with_me:/jY1CJ1hE4P/alyx_pc/" "%acc%,shared_with_me:/dump 2781" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --transfers 5 --checkers 10 --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
+echo     call rclone sync "%acc%,shared_with_me:/jY1CJ1hE4P/alyx_pc/" "%acc%,shared_with_me:/dump 2781" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --transfers 5 --checkers 10 --quiet --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content --low-level-retries 9999999999 --retries 10 --track-renames
 echo     set /a "x+=1"
 echo     GOTO :i212^)
 
@@ -271,31 +246,6 @@ set sg=2
 echo timeout 2
 
 echo set selofldrs[0]=a_fiyandha
-echo set selofldrs[1]=3D Objects
-echo set selofldrs[2]=Desktop
-echo set selofldrs[3]=Documents
-echo set selofldrs[4]=Videos
-echo set selofldrs[5]=Saved Games
-echo set selofldrs[6]=Favorites
-echo set selofldrs[7]=Links
-echo set selofldrs[8]=Music
-echo set selofldrs[9]=Contacts
-echo set selofldrs[10]=a NDF1x extended
-echo set selofldrs[11]=Downloads
-echo set selofldrs[12]=Pictures
-echo set selofldrs[13]=behavior_packs
-echo set selofldrs[14]=development_behavior_packs
-echo set selofldrs[15]=development_resource_packs
-echo set selofldrs[16]=development_skin_packs
-echo set selofldrs[17]=minecraftpe
-echo set selofldrs[18]=minecraftWorlds
-echo set selofldrs[19]=resource_packs
-echo set selofldrs[20]=skin_packs
-echo set selofldrs[21]=world_templates
-echo set selofldrs[22]=Notepad++
-echo set selofldrs[23]=z-bat-vbs-file settings
-echo set selofldrs[24]=rclone
-echo set selofldrs[25]=profiles
 
 
 
@@ -439,31 +389,6 @@ set sg=3
 echo timeout 3
 
 echo set selofldrs[0]=a_fiyandha
-echo set selofldrs[1]=3D Objects
-echo set selofldrs[2]=Desktop
-echo set selofldrs[3]=Documents
-echo set selofldrs[4]=Videos
-echo set selofldrs[5]=Saved Games
-echo set selofldrs[6]=Favorites
-echo set selofldrs[7]=Links
-echo set selofldrs[8]=Music
-echo set selofldrs[9]=Contacts
-echo set selofldrs[10]=a NDF1x extended
-echo set selofldrs[11]=Downloads
-echo set selofldrs[12]=Pictures
-echo set selofldrs[13]=behavior_packs
-echo set selofldrs[14]=development_behavior_packs
-echo set selofldrs[15]=development_resource_packs
-echo set selofldrs[16]=development_skin_packs
-echo set selofldrs[17]=minecraftpe
-echo set selofldrs[18]=minecraftWorlds
-echo set selofldrs[19]=resource_packs
-echo set selofldrs[20]=skin_packs
-echo set selofldrs[21]=world_templates
-echo set selofldrs[22]=Notepad++
-echo set selofldrs[23]=z-bat-vbs-file settings
-echo set selofldrs[24]=rclone
-echo set selofldrs[25]=profiles
 
 echo cd %%userprofile%%
 
@@ -598,31 +523,6 @@ set sg=4
 echo timeout 4
 
 echo set selofldrs[0]=a_fiyandha
-echo set selofldrs[1]=3D Objects
-echo set selofldrs[2]=Desktop
-echo set selofldrs[3]=Documents
-echo set selofldrs[4]=Videos
-echo set selofldrs[5]=Saved Games
-echo set selofldrs[6]=Favorites
-echo set selofldrs[7]=Links
-echo set selofldrs[8]=Music
-echo set selofldrs[9]=Contacts
-echo set selofldrs[10]=a NDF1x extended
-echo set selofldrs[11]=Downloads
-echo set selofldrs[12]=Pictures
-echo set selofldrs[13]=behavior_packs
-echo set selofldrs[14]=development_behavior_packs
-echo set selofldrs[15]=development_resource_packs
-echo set selofldrs[16]=development_skin_packs
-echo set selofldrs[17]=minecraftpe
-echo set selofldrs[18]=minecraftWorlds
-echo set selofldrs[19]=resource_packs
-echo set selofldrs[20]=skin_packs
-echo set selofldrs[21]=world_templates
-echo set selofldrs[22]=Notepad++
-echo set selofldrs[23]=z-bat-vbs-file settings
-echo set selofldrs[24]=rclone
-echo set selofldrs[25]=profiles
 
 echo cd %%userprofile%%
 
@@ -757,31 +657,6 @@ set sg=5
 echo timeout 5
 
 echo set selofldrs[0]=a_fiyandha
-echo set selofldrs[1]=3D Objects
-echo set selofldrs[2]=Desktop
-echo set selofldrs[3]=Documents
-echo set selofldrs[4]=Videos
-echo set selofldrs[5]=Saved Games
-echo set selofldrs[6]=Favorites
-echo set selofldrs[7]=Links
-echo set selofldrs[8]=Music
-echo set selofldrs[9]=Contacts
-echo set selofldrs[10]=a NDF1x extended
-echo set selofldrs[11]=Downloads
-echo set selofldrs[12]=Pictures
-echo set selofldrs[13]=behavior_packs
-echo set selofldrs[14]=development_behavior_packs
-echo set selofldrs[15]=development_resource_packs
-echo set selofldrs[16]=development_skin_packs
-echo set selofldrs[17]=minecraftpe
-echo set selofldrs[18]=minecraftWorlds
-echo set selofldrs[19]=resource_packs
-echo set selofldrs[20]=skin_packs
-echo set selofldrs[21]=world_templates
-echo set selofldrs[22]=Notepad++
-echo set selofldrs[23]=z-bat-vbs-file settings
-echo set selofldrs[24]=rclone
-echo set selofldrs[25]=profiles
 
 echo cd %%userprofile%%
 
@@ -918,31 +793,6 @@ set sg=6
 echo timeout 6
 
 echo set selofldrs[0]=a_fiyandha
-echo set selofldrs[1]=3D Objects
-echo set selofldrs[2]=Desktop
-echo set selofldrs[3]=Documents
-echo set selofldrs[4]=Videos
-echo set selofldrs[5]=Saved Games
-echo set selofldrs[6]=Favorites
-echo set selofldrs[7]=Links
-echo set selofldrs[8]=Music
-echo set selofldrs[9]=Contacts
-echo set selofldrs[10]=a NDF1x extended
-echo set selofldrs[11]=Downloads
-echo set selofldrs[12]=Pictures
-echo set selofldrs[13]=behavior_packs
-echo set selofldrs[14]=development_behavior_packs
-echo set selofldrs[15]=development_resource_packs
-echo set selofldrs[16]=development_skin_packs
-echo set selofldrs[17]=minecraftpe
-echo set selofldrs[18]=minecraftWorlds
-echo set selofldrs[19]=resource_packs
-echo set selofldrs[20]=skin_packs
-echo set selofldrs[21]=world_templates
-echo set selofldrs[22]=Notepad++
-echo set selofldrs[23]=z-bat-vbs-file settings
-echo set selofldrs[24]=rclone
-echo set selofldrs[25]=profiles
 
 echo cd %%userprofile%%
 
@@ -1077,31 +927,6 @@ set sg=7
 echo timeout 7
 
 echo set selofldrs[0]=a_fiyandha
-echo set selofldrs[1]=3D Objects
-echo set selofldrs[2]=Desktop
-echo set selofldrs[3]=Documents
-echo set selofldrs[4]=Videos
-echo set selofldrs[5]=Saved Games
-echo set selofldrs[6]=Favorites
-echo set selofldrs[7]=Links
-echo set selofldrs[8]=Music
-echo set selofldrs[9]=Contacts
-echo set selofldrs[10]=a NDF1x extended
-echo set selofldrs[11]=Downloads
-echo set selofldrs[12]=Pictures
-echo set selofldrs[13]=behavior_packs
-echo set selofldrs[14]=development_behavior_packs
-echo set selofldrs[15]=development_resource_packs
-echo set selofldrs[16]=development_skin_packs
-echo set selofldrs[17]=minecraftpe
-echo set selofldrs[18]=minecraftWorlds
-echo set selofldrs[19]=resource_packs
-echo set selofldrs[20]=skin_packs
-echo set selofldrs[21]=world_templates
-echo set selofldrs[22]=Notepad++
-echo set selofldrs[23]=z-bat-vbs-file settings
-echo set selofldrs[24]=rclone
-echo set selofldrs[25]=profiles
 
 echo cd %%userprofile%%
 
@@ -1236,31 +1061,6 @@ set sg=8
 echo timeout 8
 
 echo set selofldrs[0]=a_fiyandha
-echo set selofldrs[1]=3D Objects
-echo set selofldrs[2]=Desktop
-echo set selofldrs[3]=Documents
-echo set selofldrs[4]=Videos
-echo set selofldrs[5]=Saved Games
-echo set selofldrs[6]=Favorites
-echo set selofldrs[7]=Links
-echo set selofldrs[8]=Music
-echo set selofldrs[9]=Contacts
-echo set selofldrs[10]=a NDF1x extended
-echo set selofldrs[11]=Downloads
-echo set selofldrs[12]=Pictures
-echo set selofldrs[13]=behavior_packs
-echo set selofldrs[14]=development_behavior_packs
-echo set selofldrs[15]=development_resource_packs
-echo set selofldrs[16]=development_skin_packs
-echo set selofldrs[17]=minecraftpe
-echo set selofldrs[18]=minecraftWorlds
-echo set selofldrs[19]=resource_packs
-echo set selofldrs[20]=skin_packs
-echo set selofldrs[21]=world_templates
-echo set selofldrs[22]=Notepad++
-echo set selofldrs[23]=z-bat-vbs-file settings
-echo set selofldrs[24]=rclone
-echo set selofldrs[25]=profiles
 
 echo cd %%userprofile%%
 
@@ -1395,31 +1195,6 @@ set sg=9
 echo timeout 9
 
 echo set selofldrs[0]=a_fiyandha
-echo set selofldrs[1]=3D Objects
-echo set selofldrs[2]=Desktop
-echo set selofldrs[3]=Documents
-echo set selofldrs[4]=Videos
-echo set selofldrs[5]=Saved Games
-echo set selofldrs[6]=Favorites
-echo set selofldrs[7]=Links
-echo set selofldrs[8]=Music
-echo set selofldrs[9]=Contacts
-echo set selofldrs[10]=a NDF1x extended
-echo set selofldrs[11]=Downloads
-echo set selofldrs[12]=Pictures
-echo set selofldrs[13]=behavior_packs
-echo set selofldrs[14]=development_behavior_packs
-echo set selofldrs[15]=development_resource_packs
-echo set selofldrs[16]=development_skin_packs
-echo set selofldrs[17]=minecraftpe
-echo set selofldrs[18]=minecraftWorlds
-echo set selofldrs[19]=resource_packs
-echo set selofldrs[20]=skin_packs
-echo set selofldrs[21]=world_templates
-echo set selofldrs[22]=Notepad++
-echo set selofldrs[23]=z-bat-vbs-file settings
-echo set selofldrs[24]=rclone
-echo set selofldrs[25]=profiles
 
 echo cd %%userprofile%%
 
