@@ -11,6 +11,13 @@ REM  A nya gabakal pake usage
 REM  15gb gausah di dump, udah ada di dump jyc1e4p
 
 
+REM remote needs access to location:
+REM - jY1CJ1hE4P
+REM - Shared Drives
+REM - main cloud folders
+REM - user accounts (15gb)
+
+
 
 set storage=renaave50_sg2
 set "x=0"
