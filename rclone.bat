@@ -238,8 +238,8 @@ set sg=2
 
 echo timeout 2
 
-echo set selofldrs[0]=selo
-echo set selofldrs[1]=selo
+echo set selofldrs[0]=s
+echo set selofldrs[1]=s
 
 
 
@@ -314,8 +314,8 @@ echo GOTO :m18271723113113^)
 
 echo timeout 12
 
-echo set cacafldrs[0]=caca
-echo set cacafldrs[1]=caca
+echo set cacafldrs[0]=c
+echo set cacafldrs[1]=c
 
 echo cd %%userprofile%%
 
