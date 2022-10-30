@@ -19,16 +19,6 @@ REM - user accounts (15gb)
 
 
 
-set storage=renaave50_sg2
-set "x=0"
-:h181
-if defined mkdirpath[%x%] (
-    call rclone mkdir "%storage%:/%%mkdirpath[%x%]%% --low-level-retries 9999999999 --auto-confirm --no-traverse --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change   
-    set /a "x+=1"
-    GOTO :h181)
-
-
-
 
 
 REM   cleanup
