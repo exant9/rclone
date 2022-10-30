@@ -19,8 +19,6 @@ REM - user accounts (15gb)
 
 
 
-
-
 REM   cleanup
 
 cd "C:\a_fiyandha\z-bat-vbs-file\rclone"
@@ -57,13 +55,6 @@ echo     GOTO :d121
 echo ^)
 
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_1.bat"
-
-
-
-
-
-
-
 
 
 
@@ -335,9 +326,7 @@ echo set second=%%TIME:~6,2%%
 
 echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
-REM echo set "x=0"
-REM echo :i3
-REM echo if defined cacafldrs[%%x%%] ^(
+
 REM echo     call rclone copy "eleoek28828,shared_with_me:/jY1CJ1hE4P/laptop_caca/%%%%cacafldrs[%%x%%]%%%%" "eleoek28828_sg2:/Caca/calista_ar/Computers/laptop_caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content    
 
 
@@ -469,9 +458,7 @@ echo set second=%%TIME:~6,2%%
 
 echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
-REM echo set "x=0"
-REM echo :i3
-REM echo if defined cacafldrs[%%x%%] ^(
+
 REM echo     call rclone copy "wjwn91178,shared_with_me:/jY1CJ1hE4P/laptop_caca/%%%%cacafldrs[%%x%%]%%%%" "wjwn91178_sg3:/Caca/calista_ar/Computers/laptop_caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content    
 
 
@@ -737,9 +724,7 @@ echo set second=%%TIME:~6,2%%
 
 echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
-REM echo set "x=0"
-REM echo :i3
-REM echo if defined cacafldrs[%%x%%] ^(
+
 REM echo     call rclone copy "ejsjskw28272,shared_with_me:/jY1CJ1hE4P/laptop_caca/%%%%cacafldrs[%%x%%]%%%%" "ejsjskw28272_sg5:/Caca/calista_ar/Computers/laptop_caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content    
 
 
@@ -869,9 +854,7 @@ echo set second=%%TIME:~6,2%%
 
 echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
-REM echo set "x=0"
-REM echo :i3
-REM echo if defined cacafldrs[%%x%%] ^(
+
 REM echo     call rclone copy "sjsiowkw272892,shared_with_me:/jY1CJ1hE4P/laptop_caca/%%%%cacafldrs[%%x%%]%%%%" "sjsiowkw272892_sg6:/Caca/calista_ar/Computers/laptop_caca/%%copyname%%/%%%%cacafldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content    
 
 
