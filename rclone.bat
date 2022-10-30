@@ -70,6 +70,7 @@ set sg=1
 echo timeout 1
 
 echo set selofldrs[0]=selo
+echo set selofldrs[1]=selo
 
 echo cd %%userprofile%%
 
@@ -91,7 +92,6 @@ REM echo     call rclone copy "aaveusdt,shared_with_me:/jY1CJ1hE4P/alyx_pc/%%%%s
 echo set "x=0"
 echo :i21
 echo if defined selofldrs[%%x%%] ^(
-echo     rclone sync "%acc%,shared_with_me:/jY1CJ1hE4P/alyx_pc/%%%%selofldrs[%%x%%]%%%%" "%acc%_sg%sg%:/Selo/kamikaze/Computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content  --track-renames
 echo     rclone sync "%acc%,shared_with_me:/jY1CJ1hE4P/alyx_pc/%%%%selofldrs[%%x%%]%%%%" "%acc%_sg%sg%:/Selo/kamikaze/Computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content  --track-renames
 echo     set /a "x+=1"
 echo     GOTO :i21^)
@@ -153,6 +153,7 @@ echo GOTO :m18271723113113^)
 REM echo timeout 11
 
 echo set cacafldrs[0]=caca
+echo set cacafldrs[1]=caca
 
 echo cd %%userprofile%%
 
@@ -175,7 +176,6 @@ REM echo     GOTO :i2^)
 echo set "x=0"
 echo :r3r34t4
 echo if defined cacafldrs[%%x%%] ^(
-echo     rclone sync "%acc%,shared_with_me:/jY1CJ1hE4P/laptop_caca/" "%acc%_sg%sg%:/Caca/calista_ar/Computers/laptop_caca/%%copyname%%/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content  --track-renames
 echo     rclone sync "%acc%,shared_with_me:/jY1CJ1hE4P/laptop_caca/" "%acc%_sg%sg%:/Caca/calista_ar/Computers/laptop_caca/%%copyname%%/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content  --track-renames
 echo     set /a "x+=1"
 echo     GOTO :r3r34t4^)
@@ -239,6 +239,7 @@ set sg=2
 echo timeout 2
 
 echo set selofldrs[0]=selo
+echo set selofldrs[1]=selo
 
 
 
@@ -314,6 +315,7 @@ echo GOTO :m18271723113113^)
 echo timeout 12
 
 echo set cacafldrs[0]=caca
+echo set cacafldrs[1]=caca
 
 echo cd %%userprofile%%
 
@@ -378,6 +380,7 @@ set sg=3
 echo timeout 3
 
 echo set selofldrs[0]=selo
+echo set selofldrs[1]=selo
 
 echo cd %%userprofile%%
 
@@ -446,6 +449,7 @@ echo GOTO :m18271723113113^)
 REM echo timeout 13
 
 echo set cacafldrs[0]=caca
+echo set cacafldrs[1]=caca
 
 echo cd %%userprofile%%
 
@@ -508,6 +512,7 @@ set sg=4
 echo timeout 4
 
 echo set selofldrs[0]=selo
+echo set selofldrs[1]=selo
 
 echo cd %%userprofile%%
 
@@ -576,6 +581,7 @@ echo GOTO :m18271723113113^)
 REM echo timeout 14
 
 echo set cacafldrs[0]=caca
+echo set cacafldrs[1]=caca
 
 echo cd %%userprofile%%
 
@@ -641,6 +647,7 @@ set sg=5
 echo timeout 5
 
 echo set selofldrs[0]=selo
+echo set selofldrs[1]=selo
 
 echo cd %%userprofile%%
 
@@ -712,6 +719,7 @@ echo GOTO :m18271723113113^)
 REM echo timeout 15
 
 echo set cacafldrs[0]=caca
+echo set cacafldrs[1]=caca
 
 echo cd %%userprofile%%
 
@@ -774,6 +782,7 @@ set sg=6
 echo timeout 6
 
 echo set selofldrs[0]=selo
+echo set selofldrs[1]=selo
 
 echo cd %%userprofile%%
 
@@ -842,6 +851,7 @@ echo GOTO :m18271723113113^)
 REM echo timeout 16
 
 echo set cacafldrs[0]=caca
+echo set cacafldrs[1]=caca
 
 echo cd %%userprofile%%
 
@@ -904,6 +914,7 @@ set sg=7
 echo timeout 7
 
 echo set selofldrs[0]=selo
+echo set selofldrs[1]=selo
 
 echo cd %%userprofile%%
 
@@ -972,6 +983,7 @@ echo GOTO :m18271723113113^)
 REM echo timeout 17
 
 echo set cacafldrs[0]=caca
+echo set cacafldrs[1]=caca
 
 echo cd %%userprofile%%
 
@@ -1037,6 +1049,7 @@ set sg=8
 echo timeout 8
 
 echo set selofldrs[0]=selo
+echo set selofldrs[1]=selo
 
 echo cd %%userprofile%%
 
@@ -1105,6 +1118,7 @@ echo GOTO :m18271723113113^)
 REM echo timeout 18
 
 echo set cacafldrs[0]=caca
+echo set cacafldrs[1]=caca
 
 echo cd %%userprofile%%
 
@@ -1170,6 +1184,7 @@ set sg=9
 echo timeout 9
 
 echo set selofldrs[0]=selo
+echo set selofldrs[1]=selo
 
 echo cd %%userprofile%%
 
@@ -1238,6 +1253,7 @@ echo GOTO :m18271723113113^)
 REM echo timeout 19
 
 echo set cacafldrs[0]=caca
+echo set cacafldrs[1]=caca
 
 echo cd %%userprofile%%
 
@@ -1370,6 +1386,7 @@ echo GOTO :m18271723113113^)
 
 
 echo set cacafldrs[0]=caca
+echo set cacafldrs[1]=caca
 
 echo cd %%userprofile%%
 
