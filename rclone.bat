@@ -69,6 +69,7 @@ echo ^)
 
 
 
+REM  10 copy
 
 set acc=aaveusdt
 set sg=1
