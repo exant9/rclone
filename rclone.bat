@@ -5,6 +5,7 @@ cd %userprofile%
 
 
 
+REM  JANGAN LUPA PAKE CALL DIDALEM LOOP BIASA
 
 REM  rclone copy A B
 REM  A nya gabakal pake usage
@@ -92,7 +93,7 @@ REM echo     call rclone copy "aaveusdt,shared_with_me:/jY1CJ1hE4P/alyx_pc/%%%%s
 echo set "x=0"
 echo :i21
 echo if defined selofldrs[%%x%%] ^(
-echo     rclone sync "%acc%,shared_with_me:/jY1CJ1hE4P/alyx_pc/%%%%selofldrs[%%x%%]%%%%" "%acc%_sg%sg%:/Selo/kamikaze/Computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content  --track-renames
+echo     call rclone sync "%acc%,shared_with_me:/jY1CJ1hE4P/alyx_pc/%%%%selofldrs[%%x%%]%%%%" "%acc%_sg%sg%:/Selo/kamikaze/Computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content  --track-renames
 echo     set /a "x+=1"
 echo     GOTO :i21^)
 
@@ -111,7 +112,7 @@ REM  dump one time (sekali aja)
 echo set "x=0"
 echo :i212
 echo if defined selofldrs[%%x%%] ^(
-echo     rclone sync "%acc%,shared_with_me:/jY1CJ1hE4P/alyx_pc/" "%acc%,shared_with_me:/dump 2781" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content  --track-renames
+echo     call rclone sync "%acc%,shared_with_me:/jY1CJ1hE4P/alyx_pc/" "%acc%,shared_with_me:/dump 2781" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content  --track-renames
 echo     rclone sync "%acc%,shared_with_me:/jY1CJ1hE4P/alyx_pc/" "%acc%,shared_with_me:/dump 2781" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content  --track-renames
 echo     set /a "x+=1"
 echo     GOTO :i212^)
@@ -144,7 +145,7 @@ echo ^)
 echo set "x=0"
 echo :m18271723113113
 echo if defined accv[%%x%%] ^(
-echo     rclone moveto "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%" "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change 
+echo     call rclone moveto "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%" "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change 
 echo set /a "x+=1"
 echo GOTO :m18271723113113^)
 
@@ -213,7 +214,7 @@ echo set "x=0"
 echo :i291
 echo if defined gphb[%%x%%] ^(
 
-echo rclone sync "%%%%gph[%%x%%]%%%%:/" "%acc%_sg%sg%:/%%%%gphb[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content    
+echo call rclone sync "%%%%gph[%%x%%]%%%%:/" "%acc%_sg%sg%:/%%%%gphb[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content    
 echo rclone sync "%%%%gph[%%x%%]%%%%:/" "%acc%_sg%sg%:/%%%%gphb[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content    
 
 s
@@ -303,7 +304,7 @@ echo ^)
 echo set "x=0"
 echo :m18271723113113
 echo if defined accv[%%x%%] ^(
-echo     rclone moveto "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%" "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change 
+echo     call rclone moveto "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%" "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change 
 echo set /a "x+=1"
 echo GOTO :m18271723113113^)
 
@@ -361,7 +362,7 @@ echo set "x=0"
 echo :i291312r3e
 echo if defined gphb[%%x%%] ^(
 
-echo rclone sync "aaveusdt_sg1:/%%%%gphb[%%x%%]%%%%" "%acc%_sg%sg%:/%%%%gphb[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content   --bwlimit 1M   
+echo call rclone sync "aaveusdt_sg1:/%%%%gphb[%%x%%]%%%%" "%acc%_sg%sg%:/%%%%gphb[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content   --bwlimit 1M   
 echo rclone sync "aaveusdt_sg1:/%%%%gphb[%%x%%]%%%%" "%acc%_sg%sg%:/%%%%gphb[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content   --bwlimit 1M   
 
 echo     set /a "x+=1"
@@ -442,7 +443,7 @@ echo ^)
 echo set "x=0"
 echo :m18271723113113
 echo if defined accv[%%x%%] ^(
-echo     rclone moveto "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%" "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change 
+echo     call rclone moveto "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%" "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change 
 echo set /a "x+=1"
 echo GOTO :m18271723113113^)
 
@@ -493,7 +494,7 @@ echo set "x=0"
 echo :i291312r3e
 echo if defined gphb[%%x%%] ^(
 
-echo rclone sync "renaave50_sg2:/%%%%gphb[%%x%%]%%%%" "%acc%_sg%sg%:/%%%%gphb[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content   --bwlimit 1M   
+echo call rclone sync "renaave50_sg2:/%%%%gphb[%%x%%]%%%%" "%acc%_sg%sg%:/%%%%gphb[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content   --bwlimit 1M   
 echo rclone sync "renaave50_sg2:/%%%%gphb[%%x%%]%%%%" "%acc%_sg%sg%:/%%%%gphb[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content   --bwlimit 1M   
 
 echo     set /a "x+=1"
@@ -574,7 +575,7 @@ echo ^)
 echo set "x=0"
 echo :m18271723113113
 echo if defined accv[%%x%%] ^(
-echo     rclone moveto "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%" "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change 
+echo     call rclone moveto "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%" "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change 
 echo set /a "x+=1"
 echo GOTO :m18271723113113^)
 
@@ -628,7 +629,7 @@ echo set "x=0"
 echo :i291312r3e
 echo if defined gphb[%%x%%] ^(
 
-echo rclone sync "renaave7_sg3:/%%%%gphb[%%x%%]%%%%" "%acc%_sg%sg%:/%%%%gphb[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content   --bwlimit 1M   
+echo call rclone sync "renaave7_sg3:/%%%%gphb[%%x%%]%%%%" "%acc%_sg%sg%:/%%%%gphb[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content   --bwlimit 1M   
 echo rclone sync "renaave7_sg3:/%%%%gphb[%%x%%]%%%%" "%acc%_sg%sg%:/%%%%gphb[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content   --bwlimit 1M   
 
 echo     set /a "x+=1"
@@ -712,7 +713,7 @@ echo ^)
 echo set "x=0"
 echo :m18271723113113
 echo if defined accv[%%x%%] ^(
-echo     rclone moveto "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%" "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change 
+echo     call rclone moveto "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%" "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change 
 echo set /a "x+=1"
 echo GOTO :m18271723113113^)
 
@@ -763,7 +764,7 @@ echo set "x=0"
 echo :i291312r3e
 echo if defined gphb[%%x%%] ^(
 
-echo rclone sync "oudhoh0050_sg4:/%%%%gphb[%%x%%]%%%%" "%acc%_sg%sg%:/%%%%gphb[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content   --bwlimit 1M   
+echo call rclone sync "oudhoh0050_sg4:/%%%%gphb[%%x%%]%%%%" "%acc%_sg%sg%:/%%%%gphb[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content   --bwlimit 1M   
 echo rclone sync "oudhoh0050_sg4:/%%%%gphb[%%x%%]%%%%" "%acc%_sg%sg%:/%%%%gphb[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content   --bwlimit 1M   
 
 echo     set /a "x+=1"
@@ -844,7 +845,7 @@ echo ^)
 echo set "x=0"
 echo :m18271723113113
 echo if defined accv[%%x%%] ^(
-echo     rclone moveto "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%" "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change 
+echo     call rclone moveto "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%" "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change 
 echo set /a "x+=1"
 echo GOTO :m18271723113113^)
 
@@ -895,7 +896,7 @@ echo set "x=0"
 echo :i291312r3e
 echo if defined gphb[%%x%%] ^(
 
-echo rclone sync "nkiux77509_sg5:/%%%%gphb[%%x%%]%%%%" "%acc%_sg%sg%:/%%%%gphb[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content   --bwlimit 1M   
+echo call rclone sync "nkiux77509_sg5:/%%%%gphb[%%x%%]%%%%" "%acc%_sg%sg%:/%%%%gphb[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content   --bwlimit 1M   
 echo rclone sync "nkiux77509_sg5:/%%%%gphb[%%x%%]%%%%" "%acc%_sg%sg%:/%%%%gphb[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content   --bwlimit 1M   
 
 echo     set /a "x+=1"
@@ -976,7 +977,7 @@ echo ^)
 echo set "x=0"
 echo :m18271723113113
 echo if defined accv[%%x%%] ^(
-echo     rclone moveto "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%" "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change 
+echo     call rclone moveto "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%" "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change 
 echo set /a "x+=1"
 echo GOTO :m18271723113113^)
 
@@ -1030,7 +1031,7 @@ echo set "x=0"
 echo :i291312r3e
 echo if defined gphb[%%x%%] ^(
 
-echo rclone sync "didrhj9036_sg6:/%%%%gphb[%%x%%]%%%%" "%acc%_sg%sg%:/%%%%gphb[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content   --bwlimit 1M   
+echo call rclone sync "didrhj9036_sg6:/%%%%gphb[%%x%%]%%%%" "%acc%_sg%sg%:/%%%%gphb[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content   --bwlimit 1M   
 echo rclone sync "didrhj9036_sg6:/%%%%gphb[%%x%%]%%%%" "%acc%_sg%sg%:/%%%%gphb[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content   --bwlimit 1M   
 
 echo     set /a "x+=1"
@@ -1111,7 +1112,7 @@ echo ^)
 echo set "x=0"
 echo :m18271723113113
 echo if defined accv[%%x%%] ^(
-echo     rclone moveto "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%" "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change 
+echo     call rclone moveto "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%" "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change 
 echo set /a "x+=1"
 echo GOTO :m18271723113113^)
 
@@ -1165,7 +1166,7 @@ echo set "x=0"
 echo :i291312r3e
 echo if defined gphb[%%x%%] ^(
 
-echo rclone sync "hjski8292882_sg7:/%%%%gphb[%%x%%]%%%%" "%acc%_sg%sg%:/%%%%gphb[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content   --bwlimit 1M   
+echo call rclone sync "hjski8292882_sg7:/%%%%gphb[%%x%%]%%%%" "%acc%_sg%sg%:/%%%%gphb[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content   --bwlimit 1M   
 echo rclone sync "hjski8292882_sg7:/%%%%gphb[%%x%%]%%%%" "%acc%_sg%sg%:/%%%%gphb[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content   --bwlimit 1M   
 
 echo     set /a "x+=1"
@@ -1246,7 +1247,7 @@ echo ^)
 echo set "x=0"
 echo :m18271723113113
 echo if defined accv[%%x%%] ^(
-echo     rclone moveto "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%" "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change 
+echo     call rclone moveto "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%" "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change 
 echo set /a "x+=1"
 echo GOTO :m18271723113113^)
 
@@ -1300,7 +1301,7 @@ echo set "x=0"
 echo :i291312r3e
 echo if defined gphb[%%x%%] ^(
 
-echo rclone sync "ffdnsak8272793_sg8:/%%%%gphb[%%x%%]%%%%" "%acc%_sg%sg%:/%%%%gphb[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content   --bwlimit 1M   
+echo call rclone sync "ffdnsak8272793_sg8:/%%%%gphb[%%x%%]%%%%" "%acc%_sg%sg%:/%%%%gphb[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content   --bwlimit 1M   
 echo rclone sync "ffdnsak8272793_sg8:/%%%%gphb[%%x%%]%%%%" "%acc%_sg%sg%:/%%%%gphb[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content   --bwlimit 1M   
 
 echo     set /a "x+=1"
@@ -1380,7 +1381,7 @@ echo ^)
 echo set "x=0"
 echo :m18271723113113
 echo if defined accv[%%x%%] ^(
-echo     rclone moveto "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%" "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change 
+echo     call rclone moveto "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%" "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change 
 echo set /a "x+=1"
 echo GOTO :m18271723113113^)
 
@@ -1433,7 +1434,7 @@ echo set "x=0"
 echo :i291312r3e
 echo if defined gphb[%%x%%] ^(
 
-echo rclone sync "ffdnsak8272793_sg9:/%%%%gphb[%%x%%]%%%%" "%acc%_sg%sg%:/%%%%gphb[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content   --bwlimit 1M   
+echo call rclone sync "ffdnsak8272793_sg9:/%%%%gphb[%%x%%]%%%%" "%acc%_sg%sg%:/%%%%gphb[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content   --bwlimit 1M   
 echo rclone sync "ffdnsak8272793_sg9:/%%%%gphb[%%x%%]%%%%" "%acc%_sg%sg%:/%%%%gphb[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content   --bwlimit 1M   
 
 echo     set /a "x+=1"
@@ -1727,7 +1728,7 @@ echo set "x=0"
 echo :i291312r3e
 echo if defined gphb[%%x%%] ^(
 
-echo rclone sync "otipes7948_sg10:/%%%%gphb[%%x%%]%%%%" "%acc%_sg%sg%:/%%%%gphb[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content   --bwlimit 1M   
+echo call rclone sync "otipes7948_sg10:/%%%%gphb[%%x%%]%%%%" "%acc%_sg%sg%:/%%%%gphb[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content   --bwlimit 1M   
 echo rclone sync "otipes7948_sg10:/%%%%gphb[%%x%%]%%%%" "%acc%_sg%sg%:/%%%%gphb[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content   --bwlimit 1M   
 
 echo     set /a "x+=1"
@@ -1759,7 +1760,7 @@ echo set "x=0"
 echo :i291
 echo if defined selofldrs[%%x%%] ^(
 
-echo rclone sync "fcfgts_driveku_me_gphotos:/" "%%%%gph[%%x%%]%%%%:/Selo/google photos/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content    
+echo call rclone sync "fcfgts_driveku_me_gphotos:/" "%%%%gph[%%x%%]%%%%:/Selo/google photos/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content    
 echo rclone sync "k91819_medriveku_com_gphotos:/" "%%%%gph[%%x%%]%%%%:/Family/google photos/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content    
 echo rclone sync "calista_ar_cloddrive_com_gphotos:/" "%%%%gph[%%x%%]%%%%:/Caca/google photos/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 10m --transfers 5 --checkers 10 -q --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content    
 
