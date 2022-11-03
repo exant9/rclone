@@ -72,8 +72,8 @@ set sg=1
 
 echo timeout 1
 
-echo set selofldrs[0]=selo
-echo set selofldrs[1]=selo
+echo set selofldrs[0]=aaveusdt
+echo set selofldrs[1]=jjajai2818
 
 echo cd %%userprofile%%
 
@@ -241,8 +241,8 @@ set sg=2
 
 echo timeout 2
 
-echo set selofldrs[0]=s
-echo set selofldrs[1]=s
+echo set selofldrs[0]=renaave50
+echo set selofldrs[1]=eleoek28828
 
 
 
@@ -382,8 +382,8 @@ set sg=3
 
 echo timeout 3
 
-echo set selofldrs[0]=selo
-echo set selofldrs[1]=selo
+echo set selofldrs[0]=renaave7
+echo set selofldrs[1]=wjwn91178
 
 echo cd %%userprofile%%
 
@@ -514,8 +514,8 @@ set sg=4
 
 echo timeout 4
 
-echo set selofldrs[0]=selo
-echo set selofldrs[1]=selo
+echo set selofldrs[0]=oudhoh0050
+echo set selofldrs[1]=iaowk272818
 
 echo cd %%userprofile%%
 
@@ -649,8 +649,8 @@ set sg=5
 
 echo timeout 5
 
-echo set selofldrs[0]=selo
-echo set selofldrs[1]=selo
+echo set selofldrs[0]=nkiux77509
+echo set selofldrs[1]=ejsjskw28272
 
 echo cd %%userprofile%%
 
@@ -784,8 +784,8 @@ set sg=6
 
 echo timeout 6
 
-echo set selofldrs[0]=selo
-echo set selofldrs[1]=selo
+echo set selofldrs[0]=didrhj9036
+echo set selofldrs[1]=sjsiowkw272892
 
 echo cd %%userprofile%%
 
@@ -916,8 +916,8 @@ set sg=7
 
 echo timeout 7
 
-echo set selofldrs[0]=selo
-echo set selofldrs[1]=selo
+echo set selofldrs[0]=hjski8292882
+echo set selofldrs[1]=s81wjwo17
 
 echo cd %%userprofile%%
 
@@ -1051,8 +1051,8 @@ set sg=8
 
 echo timeout 8
 
-echo set selofldrs[0]=selo
-echo set selofldrs[1]=selo
+echo set selofldrs[0]=jsnwj84738
+echo set selofldrs[1]=jskwonw
 
 echo cd %%userprofile%%
 
@@ -1186,8 +1186,8 @@ set sg=9
 
 echo timeout 9
 
-echo set selofldrs[0]=selo
-echo set selofldrs[1]=selo
+echo set selofldrs[0]=ffdnsak8272793
+echo set selofldrs[1]=usowns81
 
 echo cd %%userprofile%%
 
@@ -1321,7 +1321,8 @@ set sg=10
 
 echo timeout 10
 
-
+echo set selofldrs[0]=otipes7948
+echo set selofldrs[1]=9288wowj
 
 echo cd %%userprofile%%
 
@@ -1648,6 +1649,7 @@ REM echo rclone delete "fcfgts_driveku_me:/" --max-depth 1 --drive-keep-revision
 
 
 REM     Backup PC to main cloud acc
+REM     to inside
 
 set acc=9288wowj
 set sg=10
@@ -1656,31 +1658,7 @@ set sg=10
 
 echo timeout 23
 
-echo set selofldrs[0]=a_fiyandha
-echo set selofldrs[1]=3D Objects
-echo set selofldrs[2]=Desktop
-echo set selofldrs[3]=Documents
-echo set selofldrs[4]=Videos
-echo set selofldrs[5]=Saved Games
-echo set selofldrs[6]=Favorites
-echo set selofldrs[7]=Links
-echo set selofldrs[8]=Music
-echo set selofldrs[9]=Contacts
-echo set selofldrs[10]=a NDF1x extended
-echo set selofldrs[11]=Downloads
-echo set selofldrs[12]=Pictures
-echo set selofldrs[13]=behavior_packs
-echo set selofldrs[14]=development_behavior_packs
-echo set selofldrs[15]=development_resource_packs
-echo set selofldrs[16]=development_skin_packs
-echo set selofldrs[17]=minecraftpe
-echo set selofldrs[18]=minecraftWorlds
-echo set selofldrs[19]=resource_packs
-echo set selofldrs[20]=skin_packs
-echo set selofldrs[21]=world_templates
-echo set selofldrs[22]=Notepad++
-echo set selofldrs[23]=z-bat-vbs-file settings
-echo set selofldrs[24]=rclone
+
 
 echo cd %%userprofile%%
 
