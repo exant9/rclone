@@ -1,5 +1,3 @@
-
-
 if not DEFINED IS_MINIMIZED set IS_MINIMIZED=1 && start "" /min "%~dpnx0" %* && exit
 cd %userprofile%
 
@@ -19,6 +17,9 @@ REM - main cloud folders
 REM - user accounts (15gb)
 
 REM  data yang boleh di dump selo aja
+
+
+
 
 
 

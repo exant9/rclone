@@ -13,6 +13,15 @@ taskkill /f /im cscript.exe
 
 
 
+
+
+
+
+
+
+
+
+
 (
 echo cd %%userprofile%%
 echo rclone cleanup "aaveusdt_sg1:/"  --no-traverse --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 1h -q --drive-allow-import-name-change   
