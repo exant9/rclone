@@ -155,8 +155,8 @@ echo GOTO :m18271723113113^)
 
 REM echo timeout 11
 
-echo set cacafldrs[0]=caca
-echo set cacafldrs[1]=caca
+echo set cacafldrs[0]=
+echo set cacafldrs[0]=
 
 echo cd %%userprofile%%
 
@@ -451,8 +451,8 @@ echo GOTO :m18271723113113^)
 
 REM echo timeout 13
 
-echo set cacafldrs[0]=caca
-echo set cacafldrs[1]=caca
+echo set cacafldrs[0]=
+echo set cacafldrs[0]=
 
 echo cd %%userprofile%%
 
@@ -583,8 +583,8 @@ echo GOTO :m18271723113113^)
 
 REM echo timeout 14
 
-echo set cacafldrs[0]=caca
-echo set cacafldrs[1]=caca
+echo set cacafldrs[0]=
+echo set cacafldrs[0]=
 
 echo cd %%userprofile%%
 
@@ -721,8 +721,8 @@ echo GOTO :m18271723113113^)
 
 REM echo timeout 15
 
-echo set cacafldrs[0]=caca
-echo set cacafldrs[1]=caca
+echo set cacafldrs[0]=
+echo set cacafldrs[0]=
 
 echo cd %%userprofile%%
 
@@ -853,8 +853,8 @@ echo GOTO :m18271723113113^)
 
 REM echo timeout 16
 
-echo set cacafldrs[0]=caca
-echo set cacafldrs[1]=caca
+echo set cacafldrs[0]=
+echo set cacafldrs[0]=
 
 echo cd %%userprofile%%
 
@@ -985,8 +985,8 @@ echo GOTO :m18271723113113^)
 
 REM echo timeout 17
 
-echo set cacafldrs[0]=caca
-echo set cacafldrs[1]=caca
+echo set cacafldrs[0]=
+echo set cacafldrs[0]=
 
 echo cd %%userprofile%%
 
@@ -1120,8 +1120,8 @@ echo GOTO :m18271723113113^)
 
 REM echo timeout 18
 
-echo set cacafldrs[0]=caca
-echo set cacafldrs[1]=caca
+echo set cacafldrs[0]=
+echo set cacafldrs[0]=
 
 echo cd %%userprofile%%
 
@@ -1255,8 +1255,8 @@ echo GOTO :m18271723113113^)
 
 REM echo timeout 19
 
-echo set cacafldrs[0]=caca
-echo set cacafldrs[1]=caca
+echo set cacafldrs[0]=
+echo set cacafldrs[0]=
 
 echo cd %%userprofile%%
 
@@ -1389,8 +1389,8 @@ echo set /a "x+=1"
 echo GOTO :m18271723113113^)
 
 
-echo set cacafldrs[0]=caca
-echo set cacafldrs[1]=caca
+echo set cacafldrs[0]=
+echo set cacafldrs[0]=
 
 echo cd %%userprofile%%
 
