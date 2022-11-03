@@ -153,7 +153,7 @@ echo GOTO :m18271723113113^)
 
 
 
-REM echo timeout 11
+echo timeout 11
 
 echo set cacafldrs[0]=
 echo set cacafldrs[0]=
@@ -446,7 +446,7 @@ echo     call rclone moveto "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%
 echo set /a "x+=1"
 echo GOTO :m18271723113113^)
 
-REM echo timeout 13
+echo timeout 13
 
 echo set cacafldrs[0]=
 echo set cacafldrs[0]=
@@ -576,7 +576,7 @@ echo     call rclone moveto "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%
 echo set /a "x+=1"
 echo GOTO :m18271723113113^)
 
-REM echo timeout 14
+echo timeout 14
 
 echo set cacafldrs[0]=
 echo set cacafldrs[0]=
@@ -712,7 +712,7 @@ echo     call rclone moveto "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%
 echo set /a "x+=1"
 echo GOTO :m18271723113113^)
 
-REM echo timeout 15
+echo timeout 15
 
 echo set cacafldrs[0]=
 echo set cacafldrs[0]=
@@ -842,7 +842,7 @@ echo     call rclone moveto "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%
 echo set /a "x+=1"
 echo GOTO :m18271723113113^)
 
-REM echo timeout 16
+echo timeout 16
 
 echo set cacafldrs[0]=
 echo set cacafldrs[0]=
@@ -972,7 +972,7 @@ echo     call rclone moveto "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%
 echo set /a "x+=1"
 echo GOTO :m18271723113113^)
 
-REM echo timeout 17
+echo timeout 17
 
 echo set cacafldrs[0]=
 echo set cacafldrs[0]=
@@ -1105,7 +1105,7 @@ echo     call rclone moveto "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%
 echo set /a "x+=1"
 echo GOTO :m18271723113113^)
 
-REM echo timeout 18
+echo timeout 18
 
 echo set cacafldrs[0]=
 echo set cacafldrs[0]=
@@ -1238,7 +1238,7 @@ echo     call rclone moveto "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%
 echo set /a "x+=1"
 echo GOTO :m18271723113113^)
 
-REM echo timeout 19
+echo timeout 19
 
 echo set cacafldrs[0]=
 echo set cacafldrs[0]=
