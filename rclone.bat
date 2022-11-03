@@ -1667,8 +1667,7 @@ REM echo     GOTO :i1232^)
 echo set "x=0"
 echo :i291
 echo if defined selofldrs[%%x%%] ^(
-echo     call rclone sync "%acc%,shared_with_me:/jY1CJ1hE4P/alyx_pc/%%%%selofldrs[%%x%%]%%%%" "%acc%,shared_with_me:/alyx 7229179/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 1h --transfers 8 --checkers 8 -q --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content  --track-renames
-echo     call rclone sync "%acc%,shared_with_me:/jY1CJ1hE4P/alyx_pc/%%%%selofldrs[%%x%%]%%%%" "%acc%,shared_with_me:/alyx 7229179/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 1h --transfers 8 --checkers 8 -q --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content  --track-renames
+echo     call rclone sync "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P/alyx_pc/" "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/alyx 7229179/%%copyname%%/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 1h --transfers 8 --checkers 8 -q --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content  --track-renames
 echo     set /a "x+=1"
 echo     GOTO :i291^)
 
