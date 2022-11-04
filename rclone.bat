@@ -23,6 +23,16 @@ REM  data yang boleh di dump selo aja
 
 
 
+
+echo set fldrv=aaveusdt_sg1/Selo,aaveusdt_sg1/Caca,aaveusdt_sg1/Anggun,aaveusdt_sg1/logs,renaave50_sg2/Selo,renaave50_sg2/Caca,renaave50_sg2/Anggun,renaave50_sg2/logs,renaave7_sg3/Selo,renaave7_sg3/Caca,renaave7_sg3/Anggun,renaave7_sg3/logs,oudhoh0050_sg4/Selo,oudhoh0050_sg4/Caca,oudhoh0050_sg4/Anggun,oudhoh0050_sg4/logs,nkiux77509_sg5/Selo,nkiux77509_sg5/Caca,nkiux77509_sg5/Anggun,nkiux77509_sg5/logs,didrhj9036_sg6/Selo,didrhj9036_sg6/Caca,didrhj9036_sg6/Anggun,didrhj9036_sg6/logs,hjski8292882_sg7/Selo,hjski8292882_sg7/Caca,hjski8292882_sg7/Anggun,hjski8292882_sg7/logs,jsnwj84738_sg8/Selo,Cjsnwj84738_sg8/aca,jsnwj84738_sg8/Anggun,jsnwj84738_sg8/logs,ffdnsak8272793_sg9/Selo,ffdnsak8272793_sg9/Caca,ffdnsak8272793_sg9/Anggun,ffdnsak8272793_sg9/logs,otipes7948_sg10/Selo,otipes7948_sg10/Caca,otipes7948_sg10/Anggun,otipes7948_sg10/logs
+
+echo for %%u in ("%%fldrv:,=" "%") do (
+echo 	for /F "tokens=1,2 delims=/" %%e in ("%%~u") do (
+	echo rclone mkdir "%%e:/%%f"  --low-level-retries 9999999999 --auto-confirm --no-traverse --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 1h --transfers 8 --checkers 8 -q --drive-allow-import-name-change  
+echo )
+echo )
+
+
 REM   cleanup
 
 cd "C:\a_fiyandha\z-bat-vbs-file\rclone"
@@ -151,6 +161,15 @@ echo if defined accv[%%x%%] ^(
 echo     call rclone moveto "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%" "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%_fix" --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 1h --transfers 8 --checkers 8 -q --drive-allow-import-name-change --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 1h --transfers 8 --checkers 8 -q --drive-allow-import-name-change 
 echo set /a "x+=1"
 echo GOTO :m18271723113113^)
+
+REM  dump 15gb sekali
+
+echo for %%%%w in ^("%%fldr:,=" "%%"^) do ^(
+echo 	for /F "tokens=1,2 delims=/" %%%%c in ^("%%%%~w"^) do ^(
+	echo rclone sync "%acc%,shared_with_me:/jY1CJ1hE4P/%%%%c/%%%%d" "%acc%,shared_with_me:/dump 2781/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 1h --transfers 8 --checkers 8 -q --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content  --track-renames
+	echo rclone sync "%acc%,shared_with_me:/jY1CJ1hE4P/%%%%c/%%%%d" "%acc%,shared_with_me:/dump 2781/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 1h --transfers 8 --checkers 8 -q --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content  --track-renames
+echo ^)
+echo ^)
 
 
 
@@ -1749,14 +1768,18 @@ REM   dump jyc1e4p
 echo timeout 25
 
 
-echo set selofldrs[0]=alyx_pc
-echo set selofldrs[1]=m.shahruxips-1@sman5tambunselatan.sch.id
-echo set selofldrs[2]=laptop_caca
-echo set selofldrs[3]=fiyandhax-mipa4@sman5tambunselatan.sch.id
-echo set selofldrs[4]=fcfvalrahman
-echo set selofldrs[5]=fcfmacc
-echo set selofldrs[6]=fcfgts
-echo set selofldrs[7]=kamikaze
+echo set selofldrs[0]=iqk818
+echo set selofldrs[1]=andulkadier
+echo set selofldrs[2]=windabasiuuu
+echo set selofldrs[3]=andikukito
+echo set selofldrs[4]=kayessscuy
+echo set selofldrs[5]=colayyyboy
+echo set selofldrs[6]=urmskd_vagab_my_id
+echo set selofldrs[7]=bzoeld_vagab_my_id
+echo set selofldrs[8]=uskff_vagab_my_id
+echo set selofldrs[9]=rsilf_vagab_my_id
+echo set selofldrs[10]=mzldod_vagab_my_id
+echo set selofldrs[11]=zalsle_vagab_my_id
 
 echo cd %%userprofile%%
 
@@ -1776,22 +1799,10 @@ echo set "x=0"
 echo :i291111wdh2od9y189y389d
 echo if defined selofldrs[%%x%%] ^(
 
-echo     call rclone sync "iqk818,shared_with_me:/jY1CJ1hE4P/%%%%selofldrs[%%x%%]%%%%/" "iqk818,shared_with_me:/dump 2781/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 1h --transfers 8 --checkers 8 -q --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content  --track-renames
-echo     call rclone sync "andulkadier,shared_with_me:/jY1CJ1hE4P/%%%%selofldrs[%%x%%]%%%%/" "andulkadier,shared_with_me:/dump 2781/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 1h --transfers 8 --checkers 8 -q --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content  --track-renames
-echo     call rclone sync "windabasiuuu,shared_with_me:/jY1CJ1hE4P/%%%%selofldrs[%%x%%]%%%%/" "windabasiuuu,shared_with_me:/dump 2781/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 1h --transfers 8 --checkers 8 -q --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content  --track-renames
-echo     call rclone sync "andikukito,shared_with_me:/jY1CJ1hE4P/%%%%selofldrs[%%x%%]%%%%/" "andikukito,shared_with_me:/dump 2781/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 1h --transfers 8 --checkers 8 -q --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content  --track-renames
-echo     call rclone sync "kayessscuy,shared_with_me:/jY1CJ1hE4P/%%%%selofldrs[%%x%%]%%%%/" "kayessscuy,shared_with_me:/dump 2781/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 1h --transfers 8 --checkers 8 -q --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content  --track-renames
-echo     call rclone sync "colayyyboy,shared_with_me:/jY1CJ1hE4P/%%%%selofldrs[%%x%%]%%%%/" "colayyyboy,shared_with_me:/dump 2781/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 1h --transfers 8 --checkers 8 -q --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content  --track-renames
+echo     call rclone sync "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P" "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/dump 2781/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 1h --transfers 8 --checkers 8 -q --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=cautious --drive-copy-shortcut-content  --track-renames
 
 echo     set /a "x+=1"
 echo     GOTO :i291111wdh2od9y189y389d^)
-
-echo set "x=0"
-echo :s0i1i0s0is
-echo if defined selofldrs[%%x%%] ^(
-
-echo     set /a "x+=1"
-echo     GOTO :s0i1i0s0is^)
 
 
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_27.bat"
