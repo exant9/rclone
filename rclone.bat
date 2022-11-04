@@ -24,13 +24,13 @@ REM  data yang boleh di dump selo aja
 
 
 
-echo set fldrv=aaveusdt_sg1/Selo,aaveusdt_sg1/Caca,aaveusdt_sg1/Anggun,aaveusdt_sg1/logs,renaave50_sg2/Selo,renaave50_sg2/Caca,renaave50_sg2/Anggun,renaave50_sg2/logs,renaave7_sg3/Selo,renaave7_sg3/Caca,renaave7_sg3/Anggun,renaave7_sg3/logs,oudhoh0050_sg4/Selo,oudhoh0050_sg4/Caca,oudhoh0050_sg4/Anggun,oudhoh0050_sg4/logs,nkiux77509_sg5/Selo,nkiux77509_sg5/Caca,nkiux77509_sg5/Anggun,nkiux77509_sg5/logs,didrhj9036_sg6/Selo,didrhj9036_sg6/Caca,didrhj9036_sg6/Anggun,didrhj9036_sg6/logs,hjski8292882_sg7/Selo,hjski8292882_sg7/Caca,hjski8292882_sg7/Anggun,hjski8292882_sg7/logs,jsnwj84738_sg8/Selo,Cjsnwj84738_sg8/aca,jsnwj84738_sg8/Anggun,jsnwj84738_sg8/logs,ffdnsak8272793_sg9/Selo,ffdnsak8272793_sg9/Caca,ffdnsak8272793_sg9/Anggun,ffdnsak8272793_sg9/logs,otipes7948_sg10/Selo,otipes7948_sg10/Caca,otipes7948_sg10/Anggun,otipes7948_sg10/logs
+set fldrv=aaveusdt_sg1/Selo,aaveusdt_sg1/Caca,aaveusdt_sg1/Anggun,aaveusdt_sg1/logs,renaave50_sg2/Selo,renaave50_sg2/Caca,renaave50_sg2/Anggun,renaave50_sg2/logs,renaave7_sg3/Selo,renaave7_sg3/Caca,renaave7_sg3/Anggun,renaave7_sg3/logs,oudhoh0050_sg4/Selo,oudhoh0050_sg4/Caca,oudhoh0050_sg4/Anggun,oudhoh0050_sg4/logs,nkiux77509_sg5/Selo,nkiux77509_sg5/Caca,nkiux77509_sg5/Anggun,nkiux77509_sg5/logs,didrhj9036_sg6/Selo,didrhj9036_sg6/Caca,didrhj9036_sg6/Anggun,didrhj9036_sg6/logs,hjski8292882_sg7/Selo,hjski8292882_sg7/Caca,hjski8292882_sg7/Anggun,hjski8292882_sg7/logs,jsnwj84738_sg8/Selo,Cjsnwj84738_sg8/aca,jsnwj84738_sg8/Anggun,jsnwj84738_sg8/logs,ffdnsak8272793_sg9/Selo,ffdnsak8272793_sg9/Caca,ffdnsak8272793_sg9/Anggun,ffdnsak8272793_sg9/logs,otipes7948_sg10/Selo,otipes7948_sg10/Caca,otipes7948_sg10/Anggun,otipes7948_sg10/logs
 
-echo for %%u in ("%%fldrv:,=" "%") do (
-echo 	for /F "tokens=1,2 delims=/" %%e in ("%%~u") do (
-	echo rclone mkdir "%%e:/%%f"  --low-level-retries 9999999999 --auto-confirm --no-traverse --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 1h --transfers 6 --checkers 8 -q --bwlimit 8650k --drive-allow-import-name-change  
-echo )
-echo )
+for %%u in ("%%fldrv:,=" "%") do (
+ 	for /F "tokens=1,2 delims=/" %%e in ("%%~u") do (
+	rclone mkdir "%%e:/%%f"  --low-level-retries 9999999999 --auto-confirm --no-traverse --drive-server-side-across-configs  --retries=2 --low-level-retries 2 --timeout 600s --contimeout 1h --transfers 6 --checkers 8 -q --bwlimit 8650k --drive-allow-import-name-change  
+ )
+ )
 
 
 REM   cleanup
