@@ -29,8 +29,8 @@ set fldrv=aaveusdt_sg1/Selo,aaveusdt_sg1/Caca,aaveusdt_sg1/Anggun,aaveusdt_sg1/l
 for %%u in ("%fldrv:,=" "%") do (
  	for /F "tokens=1,2 delims=/" %%e in ("%%~u") do (
 	rclone mkdir "%%e:/%%f"  --low-level-retries 9999999999 --auto-confirm --no-traverse --drive-server-side-across-configs  --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 1h --delete-during --transfers 12  -q --bwlimit 8650k --drive-allow-import-name-change  
- )
- )
+)
+)
 
 pause
 REM   cleanup
