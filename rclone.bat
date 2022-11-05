@@ -80,7 +80,6 @@ set acc=aaveusdt
 set sg=1
 
 (
-
 echo timeout 1
 
 echo set selofldrs[0]=aaveusdt
@@ -258,7 +257,6 @@ set acc=renaave50
 set sg=2
 
 (
-
 echo timeout 2
 
 echo set selofldrs[0]=renaave50
@@ -397,7 +395,6 @@ set acc=renaave7
 set sg=3
 
 (
-
 echo timeout 3
 
 echo set selofldrs[0]=renaave7
@@ -527,7 +524,6 @@ set acc=oudhoh0050
 set sg=4
 
 (
-
 echo timeout 4
 
 echo set selofldrs[0]=oudhoh0050
@@ -660,7 +656,6 @@ set acc=nkiux77509
 set sg=5
 
 (
-
 echo timeout 5
 
 echo set selofldrs[0]=nkiux77509
@@ -793,7 +788,6 @@ set acc=didrhj9036
 set sg=6
 
 (
-
 echo timeout 6
 
 echo set selofldrs[0]=didrhj9036
@@ -923,7 +917,6 @@ set acc=hjski8292882
 set sg=7
 
 (
-
 echo timeout 7
 
 echo set selofldrs[0]=hjski8292882
@@ -1056,7 +1049,6 @@ set acc=jsnwj84738
 set sg=8
 
 (
-
 echo timeout 8
 
 echo set selofldrs[0]=jsnwj84738
@@ -1189,7 +1181,6 @@ set acc=ffdnsak8272793
 set sg=9
 
 (
-
 echo timeout 9
 
 echo set selofldrs[0]=ffdnsak8272793
@@ -1322,7 +1313,6 @@ set acc=otipes7948
 set sg=10
 
 (
-
 echo timeout 10
 
 echo set selofldrs[0]=otipes7948
@@ -1456,7 +1446,6 @@ echo     GOTO :i291312r3e^)
 
 
 (
-
 echo timeout 12
 echo cd %%userprofile%%
 
@@ -1478,6 +1467,95 @@ echo rclone dedupe "918qjj,shared_with_me:/dump google photos 912309" --drive-ke
 
 
 
+REM   dump jyc1e4p
+REM   main dump
+
+(
+echo timeout 13
+
+echo set selofldrs[0]=iqk818
+echo set selofldrs[1]=andulkadier
+echo set selofldrs[2]=windabasiuuu
+
+echo cd %%userprofile%%
+
+echo set "x=0"
+echo :i291111wdh2od9y189y389d
+echo if defined selofldrs[%%x%%] ^(
+
+echo     call rclone sync "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P" "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/dump 2781/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 1h --delete-during --transfers 12  -P -vvv --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content  --track-renames
+
+echo     set /a "x+=1"
+echo     GOTO :i291111wdh2od9y189y389d^)
+
+)>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_13.bat"
+
+
+(
+echo timeout 14
+
+echo set selofldrs[3]=andikukito
+echo set selofldrs[4]=kayessscuy
+echo set selofldrs[5]=colayyyboy
+
+echo cd %%userprofile%%
+
+echo set "x=0"
+echo :i291111wdh2od9y189y389d
+echo if defined selofldrs[%%x%%] ^(
+
+echo     call rclone sync "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P" "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/dump 2781/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 1h --delete-during --transfers 12  -P -vvv --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content  --track-renames
+
+echo     set /a "x+=1"
+echo     GOTO :i291111wdh2od9y189y389d^)
+
+)>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_14.bat"
+
+
+(
+echo timeout 15
+
+echo set selofldrs[6]=urmskd_vagab_my_id
+echo set selofldrs[7]=bzoeld_vagab_my_id
+echo set selofldrs[8]=uskff_vagab_my_id
+
+echo cd %%userprofile%%
+
+echo set "x=0"
+echo :i291111wdh2od9y189y389d
+echo if defined selofldrs[%%x%%] ^(
+
+echo     call rclone sync "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P" "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/dump 2781/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 1h --delete-during --transfers 12  -P -vvv --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content  --track-renames
+
+echo     set /a "x+=1"
+echo     GOTO :i291111wdh2od9y189y389d^)
+
+)>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_15.bat"
+
+
+
+(
+echo timeout 16
+
+echo set selofldrs[9]=rsilf_vagab_my_id
+echo set selofldrs[10]=mzldod_vagab_my_id
+echo set selofldrs[11]=zalsle_vagab_my_id
+
+echo cd %%userprofile%%
+
+echo set "x=0"
+echo :i291111wdh2od9y189y389d
+echo if defined selofldrs[%%x%%] ^(
+
+echo     call rclone sync "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P" "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/dump 2781/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 1h --delete-during --transfers 12  -P -vvv --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content  --track-renames
+
+echo     set /a "x+=1"
+echo     GOTO :i291111wdh2od9y189y389d^)
+
+)>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_16.bat"
+
+
+
 
 
 
@@ -1485,7 +1563,6 @@ echo rclone dedupe "918qjj,shared_with_me:/dump google photos 912309" --drive-ke
 
 
 (
-
 echo timeout 21
 
 echo cd %%userprofile%%
@@ -1548,7 +1625,6 @@ echo     GOTO :i1930013sxqsqqasqzs^)
 
 
 (
-
 echo timeout 22
 
 echo cd %%userprofile%%
@@ -1657,7 +1733,6 @@ set acc=9288wowj
 set sg=10
 
 (
-
 echo timeout 23
 
 echo set selofldrs[0]=9288wowj
@@ -1760,53 +1835,6 @@ echo     GOTO :i291^)
 
 
 
-
-(
-
-REM   dump jyc1e4p
-REM   main dump
-
-echo timeout 25
-
-
-echo set selofldrs[0]=iqk818
-echo set selofldrs[1]=andulkadier
-echo set selofldrs[2]=windabasiuuu
-echo set selofldrs[3]=andikukito
-echo set selofldrs[4]=kayessscuy
-echo set selofldrs[5]=colayyyboy
-echo set selofldrs[6]=urmskd_vagab_my_id
-echo set selofldrs[7]=bzoeld_vagab_my_id
-echo set selofldrs[8]=uskff_vagab_my_id
-echo set selofldrs[9]=rsilf_vagab_my_id
-echo set selofldrs[10]=mzldod_vagab_my_id
-echo set selofldrs[11]=zalsle_vagab_my_id
-
-echo cd %%userprofile%%
-
-echo set day=%%date:~-7,2%%
-echo set month=%%date:~-10,2%%
-echo set year=%%date:~-4%%
-echo set hour=%%time:~0,2%%
-echo set minute=%%time:~3,2%%
-echo set second=%%TIME:~6,2%%
-
-echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
-
-
-
-
-echo set "x=0"
-echo :i291111wdh2od9y189y389d
-echo if defined selofldrs[%%x%%] ^(
-
-echo     call rclone sync "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P" "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/dump 2781/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 1h --delete-during --transfers 12  -P -vvv --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content  --track-renames
-
-echo     set /a "x+=1"
-echo     GOTO :i291111wdh2od9y189y389d^)
-
-
-)>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_27.bat"
 
 
 
