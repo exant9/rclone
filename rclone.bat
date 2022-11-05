@@ -32,7 +32,6 @@ for %%u in ("%fldrv:,=" "%") do (
 )
 )
 
-pause
 REM   cleanup
 
 cd "C:\a_fiyandha\z-bat-vbs-file\rclone"
@@ -1494,9 +1493,9 @@ echo     GOTO :i291111wdh2od9y189y389d^)
 (
 echo timeout 14
 
-echo set selofldrs[3]=andikukito
-echo set selofldrs[4]=kayessscuy
-echo set selofldrs[5]=colayyyboy
+echo set selofldrs[0]=andikukito
+echo set selofldrs[1]=kayessscuy
+echo set selofldrs[2]=colayyyboy
 
 echo cd %%userprofile%%
 
@@ -1515,9 +1514,9 @@ echo     GOTO :i291111wdh2od9y189y389d^)
 (
 echo timeout 15
 
-echo set selofldrs[6]=urmskd_vagab_my_id
-echo set selofldrs[7]=bzoeld_vagab_my_id
-echo set selofldrs[8]=uskff_vagab_my_id
+echo set selofldrs[0]=urmskd_vagab_my_id
+echo set selofldrs[1]=bzoeld_vagab_my_id
+echo set selofldrs[2]=uskff_vagab_my_id
 
 echo cd %%userprofile%%
 
@@ -1537,9 +1536,9 @@ echo     GOTO :i291111wdh2od9y189y389d^)
 (
 echo timeout 16
 
-echo set selofldrs[9]=rsilf_vagab_my_id
-echo set selofldrs[10]=mzldod_vagab_my_id
-echo set selofldrs[11]=zalsle_vagab_my_id
+echo set selofldrs[0]=rsilf_vagab_my_id
+echo set selofldrs[1]=mzldod_vagab_my_id
+echo set selofldrs[2]=zalsle_vagab_my_id
 
 echo cd %%userprofile%%
 
