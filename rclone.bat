@@ -1482,7 +1482,7 @@ echo set "x=0"
 echo :i291111wdh2od9y189y389d
 echo if defined selofldrs[%%x%%] ^(
 
-echo     call rclone sync "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P" "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/dump 2781/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --drive-skip-dangling-shortcuts --retries=2 -q --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 12   --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content  --track-renames
+echo     call rclone sync "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P" "%%%%selofldrs[%%x%%]%%%%__sgdump1:/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --drive-skip-dangling-shortcuts --retries=2 -q --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 12   --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content  --track-renames
 
 echo     set /a "x+=1"
 echo     GOTO :i291111wdh2od9y189y389d^)
@@ -1503,7 +1503,7 @@ echo set "x=0"
 echo :i291111wdh2od9y189y389d
 echo if defined selofldrs[%%x%%] ^(
 
-echo     call rclone sync "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P" "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/dump 2781/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --drive-skip-dangling-shortcuts --retries=2 -q --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 12   --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content  --track-renames
+echo     call rclone sync "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P" "%%%%selofldrs[%%x%%]%%%%__sgdump1:/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --drive-skip-dangling-shortcuts --retries=2 -q --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 12   --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content  --track-renames
 
 echo     set /a "x+=1"
 echo     GOTO :i291111wdh2od9y189y389d^)
@@ -1524,7 +1524,7 @@ echo set "x=0"
 echo :i291111wdh2od9y189y389d
 echo if defined selofldrs[%%x%%] ^(
 
-echo     call rclone sync "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P" "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/dump 2781/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --drive-skip-dangling-shortcuts --retries=2 -q --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 12   --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content  --track-renames
+echo     call rclone sync "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P" "%%%%selofldrs[%%x%%]%%%%__sgdump1:/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --drive-skip-dangling-shortcuts --retries=2 -q --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 12   --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content  --track-renames
 
 echo     set /a "x+=1"
 echo     GOTO :i291111wdh2od9y189y389d^)
@@ -1546,7 +1546,7 @@ echo set "x=0"
 echo :i291111wdh2od9y189y389d
 echo if defined selofldrs[%%x%%] ^(
 
-echo     call rclone sync "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P" "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/dump 2781/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --drive-skip-dangling-shortcuts --retries=2 -q --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 12   --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content  --track-renames
+echo     call rclone sync "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P" "%%%%selofldrs[%%x%%]%%%%__sgdump1:/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs  --drive-skip-dangling-shortcuts --retries=2 -q --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 12   --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content  --track-renames
 
 echo     set /a "x+=1"
 echo     GOTO :i291111wdh2od9y189y389d^)
