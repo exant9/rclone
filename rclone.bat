@@ -211,8 +211,7 @@ echo rclone sync "%%%%gph[%%x%%]%%%%:/" "%acc%_sg%sg%:/%%%%gphb[%%x%%]%%%%" --dr
 s
 REM dump gphotos one time only
 
-echo rclone sync "%acc%_sg%sg%:/%%%%gphb[%%x%%]%%%%" "%acc%,shared_with_me:/dump google photos 912309/kamikaze" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 12  --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content 
-echo rclone sync "%acc%_sg%sg%:/%%%%gphb[%%x%%]%%%%" "%acc%,shared_with_me:/dump google photos 912309/kamikaze" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 12  --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content 
+echo rclone sync "%acc%_sg%sg%:/%%%%gphb[%%x%%]%%%%" "%acc%__sgdump1:/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 12  --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content 
 
 echo     set /a "x+=1"
 echo     GOTO :i291^)
