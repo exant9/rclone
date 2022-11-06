@@ -1467,7 +1467,7 @@ echo rclone dedupe "918qjj,shared_with_me:/dump google photos 912309" --drive-ke
 
 
 REM   dump jyc1e4p
-REM   main dump main
+REM   main dump main 13 - 15
 
 (
 echo timeout 13
