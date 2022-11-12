@@ -213,7 +213,7 @@ echo rclone sync "%%%%gph[%%x%%]%%%%:/" "%acc%_sg%sg%:/%%%%gphb[%%x%%]%%%%" --dr
 
 REM dump gphotos one time only
 
-echo rclone sync "%acc%_sg%sg%:/%%%%gphb[%%x%%]%%%%" "%acc%__sgdump1:/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content 
+echo rclone sync "%acc%_sg%sg%:/%%%%gphb[%%x%%]%%%%" "%acc%_sgdump1:/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content 
 
 echo     set /a "x+=1"
 echo     GOTO :i291^)
@@ -1435,10 +1435,10 @@ echo timeout 12
 echo cd %%userprofile%%
 
 echo rclone dedupe "918qjj_sgtrash:/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-skip-shortcuts
-echo rclone dedupe "918qjj__sgdump1:/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-skip-shortcuts
+echo rclone dedupe "918qjj_sgdump1:/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-skip-shortcuts
 
 echo rclone rmdirs "918qjj_sgtrash:/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-skip-shortcuts
-echo rclone rmdirs "918qjj__sgdump1:/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-skip-shortcuts
+echo rclone rmdirs "918qjj_sgdump1:/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-skip-shortcuts
 
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_12.bat"
 
@@ -1470,7 +1470,7 @@ echo set "x=0"
 echo :i291111wdh2od9y189y389d
 echo if defined selofldrs[%%x%%] ^(
 
-echo     call rclone sync "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P" "%%%%selofldrs[%%x%%]%%%%__sgdump1:/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
+echo     call rclone sync "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P" "%%%%selofldrs[%%x%%]%%%%_sgdump1:/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
 
 echo     set /a "x+=1"
 echo     GOTO :i291111wdh2od9y189y389d^)
@@ -1491,7 +1491,7 @@ echo set "x=0"
 echo :i291111wdh2od9y189y389d
 echo if defined selofldrs[%%x%%] ^(
 
-echo     call rclone sync "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P" "%%%%selofldrs[%%x%%]%%%%__sgdump1:/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
+echo     call rclone sync "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P" "%%%%selofldrs[%%x%%]%%%%_sgdump1:/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
 
 echo     set /a "x+=1"
 echo     GOTO :i291111wdh2od9y189y389d^)
@@ -1512,7 +1512,7 @@ echo set "x=0"
 echo :i291111wdh2od9y189y389d
 echo if defined selofldrs[%%x%%] ^(
 
-echo     call rclone sync "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P" "%%%%selofldrs[%%x%%]%%%%__sgdump1:/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
+echo     call rclone sync "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P" "%%%%selofldrs[%%x%%]%%%%_sgdump1:/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
 
 echo     set /a "x+=1"
 echo     GOTO :i291111wdh2od9y189y389d^)
@@ -1534,7 +1534,7 @@ echo set "x=0"
 echo :i291111wdh2od9y189y389d
 echo if defined selofldrs[%%x%%] ^(
 
-echo     call rclone sync "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P" "%%%%selofldrs[%%x%%]%%%%__sgdump1:/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
+echo     call rclone sync "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P" "%%%%selofldrs[%%x%%]%%%%_sgdump1:/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
 
 echo     set /a "x+=1"
 echo     GOTO :i291111wdh2od9y189y389d^)
@@ -1874,6 +1874,29 @@ echo     set /a "x+=1"
 echo     GOTO :i291111wdh2od9y189y389d^)
 
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_28.bat"
+
+
+
+REM  dump sdrive sync
+
+set acc=namizeusss
+set from=1
+set to=2
+
+(
+echo cd %%userprofile%%
+echo rclone sync "%acc%_sgdump%from%:/" "%acc%_sgdump%to%:/" --drive-skip-shortcuts --drive-skip-dangling-shortcuts --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --track-renames
+)>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_29.bat"
+
+
+set acc=jobibudi1
+set from=2
+set to=3
+
+(
+echo cd %%userprofile%%
+echo rclone sync "%acc%_sgdump%from%:/" "%acc%_sgdump%to%:/" --drive-skip-shortcuts --drive-skip-dangling-shortcuts  --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS  --track-renames
+)>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_30.bat"
 
 
 
