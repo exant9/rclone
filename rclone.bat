@@ -104,7 +104,8 @@ REM echo     call rclone copy "aaveusdt,shared_with_me:/jY1CJ1hE4P/alyx_pc/%%%%s
 echo set "x=0"
 echo :i21
 echo if defined selofldrs[%%x%%] ^(
-echo     call rclone sync "%acc%,shared_with_me:/jY1CJ1hE4P/alyx_pc/" "%acc%_sg%sg%:/Selo/kamikaze/Computers/alyx/%%copyname%%/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16  --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
+echo     call rclone sync "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P/alyx_pc/" "%%%%selofldrs[%%x%%]%%%%_sg%sg%:/Selo/kamikaze/Computers/alyx/%%copyname%%/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16  --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
+echo     call rclone sync "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P/alyx_pc/" "%%%%selofldrs[%%x%%]%%%%_sg%sg%:/Selo/kamikaze/Computers/alyx/%%copyname%%/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16  --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
 echo     set /a "x+=1"
 echo     GOTO :i21^)
 
@@ -208,7 +209,7 @@ echo if defined gphb[%%x%%] ^(
 echo call rclone sync "%%%%gph[%%x%%]%%%%:/" "%acc%_sg%sg%:/%%%%gphb[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16  --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content 
 echo rclone sync "%%%%gph[%%x%%]%%%%:/" "%acc%_sg%sg%:/%%%%gphb[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16  --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content 
 
-s
+
 REM dump gphotos one time only
 
 echo rclone sync "%acc%_sg%sg%:/%%%%gphb[%%x%%]%%%%" "%acc%__sgdump1:/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16  --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content 
@@ -253,6 +254,7 @@ REM echo     call rclone copy "renaave50,shared_with_me:/jY1CJ1hE4P/alyx_pc/%%%%
 echo set "x=0"
 echo :werf232
 echo if defined selofldrs[%%x%%] ^(
+echo     call rclone sync "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P/alyx_pc/" "%%%%selofldrs[%%x%%]%%%%_sg%sg%:/Selo/kamikaze/Computers/alyx/%%copyname%%/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16  --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
 echo     call rclone sync "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P/alyx_pc/" "%%%%selofldrs[%%x%%]%%%%_sg%sg%:/Selo/kamikaze/Computers/alyx/%%copyname%%/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16  --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
 echo     set /a "x+=1"
 echo     GOTO :werf232^)
@@ -390,6 +392,7 @@ echo set "x=0"
 echo :i22w2w2w2w
 echo if defined selofldrs[%%x%%] ^(
 echo     call rclone sync "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P/alyx_pc/" "%%%%selofldrs[%%x%%]%%%%_sg%sg%:/Selo/kamikaze/Computers/alyx/%%copyname%%/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16  --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
+echo     call rclone sync "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P/alyx_pc/" "%%%%selofldrs[%%x%%]%%%%_sg%sg%:/Selo/kamikaze/Computers/alyx/%%copyname%%/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16  --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
 echo     set /a "x+=1"
 echo     GOTO :i22w2w2w2w^)
 
@@ -518,6 +521,7 @@ REM echo     call rclone copy "oudhoh0050,shared_with_me:/jY1CJ1hE4P/alyx_pc/%%%
 echo set "x=0"
 echo :wdwd2dsq1
 echo if defined selofldrs[%%x%%] ^(
+echo     call rclone sync "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P/alyx_pc/" "%%%%selofldrs[%%x%%]%%%%_sg%sg%:/Selo/kamikaze/Computers/alyx/%%copyname%%/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16  --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
 echo     call rclone sync "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P/alyx_pc/" "%%%%selofldrs[%%x%%]%%%%_sg%sg%:/Selo/kamikaze/Computers/alyx/%%copyname%%/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16  --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
 echo     set /a "x+=1"
 echo     GOTO :wdwd2dsq1^)
@@ -653,6 +657,7 @@ echo set "x=0"
 echo :19w81e109u0ue0
 echo if defined selofldrs[%%x%%] ^(
 echo     call rclone sync "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P/alyx_pc/" "%%%%selofldrs[%%x%%]%%%%_sg%sg%:/Selo/kamikaze/Computers/alyx/%%copyname%%/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16  --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
+echo     call rclone sync "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P/alyx_pc/" "%%%%selofldrs[%%x%%]%%%%_sg%sg%:/Selo/kamikaze/Computers/alyx/%%copyname%%/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16  --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
 echo     set /a "x+=1"
 echo     GOTO :19w81e109u0ue0^)
 
@@ -782,6 +787,7 @@ echo set "x=0"
 echo :2ey903eu999
 echo if defined selofldrs[%%x%%] ^(
 echo     call rclone sync "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P/alyx_pc/" "%%%%selofldrs[%%x%%]%%%%_sg%sg%:/Selo/kamikaze/Computers/alyx/%%copyname%%/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16  --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
+echo     call rclone sync "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P/alyx_pc/" "%%%%selofldrs[%%x%%]%%%%_sg%sg%:/Selo/kamikaze/Computers/alyx/%%copyname%%/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16  --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
 echo     set /a "x+=1"
 echo     GOTO :2ey903eu999^)
 
@@ -910,6 +916,7 @@ REM echo     call rclone copy "hjski8292882,shared_with_me:/jY1CJ1hE4P/alyx_pc/%
 echo set "x=0"
 echo :9usq9su9qisq9s
 echo if defined selofldrs[%%x%%] ^(
+echo     call rclone sync "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P/alyx_pc/" "%%%%selofldrs[%%x%%]%%%%_sg%sg%:/Selo/kamikaze/Computers/alyx/%%copyname%%/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16  --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
 echo     call rclone sync "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P/alyx_pc/" "%%%%selofldrs[%%x%%]%%%%_sg%sg%:/Selo/kamikaze/Computers/alyx/%%copyname%%/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16  --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
 echo     set /a "x+=1"
 echo     GOTO :9usq9su9qisq9s^)
@@ -1042,6 +1049,7 @@ echo set "x=0"
 echo :i2sx9usxu9z
 echo if defined selofldrs[%%x%%] ^(
 echo     call rclone sync "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P/alyx_pc/" "%%%%selofldrs[%%x%%]%%%%_sg%sg%:/Selo/kamikaze/Computers/alyx/%%copyname%%/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16  --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
+echo     call rclone sync "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P/alyx_pc/" "%%%%selofldrs[%%x%%]%%%%_sg%sg%:/Selo/kamikaze/Computers/alyx/%%copyname%%/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16  --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
 echo     set /a "x+=1"
 echo     GOTO :i2sx9usxu9z^)
 
@@ -1173,6 +1181,7 @@ echo set "x=0"
 echo :2sid20dd01qw1w1w
 echo if defined selofldrs[%%x%%] ^(
 echo     call rclone sync "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P/alyx_pc/" "%%%%selofldrs[%%x%%]%%%%_sg%sg%:/Selo/kamikaze/Computers/alyx/%%copyname%%/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16  --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
+echo     call rclone sync "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P/alyx_pc/" "%%%%selofldrs[%%x%%]%%%%_sg%sg%:/Selo/kamikaze/Computers/alyx/%%copyname%%/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16  --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
 echo     set /a "x+=1"
 echo     GOTO :2sid20dd01qw1w1w^)
 
@@ -1303,6 +1312,7 @@ REM echo     call rclone copy "otipes7948,shared_with_me:/jY1CJ1hE4P/alyx_pc/%%%
 echo set "x=0"
 echo :i2w1w1w1w2dxw2d1d
 echo if defined selofldrs[%%x%%] ^(
+echo     call rclone sync "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P/alyx_pc/" "%%%%selofldrs[%%x%%]%%%%_sg%sg%:/Selo/kamikaze/Computers/alyx/%%copyname%%/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16  --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
 echo     call rclone sync "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P/alyx_pc/" "%%%%selofldrs[%%x%%]%%%%_sg%sg%:/Selo/kamikaze/Computers/alyx/%%copyname%%/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16  --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
 echo     set /a "x+=1"
 echo     GOTO :i2w1w1w1w2dxw2d1d^)
