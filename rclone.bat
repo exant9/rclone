@@ -1978,7 +1978,7 @@ echo rclone sync "%acc%_sgdump%from%:/" "%acc%_sgdump%to%:/" --drive-skip-shortc
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_29.bat"
 
 
-set acc=jobibudi1
+set acc=budiberliam
 set from=2
 set to=3
 
