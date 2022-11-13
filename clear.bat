@@ -66,7 +66,7 @@ echo :l23234
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/%fldr%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
+echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -108,7 +108,7 @@ echo :l23232
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/%fldr%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
+echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -148,7 +148,7 @@ echo :l23234
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/%fldr%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
+echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -189,7 +189,7 @@ echo :l23234
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/%fldr%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
+echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -247,7 +247,7 @@ echo :l23234
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/%fldr%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
+echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -292,7 +292,7 @@ echo :l23232
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"Caca"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/%fldr%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
+echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -332,7 +332,7 @@ echo :l23234
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/%fldr%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
+echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -373,7 +373,7 @@ echo :l23234
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/%fldr%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
+echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -430,7 +430,7 @@ echo :l23234
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/%fldr%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
+echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -475,7 +475,7 @@ echo :l23232
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"Caca"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/%fldr%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
+echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -515,7 +515,7 @@ echo :l23234
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/%fldr%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
+echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -556,7 +556,7 @@ echo :l23234
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/%fldr%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
+echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -622,7 +622,7 @@ echo :l23234
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/%fldr%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
+echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -667,7 +667,7 @@ echo :l23232
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"Caca"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/%fldr%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
+echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -707,7 +707,7 @@ echo :l23234
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/%fldr%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
+echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -748,7 +748,7 @@ echo :l23234
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/%fldr%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
+echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -814,7 +814,7 @@ echo :l23234
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/%fldr%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
+echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -859,7 +859,7 @@ echo :l23232
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"Caca"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/%fldr%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
+echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -899,7 +899,7 @@ echo :l23234
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/%fldr%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
+echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -940,7 +940,7 @@ echo :l23234
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/%fldr%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
+echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -1005,7 +1005,7 @@ echo :l23234
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/%fldr%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
+echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -1050,7 +1050,7 @@ echo :l23232
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"Caca"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/%fldr%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
+echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -1090,7 +1090,7 @@ echo :l23234
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/%fldr%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
+echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -1131,7 +1131,7 @@ echo :l23234
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/%fldr%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
+echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -1197,7 +1197,7 @@ echo :l23234
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/%fldr%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
+echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -1242,7 +1242,7 @@ echo :l23232
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"Caca"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/%fldr%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
+echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -1282,7 +1282,7 @@ echo :l23234
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/%fldr%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
+echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -1323,7 +1323,7 @@ echo :l23234
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/%fldr%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
+echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -1389,7 +1389,7 @@ echo :l23234
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"Caca"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/%fldr%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
+echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -1434,7 +1434,7 @@ echo :l23232
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"Caca"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/%fldr%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
+echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -1474,7 +1474,7 @@ echo :l23234
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/%fldr%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
+echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -1515,7 +1515,7 @@ echo :l23234
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/%fldr%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
+echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -1584,7 +1584,7 @@ echo :l23234
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/%fldr%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
+echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -1629,7 +1629,7 @@ echo :l23232
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"Caca"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/%fldr%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
+echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -1669,7 +1669,7 @@ echo :l23234
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/%fldr%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
+echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -1710,7 +1710,7 @@ echo :l23234
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/%fldr%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
+echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -1776,7 +1776,7 @@ echo :l23234
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/%fldr%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
+echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -1821,7 +1821,7 @@ echo :l23232
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"Caca"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/%fldr%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
+echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -1861,7 +1861,7 @@ echo :l23234
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/%fldr%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
+echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
@@ -1902,7 +1902,7 @@ echo :l23234
 echo.
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
-echo rclone lsd "%acc%:/%fldr%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
+echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
