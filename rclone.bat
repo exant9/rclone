@@ -2002,13 +2002,43 @@ echo cd %%userprofile%%
 echo set acc[0]=accounts
 echo set acc[1]=shared drives
 
-rclone mkdir "nanimungkito_sglogs1:/accounts"  -q --max-duration 22h --low-level-retries 9999999999 --auto-confirm --no-traverse --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change  
-rclone mkdir "nanimungkito_sglogs1:/accounts"  -q --max-duration 22h --low-level-retries 9999999999 --auto-confirm --no-traverse --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change  
-rclone mkdir "nanimungkito_sglogs1:/accounts"  -q --max-duration 22h --low-level-retries 9999999999 --auto-confirm --no-traverse --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change  
+echo set "x=0"
+echo :i291111wdh2od9y189y389d23
+REM  loop
+echo if defined acc[%%x%%] ^(
+
+rclone mkdir "nanimungkito_sglogs1:/%%%%acc[%%x%%]%%%%" -q --max-duration 22h --low-level-retries 9999999999 --auto-confirm --no-traverse --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change  
+
+echo     set /a "x+=1"
+echo     GOTO :i291111wdh2od9y189y389d23^)
+
+echo set sg[0]=1
+echo set sg[1]=2
+echo set sg[2]=3
+echo set sg[3]=4
+echo set sg[4]=5
+echo set sg[5]=6
+echo set sg[6]=7
+echo set sg[7]=8
+echo set sg[8]=9
+echo set sg[9]=10
+
+echo set "x=0"
+echo :i291111wdh2od9y2e2e189y389d23
+REM  loop
+echo if defined sg[%%x%%] ^(
+
+rclone mkdir "nanimungkito_sglogs1:/shared drives/%%%%sg[%%x%%]%%%%" -q --max-duration 22h --low-level-retries 9999999999 --auto-confirm --no-traverse --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change  
+
+echo     set /a "x+=1"
+echo     GOTO :i291111wdh2od9y2e2e189y389d23^)
+
+
+
 
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_40.bat"
 
-REM  rclone ls "aaveusdt,shared_with_me:/jY1CJ1hE4P/" --transfers 3000000 --checkers 3000000 --tpslimit 999999999999999999 --tpslimit-burst 999999999999999999 --drive-pacer-min-sleep 10ms --drive-pacer-burst 999999999999999999 --no-traverse
+REM rclone ls "aaveusdt,shared_with_me:/jY1CJ1hE4P/" --transfers 700000 --checkers 700000 --tpslimit 999999999999999999 --tpslimit-burst 999999999999999999 --drive-pacer-min-sleep 10ms --no-traverse
 
 
 
