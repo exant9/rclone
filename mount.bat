@@ -36,6 +36,16 @@ echo rclone mount "calista_ar_cloddrive_com_gphotos:/" L:\
 
 
 
+(
+
+echo cd %%userprofile%%
+echo rclone mount "nanimungkito_sglogs1:/" M:\
+
+)>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\m_4.bat"
+
+
+
+
 
 
 

@@ -3,6 +3,7 @@ cd %userprofile%
 
 
 
+
 REM  JANGAN LUPA PAKE CALL DIDALEM LOOP BIASA
 
 REM  rclone copy A B
@@ -23,6 +24,10 @@ REM  data yang boleh di dump selo aja
 
 
 
+taskkill /f /im rclone.exe
+taskkill /f /im cscript.exe
+taskkill /f /im rclone.exe
+taskkill /f /im cscript.exe
 
 set fldrv=aaveusdt_sg1/Selo/Selo,aaveusdt_sg1/Caca/Caca,aaveusdt_sg1/Anggun/Anggun,aaveusdt_sg1/logs,renaave50_sg2/Selo/Selo,renaave50_sg2/Caca/Caca,renaave50_sg2/Anggun/Anggun,renaave50_sg2/logs,renaave7_sg3/Selo/Selo,renaave7_sg3/Caca/Caca,renaave7_sg3/Anggun/Anggun,renaave7_sg3/logs,oudhoh0050_sg4/Selo/Selo,oudhoh0050_sg4/Caca/Caca,oudhoh0050_sg4/Anggun/Anggun,oudhoh0050_sg4/logs,nkiux77509_sg5/Selo/Selo,nkiux77509_sg5/Caca/Caca,nkiux77509_sg5/Anggun/Anggun,nkiux77509_sg5/logs,didrhj9036_sg6/Selo/Selo,didrhj9036_sg6/Caca/Caca,didrhj9036_sg6/Anggun/Anggun,didrhj9036_sg6/logs,hjski8292882_sg7/Selo/Selo,hjski8292882_sg7/Caca/Caca,hjski8292882_sg7/Anggun/Anggun,hjski8292882_sg7/logs,jsnwj84738_sg8/Selo/Selo,Cjsnwj84738_sg8/aca,jsnwj84738_sg8/Anggun/Anggun,jsnwj84738_sg8/logs,ffdnsak8272793_sg9/Selo/Selo,ffdnsak8272793_sg9/Caca/Caca,ffdnsak8272793_sg9/Anggun/Anggun,ffdnsak8272793_sg9/logs,otipes7948_sg10/Selo/Selo,otipes7948_sg10/Caca/Caca,otipes7948_sg10/Anggun/Anggun,otipes7948_sg10/logs
 
@@ -1986,6 +1991,24 @@ set to=3
 echo cd %%userprofile%%
 echo rclone sync "%acc%_sgdump%from%:/" "%acc%_sgdump%to%:/" --drive-skip-shortcuts --drive-skip-dangling-shortcuts  --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS  --track-renames
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_30.bat"
+
+
+
+REM  Logger
+
+(
+echo cd %%userprofile%%
+
+echo set acc[0]=accounts
+echo set acc[1]=shared drives
+
+rclone mkdir "nanimungkito_sglogs1:/accounts"  -q --max-duration 22h --low-level-retries 9999999999 --auto-confirm --no-traverse --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change  
+rclone mkdir "nanimungkito_sglogs1:/accounts"  -q --max-duration 22h --low-level-retries 9999999999 --auto-confirm --no-traverse --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change  
+rclone mkdir "nanimungkito_sglogs1:/accounts"  -q --max-duration 22h --low-level-retries 9999999999 --auto-confirm --no-traverse --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change  
+
+)>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_40.bat"
+
+REM  rclone ls "aaveusdt,shared_with_me:/jY1CJ1hE4P/" --transfers 3000000 --checkers 3000000 --tpslimit 999999999999999999 --tpslimit-burst 999999999999999999 --drive-pacer-min-sleep 10ms --drive-pacer-burst 999999999999999999 --no-traverse
 
 
 
