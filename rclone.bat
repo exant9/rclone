@@ -61,6 +61,7 @@ echo set mkpath[6]="fcfgts_driveku_me:/Unlimtd Copy/Minecraft"
 
 echo set "x=0"
 echo :d121
+REM  loop
 echo if defined mkpath[%%x%%] ^(
 echo     call rclone mkdir %%%%mkpath[%%x%%]%%%% -q --max-duration 22h --low-level-retries 9999999999 --auto-confirm --no-traverse --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change 
 echo     set /a "x+=1"
@@ -106,6 +107,7 @@ REM echo     call rclone copy "aaveusdt,shared_with_me:/jY1CJ1hE4P/alyx_pc/%%%%s
 
 echo set "x=0"
 echo :i21
+REM  loop
 echo if defined selofldrs[%%x%%] ^(
 echo     call rclone sync "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P/alyx_pc/" "%%%%selofldrs[%%x%%]%%%%_sg%sg%:/Selo/kamikaze/Computers/alyx/%%copyname%%/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
 echo     call rclone sync "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P/alyx_pc/" "%%%%selofldrs[%%x%%]%%%%_sg%sg%:/Selo/kamikaze/Computers/alyx/%%copyname%%/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
@@ -114,6 +116,7 @@ echo     GOTO :i21^)
 
 echo set "x=0"
 echo :i1199129
+REM  loop
 echo if defined selofldrs[%%x%%] ^(
 
 echo     set /a "x+=1"
@@ -150,6 +153,7 @@ echo ^)
 
 echo set "x=0"
 echo :m18271723113113
+REM  loop
 echo if defined accv[%%x%%] ^(
 echo     call rclone moveto "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%" "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%_fix" -q --max-duration 22h --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change -q --max-duration 22h --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change 
 echo set /a "x+=1"
@@ -175,12 +179,14 @@ echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
 REM echo set "x=0"
 REM echo :i2
-REM echo if defined cacafldrs[%%x%%] ^(
+REM REM  loop
+echo if defined cacafldrs[%%x%%] ^(
 REM echo     call rclone copy "jjajai2818,shared_with_me:/jY1CJ1hE4P/laptop_caca/%%%%cacafldrs[%%x%%]%%%%" "jjajai2818_sg1
 REM echo     GOTO :i2^)
 
 echo set "x=0"
 echo :r3r34t4
+REM  loop
 echo if defined cacafldrs[%%x%%] ^(
 echo     call rclone sync "%%%%cacafldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P/laptop_caca/" "%%%%cacafldrs[%%x%%]%%%%_sg%sg%:/Caca/calista_ar/Computers/laptop_caca/%%copyname%%/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
 echo     call rclone sync "%%%%cacafldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P/laptop_caca/" "%%%%cacafldrs[%%x%%]%%%%_sg%sg%:/Caca/calista_ar/Computers/laptop_caca/%%copyname%%/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
@@ -189,6 +195,7 @@ echo     GOTO :r3r34t4^)
 
 echo set "x=0"
 echo :i4332ed3
+REM  loop
 echo if defined cacafldrs[%%x%%] ^(
 
 echo     set /a "x+=1"
@@ -208,6 +215,7 @@ echo set gphb[2]=Caca/google photos/
 
 echo set "x=0"
 echo :i291
+REM  loop
 echo if defined gphb[%%x%%] ^(
 
 echo call rclone sync "%%%%gph[%%x%%]%%%%:/" "%acc%_sg%sg%:/%%%%gphb[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content 
@@ -257,6 +265,7 @@ REM echo     call rclone copy "renaave50,shared_with_me:/jY1CJ1hE4P/alyx_pc/%%%%
 
 echo set "x=0"
 echo :werf232
+REM  loop
 echo if defined selofldrs[%%x%%] ^(
 echo     call rclone sync "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P/alyx_pc/" "%%%%selofldrs[%%x%%]%%%%_sg%sg%:/Selo/kamikaze/Computers/alyx/%%copyname%%/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
 echo     call rclone sync "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P/alyx_pc/" "%%%%selofldrs[%%x%%]%%%%_sg%sg%:/Selo/kamikaze/Computers/alyx/%%copyname%%/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
@@ -265,6 +274,7 @@ echo     GOTO :werf232^)
 
 echo set "x=0"
 echo :i1w12w21
+REM  loop
 echo if defined selofldrs[%%x%%] ^(
 
 echo     set /a "x+=1"
@@ -297,6 +307,7 @@ echo ^)
 
 echo set "x=0"
 echo :m18271723113113
+REM  loop
 echo if defined accv[%%x%%] ^(
 echo     call rclone moveto "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%" "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%_fix" -q --max-duration 22h --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change -q --max-duration 22h --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change 
 echo set /a "x+=1"
@@ -329,6 +340,7 @@ REM echo     call rclone copy "eleoek28828,shared_with_me:/jY1CJ1hE4P/laptop_cac
 
 echo set "x=0"
 echo :92e2u91w09190w0
+REM  loop
 echo if defined cacafldrs[%%x%%] ^(
 echo     call rclone sync "%%%%cacafldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P/laptop_caca/" "%%%%cacafldrs[%%x%%]%%%%_sg%sg%:/Caca/calista_ar/Computers/laptop_caca/%%copyname%%/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
 echo     call rclone sync "%%%%cacafldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P/laptop_caca/" "%%%%cacafldrs[%%x%%]%%%%_sg%sg%:/Caca/calista_ar/Computers/laptop_caca/%%copyname%%/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
@@ -337,6 +349,7 @@ echo     GOTO :92e2u91w09190w0^)
 
 echo set "x=0"
 echo :2e12e22s11w1w
+REM  loop
 echo if defined cacafldrs[%%x%%] ^(
 
 echo     set /a "x+=1"
@@ -354,6 +367,7 @@ echo set gphb[2]=Caca/google photos/
 
 echo set "x=0"
 echo :i291312r3e
+REM  loop
 echo if defined gphb[%%x%%] ^(
 
 echo call rclone sync "aaveusdt_sg1:/%%%%gphb[%%x%%]%%%%" "%acc%_sg%sg%:/%%%%gphb[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 4 --bwlimit 500k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content
@@ -395,6 +409,7 @@ REM echo     call rclone copy "renaave7,shared_with_me:/jY1CJ1hE4P/alyx_pc/%%%%s
 
 echo set "x=0"
 echo :i22w2w2w2w
+REM  loop
 echo if defined selofldrs[%%x%%] ^(
 echo     call rclone sync "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P/alyx_pc/" "%%%%selofldrs[%%x%%]%%%%_sg%sg%:/Selo/kamikaze/Computers/alyx/%%copyname%%/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
 echo     call rclone sync "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P/alyx_pc/" "%%%%selofldrs[%%x%%]%%%%_sg%sg%:/Selo/kamikaze/Computers/alyx/%%copyname%%/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
@@ -403,6 +418,7 @@ echo     GOTO :i22w2w2w2w^)
 
 echo set "x=0"
 echo :i1sw8y282eyy891y89y18ey
+REM  loop
 echo if defined selofldrs[%%x%%] ^(
 
 echo     set /a "x+=1"
@@ -435,6 +451,7 @@ echo ^)
 
 echo set "x=0"
 echo :m18271723113113
+REM  loop
 echo if defined accv[%%x%%] ^(
 echo     call rclone moveto "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%" "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%_fix" -q --max-duration 22h --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change -q --max-duration 22h --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change 
 echo set /a "x+=1"
@@ -462,6 +479,7 @@ REM echo     call rclone copy "wjwn91178,shared_with_me:/jY1CJ1hE4P/laptop_caca/
 
 echo set "x=0"
 echo :f3f2fq2eq2w
+REM  loop
 echo if defined cacafldrs[%%x%%] ^(
 echo     call rclone sync "%%%%cacafldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P/laptop_caca/" "%%%%cacafldrs[%%x%%]%%%%_sg%sg%:/Caca/calista_ar/Computers/laptop_caca/%%copyname%%/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
 echo     call rclone sync "%%%%cacafldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P/laptop_caca/" "%%%%cacafldrs[%%x%%]%%%%_sg%sg%:/Caca/calista_ar/Computers/laptop_caca/%%copyname%%/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
@@ -470,6 +488,7 @@ echo     GOTO :f3f2fq2eq2w^)
 
 echo set "x=0"
 echo :dqwd2e2e00a
+REM  loop
 echo if defined cacafldrs[%%x%%] ^(
 
 echo     set /a "x+=1"
@@ -485,6 +504,7 @@ echo set gphb[2]=Caca/google photos/
 
 echo set "x=0"
 echo :i291312r3e
+REM  loop
 echo if defined gphb[%%x%%] ^(
 
 echo call rclone sync "renaave50_sg2:/%%%%gphb[%%x%%]%%%%" "%acc%_sg%sg%:/%%%%gphb[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 4 --bwlimit 500k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content
@@ -526,6 +546,7 @@ REM echo     call rclone copy "oudhoh0050,shared_with_me:/jY1CJ1hE4P/alyx_pc/%%%
 
 echo set "x=0"
 echo :wdwd2dsq1
+REM  loop
 echo if defined selofldrs[%%x%%] ^(
 echo     call rclone sync "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P/alyx_pc/" "%%%%selofldrs[%%x%%]%%%%_sg%sg%:/Selo/kamikaze/Computers/alyx/%%copyname%%/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
 echo     call rclone sync "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P/alyx_pc/" "%%%%selofldrs[%%x%%]%%%%_sg%sg%:/Selo/kamikaze/Computers/alyx/%%copyname%%/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
@@ -534,6 +555,7 @@ echo     GOTO :wdwd2dsq1^)
 
 echo set "x=0"
 echo :i1qq2y467i55uw4t4
+REM  loop
 echo if defined selofldrs[%%x%%] ^(
 
 echo     set /a "x+=1"
@@ -566,6 +588,7 @@ echo ^)
 
 echo set "x=0"
 echo :m18271723113113
+REM  loop
 echo if defined accv[%%x%%] ^(
 echo     call rclone moveto "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%" "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%_fix" -q --max-duration 22h --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change -q --max-duration 22h --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change 
 echo set /a "x+=1"
@@ -589,12 +612,14 @@ echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
 REM echo set "x=0"
 REM echo :i34
-REM echo if defined cacafldrs[%%x%%] ^(
+REM REM  loop
+echo if defined cacafldrs[%%x%%] ^(
 REM echo     call rclone copy "iaowk272818,shared_with_me:/jY1CJ1hE4P/laptop_caca/%%%%cacafldrs[%%x%%]%%%%" "iaowk272818_sg4
 REM echo     GOTO :i34^)
 
 echo set "x=0"
 echo :pqs010s10oqoasoqso
+REM  loop
 echo if defined cacafldrs[%%x%%] ^(
 echo     call rclone sync "%%%%cacafldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P/laptop_caca/" "%%%%cacafldrs[%%x%%]%%%%_sg%sg%:/Caca/calista_ar/Computers/laptop_caca/%%copyname%%/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
 echo     call rclone sync "%%%%cacafldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P/laptop_caca/" "%%%%cacafldrs[%%x%%]%%%%_sg%sg%:/Caca/calista_ar/Computers/laptop_caca/%%copyname%%/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
@@ -603,6 +628,7 @@ echo     GOTO :pqs010s10oqoasoqso^)
 
 echo set "x=0"
 echo :u9qd9u10u10ue1e
+REM  loop
 echo if defined cacafldrs[%%x%%] ^(
 
 echo     set /a "x+=1"
@@ -618,6 +644,7 @@ echo set gphb[2]=Caca/google photos/
 
 echo set "x=0"
 echo :i291312r3e
+REM  loop
 echo if defined gphb[%%x%%] ^(
 
 echo call rclone sync "renaave7_sg3:/%%%%gphb[%%x%%]%%%%" "%acc%_sg%sg%:/%%%%gphb[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 4 --bwlimit 500k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content
@@ -655,13 +682,15 @@ echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
 REM echo set "x=0"
 REM echo :i2
-REM echo if defined selofldrs[%%x%%] ^(
+REM REM  loop
+echo if defined selofldrs[%%x%%] ^(
 REM echo     call rclone copy "nkiux77509,shared_with_me:/jY1CJ1hE4P/alyx_pc/%%%%selofldrs[%%x%%]%%%%" "nkiux77509_sg5:/Selo/kamikaze/Computers/alyx/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content 
 REM echo     set /a "x+=1"
 REM echo     GOTO :i2^)
 
 echo set "x=0"
 echo :19w81e109u0ue0
+REM  loop
 echo if defined selofldrs[%%x%%] ^(
 echo     call rclone sync "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P/alyx_pc/" "%%%%selofldrs[%%x%%]%%%%_sg%sg%:/Selo/kamikaze/Computers/alyx/%%copyname%%/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
 echo     call rclone sync "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P/alyx_pc/" "%%%%selofldrs[%%x%%]%%%%_sg%sg%:/Selo/kamikaze/Computers/alyx/%%copyname%%/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
@@ -670,6 +699,7 @@ echo     GOTO :19w81e109u0ue0^)
 
 echo set "x=0"
 echo :i1squ9ui991
+REM  loop
 echo if defined selofldrs[%%x%%] ^(
 
 echo     set /a "x+=1"
@@ -702,6 +732,7 @@ echo ^)
 
 echo set "x=0"
 echo :m18271723113113
+REM  loop
 echo if defined accv[%%x%%] ^(
 echo     call rclone moveto "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%" "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%_fix" -q --max-duration 22h --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change -q --max-duration 22h --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change 
 echo set /a "x+=1"
@@ -729,6 +760,7 @@ REM echo     call rclone copy "ejsjskw28272,shared_with_me:/jY1CJ1hE4P/laptop_ca
 
 echo set "x=0"
 echo :qsujvrfduuid
+REM  loop
 echo if defined cacafldrs[%%x%%] ^(
 echo     call rclone sync "%%%%cacafldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P/laptop_caca/" "%%%%cacafldrs[%%x%%]%%%%_sg%sg%:/Caca/calista_ar/Computers/laptop_caca/%%copyname%%/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
 echo     call rclone sync "%%%%cacafldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P/laptop_caca/" "%%%%cacafldrs[%%x%%]%%%%_sg%sg%:/Caca/calista_ar/Computers/laptop_caca/%%copyname%%/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
@@ -737,6 +769,7 @@ echo     GOTO :qsujvrfduuid^)
 
 echo set "x=0"
 echo :cu9du9d
+REM  loop
 echo if defined cacafldrs[%%x%%] ^(
 
 echo     set /a "x+=1"
@@ -752,6 +785,7 @@ echo set gphb[2]=Caca/google photos/
 
 echo set "x=0"
 echo :i291312r3e
+REM  loop
 echo if defined gphb[%%x%%] ^(
 
 echo call rclone sync "oudhoh0050_sg4:/%%%%gphb[%%x%%]%%%%" "%acc%_sg%sg%:/%%%%gphb[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 4 --bwlimit 500k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content
@@ -793,6 +827,7 @@ REM echo     call rclone copy "didrhj9036,shared_with_me:/jY1CJ1hE4P/alyx_pc/%%%
 
 echo set "x=0"
 echo :2ey903eu999
+REM  loop
 echo if defined selofldrs[%%x%%] ^(
 echo     call rclone sync "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P/alyx_pc/" "%%%%selofldrs[%%x%%]%%%%_sg%sg%:/Selo/kamikaze/Computers/alyx/%%copyname%%/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
 echo     call rclone sync "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P/alyx_pc/" "%%%%selofldrs[%%x%%]%%%%_sg%sg%:/Selo/kamikaze/Computers/alyx/%%copyname%%/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
@@ -801,6 +836,7 @@ echo     GOTO :2ey903eu999^)
 
 echo set "x=0"
 echo :iei91y717920e0i
+REM  loop
 echo if defined selofldrs[%%x%%] ^(
 
 echo     set /a "x+=1"
@@ -833,6 +869,7 @@ echo ^)
 
 echo set "x=0"
 echo :m18271723113113
+REM  loop
 echo if defined accv[%%x%%] ^(
 echo     call rclone moveto "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%" "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%_fix" -q --max-duration 22h --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change -q --max-duration 22h --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change 
 echo set /a "x+=1"
@@ -860,6 +897,7 @@ REM echo     call rclone copy "sjsiowkw272892,shared_with_me:/jY1CJ1hE4P/laptop_
 
 echo set "x=0"
 echo :q9su0qs8q0
+REM  loop
 echo if defined cacafldrs[%%x%%] ^(
 echo     call rclone sync "%%%%cacafldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P/laptop_caca/" "%%%%cacafldrs[%%x%%]%%%%_sg%sg%:/Caca/calista_ar/Computers/laptop_caca/%%copyname%%/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
 echo     call rclone sync "%%%%cacafldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P/laptop_caca/" "%%%%cacafldrs[%%x%%]%%%%_sg%sg%:/Caca/calista_ar/Computers/laptop_caca/%%copyname%%/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
@@ -868,6 +906,7 @@ echo     GOTO :q9su0qs8q0^)
 
 echo set "x=0"
 echo :i1astas6s
+REM  loop
 echo if defined cacafldrs[%%x%%] ^(
 
 echo     set /a "x+=1"
@@ -883,6 +922,7 @@ echo set gphb[2]=Caca/google photos/
 
 echo set "x=0"
 echo :i291312r3e
+REM  loop
 echo if defined gphb[%%x%%] ^(
 
 echo call rclone sync "nkiux77509_sg5:/%%%%gphb[%%x%%]%%%%" "%acc%_sg%sg%:/%%%%gphb[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 4 --bwlimit 500k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content
@@ -924,6 +964,7 @@ REM echo     call rclone copy "hjski8292882,shared_with_me:/jY1CJ1hE4P/alyx_pc/%
 
 echo set "x=0"
 echo :9usq9su9qisq9s
+REM  loop
 echo if defined selofldrs[%%x%%] ^(
 echo     call rclone sync "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P/alyx_pc/" "%%%%selofldrs[%%x%%]%%%%_sg%sg%:/Selo/kamikaze/Computers/alyx/%%copyname%%/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
 echo     call rclone sync "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P/alyx_pc/" "%%%%selofldrs[%%x%%]%%%%_sg%sg%:/Selo/kamikaze/Computers/alyx/%%copyname%%/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
@@ -932,6 +973,7 @@ echo     GOTO :9usq9su9qisq9s^)
 
 echo set "x=0"
 echo :i1xauiaxiaxuaxiuax
+REM  loop
 echo if defined selofldrs[%%x%%] ^(
 
 echo     set /a "x+=1"
@@ -964,6 +1006,7 @@ echo ^)
 
 echo set "x=0"
 echo :m18271723113113
+REM  loop
 echo if defined accv[%%x%%] ^(
 echo     call rclone moveto "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%" "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%_fix" -q --max-duration 22h --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change -q --max-duration 22h --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change 
 echo set /a "x+=1"
@@ -987,12 +1030,14 @@ echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
 REM echo set "x=0"
 REM echo :i2
-REM echo if defined cacafldrs[%%x%%] ^(
+REM REM  loop
+echo if defined cacafldrs[%%x%%] ^(
 REM echo     call rclone copy "s81wjwo17,shared_with_me:/jY1CJ1hE4P/laptop_caca/%%%%cacafldrs[%%x%%]%%%%" "s81wjwo17_sg7
 REM echo     GOTO :i2^)
 
 echo set "x=0"
 echo :i23xaxhaixa9x9
+REM  loop
 echo if defined cacafldrs[%%x%%] ^(
 echo     call rclone sync "%%%%cacafldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P/laptop_caca/" "%%%%cacafldrs[%%x%%]%%%%_sg%sg%:/Caca/calista_ar/Computers/laptop_caca/%%copyname%%/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
 echo     call rclone sync "%%%%cacafldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P/laptop_caca/" "%%%%cacafldrs[%%x%%]%%%%_sg%sg%:/Caca/calista_ar/Computers/laptop_caca/%%copyname%%/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
@@ -1001,6 +1046,7 @@ echo     GOTO :i23xaxhaixa9x9^)
 
 echo set "x=0"
 echo :i3243axaxaxaxaxac
+REM  loop
 echo if defined cacafldrs[%%x%%] ^(
 
 echo     set /a "x+=1"
@@ -1016,6 +1062,7 @@ echo set gphb[2]=Caca/google photos/
 
 echo set "x=0"
 echo :i291312r3e
+REM  loop
 echo if defined gphb[%%x%%] ^(
 
 echo call rclone sync "didrhj9036_sg6:/%%%%gphb[%%x%%]%%%%" "%acc%_sg%sg%:/%%%%gphb[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 4 --bwlimit 500k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content
@@ -1057,6 +1104,7 @@ REM echo     call rclone copy "jsnwj84738,shared_with_me:/jY1CJ1hE4P/alyx_pc/%%%
 
 echo set "x=0"
 echo :i2sx9usxu9z
+REM  loop
 echo if defined selofldrs[%%x%%] ^(
 echo     call rclone sync "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P/alyx_pc/" "%%%%selofldrs[%%x%%]%%%%_sg%sg%:/Selo/kamikaze/Computers/alyx/%%copyname%%/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
 echo     call rclone sync "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P/alyx_pc/" "%%%%selofldrs[%%x%%]%%%%_sg%sg%:/Selo/kamikaze/Computers/alyx/%%copyname%%/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
@@ -1065,6 +1113,7 @@ echo     GOTO :i2sx9usxu9z^)
 
 echo set "x=0"
 echo :axu9aux9a9xis
+REM  loop
 echo if defined selofldrs[%%x%%] ^(
 
 echo     set /a "x+=1"
@@ -1097,6 +1146,7 @@ echo ^)
 
 echo set "x=0"
 echo :m18271723113113
+REM  loop
 echo if defined accv[%%x%%] ^(
 echo     call rclone moveto "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%" "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%_fix" -q --max-duration 22h --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change -q --max-duration 22h --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change 
 echo set /a "x+=1"
@@ -1120,12 +1170,14 @@ echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
 REM echo set "x=0"
 REM echo :i48783874
-REM echo if defined cacafldrs[%%x%%] ^(
+REM REM  loop
+echo if defined cacafldrs[%%x%%] ^(
 REM echo     call rclone copy "jskwonw,shared_with_me:/jY1CJ1hE4P/laptop_caca/%%%%cacafldrs[%%x%%]%%%%" "jskwonw_sg8
 REM echo     GOTO :i48783874^)
 
 echo set "x=0"
 echo :i19842881za8z9
+REM  loop
 echo if defined cacafldrs[%%x%%] ^(
 echo     call rclone sync "%%%%cacafldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P/laptop_caca/" "%%%%cacafldrs[%%x%%]%%%%_sg%sg%:/Caca/calista_ar/Computers/laptop_caca/%%copyname%%/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
 echo     call rclone sync "%%%%cacafldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P/laptop_caca/" "%%%%cacafldrs[%%x%%]%%%%_sg%sg%:/Caca/calista_ar/Computers/laptop_caca/%%copyname%%/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
@@ -1134,6 +1186,7 @@ echo     GOTO :i19842881za8z9^)
 
 echo set "x=0"
 echo :1w1w1w1w1w1w1w1
+REM  loop
 echo if defined cacafldrs[%%x%%] ^(
 
 echo     set /a "x+=1"
@@ -1149,6 +1202,7 @@ echo set gphb[2]=Caca/google photos/
 
 echo set "x=0"
 echo :i291312r3e
+REM  loop
 echo if defined gphb[%%x%%] ^(
 
 echo call rclone sync "hjski8292882_sg7:/%%%%gphb[%%x%%]%%%%" "%acc%_sg%sg%:/%%%%gphb[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 4 --bwlimit 500k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content
@@ -1190,6 +1244,7 @@ REM echo     call rclone copy "ffdnsak8272793,shared_with_me:/jY1CJ1hE4P/alyx_pc
 
 echo set "x=0"
 echo :2sid20dd01qw1w1w
+REM  loop
 echo if defined selofldrs[%%x%%] ^(
 echo     call rclone sync "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P/alyx_pc/" "%%%%selofldrs[%%x%%]%%%%_sg%sg%:/Selo/kamikaze/Computers/alyx/%%copyname%%/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
 echo     call rclone sync "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P/alyx_pc/" "%%%%selofldrs[%%x%%]%%%%_sg%sg%:/Selo/kamikaze/Computers/alyx/%%copyname%%/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
@@ -1198,6 +1253,7 @@ echo     GOTO :2sid20dd01qw1w1w^)
 
 echo set "x=0"
 echo :sus01is912d1d01s0i
+REM  loop
 echo if defined selofldrs[%%x%%] ^(
 
 echo     set /a "x+=1"
@@ -1230,6 +1286,7 @@ echo ^)
 
 echo set "x=0"
 echo :m18271723113113
+REM  loop
 echo if defined accv[%%x%%] ^(
 echo     call rclone moveto "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%" "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%_fix" -q --max-duration 22h --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change -q --max-duration 22h --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change 
 echo set /a "x+=1"
@@ -1253,12 +1310,14 @@ echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
 REM echo set "x=0"
 REM echo :i243458
-REM echo if defined cacafldrs[%%x%%] ^(
+REM REM  loop
+echo if defined cacafldrs[%%x%%] ^(
 REM echo     call rclone copy "usowns81,shared_with_me:/jY1CJ1hE4P/laptop_caca/%%%%cacafldrs[%%x%%]%%%%" "usowns81_sg9
 REM echo     GOTO :i243458^)
 
 echo set "x=0"
 echo :1s1w1wd9912d92td76d
+REM  loop
 echo if defined cacafldrs[%%x%%] ^(
 echo     call rclone sync "%%%%cacafldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P/laptop_caca/" "%%%%cacafldrs[%%x%%]%%%%_sg%sg%:/Caca/calista_ar/Computers/laptop_caca/%%copyname%%/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
 echo     call rclone sync "%%%%cacafldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P/laptop_caca/" "%%%%cacafldrs[%%x%%]%%%%_sg%sg%:/Caca/calista_ar/Computers/laptop_caca/%%copyname%%/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
@@ -1267,6 +1326,7 @@ echo     GOTO :1s1w1wd9912d92td76d^)
 
 echo set "x=0"
 echo :9w91io0uuuui
+REM  loop
 echo if defined cacafldrs[%%x%%] ^(
 
 echo     set /a "x+=1"
@@ -1282,6 +1342,7 @@ echo set gphb[2]=Caca/google photos/
 
 echo set "x=0"
 echo :i291312r3e
+REM  loop
 echo if defined gphb[%%x%%] ^(
 
 echo call rclone sync "ffdnsak8272793_sg8:/%%%%gphb[%%x%%]%%%%" "%acc%_sg%sg%:/%%%%gphb[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 4 --bwlimit 500k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content
@@ -1323,6 +1384,7 @@ REM echo     call rclone copy "otipes7948,shared_with_me:/jY1CJ1hE4P/alyx_pc/%%%
 
 echo set "x=0"
 echo :i2w1w1w1w2dxw2d1d
+REM  loop
 echo if defined selofldrs[%%x%%] ^(
 echo     call rclone sync "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P/alyx_pc/" "%%%%selofldrs[%%x%%]%%%%_sg%sg%:/Selo/kamikaze/Computers/alyx/%%copyname%%/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
 echo     call rclone sync "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P/alyx_pc/" "%%%%selofldrs[%%x%%]%%%%_sg%sg%:/Selo/kamikaze/Computers/alyx/%%copyname%%/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
@@ -1331,6 +1393,7 @@ echo     GOTO :i2w1w1w1w2dxw2d1d^)
 
 echo set "x=0"
 echo :i1w1w1sfgddsaxww
+REM  loop
 echo if defined selofldrs[%%x%%] ^(
 
 echo     set /a "x+=1"
@@ -1363,6 +1426,7 @@ echo ^)
 
 echo set "x=0"
 echo :m18271723113113
+REM  loop
 echo if defined accv[%%x%%] ^(
 echo     call rclone moveto "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%" "%acc%_sg%sg%:/Selo/%%%%accv[%%x%%]%%%%/%%copyname%%_fix" -q --max-duration 22h --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change -q --max-duration 22h --low-level-retries 9999999999 --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change 
 echo set /a "x+=1"
@@ -1385,12 +1449,14 @@ echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
 REM echo set "x=0"
 REM echo :i243458
-REM echo if defined cacafldrs[%%x%%] ^(
+REM REM  loop
+echo if defined cacafldrs[%%x%%] ^(
 REM echo     call rclone copy "usowns81,shared_with_me:/jY1CJ1hE4P/laptop_caca/%%%%cacafldrs[%%x%%]%%%%" "usowns81_sg9
 REM echo     GOTO :i243458^)
 
 echo set "x=0"
 echo :1s1w1wd9912d92td76d
+REM  loop
 echo if defined cacafldrs[%%x%%] ^(
 echo     call rclone sync "%%%%cacafldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P/laptop_caca/" "%%%%cacafldrs[%%x%%]%%%%_sg%sg%:/Caca/calista_ar/Computers/laptop_caca/%%copyname%%/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
 echo     call rclone sync "%%%%cacafldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P/laptop_caca/" "%%%%cacafldrs[%%x%%]%%%%_sg%sg%:/Caca/calista_ar/Computers/laptop_caca/%%copyname%%/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
@@ -1399,6 +1465,7 @@ echo     GOTO :1s1w1wd9912d92td76d^)
 
 echo set "x=0"
 echo :9w91io0uuuui
+REM  loop
 echo if defined cacafldrs[%%x%%] ^(
 
 echo     set /a "x+=1"
@@ -1414,6 +1481,7 @@ echo set gphb[2]=Caca/google photos/
 
 echo set "x=0"
 echo :i291312r3e
+REM  loop
 echo if defined gphb[%%x%%] ^(
 
 echo call rclone sync "ffdnsak8272793_sg9:/%%%%gphb[%%x%%]%%%%" "%acc%_sg%sg%:/%%%%gphb[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 4 --bwlimit 500k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content
@@ -1471,6 +1539,7 @@ echo cd %%userprofile%%
 
 echo set "x=0"
 echo :i291111wdh2od9y189y389d
+REM  loop
 echo if defined selofldrs[%%x%%] ^(
 
 echo     call rclone sync "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P" "%%%%selofldrs[%%x%%]%%%%_sgdump1:/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
@@ -1492,6 +1561,7 @@ echo cd %%userprofile%%
 
 echo set "x=0"
 echo :i291111wdh2od9y189y389d
+REM  loop
 echo if defined selofldrs[%%x%%] ^(
 
 echo     call rclone sync "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P" "%%%%selofldrs[%%x%%]%%%%_sgdump1:/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
@@ -1513,6 +1583,7 @@ echo cd %%userprofile%%
 
 echo set "x=0"
 echo :i291111wdh2od9y189y389d
+REM  loop
 echo if defined selofldrs[%%x%%] ^(
 
 echo     call rclone sync "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P" "%%%%selofldrs[%%x%%]%%%%_sgdump1:/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
@@ -1535,6 +1606,7 @@ echo cd %%userprofile%%
 
 echo set "x=0"
 echo :i291111wdh2od9y189y389d
+REM  loop
 echo if defined selofldrs[%%x%%] ^(
 
 echo     call rclone sync "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P" "%%%%selofldrs[%%x%%]%%%%_sgdump1:/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
@@ -1573,6 +1645,7 @@ set ihs92[1]=Shared
 
 echo set "x=0"
 echo :i131435xuouaox88q8
+REM  loop
 echo if defined ihs92[%%x%%] ^(
 
 echo call rclone copy "xjdik82288,shared_with_me:/jY1CJ1hE4P/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%%%ihs92[%%x%%]%%%%" "iajdos282728_sg1:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-copy-shortcut-content --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --track-renames 
@@ -1591,6 +1664,7 @@ echo     GOTO :i131435xuouaox88q8^)
 
 echo set "x=0"
 echo :i1930013sxqsqqasqzs
+REM  loop
 echo if defined ihs92[%%x%%] ^(
 
 echo call rclone sync "xjdik82288,shared_with_me:/jY1CJ1hE4P/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%%%ihs92[%%x%%]%%%%" "iajdos282728_sg1:/Selo/fiyandhax-mipa4@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-copy-shortcut-content --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --track-renames 
@@ -1637,6 +1711,7 @@ set ihs92[2]=TUGAS SEMUA MAPEL KELAS X
 
 echo set "x=0"
 echo :i13131
+REM  loop
 echo if defined ihs92[%%x%%] ^(
 
 echo call rclone copy "xjdik82288,shared_with_me:/jY1CJ1hE4P/m.shahruxips-1@sman5tambunselatan.sch.id/%%%%ihs92[%%x%%]%%%%" "iajdos282728_sg1:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-copy-shortcut-content --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --track-renames 
@@ -1655,6 +1730,7 @@ echo     GOTO :i13131^)
 
 echo set "x=0"
 echo :i1929192
+REM  loop
 echo if defined ihs92[%%x%%] ^(
 
 echo call rclone sync "xjdik82288,shared_with_me:/jY1CJ1hE4P/m.shahruxips-1@sman5tambunselatan.sch.id/%%%%ihs92[%%x%%]%%%%" "iajdos282728_sg1:/Selo/m.shahruxips-1@sman5tambunselatan.sch.id/%%copyname%%/%%%%ihs92[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-copy-shortcut-content --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --track-renames 
@@ -1744,13 +1820,15 @@ echo set copyname=%%day%%-%%month%%-%%year%%_%%hour%%_%%minute%%_%%second%%
 
 REM echo set "x=0"
 REM echo :i1232
-REM echo if defined selofldrs[%%x%%] ^(
+REM REM  loop
+echo if defined selofldrs[%%x%%] ^(
 REM echo     call rclone copy "9288wowj,shared_with_me:/jY1CJ1hE4P/alyx_pc/%%%%selofldrs[%%x%%]%%%%" "9288wowj_sg10,shared_with_me:/alyx 7229179/%%copyname%%/%%%%selofldrs[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content 
 REM echo     set /a "x+=1"
 REM echo     GOTO :i1232^)
 
 echo set "x=0"
 echo :i291
+REM  loop
 echo if defined selofldrs[%%x%%] ^(
 echo     call rclone sync "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/jY1CJ1hE4P/alyx_pc/" "%%%%selofldrs[%%x%%]%%%%,shared_with_me:/alyx 7229179/%%copyname%%/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content --track-renames
 echo     set /a "x+=1"
@@ -1758,6 +1836,7 @@ echo     GOTO :i291^)
 
 echo set "x=0"
 echo :axaxqq1qq
+REM  loop
 echo if defined selofldrs[%%x%%] ^(
 
 echo     set /a "x+=1"
@@ -1773,6 +1852,7 @@ echo set gphb[2]=Caca/google photos/
 
 echo set "x=0"
 echo :i291312r3e
+REM  loop
 echo if defined gphb[%%x%%] ^(
 
 echo call rclone sync "otipes7948_sg10:/%%%%gphb[%%x%%]%%%%" "%acc%_sg%sg%:/%%%%gphb[%%x%%]%%%%" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 4 --bwlimit 500k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content
@@ -1805,6 +1885,7 @@ echo set gph[9]=otipes7948_sg10
 
 echo set "x=0"
 echo :i291
+REM  loop
 echo if defined selofldrs[%%x%%] ^(
 
 echo call rclone sync "fcfgts_driveku_me_gphotos:/" "%%%%gph[%%x%%]%%%%:/Selo/google photos/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 3h --delete-during --transfers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content 
@@ -1867,6 +1948,7 @@ REM echo rclone delete "fcfgts_driveku_me:/" --max-depth 1 --drive-keep-revision
 
 echo set "x=0"
 echo :i291111wdh2od9y189y389d
+REM  loop
 echo if defined gph[%%x%%] ^(
 
 
