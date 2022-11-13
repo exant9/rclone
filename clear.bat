@@ -34,6 +34,9 @@ echo rclone cleanup "hjski8292882_sg7:/" --no-traverse --auto-confirm --drive-se
 echo rclone cleanup "jsnwj84738_sg8:/" --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change   
 echo rclone cleanup "ffdnsak8272793_sg9:/" --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change   
 echo rclone cleanup "otipes7948_sg10:/" --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 3h -q --max-duration 22h --transfers 6 --drive-allow-import-name-change   
+
+REM      SGDUMP
+
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\__1.bat"
 
 
