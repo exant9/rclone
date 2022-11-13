@@ -1968,7 +1968,7 @@ echo     GOTO :i291111wdh2od9y189y389d^)
 
 REM  dump sdrive sync
 
-set acc=namizeusss
+set acc=bajangaldi28
 set from=1
 set to=2
 
