@@ -11,6 +11,8 @@ taskkill /f /im cscript.exe
 taskkill /f /im rclone.exe
 taskkill /f /im cscript.exe
 
+REM  GAUSAH PAKE TRANSFER, USELESS
+
 
 
 
