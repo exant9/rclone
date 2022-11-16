@@ -24,22 +24,6 @@ REM  GAUSAH PAKE TRANSFER, USELESS
 
 
 
-(
-echo cd %%userprofile%%
-echo rclone dedupe "aaveusdt_sg1:/" --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h -q --max-duration 22h  --drive-allow-import-name-change   
-echo rclone dedupe "renaave50_sg2:/" --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h -q --max-duration 22h  --drive-allow-import-name-change   
-echo rclone dedupe "renaave7_sg3:/" --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h -q --max-duration 22h  --drive-allow-import-name-change   
-echo rclone dedupe "oudhoh0050_sg4:/" --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h -q --max-duration 22h  --drive-allow-import-name-change   
-echo rclone dedupe "nkiux77509_sg5:/" --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h -q --max-duration 22h  --drive-allow-import-name-change   
-echo rclone dedupe "didrhj9036_sg6:/" --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h -q --max-duration 22h  --drive-allow-import-name-change   
-echo rclone dedupe "hjski8292882_sg7:/" --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h -q --max-duration 22h  --drive-allow-import-name-change   
-echo rclone dedupe "jsnwj84738_sg8:/" --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h -q --max-duration 22h  --drive-allow-import-name-change   
-echo rclone dedupe "ffdnsak8272793_sg9:/" --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h -q --max-duration 22h  --drive-allow-import-name-change   
-echo rclone dedupe "otipes7948_sg10:/" --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h -q --max-duration 22h  --drive-allow-import-name-change   
-
-REM      SGDUMP
-
-)>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\__200.bat"
 
 
 
@@ -55,6 +39,32 @@ echo rclone cleanup "hjski8292882_sg7:/" --no-traverse --auto-confirm --drive-se
 echo rclone cleanup "jsnwj84738_sg8:/" --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h -q --max-duration 22h  --drive-allow-import-name-change   
 echo rclone cleanup "ffdnsak8272793_sg9:/" --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h -q --max-duration 22h  --drive-allow-import-name-change   
 echo rclone cleanup "otipes7948_sg10:/" --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h -q --max-duration 22h  --drive-allow-import-name-change   
+
+echo set mkpath[0]=i
+echo set mkpath[1]=i
+echo set mkpath[2]=i
+
+echo set "x=0"
+echo :d121
+REM  loop
+echo if defined mkpath[%%x%%] ^(
+
+echo rclone dedupe "aaveusdt_sg1:/" --no-traverse --max-depth 1 --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h -q --max-duration 22h  --drive-allow-import-name-change   
+echo rclone dedupe "renaave50_sg2:/" --no-traverse --max-depth 1 --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h -q --max-duration 22h  --drive-allow-import-name-change   
+echo rclone dedupe "renaave7_sg3:/" --no-traverse --max-depth 1 --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h -q --max-duration 22h  --drive-allow-import-name-change   
+echo rclone dedupe "oudhoh0050_sg4:/" --no-traverse --max-depth 1 --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h -q --max-duration 22h  --drive-allow-import-name-change   
+echo rclone dedupe "nkiux77509_sg5:/" --no-traverse --max-depth 1 --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h -q --max-duration 22h  --drive-allow-import-name-change   
+echo rclone dedupe "didrhj9036_sg6:/" --no-traverse --max-depth 1 --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h -q --max-duration 22h  --drive-allow-import-name-change   
+echo rclone dedupe "hjski8292882_sg7:/" --no-traverse --max-depth 1 --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h -q --max-duration 22h  --drive-allow-import-name-change   
+echo rclone dedupe "jsnwj84738_sg8:/" --no-traverse --max-depth 1 --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h -q --max-duration 22h  --drive-allow-import-name-change   
+echo rclone dedupe "ffdnsak8272793_sg9:/" --no-traverse --max-depth 1 --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h -q --max-duration 22h  --drive-allow-import-name-change   
+echo rclone dedupe "otipes7948_sg10:/" --no-traverse --max-depth 1 --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h -q --max-duration 22h  --drive-allow-import-name-change   
+
+echo     set /a "x+=1"
+echo     GOTO :d121
+echo ^)
+
+
 
 REM      SGDUMP
 
