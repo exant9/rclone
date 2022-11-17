@@ -3,7 +3,6 @@ cd %userprofile%
 
 
 
-
 REM  JANGAN LUPA PAKE CALL DIDALEM LOOP BIASA
 
 REM  rclone copy A B
@@ -20,6 +19,17 @@ REM - user accounts (15gb)
 REM  data yang boleh di dump selo aja
 
 
+set maincloudaccount=fcfgts_driveku_me
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -33,6 +43,7 @@ set fldrv=aaveusdt_sg1/Selo/Selo,aaveusdt_sg1/Caca/Caca,aaveusdt_sg1/Anggun/Angg
 
 for %%u in ("%fldrv:,=" "%") do (
  	for /F "tokens=1,2 delims=/" %%e in ("%%~u") do (
+	rclone mkdir "%%e:/%%f/%%f"  -q --max-duration 22h --low-level-retries 9999999999 --auto-confirm --no-traverse --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 999h  --transfers 16 --checkers 16 --bwlimit 8650k --drive-allow-import-name-change  
 	rclone mkdir "%%e:/%%f/%%f"  -q --max-duration 22h --low-level-retries 9999999999 --auto-confirm --no-traverse --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 999h  --transfers 16 --checkers 16 --bwlimit 8650k --drive-allow-import-name-change  
 )
 )
@@ -55,14 +66,14 @@ echo rclone cleanup "jsnwj84738_sg8:/" -q --max-duration 22h --low-level-retries
 echo rclone cleanup "ffdnsak8272793_sg9:/" -q --max-duration 22h --low-level-retries 9999999999 --auto-confirm --no-traverse --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 999h  --transfers 16 --checkers 16 --bwlimit 8650k --drive-allow-import-name-change 
 echo rclone cleanup "otipes7948_sg10:/" -q --max-duration 22h --low-level-retries 9999999999 --auto-confirm --no-traverse --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 999h  --transfers 16 --checkers 16 --bwlimit 8650k --drive-allow-import-name-change 
 
-echo set mkpath[0]="fcfgts_driveku_me:/Colab Notebooks"
-echo set mkpath[1]="fcfgts_driveku_me:/Files"
-echo set mkpath[2]="fcfgts_driveku_me:/PC/alyx"
-echo set mkpath[2]="fcfgts_driveku_me:/PC/caca"
-echo set mkpath[3]="fcfgts_driveku_me:/system/rclone"
-echo set mkpath[4]="fcfgts_driveku_me:/system/test"
-echo set mkpath[5]="fcfgts_driveku_me:/Unlimtd Copy/Downloads_pool_83174"
-echo set mkpath[6]="fcfgts_driveku_me:/Unlimtd Copy/Minecraft"
+echo set mkpath[0]="%maincloudaccount%:/Colab Notebooks"
+echo set mkpath[1]="%maincloudaccount%:/Files"
+echo set mkpath[2]="%maincloudaccount%:/PC/alyx"
+echo set mkpath[2]="%maincloudaccount%:/PC/caca"
+echo set mkpath[3]="%maincloudaccount%:/system/rclone"
+echo set mkpath[4]="%maincloudaccount%:/system/test"
+echo set mkpath[5]="%maincloudaccount%:/Unlimtd Copy/Downloads_pool_83174"
+echo set mkpath[6]="%maincloudaccount%:/Unlimtd Copy/Minecraft"
 
 echo set "x=0"
 echo :d121
@@ -210,7 +221,7 @@ echo rclone moveto "%acc%_sg%sg%:/Caca/Caca/calista_ar/Computers/laptop_caca/%%c
 
 REM gphotos (sync from account one time)
 
-echo set gph[0]=fcfgts_driveku_me_gphotos
+echo set gph[0]=%maincloudaccount%_gphotos
 echo set gph[1]=k91819_medriveku_com_gphotos
 echo set gph[2]=calista_ar_cloddrive_com_gphotos
 
@@ -1784,15 +1795,15 @@ echo rclone sync "fiyandha_sman5,shared_with_me:/" "fiyandha_sman5:/Shared" --dr
 echo rclone sync "rama_sman5,shared_with_me:/" "rama_sman5:/Shared" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 999h  --transfers 16 --checkers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 15G --cutoff-mode=CAUTIOUS --drive-skip-shortcuts 
 
 
-echo rclone copy "fcfgts_driveku_me,shared_with_me:/" "fcfgts_driveku_me:/shared docs" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 999h  --transfers 16 --checkers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --include {pptx,docx,html,txt,json,xlsx,xls,doc,ppt,rtf,do m,dot,dotm,docb,wll,pdf,wbk,wwl,doc,docm,dotx,htm,mht,mhtml,odt,pdf,rtf,txt,wps,xml,xml,xps,csv,dbf,dif,ods,prn,slk,xla,xlam,xlsb,xls,xlsm,xlt,xltm,xltx,xlw,xml,xps,bmp,emf,gif,odp,pdf,pot,potm,potx,ppa,ppam,pps,ppsm,ppsx,pptm,rtf,thmx,tif,wmf,xml,xps}" --drive-skip-shortcuts --max-transfer 15G
-echo rclone sync "fcfgts_driveku_me,shared_with_me:/" "fcfgts_driveku_me:/shared docs" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 999h  --transfers 16 --checkers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --include {pptx,docx,html,txt,json,xlsx,xls,doc,ppt,rtf,do m,dot,dotm,docb,wll,pdf,wbk,wwl,doc,docm,dotx,htm,mht,mhtml,odt,pdf,rtf,txt,wps,xml,xml,xps,csv,dbf,dif,ods,prn,slk,xla,xlam,xlsb,xls,xlsm,xlt,xltm,xltx,xlw,xml,xps,bmp,emf,gif,odp,pdf,pot,potm,potx,ppa,ppam,pps,ppsm,ppsx,pptm,rtf,thmx,tif,wmf,xml,xps}" --drive-skip-shortcuts --max-transfer 15G
+echo rclone copy "%maincloudaccount%,shared_with_me:/" "%maincloudaccount%:/shared docs" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 999h  --transfers 16 --checkers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --include {pptx,docx,html,txt,json,xlsx,xls,doc,ppt,rtf,do m,dot,dotm,docb,wll,pdf,wbk,wwl,doc,docm,dotx,htm,mht,mhtml,odt,pdf,rtf,txt,wps,xml,xml,xps,csv,dbf,dif,ods,prn,slk,xla,xlam,xlsb,xls,xlsm,xlt,xltm,xltx,xlw,xml,xps,bmp,emf,gif,odp,pdf,pot,potm,potx,ppa,ppam,pps,ppsm,ppsx,pptm,rtf,thmx,tif,wmf,xml,xps}" --drive-skip-shortcuts --max-transfer 15G
+echo rclone sync "%maincloudaccount%,shared_with_me:/" "%maincloudaccount%:/shared docs" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 999h  --transfers 16 --checkers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --include {pptx,docx,html,txt,json,xlsx,xls,doc,ppt,rtf,do m,dot,dotm,docb,wll,pdf,wbk,wwl,doc,docm,dotx,htm,mht,mhtml,odt,pdf,rtf,txt,wps,xml,xml,xps,csv,dbf,dif,ods,prn,slk,xla,xlam,xlsb,xls,xlsm,xlt,xltm,xltx,xlw,xml,xps,bmp,emf,gif,odp,pdf,pot,potm,potx,ppa,ppam,pps,ppsm,ppsx,pptm,rtf,thmx,tif,wmf,xml,xps}" --drive-skip-shortcuts --max-transfer 15G
 
 echo rclone move "927281jwow,shared_with_me:/jY1CJ1hE4P/alyx_pc/Downloads" "927281jwow,shared_with_me:/Downloads_pool_83174" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 999h  --transfers 16 --checkers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content 
 echo rclone sync "927281jwow,shared_with_me:/jY1CJ1hE4P/alyx_pc/Downloads" "927281jwow,shared_with_me:/Downloads_pool_83174" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 999h  --transfers 16 --checkers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content 
 
-echo rclone move "fcfgts_driveku_me:/" "fcfgts_driveku_me:/Files/" --max-depth 1 --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 999h  --transfers 16 --checkers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-skip-shortcuts
-REM echo rclone sync "fcfgts_driveku_me:/" "fcfgts_driveku_me:/Files/" --max-depth 1 --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 999h  --transfers 16 --checkers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-skip-shortcuts --track-renames
-REM echo rclone delete "fcfgts_driveku_me:/" --max-depth 1 --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 999h  --transfers 16 --checkers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-skip-shortcuts
+echo rclone move "%maincloudaccount%:/" "%maincloudaccount%:/Files/" --max-depth 1 --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 999h  --transfers 16 --checkers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-skip-shortcuts
+REM echo rclone sync "%maincloudaccount%:/" "%maincloudaccount%:/Files/" --max-depth 1 --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 999h  --transfers 16 --checkers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-skip-shortcuts --track-renames
+REM echo rclone delete "%maincloudaccount%:/" --max-depth 1 --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 999h  --transfers 16 --checkers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-skip-shortcuts
 
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_24.bat"
 
@@ -1897,11 +1908,11 @@ echo :i291
 REM  loop
 echo if defined selofldrs[%%x%%] ^(
 
-echo call rclone sync "fcfgts_driveku_me_gphotos:/" "%%%%gph[%%x%%]%%%%:/Selo/Selo/google photos/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 999h  --transfers 16 --checkers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content 
+echo call rclone sync "%maincloudaccount%_gphotos:/" "%%%%gph[%%x%%]%%%%:/Selo/Selo/google photos/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 999h  --transfers 16 --checkers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content 
 echo call rclone sync "k91819_medriveku_com_gphotos:/" "%%%%gph[%%x%%]%%%%:/Family/google photos/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 999h  --transfers 16 --checkers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content 
 echo call rclone sync "calista_ar_cloddrive_com_gphotos:/" "%%%%gph[%%x%%]%%%%:/Caca/Caca/google photos/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 999h  --transfers 16 --checkers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content 
 
-echo call rclone sync "fcfgts_driveku_me_gphotos:/" "%%%%gph[%%x%%]%%%%:/Selo/Selo/google photos/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 999h  --transfers 16 --checkers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content 
+echo call rclone sync "%maincloudaccount%_gphotos:/" "%%%%gph[%%x%%]%%%%:/Selo/Selo/google photos/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 999h  --transfers 16 --checkers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content 
 echo call rclone sync "k91819_medriveku_com_gphotos:/" "%%%%gph[%%x%%]%%%%:/Family/google photos/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 999h  --transfers 16 --checkers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content 
 echo call rclone sync "calista_ar_cloddrive_com_gphotos:/" "%%%%gph[%%x%%]%%%%:/Caca/Caca/google photos/" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 999h  --transfers 16 --checkers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-copy-shortcut-content 
 
@@ -1948,12 +1959,12 @@ echo set acc[7]=jsnwj84738
 echo set acc[8]=ffdnsak8272793
 echo set acc[9]=otipes7948
 
-echo rclone copy "fcfgts_driveku_me,shared_with_me:/" "fcfgts_driveku_me:/shared docs" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 999h  --transfers 16 --checkers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --include {pptx,docx,html,txt,json,xlsx,xls,doc,ppt,rtf,do m,dot,dotm,docb,wll,pdf,wbk,wwl,doc,docm,dotx,htm,mht,mhtml,odt,pdf,rtf,txt,wps,xml,xml,xps,csv,dbf,dif,ods,prn,slk,xla,xlam,xlsb,xls,xlsm,xlt,xltm,xltx,xlw,xml,xps,bmp,emf,gif,odp,pdf,pot,potm,potx,ppa,ppam,pps,ppsm,ppsx,pptm,rtf,thmx,tif,wmf,xml,xps}" --drive-skip-shortcuts --max-transfer 15G
-echo rclone sync "fcfgts_driveku_me,shared_with_me:/" "fcfgts_driveku_me:/shared docs" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 999h  --transfers 16 --checkers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --include {pptx,docx,html,txt,json,xlsx,xls,doc,ppt,rtf,do m,dot,dotm,docb,wll,pdf,wbk,wwl,doc,docm,dotx,htm,mht,mhtml,odt,pdf,rtf,txt,wps,xml,xml,xps,csv,dbf,dif,ods,prn,slk,xla,xlam,xlsb,xls,xlsm,xlt,xltm,xltx,xlw,xml,xps,bmp,emf,gif,odp,pdf,pot,potm,potx,ppa,ppam,pps,ppsm,ppsx,pptm,rtf,thmx,tif,wmf,xml,xps}" --drive-skip-shortcuts --max-transfer 15G
+echo rclone copy "%maincloudaccount%,shared_with_me:/" "%maincloudaccount%:/shared docs" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 999h  --transfers 16 --checkers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --include {pptx,docx,html,txt,json,xlsx,xls,doc,ppt,rtf,do m,dot,dotm,docb,wll,pdf,wbk,wwl,doc,docm,dotx,htm,mht,mhtml,odt,pdf,rtf,txt,wps,xml,xml,xps,csv,dbf,dif,ods,prn,slk,xla,xlam,xlsb,xls,xlsm,xlt,xltm,xltx,xlw,xml,xps,bmp,emf,gif,odp,pdf,pot,potm,potx,ppa,ppam,pps,ppsm,ppsx,pptm,rtf,thmx,tif,wmf,xml,xps}" --drive-skip-shortcuts --max-transfer 15G
+echo rclone sync "%maincloudaccount%,shared_with_me:/" "%maincloudaccount%:/shared docs" --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 999h  --transfers 16 --checkers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --include {pptx,docx,html,txt,json,xlsx,xls,doc,ppt,rtf,do m,dot,dotm,docb,wll,pdf,wbk,wwl,doc,docm,dotx,htm,mht,mhtml,odt,pdf,rtf,txt,wps,xml,xml,xps,csv,dbf,dif,ods,prn,slk,xla,xlam,xlsb,xls,xlsm,xlt,xltm,xltx,xlw,xml,xps,bmp,emf,gif,odp,pdf,pot,potm,potx,ppa,ppam,pps,ppsm,ppsx,pptm,rtf,thmx,tif,wmf,xml,xps}" --drive-skip-shortcuts --max-transfer 15G
 
-echo rclone move "fcfgts_driveku_me:/" "fcfgts_driveku_me:/Files/" --max-depth 1 --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 999h  --transfers 16 --checkers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-skip-shortcuts
-REM echo rclone sync "fcfgts_driveku_me:/" "fcfgts_driveku_me:/Files/" --max-depth 1 --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 999h  --transfers 16 --checkers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-skip-shortcuts --track-renames
-REM echo rclone delete "fcfgts_driveku_me:/" --max-depth 1 --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 999h  --transfers 16 --checkers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-skip-shortcuts
+echo rclone move "%maincloudaccount%:/" "%maincloudaccount%:/Files/" --max-depth 1 --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 999h  --transfers 16 --checkers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-skip-shortcuts
+REM echo rclone sync "%maincloudaccount%:/" "%maincloudaccount%:/Files/" --max-depth 1 --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 999h  --transfers 16 --checkers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-skip-shortcuts --track-renames
+REM echo rclone delete "%maincloudaccount%:/" --max-depth 1 --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 999h  --transfers 16 --checkers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --cutoff-mode=CAUTIOUS --drive-skip-shortcuts
 
 echo set "x=0"
 echo :i291111wdh2od9y189y389d
