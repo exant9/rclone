@@ -6,7 +6,7 @@ cd %userprofile%
 REM  JANGAN LUPA PAKE CALL DIDALEM LOOP BIASA
 
 REM  rclone copy A B
-REM  A nya gabakal pake usage
+REM  A nya gabakal pake kuota
 REM  15gb gausah di dump, udah ada di dump jyc1e4p
 
 
