@@ -2049,7 +2049,7 @@ echo     GOTO :i291111wdh2od9y2e2e189y389d23^)
 
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_40.bat"
 
-REM rclone ls "aaveusdt,shared_with_me:/jY1CJ1hE4P/" --transfers 30`f x x```````````00000 --checkers 3000000 --tpslimit 999999999999999999 --tpslimit-burst 999999999999999999 --drive-pacer-min-sleep 10ms --no-traverse
+REM rclone ls "aaveusdt,shared_with_me:/jY1CJ1hE4P/" --transfers 3000000 --checkers 3000000 --tpslimit 999999999999999999 --tpslimit-burst 999999999999999999 --drive-pacer-min-sleep 10ms --no-traverse
 
 
 
