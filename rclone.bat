@@ -44,7 +44,6 @@ set fldrv=aaveusdt_sg1/Selo/Selo,aaveusdt_sg1/Caca/Caca,aaveusdt_sg1/Anggun/Angg
 for %%u in ("%fldrv:,=" "%") do (
  	for /F "tokens=1,2 delims=/" %%e in ("%%~u") do (
 	rclone mkdir "%%e:/%%f/%%f"  -q  --max-duration 22h --low-level-retries 9999999999 --auto-confirm --no-traverse --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q  --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 999h  --use-mmap --max-backlog 3000000 --transfers 16 --checkers 16 --bwlimit 8650k --drive-allow-import-name-change  
-	rclone mkdir "%%e:/%%f/%%f"  -q  --max-duration 22h --low-level-retries 9999999999 --auto-confirm --no-traverse --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q  --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 999h  --use-mmap --max-backlog 3000000 --transfers 16 --checkers 16 --bwlimit 8650k --drive-allow-import-name-change  
 )
 )
 
