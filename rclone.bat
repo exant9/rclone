@@ -2029,14 +2029,24 @@ echo rclone sync "%acc%_sgdump%from%:/" "%acc%_sgdump%to%:/" --drive-skip-shortc
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_30.bat"
 
 
-set acc=budiberliam
+set acc=onom1470
 set from=3
 set to=4
 
 (
 echo cd %%userprofile%%
 echo rclone sync "%acc%_sgdump%from%:/" "%acc%_sgdump%to%:/" --drive-skip-shortcuts --drive-skip-dangling-shortcuts --drive-skip-dangling-shortcuts  --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --tpslimit 20 --tpslimit-burst 20 --drive-pacer-burst 200 --use-mmap --max-backlog 3000000  --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 999h  --use-mmap --max-backlog 3000000 --transfers 16 --checkers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --create-empty-src-dirs --cutoff-mode=CAUTIOUS  --track-renames  --drive-pacer-min-sleep 10ms --no-traverse
-)>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_30.bat"
+)>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_31.bat"
+
+
+set acc=kevinbruno644
+set from=4
+set to=5
+
+(
+echo cd %%userprofile%%
+echo rclone sync "%acc%_sgdump%from%:/" "%acc%_sgdump%to%:/" --drive-skip-shortcuts --drive-skip-dangling-shortcuts --drive-skip-dangling-shortcuts  --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --tpslimit 20 --tpslimit-burst 20 --drive-pacer-burst 200 --use-mmap --max-backlog 3000000  --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 999h  --use-mmap --max-backlog 3000000 --transfers 16 --checkers 16 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --create-empty-src-dirs --cutoff-mode=CAUTIOUS  --track-renames  --drive-pacer-min-sleep 10ms --no-traverse
+)>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_32.bat"
 
 
 
