@@ -90,6 +90,32 @@ echo ^)
 
 
 
+set mkpatha[0]=i
+
+set "x=0"
+:d1211112
+REM  loop
+if defined mkpatha[%x%] (
+
+rclone dedupe "aaveusdt_sg1:/" --no-traverse --max-depth 1 --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h -q --max-duration 22h  --drive-allow-import-name-change   
+rclone dedupe "renaave50_sg2:/" --no-traverse --max-depth 1 --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h -q --max-duration 22h  --drive-allow-import-name-change   
+rclone dedupe "renaave7_sg3:/" --no-traverse --max-depth 1 --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h -q --max-duration 22h  --drive-allow-import-name-change   
+rclone dedupe "oudhoh0050_sg4:/" --no-traverse --max-depth 1 --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h -q --max-duration 22h  --drive-allow-import-name-change   
+rclone dedupe "nkiux77509_sg5:/" --no-traverse --max-depth 1 --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h -q --max-duration 22h  --drive-allow-import-name-change   
+rclone dedupe "didrhj9036_sg6:/" --no-traverse --max-depth 1 --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h -q --max-duration 22h  --drive-allow-import-name-change   
+rclone dedupe "hjski8292882_sg7:/" --no-traverse --max-depth 1 --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h -q --max-duration 22h  --drive-allow-import-name-change   
+rclone dedupe "jsnwj84738_sg8:/" --no-traverse --max-depth 1 --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h -q --max-duration 22h  --drive-allow-import-name-change   
+rclone dedupe "ffdnsak8272793_sg9:/" --no-traverse --max-depth 1 --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h -q --max-duration 22h  --drive-allow-import-name-change   
+rclone dedupe "otipes7948_sg10:/" --no-traverse --max-depth 1 --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h -q --max-duration 22h  --drive-allow-import-name-change   
+
+    set /a "x+=1"
+    GOTO :d1211112
+)
+
+
+
+
+
 
 
 
