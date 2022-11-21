@@ -87,14 +87,14 @@ echo ^)
 
 
 
+cd %userprofile%
 
+REM set mkpatha[0]=i
 
-set mkpatha[0]=i
-
-set "x=0"
-:d1211112
-REM  loop
-if defined mkpatha[%x%] (
+REM set "x=0"
+REM :d1211112
+REM REM  loop
+REM if defined mkpatha[%x%] (
 
 rclone dedupe "aaveusdt_sg1:/" --no-traverse --max-depth 1 --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h -q --max-duration 22h  --drive-allow-import-name-change   
 rclone dedupe "renaave50_sg2:/" --no-traverse --max-depth 1 --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h -q --max-duration 22h  --drive-allow-import-name-change   
@@ -107,9 +107,9 @@ rclone dedupe "jsnwj84738_sg8:/" --no-traverse --max-depth 1 --auto-confirm --dr
 rclone dedupe "ffdnsak8272793_sg9:/" --no-traverse --max-depth 1 --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h -q --max-duration 22h  --drive-allow-import-name-change   
 rclone dedupe "otipes7948_sg10:/" --no-traverse --max-depth 1 --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h -q --max-duration 22h  --drive-allow-import-name-change   
 
-    set /a "x+=1"
-    GOTO :d1211112
-)
+    REM set /a "x+=1"
+    REM GOTO :d1211112
+REM )
 
 
 
