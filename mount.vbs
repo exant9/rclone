@@ -4,7 +4,7 @@ strpth = wshshell.CurrentDirectory
 strdrv = objFSO.GetDriveName(strpth)
 
 
-x = 200
+x = 2000
 
 
 v = 1
