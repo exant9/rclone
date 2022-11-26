@@ -43,7 +43,7 @@ set fldrv=aaveusdt_sg1/Selo/Selo,aaveusdt_sg1/Caca/Caca,aaveusdt_sg1/Anggun/Angg
 
 for %%u in ("%fldrv:,=" "%") do (
  	for /F "tokens=1,2 delims=/" %%e in ("%%~u") do (
-	REM rclone mkdir "%%e:/%%f/%%f"  -q --tpslimit 20 --tpslimit-burst 20 --drive-pacer-burst 200 --use-mmap --max-backlog 1600000   --transfers 20 --checkers 20 --max-duration 22h --low-level-retries 9999999999 --auto-confirm --no-traverse --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --tpslimit 20 --tpslimit-burst 20 --drive-pacer-burst 200 --use-mmap --max-backlog 1600000  --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 999h  --use-mmap --max-backlog 1600000 --transfers 20 --checkers 20 --bwlimit 8650k --drive-allow-import-name-change  
+	rclone mkdir "%%e:/%%f/%%f"  -q --tpslimit 20 --tpslimit-burst 20 --drive-pacer-burst 200 --use-mmap --max-backlog 1600000   --transfers 20 --checkers 20 --max-duration 22h --low-level-retries 9999999999 --auto-confirm --no-traverse --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --tpslimit 20 --tpslimit-burst 20 --drive-pacer-burst 200 --use-mmap --max-backlog 1600000  --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 999h  --use-mmap --max-backlog 1600000 --transfers 20 --checkers 20 --bwlimit 8650k --drive-allow-import-name-change  
 )
 )
 
