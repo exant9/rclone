@@ -2094,7 +2094,7 @@ echo rclone sync "%acc%_sgdump%from%:/" "%acc%_sgdump%to%:/" --min-age 300y --mi
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_32.bat"
 
 
-set acc=kevinbruno644
+set acc=jai2891k
 set from=5
 set to=6
 
@@ -2105,7 +2105,7 @@ echo rclone sync "%acc%_sgdump%from%:/" "%acc%_sgdump%to%:/" --min-age 300y --mi
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_33.bat"
 
 
-set acc=kevinbruno644
+set acc=haiakn9191
 set from=6
 set to=7
 
