@@ -2048,7 +2048,9 @@ echo     GOTO :i291111wdh2od9y189y389d^)
 
 
 
-REM  dump sync eachother
+
+
+REM  dump sync eachother shared drive srddrv
 
 set acc=bajangaldi28
 set from=1
@@ -2126,6 +2128,9 @@ echo rclone sync "%acc%_sgdump%from%:/" "%acc%_sgdump%to%:/" --drive-skip-shortc
 
 echo rclone sync "%acc%_sgdump%from%:/" "%acc%_sgdump%to%:/" --min-age 300y --min-size 6000G --create-empty-src-dirs --drive-skip-shortcuts --drive-skip-dangling-shortcuts --drive-skip-dangling-shortcuts --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --tpslimit 10000000 --tpslimit-burst 10000000 --drive-pacer-burst 200 --use-mmap --max-backlog 1600000 --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 999h --use-mmap --max-backlog 1600000 --transfers 30 --checkers 30 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G --create-empty-src-dirs --cutoff-mode=CAUTIOUS --track-renames --drive-pacer-min-sleep 10ms --no-traverse
 )>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_34.bat"
+
+
+
 
 
 
