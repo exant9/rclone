@@ -16,6 +16,8 @@ feel free to copy my work :)
 
 ❤️ Donations to the rclone project: https://rclone.org/donate/
 
+Help spread this project!
+
 
 
 
