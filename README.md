@@ -1,6 +1,6 @@
 # rclone
 rclone cronjobs with windows cmd + python for google drive server-side copy
-you can copy rclone flags in these scripts if your rclone scripts keeps failing
+\Nyou can copy rclone flags in these scripts if your rclone scripts keeps failing
 
 all of these scripts are meant to run in my home server
 
