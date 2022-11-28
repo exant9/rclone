@@ -1,4 +1,4 @@
-# rclone
+# ☁️♾️ rclone
 rclone cronjobs with windows cmd + python for google drive server-side copy
 
 copy rclone flags in these scripts if your rclone scripts keeps failing
@@ -10,7 +10,7 @@ feel free to copy my work :)
  
 
  
- #   Links
+ # 🔗 Links
  
 ☁️ Run Rclone in Google Colab: https://colab.research.google.com/drive/1jXtI_VrARYFgwIYGcgq4IFN_lUExL_7r?usp=sharing
 
