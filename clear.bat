@@ -142,6 +142,7 @@ echo.
 
 echo set fldr=Selo
 
+REM  create random file name for sending
 echo @echo off
 echo setlocal enabledelayedexpansion
 echo set "string=abcdefghijklmnop-q --ignore-errors --drive-pacer-min-sleep 10ms rstuvwxyz1234567890"
@@ -154,12 +155,14 @@ echo set randomid=%%randomid%%^!string:^~%%x%%,1^!
 echo goto :eof
 echo :l23234
 echo.
+REM  send to python
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
 echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h --q --ignore-errors --drive-pacer-min-sleep 10ms  --tpslimit 20 --tpslimit-burst 20  --use-mmap --max-backlog 1600000 --max-duration 22h --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
+REM  wait for file
 echo @echo off
 echo.
 echo :CheckForFile126
@@ -167,6 +170,7 @@ echo IF EXIST "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.tx
 echo TIMEOUT /T 1 ^>nul
 echo GOTO CheckForFile126
 echo.
+REM  file received, now loop the list then delete
 echo :FoundIt173
 echo @echo on
 echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt"
@@ -184,6 +188,7 @@ echo.
 
 echo set fldr=Caca
 
+REM  create random file name for sending
 echo @echo off
 echo setlocal enabledelayedexpansion
 echo set "string=abcdefghijklmnop-q --ignore-errors --drive-pacer-min-sleep 10ms rstuvwxyz1234567890"
@@ -196,18 +201,21 @@ echo set randomid=%%randomid%%^!string:^~%%x%%,1^!
 echo goto :eof
 echo :l23232
 echo.
+REM  send to python
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
 echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h --q --ignore-errors --drive-pacer-min-sleep 10ms  --tpslimit 20 --tpslimit-burst 20  --use-mmap --max-backlog 1600000 --max-duration 22h --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
+REM  wait for file
 echo @echo off
 echo.
 echo :CheckForFile1261
 echo IF EXIST "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt" GOTO FoundIt1731
 echo TIMEOUT /T 1 ^>nul
 echo GOTO CheckForFile1261
+REM  file received, now loop the list then delete
 echo :FoundIt1731
 echo @echo on
 echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt"
@@ -224,6 +232,7 @@ echo setlocal disabledelayedexpansion
 
 echo set fldr=Anggun
 
+REM  create random file name for sending
 echo @echo off
 echo setlocal enabledelayedexpansion
 echo set "string=abcdefghijklmnop-q --ignore-errors --drive-pacer-min-sleep 10ms rstuvwxyz1234567890"
@@ -236,12 +245,14 @@ echo set randomid=%%randomid%%^!string:^~%%x%%,1^!
 echo goto :eof
 echo :l23234
 echo.
+REM  send to python
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
 echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h --q --ignore-errors --drive-pacer-min-sleep 10ms  --tpslimit 20 --tpslimit-burst 20  --use-mmap --max-backlog 1600000 --max-duration 22h --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
+REM  wait for file
 echo @echo off
 echo.
 echo :CheckForFile126
@@ -249,6 +260,7 @@ echo IF EXIST "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.tx
 echo TIMEOUT /T 1 ^>nul
 echo GOTO CheckForFile126
 echo.
+REM  file received, now loop the list then delete
 echo :FoundIt173
 echo @echo on
 echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt"
@@ -265,6 +277,7 @@ echo setlocal disabledelayedexpansion
 
 echo set fldr=logs
 
+REM  create random file name for sending
 echo @echo off
 echo setlocal enabledelayedexpansion
 echo set "string=abcdefghijklmnop-q --ignore-errors --drive-pacer-min-sleep 10ms rstuvwxyz1234567890"
@@ -277,12 +290,14 @@ echo set randomid=%%randomid%%^!string:^~%%x%%,1^!
 echo goto :eof
 echo :l23234
 echo.
+REM  send to python
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
 echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h --q --ignore-errors --drive-pacer-min-sleep 10ms  --tpslimit 20 --tpslimit-burst 20  --use-mmap --max-backlog 1600000 --max-duration 22h --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
+REM  wait for file
 echo @echo off
 echo.
 echo :CheckForFile126
@@ -290,6 +305,7 @@ echo IF EXIST "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.tx
 echo TIMEOUT /T 1 ^>nul
 echo GOTO CheckForFile126
 echo.
+REM  file received, now loop the list then delete
 echo :FoundIt173
 echo @echo on
 echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt"
@@ -306,6 +322,7 @@ echo setlocal disabledelayedexpansion
 
 echo set fldr=Family
 
+REM  create random file name for sending
 echo @echo off
 echo setlocal enabledelayedexpansion
 echo set "string=abcdefghijklmnop-q --ignore-errors --drive-pacer-min-sleep 10ms rstuvwxyz1234567890"
@@ -318,12 +335,14 @@ echo set randomid=%%randomid%%^!string:^~%%x%%,1^!
 echo goto :eof
 echo :l23234
 echo.
+REM  send to python
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
 echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h --q --ignore-errors --drive-pacer-min-sleep 10ms  --tpslimit 20 --tpslimit-burst 20  --use-mmap --max-backlog 1600000 --max-duration 22h --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
+REM  wait for file
 echo @echo off
 echo.
 echo :CheckForFile126
@@ -331,6 +350,7 @@ echo IF EXIST "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.tx
 echo TIMEOUT /T 1 ^>nul
 echo GOTO CheckForFile126
 echo.
+REM  file received, now loop the list then delete
 echo :FoundIt173
 echo @echo on
 echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt"
@@ -364,6 +384,7 @@ echo.
 
 echo set fldr=Selo
 
+REM  create random file name for sending
 echo @echo off
 echo setlocal enabledelayedexpansion
 echo set "string=abcdefghijklmnop-q --ignore-errors --drive-pacer-min-sleep 10ms rstuvwxyz1234567890"
@@ -376,12 +397,14 @@ echo set randomid=%%randomid%%^!string:^~%%x%%,1^!
 echo goto :eof
 echo :l23234
 echo.
+REM  send to python
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
 echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h --q --ignore-errors --drive-pacer-min-sleep 10ms  --tpslimit 20 --tpslimit-burst 20  --use-mmap --max-backlog 1600000 --max-duration 22h --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
+REM  wait for file
 echo @echo off
 echo.
 echo :CheckForFile126
@@ -389,6 +412,7 @@ echo IF EXIST "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.tx
 echo TIMEOUT /T 1 ^>nul
 echo GOTO CheckForFile126
 echo.
+REM  file received, now loop the list then delete
 echo :FoundIt173
 echo @echo on
 echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt"
@@ -409,6 +433,7 @@ echo.
 
 echo set fldr=Caca
 
+REM  create random file name for sending
 echo @echo off
 echo setlocal enabledelayedexpansion
 echo set "string=abcdefghijklmnop-q --ignore-errors --drive-pacer-min-sleep 10ms rstuvwxyz1234567890"
@@ -427,12 +452,14 @@ echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
+REM  wait for file
 echo @echo off
 echo.
 echo :CheckForFile1261
 echo IF EXIST "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt" GOTO FoundIt1731
 echo TIMEOUT /T 1 ^>nul
 echo GOTO CheckForFile1261
+REM  file received, now loop the list then delete
 echo :FoundIt1731
 echo @echo on
 echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt"
@@ -449,6 +476,7 @@ echo setlocal disabledelayedexpansion
 
 echo set fldr=Anggun
 
+REM  create random file name for sending
 echo @echo off
 echo setlocal enabledelayedexpansion
 echo set "string=abcdefghijklmnop-q --ignore-errors --drive-pacer-min-sleep 10ms rstuvwxyz1234567890"
@@ -461,12 +489,14 @@ echo set randomid=%%randomid%%^!string:^~%%x%%,1^!
 echo goto :eof
 echo :l23234
 echo.
+REM  send to python
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
 echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h --q --ignore-errors --drive-pacer-min-sleep 10ms  --tpslimit 20 --tpslimit-burst 20  --use-mmap --max-backlog 1600000 --max-duration 22h --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
+REM  wait for file
 echo @echo off
 echo.
 echo :CheckForFile126
@@ -474,6 +504,7 @@ echo IF EXIST "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.tx
 echo TIMEOUT /T 1 ^>nul
 echo GOTO CheckForFile126
 echo.
+REM  file received, now loop the list then delete
 echo :FoundIt173
 echo @echo on
 echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt"
@@ -490,6 +521,7 @@ echo setlocal disabledelayedexpansion
 
 echo set fldr=logs
 
+REM  create random file name for sending
 echo @echo off
 echo setlocal enabledelayedexpansion
 echo set "string=abcdefghijklmnop-q --ignore-errors --drive-pacer-min-sleep 10ms rstuvwxyz1234567890"
@@ -502,12 +534,14 @@ echo set randomid=%%randomid%%^!string:^~%%x%%,1^!
 echo goto :eof
 echo :l23234
 echo.
+REM  send to python
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
 echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h --q --ignore-errors --drive-pacer-min-sleep 10ms  --tpslimit 20 --tpslimit-burst 20  --use-mmap --max-backlog 1600000 --max-duration 22h --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
+REM  wait for file
 echo @echo off
 echo.
 echo :CheckForFile126
@@ -515,6 +549,7 @@ echo IF EXIST "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.tx
 echo TIMEOUT /T 1 ^>nul
 echo GOTO CheckForFile126
 echo.
+REM  file received, now loop the list then delete
 echo :FoundIt173
 echo @echo on
 echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt"
@@ -531,6 +566,7 @@ echo setlocal disabledelayedexpansion
 
 echo set fldr=Family
 
+REM  create random file name for sending
 echo @echo off
 echo setlocal enabledelayedexpansion
 echo set "string=abcdefghijklmnop-q --ignore-errors --drive-pacer-min-sleep 10ms rstuvwxyz1234567890"
@@ -543,12 +579,14 @@ echo set randomid=%%randomid%%^!string:^~%%x%%,1^!
 echo goto :eof
 echo :l23234
 echo.
+REM  send to python
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
 echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h --q --ignore-errors --drive-pacer-min-sleep 10ms  --tpslimit 20 --tpslimit-burst 20  --use-mmap --max-backlog 1600000 --max-duration 22h --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
+REM  wait for file
 echo @echo off
 echo.
 echo :CheckForFile126
@@ -556,6 +594,7 @@ echo IF EXIST "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.tx
 echo TIMEOUT /T 1 ^>nul
 echo GOTO CheckForFile126
 echo.
+REM  file received, now loop the list then delete
 echo :FoundIt173
 echo @echo on
 echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt"
@@ -588,6 +627,7 @@ echo.
 
 echo set fldr=Selo
 
+REM  create random file name for sending
 echo @echo off
 echo setlocal enabledelayedexpansion
 echo set "string=abcdefghijklmnop-q --ignore-errors --drive-pacer-min-sleep 10ms rstuvwxyz1234567890"
@@ -600,12 +640,14 @@ echo set randomid=%%randomid%%^!string:^~%%x%%,1^!
 echo goto :eof
 echo :l23234
 echo.
+REM  send to python
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
 echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h --q --ignore-errors --drive-pacer-min-sleep 10ms  --tpslimit 20 --tpslimit-burst 20  --use-mmap --max-backlog 1600000 --max-duration 22h --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
+REM  wait for file
 echo @echo off
 echo.
 echo :CheckForFile126
@@ -613,6 +655,7 @@ echo IF EXIST "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.tx
 echo TIMEOUT /T 1 ^>nul
 echo GOTO CheckForFile126
 echo.
+REM  file received, now loop the list then delete
 echo :FoundIt173
 echo @echo on
 echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt"
@@ -633,6 +676,7 @@ echo.
 
 echo set fldr=Caca
 
+REM  create random file name for sending
 echo @echo off
 echo setlocal enabledelayedexpansion
 echo set "string=abcdefghijklmnop-q --ignore-errors --drive-pacer-min-sleep 10ms rstuvwxyz1234567890"
@@ -651,12 +695,14 @@ echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
+REM  wait for file
 echo @echo off
 echo.
 echo :CheckForFile1261
 echo IF EXIST "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt" GOTO FoundIt1731
 echo TIMEOUT /T 1 ^>nul
 echo GOTO CheckForFile1261
+REM  file received, now loop the list then delete
 echo :FoundIt1731
 echo @echo on
 echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt"
@@ -673,6 +719,7 @@ echo setlocal disabledelayedexpansion
 
 echo set fldr=Anggun
 
+REM  create random file name for sending
 echo @echo off
 echo setlocal enabledelayedexpansion
 echo set "string=abcdefghijklmnop-q --ignore-errors --drive-pacer-min-sleep 10ms rstuvwxyz1234567890"
@@ -685,12 +732,14 @@ echo set randomid=%%randomid%%^!string:^~%%x%%,1^!
 echo goto :eof
 echo :l23234
 echo.
+REM  send to python
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
 echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h --q --ignore-errors --drive-pacer-min-sleep 10ms  --tpslimit 20 --tpslimit-burst 20  --use-mmap --max-backlog 1600000 --max-duration 22h --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
+REM  wait for file
 echo @echo off
 echo.
 echo :CheckForFile126
@@ -698,6 +747,7 @@ echo IF EXIST "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.tx
 echo TIMEOUT /T 1 ^>nul
 echo GOTO CheckForFile126
 echo.
+REM  file received, now loop the list then delete
 echo :FoundIt173
 echo @echo on
 echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt"
@@ -714,6 +764,7 @@ echo setlocal disabledelayedexpansion
 
 echo set fldr=logs
 
+REM  create random file name for sending
 echo @echo off
 echo setlocal enabledelayedexpansion
 echo set "string=abcdefghijklmnop-q --ignore-errors --drive-pacer-min-sleep 10ms rstuvwxyz1234567890"
@@ -726,12 +777,14 @@ echo set randomid=%%randomid%%^!string:^~%%x%%,1^!
 echo goto :eof
 echo :l23234
 echo.
+REM  send to python
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
 echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h --q --ignore-errors --drive-pacer-min-sleep 10ms  --tpslimit 20 --tpslimit-burst 20  --use-mmap --max-backlog 1600000 --max-duration 22h --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
+REM  wait for file
 echo @echo off
 echo.
 echo :CheckForFile126
@@ -739,6 +792,7 @@ echo IF EXIST "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.tx
 echo TIMEOUT /T 1 ^>nul
 echo GOTO CheckForFile126
 echo.
+REM  file received, now loop the list then delete
 echo :FoundIt173
 echo @echo on
 echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt"
@@ -755,6 +809,7 @@ echo setlocal disabledelayedexpansion
 
 echo set fldr=Family
 
+REM  create random file name for sending
 echo @echo off
 echo setlocal enabledelayedexpansion
 echo set "string=abcdefghijklmnop-q --ignore-errors --drive-pacer-min-sleep 10ms rstuvwxyz1234567890"
@@ -767,12 +822,14 @@ echo set randomid=%%randomid%%^!string:^~%%x%%,1^!
 echo goto :eof
 echo :l23234
 echo.
+REM  send to python
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
 echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h --q --ignore-errors --drive-pacer-min-sleep 10ms  --tpslimit 20 --tpslimit-burst 20  --use-mmap --max-backlog 1600000 --max-duration 22h --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
+REM  wait for file
 echo @echo off
 echo.
 echo :CheckForFile126
@@ -780,6 +837,7 @@ echo IF EXIST "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.tx
 echo TIMEOUT /T 1 ^>nul
 echo GOTO CheckForFile126
 echo.
+REM  file received, now loop the list then delete
 echo :FoundIt173
 echo @echo on
 echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt"
@@ -821,6 +879,7 @@ echo.
 
 echo set fldr=Selo
 
+REM  create random file name for sending
 echo @echo off
 echo setlocal enabledelayedexpansion
 echo set "string=abcdefghijklmnop-q --ignore-errors --drive-pacer-min-sleep 10ms rstuvwxyz1234567890"
@@ -833,12 +892,14 @@ echo set randomid=%%randomid%%^!string:^~%%x%%,1^!
 echo goto :eof
 echo :l23234
 echo.
+REM  send to python
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
 echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h --q --ignore-errors --drive-pacer-min-sleep 10ms  --tpslimit 20 --tpslimit-burst 20  --use-mmap --max-backlog 1600000 --max-duration 22h --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
+REM  wait for file
 echo @echo off
 echo.
 echo :CheckForFile126
@@ -846,6 +907,7 @@ echo IF EXIST "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.tx
 echo TIMEOUT /T 1 ^>nul
 echo GOTO CheckForFile126
 echo.
+REM  file received, now loop the list then delete
 echo :FoundIt173
 echo @echo on
 echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt"
@@ -866,6 +928,7 @@ echo.
 
 echo set fldr=Caca
 
+REM  create random file name for sending
 echo @echo off
 echo setlocal enabledelayedexpansion
 echo set "string=abcdefghijklmnop-q --ignore-errors --drive-pacer-min-sleep 10ms rstuvwxyz1234567890"
@@ -884,12 +947,14 @@ echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
+REM  wait for file
 echo @echo off
 echo.
 echo :CheckForFile1261
 echo IF EXIST "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt" GOTO FoundIt1731
 echo TIMEOUT /T 1 ^>nul
 echo GOTO CheckForFile1261
+REM  file received, now loop the list then delete
 echo :FoundIt1731
 echo @echo on
 echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt"
@@ -906,6 +971,7 @@ echo setlocal disabledelayedexpansion
 
 echo set fldr=Anggun
 
+REM  create random file name for sending
 echo @echo off
 echo setlocal enabledelayedexpansion
 echo set "string=abcdefghijklmnop-q --ignore-errors --drive-pacer-min-sleep 10ms rstuvwxyz1234567890"
@@ -918,12 +984,14 @@ echo set randomid=%%randomid%%^!string:^~%%x%%,1^!
 echo goto :eof
 echo :l23234
 echo.
+REM  send to python
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
 echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h --q --ignore-errors --drive-pacer-min-sleep 10ms  --tpslimit 20 --tpslimit-burst 20  --use-mmap --max-backlog 1600000 --max-duration 22h --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
+REM  wait for file
 echo @echo off
 echo.
 echo :CheckForFile126
@@ -931,6 +999,7 @@ echo IF EXIST "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.tx
 echo TIMEOUT /T 1 ^>nul
 echo GOTO CheckForFile126
 echo.
+REM  file received, now loop the list then delete
 echo :FoundIt173
 echo @echo on
 echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt"
@@ -947,6 +1016,7 @@ echo setlocal disabledelayedexpansion
 
 echo set fldr=logs
 
+REM  create random file name for sending
 echo @echo off
 echo setlocal enabledelayedexpansion
 echo set "string=abcdefghijklmnop-q --ignore-errors --drive-pacer-min-sleep 10ms rstuvwxyz1234567890"
@@ -959,12 +1029,14 @@ echo set randomid=%%randomid%%^!string:^~%%x%%,1^!
 echo goto :eof
 echo :l23234
 echo.
+REM  send to python
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
 echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h --q --ignore-errors --drive-pacer-min-sleep 10ms  --tpslimit 20 --tpslimit-burst 20  --use-mmap --max-backlog 1600000 --max-duration 22h --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
+REM  wait for file
 echo @echo off
 echo.
 echo :CheckForFile126
@@ -972,6 +1044,7 @@ echo IF EXIST "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.tx
 echo TIMEOUT /T 1 ^>nul
 echo GOTO CheckForFile126
 echo.
+REM  file received, now loop the list then delete
 echo :FoundIt173
 echo @echo on
 echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt"
@@ -988,6 +1061,7 @@ echo setlocal disabledelayedexpansion
 
 echo set fldr=Family
 
+REM  create random file name for sending
 echo @echo off
 echo setlocal enabledelayedexpansion
 echo set "string=abcdefghijklmnop-q --ignore-errors --drive-pacer-min-sleep 10ms rstuvwxyz1234567890"
@@ -1000,12 +1074,14 @@ echo set randomid=%%randomid%%^!string:^~%%x%%,1^!
 echo goto :eof
 echo :l23234
 echo.
+REM  send to python
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
 echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h --q --ignore-errors --drive-pacer-min-sleep 10ms  --tpslimit 20 --tpslimit-burst 20  --use-mmap --max-backlog 1600000 --max-duration 22h --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
+REM  wait for file
 echo @echo off
 echo.
 echo :CheckForFile126
@@ -1013,6 +1089,7 @@ echo IF EXIST "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.tx
 echo TIMEOUT /T 1 ^>nul
 echo GOTO CheckForFile126
 echo.
+REM  file received, now loop the list then delete
 echo :FoundIt173
 echo @echo on
 echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt"
@@ -1054,6 +1131,7 @@ echo.
 
 echo set fldr=Selo
 
+REM  create random file name for sending
 echo @echo off
 echo setlocal enabledelayedexpansion
 echo set "string=abcdefghijklmnop-q --ignore-errors --drive-pacer-min-sleep 10ms rstuvwxyz1234567890"
@@ -1066,12 +1144,14 @@ echo set randomid=%%randomid%%^!string:^~%%x%%,1^!
 echo goto :eof
 echo :l23234
 echo.
+REM  send to python
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
 echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h --q --ignore-errors --drive-pacer-min-sleep 10ms  --tpslimit 20 --tpslimit-burst 20  --use-mmap --max-backlog 1600000 --max-duration 22h --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
+REM  wait for file
 echo @echo off
 echo.
 echo :CheckForFile126
@@ -1079,6 +1159,7 @@ echo IF EXIST "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.tx
 echo TIMEOUT /T 1 ^>nul
 echo GOTO CheckForFile126
 echo.
+REM  file received, now loop the list then delete
 echo :FoundIt173
 echo @echo on
 echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt"
@@ -1099,6 +1180,7 @@ echo.
 
 echo set fldr=Caca
 
+REM  create random file name for sending
 echo @echo off
 echo setlocal enabledelayedexpansion
 echo set "string=abcdefghijklmnop-q --ignore-errors --drive-pacer-min-sleep 10ms rstuvwxyz1234567890"
@@ -1117,12 +1199,14 @@ echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
+REM  wait for file
 echo @echo off
 echo.
 echo :CheckForFile1261
 echo IF EXIST "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt" GOTO FoundIt1731
 echo TIMEOUT /T 1 ^>nul
 echo GOTO CheckForFile1261
+REM  file received, now loop the list then delete
 echo :FoundIt1731
 echo @echo on
 echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt"
@@ -1139,6 +1223,7 @@ echo setlocal disabledelayedexpansion
 
 echo set fldr=Anggun
 
+REM  create random file name for sending
 echo @echo off
 echo setlocal enabledelayedexpansion
 echo set "string=abcdefghijklmnop-q --ignore-errors --drive-pacer-min-sleep 10ms rstuvwxyz1234567890"
@@ -1151,12 +1236,14 @@ echo set randomid=%%randomid%%^!string:^~%%x%%,1^!
 echo goto :eof
 echo :l23234
 echo.
+REM  send to python
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
 echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h --q --ignore-errors --drive-pacer-min-sleep 10ms  --tpslimit 20 --tpslimit-burst 20  --use-mmap --max-backlog 1600000 --max-duration 22h --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
+REM  wait for file
 echo @echo off
 echo.
 echo :CheckForFile126
@@ -1164,6 +1251,7 @@ echo IF EXIST "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.tx
 echo TIMEOUT /T 1 ^>nul
 echo GOTO CheckForFile126
 echo.
+REM  file received, now loop the list then delete
 echo :FoundIt173
 echo @echo on
 echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt"
@@ -1180,6 +1268,7 @@ echo setlocal disabledelayedexpansion
 
 echo set fldr=logs
 
+REM  create random file name for sending
 echo @echo off
 echo setlocal enabledelayedexpansion
 echo set "string=abcdefghijklmnop-q --ignore-errors --drive-pacer-min-sleep 10ms rstuvwxyz1234567890"
@@ -1192,12 +1281,14 @@ echo set randomid=%%randomid%%^!string:^~%%x%%,1^!
 echo goto :eof
 echo :l23234
 echo.
+REM  send to python
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
 echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h --q --ignore-errors --drive-pacer-min-sleep 10ms  --tpslimit 20 --tpslimit-burst 20  --use-mmap --max-backlog 1600000 --max-duration 22h --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
+REM  wait for file
 echo @echo off
 echo.
 echo :CheckForFile126
@@ -1205,6 +1296,7 @@ echo IF EXIST "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.tx
 echo TIMEOUT /T 1 ^>nul
 echo GOTO CheckForFile126
 echo.
+REM  file received, now loop the list then delete
 echo :FoundIt173
 echo @echo on
 echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt"
@@ -1221,6 +1313,7 @@ echo setlocal disabledelayedexpansion
 
 echo set fldr=Family
 
+REM  create random file name for sending
 echo @echo off
 echo setlocal enabledelayedexpansion
 echo set "string=abcdefghijklmnop-q --ignore-errors --drive-pacer-min-sleep 10ms rstuvwxyz1234567890"
@@ -1233,12 +1326,14 @@ echo set randomid=%%randomid%%^!string:^~%%x%%,1^!
 echo goto :eof
 echo :l23234
 echo.
+REM  send to python
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
 echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h --q --ignore-errors --drive-pacer-min-sleep 10ms  --tpslimit 20 --tpslimit-burst 20  --use-mmap --max-backlog 1600000 --max-duration 22h --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
+REM  wait for file
 echo @echo off
 echo.
 echo :CheckForFile126
@@ -1246,6 +1341,7 @@ echo IF EXIST "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.tx
 echo TIMEOUT /T 1 ^>nul
 echo GOTO CheckForFile126
 echo.
+REM  file received, now loop the list then delete
 echo :FoundIt173
 echo @echo on
 echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt"
@@ -1286,6 +1382,7 @@ echo.
 
 echo set fldr=Selo
 
+REM  create random file name for sending
 echo @echo off
 echo setlocal enabledelayedexpansion
 echo set "string=abcdefghijklmnop-q --ignore-errors --drive-pacer-min-sleep 10ms rstuvwxyz1234567890"
@@ -1298,12 +1395,14 @@ echo set randomid=%%randomid%%^!string:^~%%x%%,1^!
 echo goto :eof
 echo :l23234
 echo.
+REM  send to python
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
 echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h --q --ignore-errors --drive-pacer-min-sleep 10ms  --tpslimit 20 --tpslimit-burst 20  --use-mmap --max-backlog 1600000 --max-duration 22h --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
+REM  wait for file
 echo @echo off
 echo.
 echo :CheckForFile126
@@ -1311,6 +1410,7 @@ echo IF EXIST "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.tx
 echo TIMEOUT /T 1 ^>nul
 echo GOTO CheckForFile126
 echo.
+REM  file received, now loop the list then delete
 echo :FoundIt173
 echo @echo on
 echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt"
@@ -1331,6 +1431,7 @@ echo.
 
 echo set fldr=Caca
 
+REM  create random file name for sending
 echo @echo off
 echo setlocal enabledelayedexpansion
 echo set "string=abcdefghijklmnop-q --ignore-errors --drive-pacer-min-sleep 10ms rstuvwxyz1234567890"
@@ -1349,12 +1450,14 @@ echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
+REM  wait for file
 echo @echo off
 echo.
 echo :CheckForFile1261
 echo IF EXIST "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt" GOTO FoundIt1731
 echo TIMEOUT /T 1 ^>nul
 echo GOTO CheckForFile1261
+REM  file received, now loop the list then delete
 echo :FoundIt1731
 echo @echo on
 echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt"
@@ -1371,6 +1474,7 @@ echo setlocal disabledelayedexpansion
 
 echo set fldr=Anggun
 
+REM  create random file name for sending
 echo @echo off
 echo setlocal enabledelayedexpansion
 echo set "string=abcdefghijklmnop-q --ignore-errors --drive-pacer-min-sleep 10ms rstuvwxyz1234567890"
@@ -1383,12 +1487,14 @@ echo set randomid=%%randomid%%^!string:^~%%x%%,1^!
 echo goto :eof
 echo :l23234
 echo.
+REM  send to python
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
 echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h --q --ignore-errors --drive-pacer-min-sleep 10ms  --tpslimit 20 --tpslimit-burst 20  --use-mmap --max-backlog 1600000 --max-duration 22h --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
+REM  wait for file
 echo @echo off
 echo.
 echo :CheckForFile126
@@ -1396,6 +1502,7 @@ echo IF EXIST "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.tx
 echo TIMEOUT /T 1 ^>nul
 echo GOTO CheckForFile126
 echo.
+REM  file received, now loop the list then delete
 echo :FoundIt173
 echo @echo on
 echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt"
@@ -1412,6 +1519,7 @@ echo setlocal disabledelayedexpansion
 
 echo set fldr=logs
 
+REM  create random file name for sending
 echo @echo off
 echo setlocal enabledelayedexpansion
 echo set "string=abcdefghijklmnop-q --ignore-errors --drive-pacer-min-sleep 10ms rstuvwxyz1234567890"
@@ -1424,12 +1532,14 @@ echo set randomid=%%randomid%%^!string:^~%%x%%,1^!
 echo goto :eof
 echo :l23234
 echo.
+REM  send to python
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
 echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h --q --ignore-errors --drive-pacer-min-sleep 10ms  --tpslimit 20 --tpslimit-burst 20  --use-mmap --max-backlog 1600000 --max-duration 22h --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
+REM  wait for file
 echo @echo off
 echo.
 echo :CheckForFile126
@@ -1437,6 +1547,7 @@ echo IF EXIST "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.tx
 echo TIMEOUT /T 1 ^>nul
 echo GOTO CheckForFile126
 echo.
+REM  file received, now loop the list then delete
 echo :FoundIt173
 echo @echo on
 echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt"
@@ -1453,6 +1564,7 @@ echo setlocal disabledelayedexpansion
 
 echo set fldr=Family
 
+REM  create random file name for sending
 echo @echo off
 echo setlocal enabledelayedexpansion
 echo set "string=abcdefghijklmnop-q --ignore-errors --drive-pacer-min-sleep 10ms rstuvwxyz1234567890"
@@ -1465,12 +1577,14 @@ echo set randomid=%%randomid%%^!string:^~%%x%%,1^!
 echo goto :eof
 echo :l23234
 echo.
+REM  send to python
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
 echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h --q --ignore-errors --drive-pacer-min-sleep 10ms  --tpslimit 20 --tpslimit-burst 20  --use-mmap --max-backlog 1600000 --max-duration 22h --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
+REM  wait for file
 echo @echo off
 echo.
 echo :CheckForFile126
@@ -1478,6 +1592,7 @@ echo IF EXIST "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.tx
 echo TIMEOUT /T 1 ^>nul
 echo GOTO CheckForFile126
 echo.
+REM  file received, now loop the list then delete
 echo :FoundIt173
 echo @echo on
 echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt"
@@ -1519,6 +1634,7 @@ echo.
 
 echo set fldr=Selo
 
+REM  create random file name for sending
 echo @echo off
 echo setlocal enabledelayedexpansion
 echo set "string=abcdefghijklmnop-q --ignore-errors --drive-pacer-min-sleep 10ms rstuvwxyz1234567890"
@@ -1531,12 +1647,14 @@ echo set randomid=%%randomid%%^!string:^~%%x%%,1^!
 echo goto :eof
 echo :l23234
 echo.
+REM  send to python
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
 echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h --q --ignore-errors --drive-pacer-min-sleep 10ms  --tpslimit 20 --tpslimit-burst 20  --use-mmap --max-backlog 1600000 --max-duration 22h --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
+REM  wait for file
 echo @echo off
 echo.
 echo :CheckForFile126
@@ -1544,6 +1662,7 @@ echo IF EXIST "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.tx
 echo TIMEOUT /T 1 ^>nul
 echo GOTO CheckForFile126
 echo.
+REM  file received, now loop the list then delete
 echo :FoundIt173
 echo @echo on
 echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt"
@@ -1564,6 +1683,7 @@ echo.
 
 echo set fldr=Caca
 
+REM  create random file name for sending
 echo @echo off
 echo setlocal enabledelayedexpansion
 echo set "string=abcdefghijklmnop-q --ignore-errors --drive-pacer-min-sleep 10ms rstuvwxyz1234567890"
@@ -1582,12 +1702,14 @@ echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
+REM  wait for file
 echo @echo off
 echo.
 echo :CheckForFile1261
 echo IF EXIST "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt" GOTO FoundIt1731
 echo TIMEOUT /T 1 ^>nul
 echo GOTO CheckForFile1261
+REM  file received, now loop the list then delete
 echo :FoundIt1731
 echo @echo on
 echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt"
@@ -1604,6 +1726,7 @@ echo setlocal disabledelayedexpansion
 
 echo set fldr=Anggun
 
+REM  create random file name for sending
 echo @echo off
 echo setlocal enabledelayedexpansion
 echo set "string=abcdefghijklmnop-q --ignore-errors --drive-pacer-min-sleep 10ms rstuvwxyz1234567890"
@@ -1616,12 +1739,14 @@ echo set randomid=%%randomid%%^!string:^~%%x%%,1^!
 echo goto :eof
 echo :l23234
 echo.
+REM  send to python
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
 echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h --q --ignore-errors --drive-pacer-min-sleep 10ms  --tpslimit 20 --tpslimit-burst 20  --use-mmap --max-backlog 1600000 --max-duration 22h --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
+REM  wait for file
 echo @echo off
 echo.
 echo :CheckForFile126
@@ -1629,6 +1754,7 @@ echo IF EXIST "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.tx
 echo TIMEOUT /T 1 ^>nul
 echo GOTO CheckForFile126
 echo.
+REM  file received, now loop the list then delete
 echo :FoundIt173
 echo @echo on
 echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt"
@@ -1645,6 +1771,7 @@ echo setlocal disabledelayedexpansion
 
 echo set fldr=logs
 
+REM  create random file name for sending
 echo @echo off
 echo setlocal enabledelayedexpansion
 echo set "string=abcdefghijklmnop-q --ignore-errors --drive-pacer-min-sleep 10ms rstuvwxyz1234567890"
@@ -1657,12 +1784,14 @@ echo set randomid=%%randomid%%^!string:^~%%x%%,1^!
 echo goto :eof
 echo :l23234
 echo.
+REM  send to python
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
 echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h --q --ignore-errors --drive-pacer-min-sleep 10ms  --tpslimit 20 --tpslimit-burst 20  --use-mmap --max-backlog 1600000 --max-duration 22h --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
+REM  wait for file
 echo @echo off
 echo.
 echo :CheckForFile126
@@ -1670,6 +1799,7 @@ echo IF EXIST "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.tx
 echo TIMEOUT /T 1 ^>nul
 echo GOTO CheckForFile126
 echo.
+REM  file received, now loop the list then delete
 echo :FoundIt173
 echo @echo on
 echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt"
@@ -1686,6 +1816,7 @@ echo setlocal disabledelayedexpansion
 
 echo set fldr=Family
 
+REM  create random file name for sending
 echo @echo off
 echo setlocal enabledelayedexpansion
 echo set "string=abcdefghijklmnop-q --ignore-errors --drive-pacer-min-sleep 10ms rstuvwxyz1234567890"
@@ -1698,12 +1829,14 @@ echo set randomid=%%randomid%%^!string:^~%%x%%,1^!
 echo goto :eof
 echo :l23234
 echo.
+REM  send to python
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
 echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h --q --ignore-errors --drive-pacer-min-sleep 10ms  --tpslimit 20 --tpslimit-burst 20  --use-mmap --max-backlog 1600000 --max-duration 22h --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
+REM  wait for file
 echo @echo off
 echo.
 echo :CheckForFile126
@@ -1711,6 +1844,7 @@ echo IF EXIST "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.tx
 echo TIMEOUT /T 1 ^>nul
 echo GOTO CheckForFile126
 echo.
+REM  file received, now loop the list then delete
 echo :FoundIt173
 echo @echo on
 echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt"
@@ -1752,6 +1886,7 @@ echo.
 
 echo set fldr=Selo
 
+REM  create random file name for sending
 echo @echo off
 echo setlocal enabledelayedexpansion
 echo set "string=abcdefghijklmnop-q --ignore-errors --drive-pacer-min-sleep 10ms rstuvwxyz1234567890"
@@ -1770,6 +1905,7 @@ echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
+REM  wait for file
 echo @echo off
 echo.
 echo :CheckForFile126
@@ -1777,6 +1913,7 @@ echo IF EXIST "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.tx
 echo TIMEOUT /T 1 ^>nul
 echo GOTO CheckForFile126
 echo.
+REM  file received, now loop the list then delete
 echo :FoundIt173
 echo @echo on
 echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt"
@@ -1797,6 +1934,7 @@ echo.
 
 echo set fldr=Caca
 
+REM  create random file name for sending
 echo @echo off
 echo setlocal enabledelayedexpansion
 echo set "string=abcdefghijklmnop-q --ignore-errors --drive-pacer-min-sleep 10ms rstuvwxyz1234567890"
@@ -1815,12 +1953,14 @@ echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
+REM  wait for file
 echo @echo off
 echo.
 echo :CheckForFile1261
 echo IF EXIST "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt" GOTO FoundIt1731
 echo TIMEOUT /T 1 ^>nul
 echo GOTO CheckForFile1261
+REM  file received, now loop the list then delete
 echo :FoundIt1731
 echo @echo on
 echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt"
@@ -1837,6 +1977,7 @@ echo setlocal disabledelayedexpansion
 
 echo set fldr=Anggun
 
+REM  create random file name for sending
 echo @echo off
 echo setlocal enabledelayedexpansion
 echo set "string=abcdefghijklmnop-q --ignore-errors --drive-pacer-min-sleep 10ms rstuvwxyz1234567890"
@@ -1849,12 +1990,14 @@ echo set randomid=%%randomid%%^!string:^~%%x%%,1^!
 echo goto :eof
 echo :l23234
 echo.
+REM  send to python
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
 echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h --q --ignore-errors --drive-pacer-min-sleep 10ms  --tpslimit 20 --tpslimit-burst 20  --use-mmap --max-backlog 1600000 --max-duration 22h --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
+REM  wait for file
 echo @echo off
 echo.
 echo :CheckForFile126
@@ -1862,6 +2005,7 @@ echo IF EXIST "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.tx
 echo TIMEOUT /T 1 ^>nul
 echo GOTO CheckForFile126
 echo.
+REM  file received, now loop the list then delete
 echo :FoundIt173
 echo @echo on
 echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt"
@@ -1878,6 +2022,7 @@ echo setlocal disabledelayedexpansion
 
 echo set fldr=logs
 
+REM  create random file name for sending
 echo @echo off
 echo setlocal enabledelayedexpansion
 echo set "string=abcdefghijklmnop-q --ignore-errors --drive-pacer-min-sleep 10ms rstuvwxyz1234567890"
@@ -1890,12 +2035,14 @@ echo set randomid=%%randomid%%^!string:^~%%x%%,1^!
 echo goto :eof
 echo :l23234
 echo.
+REM  send to python
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
 echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h --q --ignore-errors --drive-pacer-min-sleep 10ms  --tpslimit 20 --tpslimit-burst 20  --use-mmap --max-backlog 1600000 --max-duration 22h --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
+REM  wait for file
 echo @echo off
 echo.
 echo :CheckForFile126
@@ -1903,6 +2050,7 @@ echo IF EXIST "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.tx
 echo TIMEOUT /T 1 ^>nul
 echo GOTO CheckForFile126
 echo.
+REM  file received, now loop the list then delete
 echo :FoundIt173
 echo @echo on
 echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt"
@@ -1919,6 +2067,7 @@ echo setlocal disabledelayedexpansion
 
 echo set fldr=Family
 
+REM  create random file name for sending
 echo @echo off
 echo setlocal enabledelayedexpansion
 echo set "string=abcdefghijklmnop-q --ignore-errors --drive-pacer-min-sleep 10ms rstuvwxyz1234567890"
@@ -1931,12 +2080,14 @@ echo set randomid=%%randomid%%^!string:^~%%x%%,1^!
 echo goto :eof
 echo :l23234
 echo.
+REM  send to python
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
 echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h --q --ignore-errors --drive-pacer-min-sleep 10ms  --tpslimit 20 --tpslimit-burst 20  --use-mmap --max-backlog 1600000 --max-duration 22h --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
+REM  wait for file
 echo @echo off
 echo.
 echo :CheckForFile126
@@ -1944,6 +2095,7 @@ echo IF EXIST "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.tx
 echo TIMEOUT /T 1 ^>nul
 echo GOTO CheckForFile126
 echo.
+REM  file received, now loop the list then delete
 echo :FoundIt173
 echo @echo on
 echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt"
@@ -1988,6 +2140,7 @@ echo.
 
 echo set fldr=Selo
 
+REM  create random file name for sending
 echo @echo off
 echo setlocal enabledelayedexpansion
 echo set "string=abcdefghijklmnop-q --ignore-errors --drive-pacer-min-sleep 10ms rstuvwxyz1234567890"
@@ -2000,12 +2153,14 @@ echo set randomid=%%randomid%%^!string:^~%%x%%,1^!
 echo goto :eof
 echo :l23234
 echo.
+REM  send to python
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
 echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h --q --ignore-errors --drive-pacer-min-sleep 10ms  --tpslimit 20 --tpslimit-burst 20  --use-mmap --max-backlog 1600000 --max-duration 22h --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
+REM  wait for file
 echo @echo off
 echo.
 echo :CheckForFile126
@@ -2013,6 +2168,7 @@ echo IF EXIST "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.tx
 echo TIMEOUT /T 1 ^>nul
 echo GOTO CheckForFile126
 echo.
+REM  file received, now loop the list then delete
 echo :FoundIt173
 echo @echo on
 echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt"
@@ -2033,6 +2189,7 @@ echo.
 
 echo set fldr=Selo
 
+REM  create random file name for sending
 echo @echo off
 echo setlocal enabledelayedexpansion
 echo set "string=abcdefghijklmnop-q --ignore-errors --drive-pacer-min-sleep 10ms rstuvwxyz1234567890"
@@ -2051,12 +2208,14 @@ echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
+REM  wait for file
 echo @echo off
 echo.
 echo :CheckForFile1261
 echo IF EXIST "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt" GOTO FoundIt1731
 echo TIMEOUT /T 1 ^>nul
 echo GOTO CheckForFile1261
+REM  file received, now loop the list then delete
 echo :FoundIt1731
 echo @echo on
 echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt"
@@ -2073,6 +2232,7 @@ echo setlocal disabledelayedexpansion
 
 echo set fldr=Anggun
 
+REM  create random file name for sending
 echo @echo off
 echo setlocal enabledelayedexpansion
 echo set "string=abcdefghijklmnop-q --ignore-errors --drive-pacer-min-sleep 10ms rstuvwxyz1234567890"
@@ -2085,12 +2245,14 @@ echo set randomid=%%randomid%%^!string:^~%%x%%,1^!
 echo goto :eof
 echo :l23234
 echo.
+REM  send to python
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
 echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h --q --ignore-errors --drive-pacer-min-sleep 10ms  --tpslimit 20 --tpslimit-burst 20  --use-mmap --max-backlog 1600000 --max-duration 22h --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
+REM  wait for file
 echo @echo off
 echo.
 echo :CheckForFile126
@@ -2098,6 +2260,7 @@ echo IF EXIST "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.tx
 echo TIMEOUT /T 1 ^>nul
 echo GOTO CheckForFile126
 echo.
+REM  file received, now loop the list then delete
 echo :FoundIt173
 echo @echo on
 echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt"
@@ -2114,6 +2277,7 @@ echo setlocal disabledelayedexpansion
 
 echo set fldr=logs
 
+REM  create random file name for sending
 echo @echo off
 echo setlocal enabledelayedexpansion
 echo set "string=abcdefghijklmnop-q --ignore-errors --drive-pacer-min-sleep 10ms rstuvwxyz1234567890"
@@ -2126,12 +2290,14 @@ echo set randomid=%%randomid%%^!string:^~%%x%%,1^!
 echo goto :eof
 echo :l23234
 echo.
+REM  send to python
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
 echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h --q --ignore-errors --drive-pacer-min-sleep 10ms  --tpslimit 20 --tpslimit-burst 20  --use-mmap --max-backlog 1600000 --max-duration 22h --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
+REM  wait for file
 echo @echo off
 echo.
 echo :CheckForFile126
@@ -2139,6 +2305,7 @@ echo IF EXIST "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.tx
 echo TIMEOUT /T 1 ^>nul
 echo GOTO CheckForFile126
 echo.
+REM  file received, now loop the list then delete
 echo :FoundIt173
 echo @echo on
 echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt"
@@ -2155,6 +2322,7 @@ echo setlocal disabledelayedexpansion
 
 echo set fldr=Family
 
+REM  create random file name for sending
 echo @echo off
 echo setlocal enabledelayedexpansion
 echo set "string=abcdefghijklmnop-q --ignore-errors --drive-pacer-min-sleep 10ms rstuvwxyz1234567890"
@@ -2167,12 +2335,14 @@ echo set randomid=%%randomid%%^!string:^~%%x%%,1^!
 echo goto :eof
 echo :l23234
 echo.
+REM  send to python
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
 echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h --q --ignore-errors --drive-pacer-min-sleep 10ms  --tpslimit 20 --tpslimit-burst 20  --use-mmap --max-backlog 1600000 --max-duration 22h --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
+REM  wait for file
 echo @echo off
 echo.
 echo :CheckForFile126
@@ -2180,6 +2350,7 @@ echo IF EXIST "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.tx
 echo TIMEOUT /T 1 ^>nul
 echo GOTO CheckForFile126
 echo.
+REM  file received, now loop the list then delete
 echo :FoundIt173
 echo @echo on
 echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt"
@@ -2221,6 +2392,7 @@ echo.
 
 echo set fldr=Selo
 
+REM  create random file name for sending
 echo @echo off
 echo setlocal enabledelayedexpansion
 echo set "string=abcdefghijklmnop-q --ignore-errors --drive-pacer-min-sleep 10ms rstuvwxyz1234567890"
@@ -2233,12 +2405,14 @@ echo set randomid=%%randomid%%^!string:^~%%x%%,1^!
 echo goto :eof
 echo :l23234
 echo.
+REM  send to python
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
 echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h --q --ignore-errors --drive-pacer-min-sleep 10ms  --tpslimit 20 --tpslimit-burst 20  --use-mmap --max-backlog 1600000 --max-duration 22h --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
+REM  wait for file
 echo @echo off
 echo.
 echo :CheckForFile126
@@ -2246,6 +2420,7 @@ echo IF EXIST "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.tx
 echo TIMEOUT /T 1 ^>nul
 echo GOTO CheckForFile126
 echo.
+REM  file received, now loop the list then delete
 echo :FoundIt173
 echo @echo on
 echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt"
@@ -2266,6 +2441,7 @@ echo.
 
 echo set fldr=Caca
 
+REM  create random file name for sending
 echo @echo off
 echo setlocal enabledelayedexpansion
 echo set "string=abcdefghijklmnop-q --ignore-errors --drive-pacer-min-sleep 10ms rstuvwxyz1234567890"
@@ -2284,12 +2460,14 @@ echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
+REM  wait for file
 echo @echo off
 echo.
 echo :CheckForFile1261
 echo IF EXIST "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt" GOTO FoundIt1731
 echo TIMEOUT /T 1 ^>nul
 echo GOTO CheckForFile1261
+REM  file received, now loop the list then delete
 echo :FoundIt1731
 echo @echo on
 echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt"
@@ -2306,6 +2484,7 @@ echo setlocal disabledelayedexpansion
 
 echo set fldr=Anggun
 
+REM  create random file name for sending
 echo @echo off
 echo setlocal enabledelayedexpansion
 echo set "string=abcdefghijklmnop-q --ignore-errors --drive-pacer-min-sleep 10ms rstuvwxyz1234567890"
@@ -2318,12 +2497,14 @@ echo set randomid=%%randomid%%^!string:^~%%x%%,1^!
 echo goto :eof
 echo :l23234
 echo.
+REM  send to python
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
 echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h --q --ignore-errors --drive-pacer-min-sleep 10ms  --tpslimit 20 --tpslimit-burst 20  --use-mmap --max-backlog 1600000 --max-duration 22h --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
+REM  wait for file
 echo @echo off
 echo.
 echo :CheckForFile126
@@ -2331,6 +2512,7 @@ echo IF EXIST "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.tx
 echo TIMEOUT /T 1 ^>nul
 echo GOTO CheckForFile126
 echo.
+REM  file received, now loop the list then delete
 echo :FoundIt173
 echo @echo on
 echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt"
@@ -2347,6 +2529,7 @@ echo setlocal disabledelayedexpansion
 
 echo set fldr=logs
 
+REM  create random file name for sending
 echo @echo off
 echo setlocal enabledelayedexpansion
 echo set "string=abcdefghijklmnop-q --ignore-errors --drive-pacer-min-sleep 10ms rstuvwxyz1234567890"
@@ -2359,12 +2542,14 @@ echo set randomid=%%randomid%%^!string:^~%%x%%,1^!
 echo goto :eof
 echo :l23234
 echo.
+REM  send to python
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
 echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h --q --ignore-errors --drive-pacer-min-sleep 10ms  --tpslimit 20 --tpslimit-burst 20  --use-mmap --max-backlog 1600000 --max-duration 22h --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
+REM  wait for file
 echo @echo off
 echo.
 echo :CheckForFile126
@@ -2372,6 +2557,7 @@ echo IF EXIST "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.tx
 echo TIMEOUT /T 1 ^>nul
 echo GOTO CheckForFile126
 echo.
+REM  file received, now loop the list then delete
 echo :FoundIt173
 echo @echo on
 echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt"
@@ -2388,6 +2574,7 @@ echo setlocal disabledelayedexpansion
 
 echo set fldr=Family
 
+REM  create random file name for sending
 echo @echo off
 echo setlocal enabledelayedexpansion
 echo set "string=abcdefghijklmnop-q --ignore-errors --drive-pacer-min-sleep 10ms rstuvwxyz1234567890"
@@ -2400,12 +2587,14 @@ echo set randomid=%%randomid%%^!string:^~%%x%%,1^!
 echo goto :eof
 echo :l23234
 echo.
+REM  send to python
 echo ^(echo {"mode":"count_duplicates", "name":"%%fldr%%"}
 echo cd %%userprofile%%
 echo rclone lsd "%acc%:/%%fldr%%/" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h --q --ignore-errors --drive-pacer-min-sleep 10ms  --tpslimit 20 --tpslimit-burst 20  --use-mmap --max-backlog 1600000 --max-duration 22h --drive-allow-import-name-change  
 echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_%%randomid%%.txt"
 echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
 echo.
+REM  wait for file
 echo @echo off
 echo.
 echo :CheckForFile126
@@ -2413,6 +2602,7 @@ echo IF EXIST "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.tx
 echo TIMEOUT /T 1 ^>nul
 echo GOTO CheckForFile126
 echo.
+REM  file received, now loop the list then delete
 echo :FoundIt173
 echo @echo on
 echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\rcloneres_%%randomid%%.txt"
