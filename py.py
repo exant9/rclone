@@ -90,6 +90,7 @@ if "'rclone_" in str(cache_files):
                 cache_text = open(cache_path + jr39ur93,"r", encoding="utf8")
                 json_ = json.loads(cache_text.readline().strip())
                 mode_ = json_["mode"]
+                open(cache_path + jr39ur93, 'w').write("""{"mode":""}""")
                 
                 # MODES
                 
@@ -106,7 +107,6 @@ if "'rclone_" in str(cache_files):
                         if num_dupes < 1:
                             num_dupes = 1
                         
-                    open(cache_path + jr39ur93, 'w').write("""{"mode":""}""")
                     open(cache_path + 'res_' + cache_id + '.txt', 'w').write(str(num_dupes))
 
                 if mode_ == "run_rclone_clear_bats":
@@ -131,7 +131,6 @@ if "'rclone_" in str(cache_files):
                     lines = wdy89
                     
                     if len(lines) <= max_backup:
-                        open(cache_path + jr39ur93, 'w').write("""{"mode":""}""")
                         open(cache_path + 'res_' + cache_id + '.txt', 'w').write('td9q38fq3hw9f8yq9wey,38wy93ioqwf8e9fyhqo')
                         exit()
                         
@@ -174,7 +173,6 @@ if "'rclone_" in str(cache_files):
                     fldrs_to_delete = fldrs_to_delete_str.split('x294euo')
                 
                     # send
-                    open(cache_path + jr39ur93, 'w').write("""{"mode":""}""")
                     open(cache_path + 'res_' + cache_id + '.txt', 'w').write(''.join(str(x) + ',' for x in fldrs_to_delete)[:-2])
 
 
