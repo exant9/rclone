@@ -131,6 +131,8 @@ if "'rclone_" in str(cache_files):
                     lines = wdy89
                     
                     if len(lines) <= max_backup:
+                        open(cache_path + jr39ur93, 'w').write("""{"mode":""}""")
+                        open(cache_path + 'res_' + cache_id + '.txt', 'w').write('td9q38fq3hw9f8yq9wey,38wy93ioqwf8e9fyhqo')
                         exit()
                         
                     lines = (''.join(str(x) + 'x294euo' for x in lines)).replace('_ 0','_0')
