@@ -60,65 +60,62 @@ set maincloudaccount=fcfgts_driveku_me
 
 taskkill /f /im rclone.exe
 taskkill /f /im cscript.exe
-taskkill /f /im rclone.exe
+taskkill /f /im xxz.exe
 taskkill /f /im cscript.exe
-
 "C:\a_fiyandha\z-bat-vbs-file\rclone\mount_vbs.vbs"
 
 
 
 REM  rmdir sg 1-10 max depth 3
 
-cd %userprofile%
+REM set dwdf[0]=nadiahutagulung8_sg1
+REM set dwdf[1]=nadiahutagulung8_sg2
+REM set dwdf[2]=nadiahutagulung8_sg3
+REM set dwdf[3]=nadiahutagulung8_sg4
+REM set dwdf[4]=nadiahutagulung8_sg5
+REM set dwdf[5]=nadiahutagulung8_sg6
+REM set dwdf[6]=nadiahutagulung8_sg7
+REM set dwdf[7]=nadiahutagulung8_sg8
+REM set dwdf[8]=nadiahutagulung8_sg9
+REM set dwdf[9]=nadiahutagulung8_sg10
 
-set dwdf[0]=nadiahutagulung8_sg1
-set dwdf[1]=nadiahutagulung8_sg2
-set dwdf[2]=nadiahutagulung8_sg3
-set dwdf[3]=nadiahutagulung8_sg4
-set dwdf[4]=nadiahutagulung8_sg5
-set dwdf[5]=nadiahutagulung8_sg6
-set dwdf[6]=nadiahutagulung8_sg7
-set dwdf[7]=nadiahutagulung8_sg8
-set dwdf[8]=nadiahutagulung8_sg9
-set dwdf[9]=nadiahutagulung8_sg10
-
-set "g=0"
-:d12113r2t4
-REM  loop
-if defined dwdf[%g%] (
-	call rclone rmdirs "%%dwdf[%g%]%%:/Selo" --max-depth 2 --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --ignore-errors --tpslimit 10000000 --tpslimit-burst 10000000  --use-mmap --max-backlog 1600000 --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 999h --use-mmap --max-backlog 1600000 --transfers 400 --checkers 400 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G  --cutoff-mode=CAUTIOUS --drive-skip-shortcuts --drive-skip-dangling-shortcuts
-	call rclone rmdirs "%%dwdf[%g%]%%:/Caca" --max-depth 2 --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --ignore-errors --tpslimit 10000000 --tpslimit-burst 10000000  --use-mmap --max-backlog 1600000 --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 999h --use-mmap --max-backlog 1600000 --transfers 400 --checkers 400 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G  --cutoff-mode=CAUTIOUS --drive-skip-shortcuts --drive-skip-dangling-shortcuts
-	call rclone rmdirs "%%dwdf[%g%]%%:/Anggun" --max-depth 2 --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --ignore-errors --tpslimit 10000000 --tpslimit-burst 10000000  --use-mmap --max-backlog 1600000 --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 999h --use-mmap --max-backlog 1600000 --transfers 400 --checkers 400 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G  --cutoff-mode=CAUTIOUS --drive-skip-shortcuts --drive-skip-dangling-shortcuts
-	call rclone rmdirs "%%dwdf[%g%]%%:/Family" --max-depth 2 --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --ignore-errors --tpslimit 10000000 --tpslimit-burst 10000000  --use-mmap --max-backlog 1600000 --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 999h --use-mmap --max-backlog 1600000 --transfers 400 --checkers 400 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G  --cutoff-mode=CAUTIOUS --drive-skip-shortcuts --drive-skip-dangling-shortcuts
+REM set "g=0"
+REM :d12113r2t4
+REM REM  loop
+REM if defined dwdf[%g%] (
+	REM call rclone rmdirs "%%dwdf[%g%]%%:/Selo" --max-depth 2 --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --ignore-errors --tpslimit 10000000 --tpslimit-burst 10000000  --use-mmap --max-backlog 1600000 --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 999h --use-mmap --max-backlog 1600000 --transfers 400 --checkers 400 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G  --cutoff-mode=CAUTIOUS --drive-skip-shortcuts --drive-skip-dangling-shortcuts
+	REM call rclone rmdirs "%%dwdf[%g%]%%:/Caca" --max-depth 2 --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --ignore-errors --tpslimit 10000000 --tpslimit-burst 10000000  --use-mmap --max-backlog 1600000 --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 999h --use-mmap --max-backlog 1600000 --transfers 400 --checkers 400 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G  --cutoff-mode=CAUTIOUS --drive-skip-shortcuts --drive-skip-dangling-shortcuts
+	REM call rclone rmdirs "%%dwdf[%g%]%%:/Anggun" --max-depth 2 --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --ignore-errors --tpslimit 10000000 --tpslimit-burst 10000000  --use-mmap --max-backlog 1600000 --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 999h --use-mmap --max-backlog 1600000 --transfers 400 --checkers 400 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G  --cutoff-mode=CAUTIOUS --drive-skip-shortcuts --drive-skip-dangling-shortcuts
+	REM call rclone rmdirs "%%dwdf[%g%]%%:/Family" --max-depth 2 --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --ignore-errors --tpslimit 10000000 --tpslimit-burst 10000000  --use-mmap --max-backlog 1600000 --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 999h --use-mmap --max-backlog 1600000 --transfers 400 --checkers 400 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G  --cutoff-mode=CAUTIOUS --drive-skip-shortcuts --drive-skip-dangling-shortcuts
 		
-set /a "g+=1"
-GOTO :d12113r2t4
-)
+REM set /a "g+=1"
+REM GOTO :d12113r2t4
+REM )
 
 
 
-REM  bikin folder buat tiap user di shared drive  
+REM REM  bikin folder buat tiap user di shared drive  
 
-set fldrv=aaveusdt_sg1/Selo/Selo,aaveusdt_sg1/Caca/Caca,aaveusdt_sg1/Anggun/Anggun,aaveusdt_sg1/logs,renaave50_sg2/Selo/Selo,renaave50_sg2/Caca/Caca,renaave50_sg2/Anggun/Anggun,renaave50_sg2/logs,renaave7_sg3/Selo/Selo,renaave7_sg3/Caca/Caca,renaave7_sg3/Anggun/Anggun,renaave7_sg3/logs,oudhoh0050_sg4/Selo/Selo,oudhoh0050_sg4/Caca/Caca,oudhoh0050_sg4/Anggun/Anggun,oudhoh0050_sg4/logs,nkiux77509_sg5/Selo/Selo,nkiux77509_sg5/Caca/Caca,nkiux77509_sg5/Anggun/Anggun,nkiux77509_sg5/logs,didrhj9036_sg6/Selo/Selo,didrhj9036_sg6/Caca/Caca,didrhj9036_sg6/Anggun/Anggun,didrhj9036_sg6/logs,hjski8292882_sg7/Selo/Selo,hjski8292882_sg7/Caca/Caca,hjski8292882_sg7/Anggun/Anggun,hjski8292882_sg7/logs,jsnwj84738_sg8/Selo/Selo,jsnwj84738_sg8/Caca,jsnwj84738_sg8/Anggun/Anggun,jsnwj84738_sg8/logs,ffdnsak8272793_sg9/Selo/Selo,ffdnsak8272793_sg9/Caca/Caca,ffdnsak8272793_sg9/Anggun/Anggun,ffdnsak8272793_sg9/logs,otipes7948_sg10/Selo/Selo,otipes7948_sg10/Caca/Caca,otipes7948_sg10/Anggun/Anggun,otipes7948_sg10/logs
+REM set fldrv=aaveusdt_sg1/Selo/Selo,aaveusdt_sg1/Caca/Caca,aaveusdt_sg1/Anggun/Anggun,aaveusdt_sg1/logs,renaave50_sg2/Selo/Selo,renaave50_sg2/Caca/Caca,renaave50_sg2/Anggun/Anggun,renaave50_sg2/logs,renaave7_sg3/Selo/Selo,renaave7_sg3/Caca/Caca,renaave7_sg3/Anggun/Anggun,renaave7_sg3/logs,oudhoh0050_sg4/Selo/Selo,oudhoh0050_sg4/Caca/Caca,oudhoh0050_sg4/Anggun/Anggun,oudhoh0050_sg4/logs,nkiux77509_sg5/Selo/Selo,nkiux77509_sg5/Caca/Caca,nkiux77509_sg5/Anggun/Anggun,nkiux77509_sg5/logs,didrhj9036_sg6/Selo/Selo,didrhj9036_sg6/Caca/Caca,didrhj9036_sg6/Anggun/Anggun,didrhj9036_sg6/logs,hjski8292882_sg7/Selo/Selo,hjski8292882_sg7/Caca/Caca,hjski8292882_sg7/Anggun/Anggun,hjski8292882_sg7/logs,jsnwj84738_sg8/Selo/Selo,jsnwj84738_sg8/Caca,jsnwj84738_sg8/Anggun/Anggun,jsnwj84738_sg8/logs,ffdnsak8272793_sg9/Selo/Selo,ffdnsak8272793_sg9/Caca/Caca,ffdnsak8272793_sg9/Anggun/Anggun,ffdnsak8272793_sg9/logs,otipes7948_sg10/Selo/Selo,otipes7948_sg10/Caca/Caca,otipes7948_sg10/Anggun/Anggun,otipes7948_sg10/logs
 
-for %%u in ("%fldrv:,=" "%") do (
- 	for /F "tokens=1,2 delims=/" %%e in ("%%~u") do (
-	rclone mkdir "%%e:/%%f/%%f"  -q --ignore-errors --tpslimit 10000000 --tpslimit-burst 10000000  --use-mmap --max-backlog 1600000 --transfers 400 --checkers 400 --max-duration 22h --low-level-retries 9999999999 --auto-confirm --no-traverse --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --ignore-errors --tpslimit 10000000 --tpslimit-burst 10000000  --use-mmap --max-backlog 1600000 --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 999h --use-mmap --max-backlog 1600000 --transfers 400 --checkers 400 --bwlimit 8650k --drive-allow-import-name-change  
-)
-)
-
-
+REM for %%u in ("%fldrv:,=" "%") do (
+ 	REM for /F "tokens=1,2 delims=/" %%e in ("%%~u") do (
+	REM rclone mkdir "%%e:/%%f/%%f"  -q --ignore-errors --tpslimit 10000000 --tpslimit-burst 10000000  --use-mmap --max-backlog 1600000 --transfers 400 --checkers 400 --max-duration 22h --low-level-retries 9999999999 --auto-confirm --no-traverse --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --ignore-errors --tpslimit 10000000 --tpslimit-burst 10000000  --use-mmap --max-backlog 1600000 --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 999h --use-mmap --max-backlog 1600000 --transfers 400 --checkers 400 --bwlimit 8650k --drive-allow-import-name-change  
+REM )
+REM )
 
 
-REM  bikin folder di dump, pemisah foto video docs
 
-echo set fldrer=nadiahutagulung8_sgdump1a/Photos,nadiahutagulung8_sgdump1a/Videos,nadiahutagulung8_sgdump1a/Docs,nadiahutagulung8_sgdump1a/Other Files,nadiahutagulung8_sgdump2a/Photos,nadiahutagulung8_sgdump2a/Videos,nadiahutagulung8_sgdump2a/Docs,nadiahutagulung8_sgdump2a/Other Files,nadiahutagulung8_sgdump3a/Photos,nadiahutagulung8_sgdump3a/Videos,nadiahutagulung8_sgdump3a/Docs,nadiahutagulung8_sgdump3a/Other Files,nadiahutagulung8_sgdump4a/Photos,nadiahutagulung8_sgdump4a/Videos,nadiahutagulung8_sgdump4a/Docs,nadiahutagulung8_sgdump4a/Other Files,nadiahutagulung8_sgdump5a/Photos,nadiahutagulung8_sgdump5a/Videos,nadiahutagulung8_sgdump5a/Docs,nadiahutagulung8_sgdump5a/Other Files,nadiahutagulung8_sgdump6a/Photos,nadiahutagulung8_sgdump6a/Videos,nadiahutagulung8_sgdump6a/Docs,nadiahutagulung8_sgdump6a/Other Files,nadiahutagulung8_sgdump7a/Photos,nadiahutagulung8_sgdump7a/Videos,nadiahutagulung8_sgdump7a/Docs,nadiahutagulung8_sgdump7a/Other Files,nadiahutagulung8_sgdump8a/Photos,nadiahutagulung8_sgdump8a/Videos,nadiahutagulung8_sgdump8a/Docs,nadiahutagulung8_sgdump8a/Other Files,nadiahutagulung8_sgdump9a/Photos,nadiahutagulung8_sgdump9a/Videos,nadiahutagulung8_sgdump9a/Docs,nadiahutagulung8_sgdump9a/Other Files,nadiahutagulung8_sgdump10a/Photos,nadiahutagulung8_sgdump10a/Videos,nadiahutagulung8_sgdump10a/Docs,nadiahutagulung8_sgdump10a/Other Files
 
-for %%w in ("%fldrer:,=" "%") do (
- 	for /F "tokens=1,2 delims=/" %%c in ("%%~w") do (
-	rclone mkdir "%%c:/%%d"  -q --ignore-errors --tpslimit 10000000 --tpslimit-burst 10000000  --use-mmap --max-backlog 1600000 --transfers 400 --checkers 400 --max-duration 22h --low-level-retries 9999999999 --auto-confirm --no-traverse --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --ignore-errors --tpslimit 10000000 --tpslimit-burst 10000000  --use-mmap --max-backlog 1600000 --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 999h --use-mmap --max-backlog 1600000 --transfers 400 --checkers 400 --bwlimit 8650k --drive-allow-import-name-change  
-)
-)
+REM REM  bikin folder di dump, pemisah foto video docs
+
+REM echo set fldrer=nadiahutagulung8_sgdump1a/Photos,nadiahutagulung8_sgdump1a/Videos,nadiahutagulung8_sgdump1a/Docs,nadiahutagulung8_sgdump1a/Other Files,nadiahutagulung8_sgdump2a/Photos,nadiahutagulung8_sgdump2a/Videos,nadiahutagulung8_sgdump2a/Docs,nadiahutagulung8_sgdump2a/Other Files,nadiahutagulung8_sgdump3a/Photos,nadiahutagulung8_sgdump3a/Videos,nadiahutagulung8_sgdump3a/Docs,nadiahutagulung8_sgdump3a/Other Files,nadiahutagulung8_sgdump4a/Photos,nadiahutagulung8_sgdump4a/Videos,nadiahutagulung8_sgdump4a/Docs,nadiahutagulung8_sgdump4a/Other Files,nadiahutagulung8_sgdump5a/Photos,nadiahutagulung8_sgdump5a/Videos,nadiahutagulung8_sgdump5a/Docs,nadiahutagulung8_sgdump5a/Other Files,nadiahutagulung8_sgdump6a/Photos,nadiahutagulung8_sgdump6a/Videos,nadiahutagulung8_sgdump6a/Docs,nadiahutagulung8_sgdump6a/Other Files,nadiahutagulung8_sgdump7a/Photos,nadiahutagulung8_sgdump7a/Videos,nadiahutagulung8_sgdump7a/Docs,nadiahutagulung8_sgdump7a/Other Files,nadiahutagulung8_sgdump8a/Photos,nadiahutagulung8_sgdump8a/Videos,nadiahutagulung8_sgdump8a/Docs,nadiahutagulung8_sgdump8a/Other Files,nadiahutagulung8_sgdump9a/Photos,nadiahutagulung8_sgdump9a/Videos,nadiahutagulung8_sgdump9a/Docs,nadiahutagulung8_sgdump9a/Other Files,nadiahutagulung8_sgdump10a/Photos,nadiahutagulung8_sgdump10a/Videos,nadiahutagulung8_sgdump10a/Docs,nadiahutagulung8_sgdump10a/Other Files
+
+REM for %%w in ("%fldrer:,=" "%") do (
+ 	REM for /F "tokens=1,2 delims=/" %%c in ("%%~w") do (
+	REM rclone mkdir "%%c:/%%d"  -q --ignore-errors --tpslimit 10000000 --tpslimit-burst 10000000  --use-mmap --max-backlog 1600000 --transfers 400 --checkers 400 --max-duration 22h --low-level-retries 9999999999 --auto-confirm --no-traverse --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --ignore-errors --tpslimit 10000000 --tpslimit-burst 10000000  --use-mmap --max-backlog 1600000 --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 999h --use-mmap --max-backlog 1600000 --transfers 400 --checkers 400 --bwlimit 8650k --drive-allow-import-name-change  
+REM )
+REM )
 
 
 
@@ -2347,6 +2344,536 @@ REM rclone ls "aaveusdt,shared_with_me:/jY1CJ1hE4P/" --use-mmap --max-backlog 16
 
 
 
+(
+
+echo cd %%userprofile%%
+
+echo set maxbackups=11
+
+
+
+echo set acc=cantikanakubro_sg1
+echo set fldr=Selo/Selo/fcfgts@driveku.me/Computers/alyx
+
+REM  create random file name for sending
+echo @echo off
+echo setlocal enabledelayedexpansion
+echo set "string=abcdefghijklmnopqrstuvwxyz1234567890"
+echo set "randomid="
+echo for /L %%%%i in ^(1,1,18^) do call :add
+echo goto :l23234
+echo :add
+echo set /a x=%%random%% %%%% 36
+echo set randomid=%%randomid%%^!string:^~%%x%%,1^!
+echo goto :eof
+echo :l23234
+echo.
+REM  send to python
+echo ^(echo {"mode":"limit_backup", "max_backups":"%%maxbackups%%"}
+echo cd %%userprofile%%
+echo rclone lsd "%%acc%%:/%%fldr%%" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h -q --ignore-errors --drive-pacer-min-sleep 10ms  --tpslimit 20 --tpslimit-burst 20  --use-mmap --max-backlog 1600000 --max-duration 22h --drive-allow-import-name-change  
+echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_limit_backup_%%randomid%%.txt"
+echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
+echo.
+REM  file received, now loop the list then delete
+echo :FoundIt173
+echo @echo on
+echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\res_%%randomid%%.txt"
+echo set cache_result=%%cache_result%%
+
+echo echo %%cache_result%%
+
+echo.
+echo setlocal disabledelayedexpansion
+
+echo for %%%%u in ^("%%cache_result:,=" "%%"^) do ^(
+	echo rclone purge "%%acc%%:/%%fldr%%/%%%%u" --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h -q --ignore-errors --drive-pacer-min-sleep 10ms  --tpslimit 20 --tpslimit-burst 20  --use-mmap --max-backlog 1600000 --max-duration 22h --drive-allow-import-name-change --drive-use-trash=false
+echo ^)
+
+
+
+
+
+
+echo set acc=cantikanakubro_sg1
+echo set fldr=Selo/Selo/fcfgts@driveku.me/Computers/alyx
+
+REM  create random file name for sending
+echo @echo off
+echo setlocal enabledelayedexpansion
+echo set "string=abcdefghijklmnopqrstuvwxyz1234567890"
+echo set "randomid="
+echo for /L %%%%i in ^(1,1,18^) do call :add
+echo goto :l23234
+echo :add
+echo set /a x=%%random%% %%%% 36
+echo set randomid=%%randomid%%^!string:^~%%x%%,1^!
+echo goto :eof
+echo :l23234
+echo.
+REM  send to python
+echo ^(echo {"mode":"limit_backup", "max_backups":"%%maxbackups%%"}
+echo cd %%userprofile%%
+echo rclone lsd "%%acc%%:/%%fldr%%" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h -q --ignore-errors --drive-pacer-min-sleep 10ms  --tpslimit 20 --tpslimit-burst 20  --use-mmap --max-backlog 1600000 --max-duration 22h --drive-allow-import-name-change  
+echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_limit_backup_%%randomid%%.txt"
+echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
+echo.
+REM  file received, now loop the list then delete
+echo :FoundIt173
+echo @echo on
+echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\res_%%randomid%%.txt"
+echo set cache_result=%%cache_result%%
+
+echo echo %%cache_result%%
+
+echo.
+echo setlocal disabledelayedexpansion
+
+echo for %%%%u in ^("%%cache_result:,=" "%%"^) do ^(
+	echo rclone purge "%%acc%%:/%%fldr%%/%%%%u" --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h -q --ignore-errors --drive-pacer-min-sleep 10ms  --tpslimit 20 --tpslimit-burst 20  --use-mmap --max-backlog 1600000 --max-duration 22h --drive-allow-import-name-change --drive-use-trash=false
+echo ^)
+
+
+
+
+
+
+echo set acc=cantikanakubro_sg1
+echo set fldr=Selo/Selo/fcfgts@driveku.me/Computers/alyx
+
+REM  create random file name for sending
+echo @echo off
+echo setlocal enabledelayedexpansion
+echo set "string=abcdefghijklmnopqrstuvwxyz1234567890"
+echo set "randomid="
+echo for /L %%%%i in ^(1,1,18^) do call :add
+echo goto :l23234
+echo :add
+echo set /a x=%%random%% %%%% 36
+echo set randomid=%%randomid%%^!string:^~%%x%%,1^!
+echo goto :eof
+echo :l23234
+echo.
+REM  send to python
+echo ^(echo {"mode":"limit_backup", "max_backups":"%%maxbackups%%"}
+echo cd %%userprofile%%
+echo rclone lsd "%%acc%%:/%%fldr%%" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h -q --ignore-errors --drive-pacer-min-sleep 10ms  --tpslimit 20 --tpslimit-burst 20  --use-mmap --max-backlog 1600000 --max-duration 22h --drive-allow-import-name-change  
+echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_limit_backup_%%randomid%%.txt"
+echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
+echo.
+REM  file received, now loop the list then delete
+echo :FoundIt173
+echo @echo on
+echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\res_%%randomid%%.txt"
+echo set cache_result=%%cache_result%%
+
+echo echo %%cache_result%%
+
+echo.
+echo setlocal disabledelayedexpansion
+
+echo for %%%%u in ^("%%cache_result:,=" "%%"^) do ^(
+	echo rclone purge "%%acc%%:/%%fldr%%/%%%%u" --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h -q --ignore-errors --drive-pacer-min-sleep 10ms  --tpslimit 20 --tpslimit-burst 20  --use-mmap --max-backlog 1600000 --max-duration 22h --drive-allow-import-name-change --drive-use-trash=false
+echo ^)
+
+
+
+
+
+
+echo set acc=cantikanakubro_sg2
+echo set fldr=Selo/Selo/fcfgts@driveku.me/Computers/alyx
+
+REM  create random file name for sending
+echo @echo off
+echo setlocal enabledelayedexpansion
+echo set "string=abcdefghijklmnopqrstuvwxyz1234567890"
+echo set "randomid="
+echo for /L %%%%i in ^(1,1,18^) do call :add
+echo goto :l23234
+echo :add
+echo set /a x=%%random%% %%%% 36
+echo set randomid=%%randomid%%^!string:^~%%x%%,1^!
+echo goto :eof
+echo :l23234
+echo.
+REM  send to python
+echo ^(echo {"mode":"limit_backup", "max_backups":"%%maxbackups%%"}
+echo cd %%userprofile%%
+echo rclone lsd "%%acc%%:/%%fldr%%" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h -q --ignore-errors --drive-pacer-min-sleep 10ms  --tpslimit 20 --tpslimit-burst 20  --use-mmap --max-backlog 1600000 --max-duration 22h --drive-allow-import-name-change  
+echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_limit_backup_%%randomid%%.txt"
+echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
+echo.
+REM  file received, now loop the list then delete
+echo :FoundIt173
+echo @echo on
+echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\res_%%randomid%%.txt"
+echo set cache_result=%%cache_result%%
+
+echo echo %%cache_result%%
+
+echo.
+echo setlocal disabledelayedexpansion
+
+echo for %%%%u in ^("%%cache_result:,=" "%%"^) do ^(
+	echo rclone purge "%%acc%%:/%%fldr%%/%%%%u" --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h -q --ignore-errors --drive-pacer-min-sleep 10ms  --tpslimit 20 --tpslimit-burst 20  --use-mmap --max-backlog 1600000 --max-duration 22h --drive-allow-import-name-change --drive-use-trash=false
+echo ^)
+
+
+
+
+
+
+echo set acc=cantikanakubro_sg3
+echo set fldr=Selo/Selo/fcfgts@driveku.me/Computers/alyx
+
+REM  create random file name for sending
+echo @echo off
+echo setlocal enabledelayedexpansion
+echo set "string=abcdefghijklmnopqrstuvwxyz1234567890"
+echo set "randomid="
+echo for /L %%%%i in ^(1,1,18^) do call :add
+echo goto :l23234
+echo :add
+echo set /a x=%%random%% %%%% 36
+echo set randomid=%%randomid%%^!string:^~%%x%%,1^!
+echo goto :eof
+echo :l23234
+echo.
+REM  send to python
+echo ^(echo {"mode":"limit_backup", "max_backups":"%%maxbackups%%"}
+echo cd %%userprofile%%
+echo rclone lsd "%%acc%%:/%%fldr%%" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h -q --ignore-errors --drive-pacer-min-sleep 10ms  --tpslimit 20 --tpslimit-burst 20  --use-mmap --max-backlog 1600000 --max-duration 22h --drive-allow-import-name-change  
+echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_limit_backup_%%randomid%%.txt"
+echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
+echo.
+REM  file received, now loop the list then delete
+echo :FoundIt173
+echo @echo on
+echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\res_%%randomid%%.txt"
+echo set cache_result=%%cache_result%%
+
+echo echo %%cache_result%%
+
+echo.
+echo setlocal disabledelayedexpansion
+
+echo for %%%%u in ^("%%cache_result:,=" "%%"^) do ^(
+	echo rclone purge "%%acc%%:/%%fldr%%/%%%%u" --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h -q --ignore-errors --drive-pacer-min-sleep 10ms  --tpslimit 20 --tpslimit-burst 20  --use-mmap --max-backlog 1600000 --max-duration 22h --drive-allow-import-name-change --drive-use-trash=false
+echo ^)
+
+
+
+
+
+
+echo set acc=cantikanakubro_sg4
+echo set fldr=Selo/Selo/fcfgts@driveku.me/Computers/alyx
+
+REM  create random file name for sending
+echo @echo off
+echo setlocal enabledelayedexpansion
+echo set "string=abcdefghijklmnopqrstuvwxyz1234567890"
+echo set "randomid="
+echo for /L %%%%i in ^(1,1,18^) do call :add
+echo goto :l23234
+echo :add
+echo set /a x=%%random%% %%%% 36
+echo set randomid=%%randomid%%^!string:^~%%x%%,1^!
+echo goto :eof
+echo :l23234
+echo.
+REM  send to python
+echo ^(echo {"mode":"limit_backup", "max_backups":"%%maxbackups%%"}
+echo cd %%userprofile%%
+echo rclone lsd "%%acc%%:/%%fldr%%" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h -q --ignore-errors --drive-pacer-min-sleep 10ms  --tpslimit 20 --tpslimit-burst 20  --use-mmap --max-backlog 1600000 --max-duration 22h --drive-allow-import-name-change  
+echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_limit_backup_%%randomid%%.txt"
+echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
+echo.
+REM  file received, now loop the list then delete
+echo :FoundIt173
+echo @echo on
+echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\res_%%randomid%%.txt"
+echo set cache_result=%%cache_result%%
+
+echo echo %%cache_result%%
+
+echo.
+echo setlocal disabledelayedexpansion
+
+echo for %%%%u in ^("%%cache_result:,=" "%%"^) do ^(
+	echo rclone purge "%%acc%%:/%%fldr%%/%%%%u" --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h -q --ignore-errors --drive-pacer-min-sleep 10ms  --tpslimit 20 --tpslimit-burst 20  --use-mmap --max-backlog 1600000 --max-duration 22h --drive-allow-import-name-change --drive-use-trash=false
+echo ^)
+
+
+
+
+
+
+echo set acc=cantikanakubro_sg5
+echo set fldr=Selo/Selo/fcfgts@driveku.me/Computers/alyx
+
+REM  create random file name for sending
+echo @echo off
+echo setlocal enabledelayedexpansion
+echo set "string=abcdefghijklmnopqrstuvwxyz1234567890"
+echo set "randomid="
+echo for /L %%%%i in ^(1,1,18^) do call :add
+echo goto :l23234
+echo :add
+echo set /a x=%%random%% %%%% 36
+echo set randomid=%%randomid%%^!string:^~%%x%%,1^!
+echo goto :eof
+echo :l23234
+echo.
+REM  send to python
+echo ^(echo {"mode":"limit_backup", "max_backups":"%%maxbackups%%"}
+echo cd %%userprofile%%
+echo rclone lsd "%%acc%%:/%%fldr%%" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h -q --ignore-errors --drive-pacer-min-sleep 10ms  --tpslimit 20 --tpslimit-burst 20  --use-mmap --max-backlog 1600000 --max-duration 22h --drive-allow-import-name-change  
+echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_limit_backup_%%randomid%%.txt"
+echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
+echo.
+REM  file received, now loop the list then delete
+echo :FoundIt173
+echo @echo on
+echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\res_%%randomid%%.txt"
+echo set cache_result=%%cache_result%%
+
+echo echo %%cache_result%%
+
+echo.
+echo setlocal disabledelayedexpansion
+
+echo for %%%%u in ^("%%cache_result:,=" "%%"^) do ^(
+	echo rclone purge "%%acc%%:/%%fldr%%/%%%%u" --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h -q --ignore-errors --drive-pacer-min-sleep 10ms  --tpslimit 20 --tpslimit-burst 20  --use-mmap --max-backlog 1600000 --max-duration 22h --drive-allow-import-name-change --drive-use-trash=false
+echo ^)
+
+
+
+
+
+
+echo set acc=cantikanakubro_sg6
+echo set fldr=Selo/Selo/fcfgts@driveku.me/Computers/alyx
+
+REM  create random file name for sending
+echo @echo off
+echo setlocal enabledelayedexpansion
+echo set "string=abcdefghijklmnopqrstuvwxyz1234567890"
+echo set "randomid="
+echo for /L %%%%i in ^(1,1,18^) do call :add
+echo goto :l23234
+echo :add
+echo set /a x=%%random%% %%%% 36
+echo set randomid=%%randomid%%^!string:^~%%x%%,1^!
+echo goto :eof
+echo :l23234
+echo.
+REM  send to python
+echo ^(echo {"mode":"limit_backup", "max_backups":"%%maxbackups%%"}
+echo cd %%userprofile%%
+echo rclone lsd "%%acc%%:/%%fldr%%" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h -q --ignore-errors --drive-pacer-min-sleep 10ms  --tpslimit 20 --tpslimit-burst 20  --use-mmap --max-backlog 1600000 --max-duration 22h --drive-allow-import-name-change  
+echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_limit_backup_%%randomid%%.txt"
+echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
+echo.
+REM  file received, now loop the list then delete
+echo :FoundIt173
+echo @echo on
+echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\res_%%randomid%%.txt"
+echo set cache_result=%%cache_result%%
+
+echo echo %%cache_result%%
+
+echo.
+echo setlocal disabledelayedexpansion
+
+echo for %%%%u in ^("%%cache_result:,=" "%%"^) do ^(
+	echo rclone purge "%%acc%%:/%%fldr%%/%%%%u" --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h -q --ignore-errors --drive-pacer-min-sleep 10ms  --tpslimit 20 --tpslimit-burst 20  --use-mmap --max-backlog 1600000 --max-duration 22h --drive-allow-import-name-change --drive-use-trash=false
+echo ^)
+
+
+
+
+
+
+echo set acc=cantikanakubro_sg7
+echo set fldr=Selo/Selo/fcfgts@driveku.me/Computers/alyx
+
+REM  create random file name for sending
+echo @echo off
+echo setlocal enabledelayedexpansion
+echo set "string=abcdefghijklmnopqrstuvwxyz1234567890"
+echo set "randomid="
+echo for /L %%%%i in ^(1,1,18^) do call :add
+echo goto :l23234
+echo :add
+echo set /a x=%%random%% %%%% 36
+echo set randomid=%%randomid%%^!string:^~%%x%%,1^!
+echo goto :eof
+echo :l23234
+echo.
+REM  send to python
+echo ^(echo {"mode":"limit_backup", "max_backups":"%%maxbackups%%"}
+echo cd %%userprofile%%
+echo rclone lsd "%%acc%%:/%%fldr%%" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h -q --ignore-errors --drive-pacer-min-sleep 10ms  --tpslimit 20 --tpslimit-burst 20  --use-mmap --max-backlog 1600000 --max-duration 22h --drive-allow-import-name-change  
+echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_limit_backup_%%randomid%%.txt"
+echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
+echo.
+REM  file received, now loop the list then delete
+echo :FoundIt173
+echo @echo on
+echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\res_%%randomid%%.txt"
+echo set cache_result=%%cache_result%%
+
+echo echo %%cache_result%%
+
+echo.
+echo setlocal disabledelayedexpansion
+
+echo for %%%%u in ^("%%cache_result:,=" "%%"^) do ^(
+	echo rclone purge "%%acc%%:/%%fldr%%/%%%%u" --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h -q --ignore-errors --drive-pacer-min-sleep 10ms  --tpslimit 20 --tpslimit-burst 20  --use-mmap --max-backlog 1600000 --max-duration 22h --drive-allow-import-name-change --drive-use-trash=false
+echo ^)
+
+
+
+
+
+
+echo set acc=cantikanakubro_sg8
+echo set fldr=Selo/Selo/fcfgts@driveku.me/Computers/alyx
+
+REM  create random file name for sending
+echo @echo off
+echo setlocal enabledelayedexpansion
+echo set "string=abcdefghijklmnopqrstuvwxyz1234567890"
+echo set "randomid="
+echo for /L %%%%i in ^(1,1,18^) do call :add
+echo goto :l23234
+echo :add
+echo set /a x=%%random%% %%%% 36
+echo set randomid=%%randomid%%^!string:^~%%x%%,1^!
+echo goto :eof
+echo :l23234
+echo.
+REM  send to python
+echo ^(echo {"mode":"limit_backup", "max_backups":"%%maxbackups%%"}
+echo cd %%userprofile%%
+echo rclone lsd "%%acc%%:/%%fldr%%" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h -q --ignore-errors --drive-pacer-min-sleep 10ms  --tpslimit 20 --tpslimit-burst 20  --use-mmap --max-backlog 1600000 --max-duration 22h --drive-allow-import-name-change  
+echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_limit_backup_%%randomid%%.txt"
+echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
+echo.
+REM  file received, now loop the list then delete
+echo :FoundIt173
+echo @echo on
+echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\res_%%randomid%%.txt"
+echo set cache_result=%%cache_result%%
+
+echo echo %%cache_result%%
+
+echo.
+echo setlocal disabledelayedexpansion
+
+echo for %%%%u in ^("%%cache_result:,=" "%%"^) do ^(
+	echo rclone purge "%%acc%%:/%%fldr%%/%%%%u" --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h -q --ignore-errors --drive-pacer-min-sleep 10ms  --tpslimit 20 --tpslimit-burst 20  --use-mmap --max-backlog 1600000 --max-duration 22h --drive-allow-import-name-change --drive-use-trash=false
+echo ^)
+
+
+
+
+
+
+echo set acc=cantikanakubro_sg9
+echo set fldr=Selo/Selo/fcfgts@driveku.me/Computers/alyx
+
+REM  create random file name for sending
+echo @echo off
+echo setlocal enabledelayedexpansion
+echo set "string=abcdefghijklmnopqrstuvwxyz1234567890"
+echo set "randomid="
+echo for /L %%%%i in ^(1,1,18^) do call :add
+echo goto :l23234
+echo :add
+echo set /a x=%%random%% %%%% 36
+echo set randomid=%%randomid%%^!string:^~%%x%%,1^!
+echo goto :eof
+echo :l23234
+echo.
+REM  send to python
+echo ^(echo {"mode":"limit_backup", "max_backups":"%%maxbackups%%"}
+echo cd %%userprofile%%
+echo rclone lsd "%%acc%%:/%%fldr%%" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h -q --ignore-errors --drive-pacer-min-sleep 10ms  --tpslimit 20 --tpslimit-burst 20  --use-mmap --max-backlog 1600000 --max-duration 22h --drive-allow-import-name-change  
+echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_limit_backup_%%randomid%%.txt"
+echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
+echo.
+REM  file received, now loop the list then delete
+echo :FoundIt173
+echo @echo on
+echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\res_%%randomid%%.txt"
+echo set cache_result=%%cache_result%%
+
+echo echo %%cache_result%%
+
+echo.
+echo setlocal disabledelayedexpansion
+
+echo for %%%%u in ^("%%cache_result:,=" "%%"^) do ^(
+	echo rclone purge "%%acc%%:/%%fldr%%/%%%%u" --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h -q --ignore-errors --drive-pacer-min-sleep 10ms  --tpslimit 20 --tpslimit-burst 20  --use-mmap --max-backlog 1600000 --max-duration 22h --drive-allow-import-name-change --drive-use-trash=false
+echo ^)
+
+
+
+
+
+
+echo set acc=cantikanakubro_sg10
+echo set fldr=Selo/Selo/fcfgts@driveku.me/Computers/alyx
+
+REM  create random file name for sending
+echo @echo off
+echo setlocal enabledelayedexpansion
+echo set "string=abcdefghijklmnopqrstuvwxyz1234567890"
+echo set "randomid="
+echo for /L %%%%i in ^(1,1,18^) do call :add
+echo goto :l23234
+echo :add
+echo set /a x=%%random%% %%%% 36
+echo set randomid=%%randomid%%^!string:^~%%x%%,1^!
+echo goto :eof
+echo :l23234
+echo.
+REM  send to python
+echo ^(echo {"mode":"limit_backup", "max_backups":"%%maxbackups%%"}
+echo cd %%userprofile%%
+echo rclone lsd "%%acc%%:/%%fldr%%" --max-depth 1 --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h -q --ignore-errors --drive-pacer-min-sleep 10ms  --tpslimit 20 --tpslimit-burst 20  --use-mmap --max-backlog 1600000 --max-duration 22h --drive-allow-import-name-change  
+echo ^) ^> "C:\a_fiyandha\z-bat-vbs-file\strtp-util\rclone_limit_backup_%%randomid%%.txt"
+echo python "C:\a_fiyandha\z-bat-vbs-file\rclone\py.py"
+echo.
+REM  file received, now loop the list then delete
+echo :FoundIt173
+echo @echo on
+echo set /p cache_result=^<"C:\a_fiyandha\z-bat-vbs-file\strtp-util\res_%%randomid%%.txt"
+echo set cache_result=%%cache_result%%
+
+echo echo %%cache_result%%
+
+echo.
+echo setlocal disabledelayedexpansion
+
+echo for %%%%u in ^("%%cache_result:,=" "%%"^) do ^(
+	echo rclone purge "%%acc%%:/%%fldr%%/%%%%u" --no-traverse --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 --low-level-retries 2 --timeout 600s --contimeout 999h -q --ignore-errors --drive-pacer-min-sleep 10ms  --tpslimit 20 --tpslimit-burst 20  --use-mmap --max-backlog 1600000 --max-duration 22h --drive-allow-import-name-change --drive-use-trash=false
+echo ^)
+
+
+
+)>"C:\a_fiyandha\z-bat-vbs-file\strtp-util\_42.bat"
+
+
+
+
+
+
+
+
 
 
 
@@ -2358,7 +2885,7 @@ REM rclone ls "aaveusdt,shared_with_me:/jY1CJ1hE4P/" --use-mmap --max-backlog 16
 REM    sg10 ada diatas no 11
 
 
-"C:\a_fiyandha\z-bat-vbs-file\rclone\rclone.vbs"
+REM "C:\a_fiyandha\z-bat-vbs-file\rclone\rclone.vbs"
 
 exit
 
