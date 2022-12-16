@@ -2885,7 +2885,7 @@ echo ^)
 REM    sg10 ada diatas no 11
 
 
-REM "C:\a_fiyandha\z-bat-vbs-file\rclone\rclone.vbs"
+"C:\a_fiyandha\z-bat-vbs-file\rclone\rclone.vbs"
 
 exit
 
