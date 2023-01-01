@@ -94,6 +94,32 @@ set /a "g+=1"
 GOTO :d12113r2t4
 )
 
+set dwdf[0]=cantikanakubro_sg1
+set dwdf[1]=cantikanakubro_sg2
+set dwdf[2]=cantikanakubro_sg3
+set dwdf[3]=cantikanakubro_sg4
+set dwdf[4]=cantikanakubro_sg5
+set dwdf[5]=cantikanakubro_sg6
+set dwdf[6]=cantikanakubro_sg7
+set dwdf[7]=cantikanakubro_sg8
+set dwdf[8]=cantikanakubro_sg9
+set dwdf[9]=cantikanakubro_sg10
+
+set "g=0"
+:d12113r2t4
+REM  loop
+if defined dwdf[%g%] (
+	call rclone rmdirs "%%dwdf[%g%]%%:/Selo" --max-depth 2 --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --ignore-errors --tpslimit 10000000 --tpslimit-burst 10000000  --use-mmap --max-backlog 1600000 --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 999h --use-mmap --max-backlog 1600000 --transfers 8000 --checkers 8000 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G  --cutoff-mode=CAUTIOUS --drive-skip-shortcuts --drive-skip-dangling-shortcuts
+	call rclone rmdirs "%%dwdf[%g%]%%:/Caca" --max-depth 2 --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --ignore-errors --tpslimit 10000000 --tpslimit-burst 10000000  --use-mmap --max-backlog 1600000 --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 999h --use-mmap --max-backlog 1600000 --transfers 8000 --checkers 8000 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G  --cutoff-mode=CAUTIOUS --drive-skip-shortcuts --drive-skip-dangling-shortcuts
+	call rclone rmdirs "%%dwdf[%g%]%%:/Anggun" --max-depth 2 --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --ignore-errors --tpslimit 10000000 --tpslimit-burst 10000000  --use-mmap --max-backlog 1600000 --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 999h --use-mmap --max-backlog 1600000 --transfers 8000 --checkers 8000 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G  --cutoff-mode=CAUTIOUS --drive-skip-shortcuts --drive-skip-dangling-shortcuts
+	call rclone rmdirs "%%dwdf[%g%]%%:/Family" --max-depth 2 --drive-keep-revision-forever --auto-confirm --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --ignore-errors --tpslimit 10000000 --tpslimit-burst 10000000  --use-mmap --max-backlog 1600000 --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 999h --use-mmap --max-backlog 1600000 --transfers 8000 --checkers 8000 --bwlimit 8650k --drive-allow-import-name-change --drive-acknowledge-abuse --drive-stop-on-upload-limit --drive-stop-on-download-limit --ignore-size --max-transfer 740G  --cutoff-mode=CAUTIOUS --drive-skip-shortcuts --drive-skip-dangling-shortcuts
+		
+set /a "g+=1"
+GOTO :d12113r2t4
+)
+
+
+
 
 
 REM  bikin folder buat tiap user di tiap sg  
@@ -105,6 +131,7 @@ for %%u in ("%fldrv:,=" "%") do (
 	rclone mkdir "%%e:/%%f/%%f"  -q --ignore-errors --tpslimit 10000000 --tpslimit-burst 10000000  --use-mmap --max-backlog 1600000 --transfers 8000 --checkers 8000 --max-duration 22h --low-level-retries 9999999999 --auto-confirm --no-traverse --drive-server-side-across-configs --drive-skip-dangling-shortcuts --retries=2 -q --ignore-errors --tpslimit 10000000 --tpslimit-burst 10000000  --use-mmap --max-backlog 1600000 --max-duration 22h --low-level-retries 2 --timeout 600s --contimeout 999h --use-mmap --max-backlog 1600000 --transfers 8000 --checkers 8000 --bwlimit 8650k --drive-allow-import-name-change  
 )
 )
+
 
 
 
