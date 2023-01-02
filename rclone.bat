@@ -146,8 +146,8 @@ for %%u in ("%fldrer:,=" "%") do (
 )
 )
 
-pause
-exit
+
+
 
 
 
